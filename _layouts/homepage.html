@@ -59,7 +59,6 @@
         {% endif %}
 
         <br>
-        <br>
         <div class="social-icons">
         {% if site.google_scholar %}
         <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
@@ -68,13 +67,13 @@
         {% endif %}
 
         {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
-          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
+        <a style="margin: 0 5px 0 0; font-size:1.3rem; font-weight:bold; color:#0A66C2;" href="{{ site.cv_link }}">
+          CV
         </a>
         {% endif %}
 
         {% if site.email_link %}
-        <a style="margin: 0 5px 0 0; font-size:1.5rem; font-weight:bold; color:#0A66C2;" href="mailto:{{ site.email_link }}">
+        <a style="margin: 0 5px 0 0; font-size:1.3rem; font-weight:bold; color:#0A66C2;" href="mailto:{{ site.email_link }}">
           Email
         </a>
         {% endif %}
