@@ -8,6 +8,7 @@ I am an Oceanography graduate and geospatial enthusiast with a strong foundation
 
 In addition to my technical skills, I am experienced in programming with Python and R, as well as advanced MS Excel, enabling me to apply computational, statistical, and spatial approaches to complex environmental and oceanographic datasets. I am particularly passionate about leveraging these skills to address practical challenges in coastal and urban systems, contributing to innovative, data-driven research and solutions.
 </div>
+
 ## Research Interests
 
 ### Geographic Information Systems (GIS)
