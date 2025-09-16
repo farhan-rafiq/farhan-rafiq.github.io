@@ -54,12 +54,12 @@ layout: homepage
     <!-- Project Highlights -->
     <div style="flex:2; min-width:320px;">
     
-      <h4 style="margin-bottom:.5em;">Project Summary</h4>
+      <h4 style="margin-bottom:.4em;">Project Summary</h4>
       <div style="text-align: justify;">
       <p> This research investigates how <strong>Photosynthetically Available Radiation (PAR)</strong>, <strong>Diffuse Attenuation Coefficient (Kd<sub>490</sub>)</strong>, and <strong>Sea Surface Temperature (SST)</strong> vary both spatially and temporally in the Bangladesh Exclusive Economic Zone (EEZ) from 2016 to 2022. Using satellite-derived data (MODIS-Aqua) processed in SeaDAS and ArcGIS, the study analyzes monthly and annual trends for each parameter. The aim is to reveal how these physical factors influence marine ecosystems in the Bay of Bengal and to provide insights crucial for sustainable management amid climate change.</p>
       </div> 
       
-       <h4 style="margin-bottom:.5em;">Key Findings</h4>
+       <h4 style="margin-bottom:.4em;">Key Findings</h4>
           <ul style="margin-top:0;">
             <li>PAR ranged from <b>32.47 – 55 Einstein/m²/day</b> with higher values offshore and seasonal highs in May–July.</li>
             <li>Kd<sub>490</sub> values indicated higher water turbidity (up to <b>0.33 m⁻¹</b>) near coastlines due to runoff &amp; anthropogenic impacts.</li>
@@ -70,10 +70,10 @@ layout: homepage
   <div style="margin-top:1em; margin-bottom:1em;">
     <h4 style="margin-bottom:.4em;">Project Figures</h4>
     <div style="display:flex; flex-wrap:wrap; gap:1em;">
-      <img src="./projects/study_area.png" alt="Annual PAR Variability Graph (Rep.)" style="max-width:100px; border-radius:0px; border: 1px solid #ccc;">
-      <img src="./projects/PAR.png" alt="Annual SST Time Series (Rep.)" style="max-width:100px; border-radius:0px; border: 1px solid #ccc;">
-      <img src="./projects/KD.png" alt="Annual SST Time Series (Rep.)" style="max-width:100px; border-radius:0px; border: 1px solid #ccc;">
-      <img src="./projects/SST.png" alt="Bangladesh EEZ Map (Rep.)" style="max-width:100px; border-radius:0px; border: 1px solid #ccc;">
+      <img src="./projects/study_area.png" alt="Annual PAR Variability Graph (Rep.)" style="width:100px; border-radius:0px; border: 1px solid #ccc;">
+      <img src="./projects/PAR.png" alt="Annual SST Time Series (Rep.)" style="width:100px; border-radius:0px; border: 1px solid #ccc;">
+      <img src="./projects/KD.png" alt="Annual SST Time Series (Rep.)" style="width:100px; border-radius:0px; border: 1px solid #ccc;">
+      <img src="./projects/SST.png" alt="Bangladesh EEZ Map (Rep.)" style="width:100px; border-radius:0px; border: 1px solid #ccc;">
     </div>
     <div style="font-size:.87em; color:#888; margin-top:.2em;"></div>
   </div>
