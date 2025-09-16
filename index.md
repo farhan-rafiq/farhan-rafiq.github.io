@@ -36,7 +36,6 @@ layout: homepage
   <p style="margin-top: 0; margin-left: 30px;">Sustainable development, conservation, and blue economy applications.</p>
 </div>
 
-
 <h2>Academic Projects</h2>
 
 <div style="margin-left: 20px;">
@@ -45,11 +44,17 @@ layout: homepage
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
     
     <!-- Representative Project Image -->
-    <div style="flex:1; min-width:290px; max-width:340px; align-self:flex-start;">
-      <!-- Replace with your project image or map if possible -->
+    <div style="flex:1; gap: 10px;">
+    
       <img src="./projects/study_area.png" 
-      alt="study_area" style="width:25%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
-      <div style="font-size:.92em; color:#666; margin-top:.3em;">Bangladesh EEZ in the Bay of Bengal</div>
+      alt="study_area" style="width:30%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
+      <img src="./projects/PAR.png" 
+      alt="PAR" style="width:30%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
+      <img src="./projects/KD.png" 
+      alt="KD" style="width:30%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
+      <img src="./projects/SST.png" 
+      alt="SST" style="width:30%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
+     
     </div>
 
     <!-- Project Highlights -->
