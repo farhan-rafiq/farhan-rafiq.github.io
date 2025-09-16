@@ -44,7 +44,7 @@ layout: homepage
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
     
     <!-- Representative Project Image -->
-    <div style="flex:; gap: 10px;">
+    <div style="flex:1; gap: 10px; flex-wrap: wrap;">
     
       <img src="./projects/study_area.png" 
       alt="study_area" style="width:50%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
@@ -58,14 +58,18 @@ layout: homepage
 
     <!-- Project Highlights -->
     <div style="flex:2; min-width:320px;">
-    <div style="text-align: justify;">
-      <p><strong>Project Summary:</strong>This research investigates how <strong>Photosynthetically Available Radiation (PAR)</strong>, <strong>Diffuse Attenuation Coefficient (Kd<sub>490</sub>)</strong>, and <strong>Sea Surface Temperature (SST)</strong> vary both spatially and temporally in the Bangladesh Exclusive Economic Zone (EEZ) from 2016 to 2022. Using satellite-derived data (MODIS-Aqua) processed in SeaDAS and ArcGIS, the study analyzes monthly and annual trends for each parameter. The aim is to reveal how these physical factors influence marine ecosystems in the Bay of Bengal and to provide insights crucial for sustainable management amid climate change.</p>
+    
+      <p><b>Project Summary:</b></p>
+      <div style="margin-left: 20px;">
+      <div style="text-align: justify;">
+      <p> This research investigates how <strong>Photosynthetically Available Radiation (PAR)</strong>, <strong>Diffuse Attenuation Coefficient (Kd<sub>490</sub>)</strong>, and <strong>Sea Surface Temperature (SST)</strong> vary both spatially and temporally in the Bangladesh Exclusive Economic Zone (EEZ) from 2016 to 2022. Using satellite-derived data (MODIS-Aqua) processed in SeaDAS and ArcGIS, the study analyzes monthly and annual trends for each parameter. The aim is to reveal how these physical factors influence marine ecosystems in the Bay of Bengal and to provide insights crucial for sustainable management amid climate change.</p>
       </div>
+      </div>
+
       <p style="margin-top:-1em;"><b>Supervisor:</b> Abu Bokkar Siddique</p>
       <ul>
-        <li><b>Objective:</b> Analyze the spatial and temporal patterns of PAR, Kd<sub>490</sub>, and SST across the Bangladesh EEZ using MODIS-Aqua satellite data (2016-2022).</li>
-        <li><b>Methods:</b> Utilized <b>NASA Ocean Color</b> datasets processed through <i>SeaDAS</i> &amp; <i>ArcGIS</i> for mapping, statistical, and seasonal analysis.</li>
-        <li><b>Main Findings:</b>
+        
+      <p><b>Main Findings:</b></p>
           <ul style="margin-top:.3em;">
             <li>PAR ranged from <b>32.47 – 55 Einstein/m²/day</b> with higher values offshore and seasonal highs in May–July.</li>
             <li>Kd<sub>490</sub> values indicated higher water turbidity (up to <b>0.33 m⁻¹</b>) near coastlines due to runoff &amp; anthropogenic impacts.</li>
