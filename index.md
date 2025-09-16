@@ -11,7 +11,6 @@ layout: homepage
     In addition to my technical skills, I am experienced in programming with Python and R, as well as advanced MS Excel, enabling me to apply computational, statistical, and spatial approaches to complex environmental and oceanographic datasets. I am particularly passionate about leveraging these skills to address practical challenges in coastal and urban systems, contributing to innovative, data-driven research and solutions.
   </p>
 </div>
-</div>
 
 <h2>Research Interests</h2>
 
@@ -32,12 +31,11 @@ layout: homepage
 
   <h3 style="margin-bottom: 5px;">⚓ Marine & Coastal Resource Management</h3>
   <p style="margin-top: 0; margin-left: 30px;">Sustainable development, conservation, and blue economy applications.</p>
-</div>
+
 
 <h2>Academic Projects</h2>
-
   <h3 style="margin-bottom: 5px;">Spatial and Temporal Variability of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)</h3>
-  <p style="margin-top: 0;">Undergraduate Project &nbsp; | &nbsp; <b>Supervisor:</b> Abu Bokkar Siddique </p>
+  <p style="margin-top: 0;">Undergraduate Project &nbsp; | &nbsp; <b>Supervisor:</b> Abu Bokkar Siddique &nbsp; | &nbsp; Jul 2023 - Dec 2023</p>
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
     
     <!-- Representative Project Image 
@@ -61,12 +59,12 @@ layout: homepage
       <p> This research investigates how <strong>Photosynthetically Available Radiation (PAR)</strong>, <strong>Diffuse Attenuation Coefficient (Kd<sub>490</sub>)</strong>, and <strong>Sea Surface Temperature (SST)</strong> vary both spatially and temporally in the Bangladesh Exclusive Economic Zone (EEZ) from 2016 to 2022. Using satellite-derived data (MODIS-Aqua) processed in SeaDAS and ArcGIS, the study analyzes monthly and annual trends for each parameter. The aim is to reveal how these physical factors influence marine ecosystems in the Bay of Bengal and to provide insights crucial for sustainable management amid climate change.</p>
       </div> 
       <p><b>Key Findings:</b>
-          <ul style="margin-top:.3em;">
+          <ul style="margin-top:0;">
             <li>PAR ranged from <b>32.47 – 55 Einstein/m²/day</b> with higher values offshore and seasonal highs in May–July.</li>
             <li>Kd<sub>490</sub> values indicated higher water turbidity (up to <b>0.33 m⁻¹</b>) near coastlines due to runoff &amp; anthropogenic impacts.</li>
             <li>SST varied seasonally from <b>22°C – 31°C</b>, revealing a subtle multi-year warming trend.</li>
           </ul>
-        </li>
+       
         <li>Interpretation: Variations strongly linked to monsoonal cycles, climate fluctuations, and regional oceanographic processes. The study highlights the importance of satellite monitoring for marine management.</li>
       </ul>
     </div>
