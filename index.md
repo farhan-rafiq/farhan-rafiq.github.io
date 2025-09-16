@@ -12,13 +12,13 @@ layout: homepage
   </p>
 </div>
 
-<h2>Research Interests</h2>
+<h2>🔬 Research Interests</h2>
+<ul style="list-style: none; padding-left: 0;">
+  <li>🌍 <b>Remote Sensing & GIS Applications</b> – Satellite data analysis, spatial modeling, and geospatial data management</li>
+  <li>📊 <b>Oceanographic Data Science</b> – Computational and statistical approaches to marine and atmospheric datasets</li>
+  <li>🌊 <b>Coastal & Urban Flood Risk Assessment</b> – Integrated modeling, spatial analysis, and machine learning applications</li>
+  <li>🌡️ <b>Climate Change & Environmental Monitoring</b> – Impacts on coastal ecosystems, agriculture, and trade vulnerability</li>
+  <li>🤖 <b>Geospatial Artificial Intelligence (GeoAI)</b> – Machine learning and predictive modeling for environmental systems</li>
+  <li>⚓ <b>Marine & Coastal Resource Management</b> – Sustainable development, conservation, and blue economy applications</li>
+</ul>
 
-<h3>Geographic Information Systems (GIS)</h3>
-<p>Spatial analysis, cartography, and geospatial data management</p>
-
-<h3>Remote Sensing</h3>
-<p>Satellite imagery analysis, spectral analysis, and environmental monitoring</p>
-
-<h3>Geospatial Artificial Intelligence</h3>
-<p>Machine learning applications for geospatial data and predictive modeling</p>
