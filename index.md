@@ -3,7 +3,6 @@ layout: homepage
 ---
 
 <h2>About Me</h2>
-<div style="margin-left: 20px;">
 <div style="text-align: justify;">
   <p>
     I am an Oceanography graduate and geospatial enthusiast with a strong foundation in remote sensing, GIS mapping, and environmental data science. My expertise spans geospatial analysis, spatial modeling, and advanced data visualization, with proficiency in tools such as ArcGIS, SeaDAS, and Google Earth Engine for satellite data processing and geographic analysis.
@@ -16,7 +15,6 @@ layout: homepage
 
 <h2>Research Interests</h2>
 
-<div style="margin-left: 20px;">
   <h3 style="margin-bottom: 5px;">🌍 Remote Sensing & GIS Applications</h3>
   <p style="margin-top: 0; margin-left: 30px;">Satellite data analysis, spatial modeling, and geospatial data management.</p>
 
@@ -38,7 +36,6 @@ layout: homepage
 
 <h2>Academic Projects</h2>
 
-<div style="margin-left: 20px;">
   <h3 style="margin-bottom: 5px;">Spatial and Temporal Variability of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)</h3>
   <p style="margin-top: 0;">Undergraduate Project</p>
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
@@ -59,15 +56,13 @@ layout: homepage
     <!-- Project Highlights -->
     <div style="flex:2; min-width:320px;">
     
-      <p><b>Project Summary:</b></p>
-      <div style="margin-left: 20px;">
+      <b>Project Summary:</b>
       <div style="text-align: justify;">
       <p> This research investigates how <strong>Photosynthetically Available Radiation (PAR)</strong>, <strong>Diffuse Attenuation Coefficient (Kd<sub>490</sub>)</strong>, and <strong>Sea Surface Temperature (SST)</strong> vary both spatially and temporally in the Bangladesh Exclusive Economic Zone (EEZ) from 2016 to 2022. Using satellite-derived data (MODIS-Aqua) processed in SeaDAS and ArcGIS, the study analyzes monthly and annual trends for each parameter. The aim is to reveal how these physical factors influence marine ecosystems in the Bay of Bengal and to provide insights crucial for sustainable management amid climate change.</p>
       </div>
-      </div>
 
-      <p style="margin-top:-1em;"><div style="margin-left: 20px;"><b>Supervisor:</b> Abu Bokkar Siddique</p>
-      
+      <p style="margin-top:-1em;"><b>Supervisor:</b> Abu Bokkar Siddique 
+      </p>
         
       <p><b>Main Findings:</b></p>
           <ul style="margin-top:.3em;">
