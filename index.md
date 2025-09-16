@@ -43,7 +43,7 @@ layout: homepage
   <p style="margin-top: 0;">Undergraduate Project</p>
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
     
-    <!-- Representative Project Image -->
+    <!-- Representative Project Image 
     <div style="flex:1; gap: 10px; flex-wrap: wrap;">
     
       <img src="./projects/study_area.png" 
@@ -54,7 +54,7 @@ layout: homepage
       alt="KD" style="width:50%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
       <img src="./projects/SST.png" 
       alt="SST" style="width:50%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
-     </div>
+     </div> -->
 
     <!-- Project Highlights -->
     <div style="flex:2; min-width:320px;">
@@ -66,8 +66,8 @@ layout: homepage
       </div>
       </div>
 
-      <p style="margin-top:-1em;"><b>Supervisor:</b> Abu Bokkar Siddique</p>
-      <ul>
+      <p style="margin-top:-1em;"><div style="margin-left: 20px;"><b>Supervisor:</b> Abu Bokkar Siddique</p>
+      
         
       <p><b>Main Findings:</b></p>
           <ul style="margin-top:.3em;">
