@@ -12,7 +12,7 @@ layout: homepage
   </p>
 </div>
 
-<h2>🔬 Research Interests</h2>
+<h2>Research Interests</h2>
 
 <div style="margin-left: 20px;">
   <h3>🌍 Remote Sensing & GIS Applications</h3>
