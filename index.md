@@ -54,12 +54,12 @@ layout: homepage
     <!-- Project Highlights -->
     <div style="flex:2; min-width:320px;">
     
-      <b><span style="font-size: 1.5em;">Project Summary:</span></b>
+      <b><span style="font-size: 1.1em;">Project Summary:</span></b>
       <div style="text-align: justify;">
       <p> This research investigates how <strong>Photosynthetically Available Radiation (PAR)</strong>, <strong>Diffuse Attenuation Coefficient (Kd<sub>490</sub>)</strong>, and <strong>Sea Surface Temperature (SST)</strong> vary both spatially and temporally in the Bangladesh Exclusive Economic Zone (EEZ) from 2016 to 2022. Using satellite-derived data (MODIS-Aqua) processed in SeaDAS and ArcGIS, the study analyzes monthly and annual trends for each parameter. The aim is to reveal how these physical factors influence marine ecosystems in the Bay of Bengal and to provide insights crucial for sustainable management amid climate change.</p>
       </div> 
       
-      <b>Key Findings:</b>
+      <b><span style="font-size: 1.1em;">Key Findings:</span></b>
           <ul style="margin-top:0;">
             <li>PAR ranged from <b>32.47 – 55 Einstein/m²/day</b> with higher values offshore and seasonal highs in May–July.</li>
             <li>Kd<sub>490</sub> values indicated higher water turbidity (up to <b>0.33 m⁻¹</b>) near coastlines due to runoff &amp; anthropogenic impacts.</li>
@@ -68,29 +68,20 @@ layout: homepage
        
   <!-- Insert sample figures -->
   <div style="margin-top:1em; margin-bottom:1em;">
-    <h4 style="margin-bottom:.4em;">Sample Figures</h4>
+    <h4 style="margin-bottom:.4em;">Project Figures</h4>
     <div style="display:flex; flex-wrap:wrap; gap:1em;">
-      <img src="https://i.imgur.com/e2QYYTb.png" alt="Annual PAR Variability Graph (Rep.)" style="max-width:230px; border-radius:6px; border: 1px solid #ccc;">
-      <img src="https://i.imgur.com/VIPzRja.png" alt="Annual SST Time Series (Rep.)" style="max-width:230px; border-radius:6px; border: 1px solid #ccc;">
-      <img src="https://i.imgur.com/BgAbso1.png" alt="Bangladesh EEZ Map (Rep.)" style="max-width:230px; border-radius:6px; border: 1px solid #ccc;">
+      <img src="./projects/study_area.png" alt="Annual PAR Variability Graph (Rep.)" style="max-width:230px; border-radius:6px; border: 1px solid #ccc;">
+      <img src="./projects/PAR.png" alt="Annual SST Time Series (Rep.)" style="max-width:230px; border-radius:6px; border: 1px solid #ccc;">
+      <img src="./projects/KD.png" alt="Annual SST Time Series (Rep.)" style="max-width:230px; border-radius:6px; border: 1px solid #ccc;">
+      <img src="./projects/SST.png" alt="Bangladesh EEZ Map (Rep.)" style="max-width:230px; border-radius:6px; border: 1px solid #ccc;">
     </div>
-    <div style="font-size:.87em; color:#888; margin-top:.2em;">* Sample representations only – original visuals created using MODIS Aqua data and GIS processing.</div>
+    <div style="font-size:.87em; color:#888; margin-top:.2em;"></div>
   </div>
 
-  <!-- Results Summary -->
-  <div style="background:#f7fbff; border-left:4px solid #009688; padding:1em 1.2em; margin-top:1.3em; border-radius:4px;">
-    <h4 style="margin-top:0;">Results &amp; Insights</h4>
-    <ul>
-      <li><b>PAR:</b> Highest in mid-year (spring-summer); vital for primary productivity in the EEZ ecosystem.</li>
-      <li><b>Kd<sub>490</sub>:</b> Seasonal and spatial fluctuations indicate changes in water clarity related to runoff and phytoplankton blooms.</li>
-      <li><b>SST:</b> Regional warming evident, with ecological implications for fisheries and marine biodiversity.</li>
-    </ul>
-  </div>
 
   <!-- Footer and References -->
   <div style="font-size:.93em; color:#444; margin-top:1.3em">
     <i>Keywords:</i> Satellite Remote Sensing, Oceanography, Bangladesh EEZ, PAR, Kd<sub>490</sub>, SST, MODIS Aqua, Climate Change<br>
-    <i>Full Project &amp; Data:</i> [Available upon request]
   </div>
 </section>
 
