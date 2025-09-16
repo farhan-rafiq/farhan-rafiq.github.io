@@ -48,8 +48,8 @@ layout: homepage
     <div style="flex:1; min-width:290px; max-width:340px; align-self:flex-start;">
       <!-- Replace with your project image or map if possible -->
       <img src="./projects/study_area.png" 
-      alt="Map of Bangladesh EEZ in the Bay of Bengal" style="width:100%; border-radius:8px; box-shadow:0 2px 8px #bbb;">
-      <div style="font-size:.92em; color:#666; margin-top:.3em;">Bangladesh EEZ in Bay of Bengal (Representative Image)</div>
+      alt="study_area" style="width:25%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
+      <div style="font-size:.92em; color:#666; margin-top:.3em;">Bangladesh EEZ in the Bay of Bengal</div>
     </div>
 
     <!-- Project Highlights -->
