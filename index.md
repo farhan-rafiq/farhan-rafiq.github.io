@@ -15,22 +15,23 @@ layout: homepage
 <h2>Research Interests</h2>
 
 <div style="margin-left: 20px;">
-  <h3>🌍 Remote Sensing & GIS Applications</h3>
-  <p style="margin-left: 20px;">Satellite data analysis, spatial modeling, and geospatial data management.</p>
+  <h3 style="margin-bottom: 5px;">🌍 Remote Sensing & GIS Applications</h3>
+  <p style="margin-top: 0; margin-left: 20px;">Satellite data analysis, spatial modeling, and geospatial data management.</p>
 
-  <h3>📊 Oceanographic Data Science</h3>
-  <p style="margin-left: 20px;">Computational and statistical approaches to marine and atmospheric datasets.</p>
+  <h3 style="margin-bottom: 5px;">📊 Oceanographic Data Science</h3>
+  <p style="margin-top: 0; margin-left: 20px;">Computational and statistical approaches to marine and atmospheric datasets.</p>
 
-  <h3>🌊 Coastal & Urban Flood Risk Assessment</h3>
-  <p style="margin-left: 20px;">Integrated modeling, spatial analysis, and machine learning applications.</p>
+  <h3 style="margin-bottom: 5px;">🌊 Coastal & Urban Flood Risk Assessment</h3>
+  <p style="margin-top: 0; margin-left: 20px;">Integrated modeling, spatial analysis, and machine learning applications.</p>
 
-  <h3>🌡️ Climate Change & Environmental Monitoring</h3>
-  <p style="margin-left: 20px;">Impacts on coastal ecosystems, agriculture, and trade vulnerability.</p>
+  <h3 style="margin-bottom: 5px;">🌡️ Climate Change & Environmental Monitoring</h3>
+  <p style="margin-top: 0; margin-left: 20px;">Impacts on coastal ecosystems, agriculture, and trade vulnerability.</p>
 
-  <h3>🤖 Geospatial Artificial Intelligence (GeoAI)</h3>
-  <p style="margin-left: 20px;">Machine learning and predictive modeling for environmental systems.</p>
+  <h3 style="margin-bottom: 5px;">🤖 Geospatial Artificial Intelligence (GeoAI)</h3>
+  <p style="margin-top: 0; margin-left: 20px;">Machine learning and predictive modeling for environmental systems.</p>
 
-  <h3>⚓ Marine & Coastal Resource Management</h3>
-  <p style="margin-left: 20px;">Sustainable development, conservation, and blue economy applications.</p>
+  <h3 style="margin-bottom: 5px;">⚓ Marine & Coastal Resource Management</h3>
+  <p style="margin-top: 0; margin-left: 20px;">Sustainable development, conservation, and blue economy applications.</p>
 </div>
+
 
