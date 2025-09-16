@@ -3,6 +3,7 @@ layout: homepage
 ---
 
 <h2>About Me</h2>
+<div style="margin-left: 20px;">
 <div style="text-align: justify;">
   <p>
     I am an Oceanography graduate and geospatial enthusiast with a strong foundation in remote sensing, GIS mapping, and environmental data science. My expertise spans geospatial analysis, spatial modeling, and advanced data visualization, with proficiency in tools such as ArcGIS, SeaDAS, and Google Earth Engine for satellite data processing and geographic analysis.
@@ -10,6 +11,7 @@ layout: homepage
   <p>
     In addition to my technical skills, I am experienced in programming with Python and R, as well as advanced MS Excel, enabling me to apply computational, statistical, and spatial approaches to complex environmental and oceanographic datasets. I am particularly passionate about leveraging these skills to address practical challenges in coastal and urban systems, contributing to innovative, data-driven research and solutions.
   </p>
+</div>
 </div>
 
 <h2>Research Interests</h2>
@@ -34,9 +36,10 @@ layout: homepage
   <p style="margin-top: 0; margin-left: 30px;">Sustainable development, conservation, and blue economy applications.</p>
 </div>
 
-<section id="academic-project-bangladesh-eez" style="margin-bottom:2em;">
+
+<h2>Academic Projects</h2>
+
   <h2>Spatial and Temporal Variability of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)</h2>
-  <h3>Department of Oceanography, Shahjalal University of Science and Technology</h3>
   
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
     
