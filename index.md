@@ -47,20 +47,20 @@ layout: homepage
     <div style="flex:1; gap: 10px;">
     
       <img src="./projects/study_area.png" 
-      alt="study_area" style="width:30%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
+      alt="study_area" style="width:50%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
       <img src="./projects/PAR.png" 
-      alt="PAR" style="width:30%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
+      alt="PAR" style="width:50%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
       <img src="./projects/KD.png" 
-      alt="KD" style="width:30%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
+      alt="KD" style="width:50%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
       <img src="./projects/SST.png" 
-      alt="SST" style="width:30%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
-     
+      alt="SST" style="width:50%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
+     <div style="font-size:.92em; color:#666; margin-top:.3em;">Bangladesh EEZ in the Bay of Bengal</div>
     </div>
 
     <!-- Project Highlights -->
     <div style="flex:2; min-width:320px;">
-      <p><strong>Project Title:</strong> Spatial and Temporal Variability of Photosynthetically Available Radiation (<b>PAR</b>), Diffuse Attenuation Coefficient (<b>Kd<sub>490</sub></b>), and Sea Surface Temperature (<b>SST</b>) in the Bangladesh Exclusive Economic Zone (2016-2022)</p>
-      <p style="margin-top:-1em;"> <b>Author:</b> Md. Farhan Rafiq &nbsp; | &nbsp; <b>Supervisor:</b> Abu Bokkar Siddique</p>
+      <p><strong>Project Summary:</strong>   This research investigates how <strong>Photosynthetically Available Radiation (PAR)</strong>, <strong>Diffuse Attenuation Coefficient (Kd<sub>490</sub>)</strong>, and <strong>Sea Surface Temperature (SST)</strong> vary both spatially and temporally in the Bangladesh Exclusive Economic Zone (EEZ) from 2016 to 2022. Using satellite-derived data (MODIS-Aqua) processed in SeaDAS and ArcGIS, the study analyzes monthly and annual trends for each parameter. The aim is to reveal how these physical factors influence marine ecosystems in the Bay of Bengal and to provide insights crucial for sustainable management amid climate change.</p>
+      <p style="margin-top:-1em;"><b>Supervisor:</b> Abu Bokkar Siddique</p>
       <ul>
         <li><b>Objective:</b> Analyze the spatial and temporal patterns of PAR, Kd<sub>490</sub>, and SST across the Bangladesh EEZ using MODIS-Aqua satellite data (2016-2022).</li>
         <li><b>Methods:</b> Utilized <b>NASA Ocean Color</b> datasets processed through <i>SeaDAS</i> &amp; <i>ArcGIS</i> for mapping, statistical, and seasonal analysis.</li>
