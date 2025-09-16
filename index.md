@@ -40,8 +40,8 @@ layout: homepage
 <h2>Academic Projects</h2>
 
 <div style="margin-left: 20px;">
-  <h3>Spatial and Temporal Variability of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)</h3>
-  <p style="margin-top: 0; font-style: italic;">Undergraduate Project</p>
+  <h3 style="margin-bottom: 5px;">Spatial and Temporal Variability of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)</h3>
+  <p style="margin-top: 0; font-style: italic; font-weight: lighter;">Undergraduate Project</p>
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
     
     <!-- Representative Project Image -->
