@@ -41,13 +41,13 @@ layout: homepage
 
 <div style="margin-left: 20px;">
   <h3 style="margin-bottom: 5px;">Spatial and Temporal Variability of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)</h3>
-  <p style="margin-top: 0; font-style: italic; font-weight: lighter;">Undergraduate Project</p>
+  <p style="margin-top: 0;">Undergraduate Project</p>
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
     
     <!-- Representative Project Image -->
     <div style="flex:1; min-width:290px; max-width:340px; align-self:flex-start;">
       <!-- Replace with your project image or map if possible -->
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Bangladesh_Bay_of_Bengal.png/350px-Bangladesh_Bay_of_Bengal.png" 
+      <img src="./projects/study_area.png" 
       alt="Map of Bangladesh EEZ in the Bay of Bengal" style="width:100%; border-radius:8px; box-shadow:0 2px 8px #bbb;">
       <div style="font-size:.92em; color:#666; margin-top:.3em;">Bangladesh EEZ in Bay of Bengal (Representative Image)</div>
     </div>
