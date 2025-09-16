@@ -6,9 +6,9 @@ affiliation: Shahjalal University of Science and Technology, Sylhet-3114, Bangla
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+keywords: Md. Farhan Rafiq, Farhan, Rafiq, Md. Farhan, Md. Rafiq, farhan-rafiq, farhanrafiq
+description: Md. Farhan Rafiq is an Oceanography graduate from Shahjalal University of Science and Technology, Sylhet, Bangladesh. His research lies in Geographic Information Systems (GIS), Remote Sensing, Geospatial Artificial Intelligence, Coastal Resilience and Disaster Risk Management.
+canonical: https://farhan-rafiq.github.io
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
@@ -22,8 +22,8 @@ email_link: farhanrafiq.ocg@gmail.com
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
 avatar: ./assets/img/avatar.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+# favicon: ./assets/img/favicon.png
+# favicon_dark: ./assets/img/favicon-dark.png
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
