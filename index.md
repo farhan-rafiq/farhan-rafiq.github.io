@@ -8,16 +8,15 @@ layout: homepage
     margin-bottom: 2em; /* space after each section */
   }
 
-<style>
   h2 {
-    border-bottom: 1.3px solid #d3d3d3; /* light gray line */
-    padding-bottom: 0.3em; 
-    margin-bottom: 0.8em; 
+    margin-top: 0; /* no extra space on top of heading inside section */
+    margin-bottom: 0.5em;
+    padding-bottom: 0.2em;
+    border-bottom: 1.3px solid #d3d3d3; /* light gray horizontal line */
   }
 
-  /* Add extra top margin only to h2 except the first one */
   h2:not(:first-of-type) {
-    margin-top: 1.2em; /* space before subsequent h2 */
+    margin-top: 1.2em; /* space before headings except the first */
   }
 </style>
 
