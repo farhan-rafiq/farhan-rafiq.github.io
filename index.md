@@ -1,6 +1,13 @@
 ---
 layout: homepage
 ---
+<style>
+  h2 {
+    border-bottom: 1px solid #d3d3d3; /* light gray line */
+    padding-bottom: 0.3em; 
+    margin-bottom: 0.8em; 
+  }
+</style>
 
 <h2>About Me</h2>
 <div style="text-align: justify;">
