@@ -66,9 +66,20 @@ layout: homepage
             <li>SST varied seasonally from <b>22°C – 31°C</b>, revealing a subtle multi-year warming trend.</li>
           </ul>
        
-<a href="./pdfjs/web/viewer.html?file=../../projects/undergrad_project.pdf" target="_blank" style="text-decoration:none;">
-  <button><h4>View Full Project</h4>h4></button>
-</a>
+<h4 style="margin-bottom: .2em;">
+  <a href="./pdfjs/web/viewer.html?file=../../projects/undergrad_project.pdf" 
+     target="_blank" 
+     style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; gap: 6px;">
+    View Full Project
+    <svg xmlns="http://www.w3.org/2000/svg" 
+         width="18" height="18" fill="currentColor" 
+         viewBox="0 0 24 24" style="margin-left: 4px;">
+      <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
+      <path d="M5 5h5V3H3v7h2V5zm0 14v-5H3v7h7v-2H5z"/>
+    </svg>
+  </a>
+</h4>
+
 
 
  
