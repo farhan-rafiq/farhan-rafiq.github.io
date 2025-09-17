@@ -66,18 +66,9 @@ layout: homepage
             <li>SST varied seasonally from <b>22°C – 31°C</b>, revealing a subtle multi-year warming trend.</li>
           </ul>
        
-  <!-- Insert sample figures -->
-  <div style="margin-top:1em; margin-bottom:1em;">
-    <h4 style="margin-bottom:.4em;">Project Figures</h4>
-    <div style="display:flex; flex-wrap:wrap; gap:1em;">
-      <img src="./projects/study_area.png" alt="Annual PAR Variability Graph (Rep.)" style="width:100px; border-radius:0px; border: 1px solid #ccc;">
-      <img src="./projects/PAR.png" alt="Annual SST Time Series (Rep.)" style="width:100px; border-radius:0px; border: 1px solid #ccc;">
-      <img src="./projects/KD.png" alt="Annual SST Time Series (Rep.)" style="width:100px; border-radius:0px; border: 1px solid #ccc;">
-      <img src="./projects/SST.png" alt="Bangladesh EEZ Map (Rep.)" style="width:100px; border-radius:0px; border: 1px solid #ccc;">
-    </div>
-    <div style="font-size:.87em; color:#888; margin-top:.2em;"></div>
-  </div>
-
+<a href="./projects/undergrad_project.pdf" target="_blank" style="text-decoration:none;">
+  <button>View Full Project</button>
+</a>
 
  
 
