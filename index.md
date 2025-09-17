@@ -1,16 +1,17 @@
 ---
 layout: homepage
 ---
-<div style="border-left: 4px solid #1E90FF; padding-left: 12px; margin-bottom: 2em;">
+
+<style>
   h2 {
-    margin-top: 0; /* no extra space on top of heading inside section */
-    margin-bottom: 0.5em;
-    padding-bottom: 0.2em;
-    border-bottom: 1.5px solid #d3d3d3; /* light gray horizontal line */
+    border-bottom: 1.5px solid #d3d3d3; /* light gray line */
+    padding-bottom: 0.3em; 
+    margin-bottom: 0.8em; 
   }
 
+  /* Add extra top margin only to h2 except the first one */
   h2:not(:first-of-type) {
-    margin-top: 1.2em; /* space before headings except the first */
+    margin-top: 1.5em; /* space before subsequent h2 */
   }
 </style>
 
