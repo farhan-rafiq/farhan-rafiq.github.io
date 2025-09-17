@@ -4,7 +4,7 @@ layout: homepage
 
 <style>
   h2 {
-    border-bottom: 1..px solid #d3d3d3; /* light gray line */
+    border-bottom: 1.3px solid #d3d3d3; /* light gray line */
     padding-bottom: 0.3em; 
     margin-bottom: 0.8em; 
   }
