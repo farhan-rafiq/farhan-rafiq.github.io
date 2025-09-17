@@ -26,24 +26,63 @@ layout: homepage
 </div>
 
 <h2>Research Interests</h2>
+<ul style="list-style:none; padding-left:0;">
+  <li style="margin-bottom:24px; display:flex; align-items:flex-start;">
+    <span style="width:44px; height:44px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.8em; margin-right:17px;">
+      🌍
+    </span>
+    <div>
+      <div style="font-size:1.07em; font-weight:600;">Remote Sensing & GIS Applications</div>
+      <div style="color:#444;">Satellite data analysis, spatial modeling, and geospatial data management.</div>
+    </div>
+  </li>
+  <li style="margin-bottom:24px; display:flex; align-items:flex-start;">
+    <span style="width:44px; height:44px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.8em; margin-right:17px;">
+      📊
+    </span>
+    <div>
+      <div style="font-size:1.07em; font-weight:600;">Oceanographic Data Science</div>
+      <div style="color:#444;">Computational and statistical approaches to marine and atmospheric datasets.</div>
+    </div>
+  </li>
+  <li style="margin-bottom:24px; display:flex; align-items:flex-start;">
+    <span style="width:44px; height:44px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.8em; margin-right:17px;">
+      🌊
+    </span>
+    <div>
+      <div style="font-size:1.07em; font-weight:600;">Coastal & Urban Flood Risk Assessment</div>
+      <div style="color:#444;">Integrated modeling, spatial analysis, and machine learning applications.</div>
+    </div>
+  </li>
+  <li style="margin-bottom:24px; display:flex; align-items:flex-start;">
+    <span style="width:44px; height:44px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.8em; margin-right:17px;">
+      🌡️
+    </span>
+    <div>
+      <div style="font-size:1.07em; font-weight:600;">Climate Change & Environmental Monitoring</div>
+      <div style="color:#444;">Impacts on coastal ecosystems, agriculture, and trade vulnerability.</div>
+    </div>
+  </li>
+  <li style="margin-bottom:24px; display:flex; align-items:flex-start;">
+    <span style="width:44px; height:44px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.8em; margin-right:17px;">
+      🤖
+    </span>
+    <div>
+      <div style="font-size:1.07em; font-weight:600;">Geospatial Artificial Intelligence (GeoAI)</div>
+      <div style="color:#444;">Machine learning and predictive modeling for environmental systems.</div>
+    </div>
+  </li>
+  <li style="margin-bottom:24px; display:flex; align-items:flex-start;">
+    <span style="width:44px; height:44px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.8em; margin-right:17px;">
+      ⚓
+    </span>
+    <div>
+      <div style="font-size:1.07em; font-weight:600;">Marine & Coastal Resource Management</div>
+      <div style="color:#444;">Sustainable development, conservation, and blue economy applications.</div>
+    </div>
+  </li>
+</ul>
 
-  <h3 style="margin-bottom: 5px;">🌍 Remote Sensing & GIS Applications</h3>
-  <p style="margin-top: 0; margin-left: 30px;">Satellite data analysis, spatial modeling, and geospatial data management.</p>
-
-  <h3 style="margin-bottom: 5px;">📊 Oceanographic Data Science</h3>
-  <p style="margin-top: 0; margin-left: 30px;">Computational and statistical approaches to marine and atmospheric datasets.</p>
-
-  <h3 style="margin-bottom: 5px;">🌊 Coastal & Urban Flood Risk Assessment</h3>
-  <p style="margin-top: 0; margin-left: 30px;">Integrated modeling, spatial analysis, and machine learning applications.</p>
-
-  <h3 style="margin-bottom: 5px;">🌡️ Climate Change & Environmental Monitoring</h3>
-  <p style="margin-top: 0; margin-left: 30px;">Impacts on coastal ecosystems, agriculture, and trade vulnerability.</p>
-
-  <h3 style="margin-bottom: 5px;">🤖 Geospatial Artificial Intelligence (GeoAI)</h3>
-  <p style="margin-top: 0; margin-left: 30px;">Machine learning and predictive modeling for environmental systems.</p>
-
-  <h3 style="margin-bottom: 5px;">⚓ Marine & Coastal Resource Management</h3>
-  <p style="margin-top: 0; margin-left: 30px;">Sustainable development, conservation, and blue economy applications.</p>
 
 
 <h2>Research Projects</h2>
