@@ -12,7 +12,7 @@ layout: homepage
     margin-top: 0; /* no extra space on top of heading inside section */
     margin-bottom: 0.5em;
     padding-bottom: 0.2em;
-    border-bottom: 1.3px solid #d3d3d3; /* light gray horizontal line */
+    border-bottom: 1.5px solid #d3d3d3; /* light gray horizontal line */
   }
 
   h2:not(:first-of-type) {
