@@ -93,7 +93,52 @@ layout: homepage
   </a>
 </h4>
 
+<p></p>
 
+  <h3 style="margin-bottom: 5px;"> Quantitative Analysis of Annual Chlorophyll-a and Sea Surface Temperature Fluctuations in the Bay of Bengal Using Remote Sensing Data</h3>
+  <p style="margin-top: 0;">Lab Project &nbsp; | &nbsp; <b>Supervisor:</b> Dr. Subrata Sarker &nbsp; | &nbsp; May 2023 - Jun 2023</p>
+  <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
+    
+    <!-- Representative Project Image 
+    <div style="flex:1; gap: 10px; flex-wrap: wrap;">
+    
+      <img src="./projects/study_area.png" 
+      alt="study_area" style="width:50%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
+      <img src="./projects/PAR.png" 
+      alt="PAR" style="width:50%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
+      <img src="./projects/KD.png" 
+      alt="KD" style="width:50%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
+      <img src="./projects/SST.png" 
+      alt="SST" style="width:50%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
+     </div> -->
 
- 
+    <!-- Project Highlights -->
+    <div style="flex:2; min-width:320px;">
+    
+      <h4 style="margin-bottom:.2em;">Project Summary</h4>
+      <div style="text-align: justify;">
+      <p> This research analyzes the spatial and temporal patterns of Chlorophyll-a concentration and Sea Surface Temperature (SST) in the Bay of Bengal using monthly satellite data from January to December 2020. Data were sourced from the NASA Ocean Color Web and processed using SNAP and ArcMap software. Specific coastal regions near Bangladesh were selected for detailed comparison, while regional and seasonal variability across the Bay was mapped and quantified. The study aimed to enrich understanding of marine ecological dynamics and climate processes in the Bay of Bengal, providing valuable data for marine research and management.</p>
+      </div> 
+      
+       <h4 style="margin-bottom:.2em;">Key Findings</h4>
+          <ul style="margin-top:0;">
+            <li>Chlorophyll-a levels were <b>lowest</b> in May and peaked in August, indicating strong seasonal variation.</li>
+            <li><b>Higher</b> chlorophyll concentrations were found near <b>the eastern coast</b> from January to July, shifting towards central and western areas from August to December.</li>       
+            <li>Sea Surface Temperature (SST) increased gradually from January, peaked in May, then declined after October.</li>
+            <li>There was a negative correlation between chlorophyll-a and SST: higher chlorophyll was found when SST was lower.</li>
+            </ul>
+       
+<h4 style="margin-bottom: .2em;">
+  <a href="./projects/4_1_project.pdf" 
+     target="_blank" 
+     style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; gap: 6px;">
+    View Full Project
+    <svg xmlns="http://www.w3.org/2000/svg" 
+         width="18" height="18" fill="currentColor" 
+         viewBox="0 0 24 24" style="margin-left: 4px;">
+      <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
+      <path d="M5 5h5V3H3v7h2V5zm0 14v-5H3v7h7v-2H5z"/>
+    </svg>
+  </a>
+</h4>
 
