@@ -4,10 +4,14 @@ layout: homepage
 
 <style>
   h2 {
-    border-bottom: 1px solid #d3d3d3; /* light gray line */
+    border-bottom: 1..px solid #d3d3d3; /* light gray line */
     padding-bottom: 0.3em; 
-    margin-top: 1.2em;
     margin-bottom: 0.8em; 
+  }
+
+  /* Add extra top margin only to h2 except the first one */
+  h2:not(:first-of-type) {
+    margin-top: 1.2em; /* space before subsequent h2 */
   }
 </style>
 
