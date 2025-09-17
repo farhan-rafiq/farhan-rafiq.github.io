@@ -1,10 +1,12 @@
 ---
 layout: homepage
 ---
+
 <style>
   h2 {
     border-bottom: 1px solid #d3d3d3; /* light gray line */
     padding-bottom: 0.3em; 
+    margin-top: 1.2em;
     margin-bottom: 0.8em; 
   }
 </style>
