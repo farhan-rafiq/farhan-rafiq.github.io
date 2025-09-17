@@ -1,6 +1,12 @@
 ---
 layout: homepage
 ---
+<style>
+  .section {
+    border-left: 4px solid #1E90FF; /* blue vertical line */
+    padding-left: 12px; /* space between line and content */
+    margin-bottom: 2em; /* space after each section */
+  }
 
 <style>
   h2 {
