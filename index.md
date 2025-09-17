@@ -93,8 +93,8 @@ layout: homepage
   </a>
 </h4>
 
-<p></p>
-
+<p>
+</p>
   <h3 style="margin-bottom: 5px;"> Quantitative Analysis of Annual Chlorophyll-a and Sea Surface Temperature Fluctuations in the Bay of Bengal Using Remote Sensing Data</h3>
   <p style="margin-top: 0;">Lab Project &nbsp; | &nbsp; <b>Supervisor:</b> Dr. Subrata Sarker &nbsp; | &nbsp; May 2023 - Jun 2023</p>
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
@@ -124,8 +124,8 @@ layout: homepage
           <ul style="margin-top:0;">
             <li>Chlorophyll-a levels were <b>lowest</b> in May and peaked in August, indicating strong seasonal variation.</li>
             <li><b>Higher</b> chlorophyll concentrations were found near <b>the eastern coast</b> from January to July, shifting towards central and western areas from August to December.</li>       
-            <li>Sea Surface Temperature (SST) increased gradually from January, peaked in May, then declined after October.</li>
-            <li>There was a negative correlation between chlorophyll-a and SST: higher chlorophyll was found when SST was lower.</li>
+            <li>Sea Surface Temperature (SST) <b>increased</b> gradually from January, peaked in May, then declined after October.</li>
+            <li>There was a <b>negative correlation</b> between chlorophyll-a and SST: higher chlorophyll was found when SST was lower.</li>
             </ul>
        
 <h4 style="margin-bottom: .2em;">
