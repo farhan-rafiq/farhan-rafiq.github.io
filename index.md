@@ -67,7 +67,7 @@ layout: homepage
           </ul>
        
 <h4 style="margin-bottom: .2em;">
-  <a href="./pdfjs/web/viewer.html?file=../../projects/undergrad_project.pdf" 
+  <a href="./projects/undergrad_project.pdf" 
      target="_blank" 
      style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; gap: 6px;">
     View Full Project
