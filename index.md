@@ -112,7 +112,6 @@ layout: homepage
             <li>SST varied seasonally from <b>22°C – 31°C</b>, revealing a subtle multi-year warming trend.</li>
     </ul>
 
-
    
   <h4 style="margin-bottom: 2em; ">
     <a href="./projects/undergrad_project.pdf" 
@@ -127,7 +126,7 @@ layout: homepage
       </svg>
     </a>
   </h4>
-</div>
+
 
   <h3 style="margin-bottom: 5px;"> Quantitative Analysis of Annual Chlorophyll-a and Sea Surface Temperature Fluctuations in the Bay of Bengal Using Remote Sensing Data</h3>
   <p style="margin-top: 0;">Lab Project &nbsp; | &nbsp; <b>Supervisor:</b> Dr. Subrata Sarker &nbsp; | &nbsp; May 2023 - Jun 2023</p>
