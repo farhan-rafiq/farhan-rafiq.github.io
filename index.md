@@ -112,13 +112,13 @@ layout: homepage
       </div> 
       
        <h4 style="margin-bottom:.2em;">Key Findings</h4>
+       <div style="text-align: justify;">
           <ul style="margin-top:0;">
-          <div style="text-align: justify;">
             <li>PAR ranged from <b>32.47 – 55 Einstein/m²/day</b> with higher values offshore and seasonal highs in May–July.</li>
             <li>Kd<sub>490</sub> values indicated higher water turbidity (up to <b>0.33 m⁻¹</b>) near coastlines due to runoff &amp; anthropogenic impacts.</li>
             <li>SST varied seasonally from <b>22°C – 31°C</b>, revealing a subtle multi-year warming trend.</li>
           </ul>
-          </div>
+        </div>
        
 <h4 style="margin-bottom: .2em;">
   <a href="./projects/undergrad_project.pdf" 
@@ -162,13 +162,13 @@ layout: homepage
       </div> 
       
        <h4 style="margin-bottom:.2em;">Key Findings</h4>
+       <div style="text-align: justify;">
           <ul style="margin-top:0;">
-          <div style="text-align: justify;">
             <li>Chlorophyll-a levels were <b>lowest</b> in May and peaked in August, indicating strong seasonal variation.</li>   
             <li>Sea Surface Temperature (SST) <b>increased</b> gradually from January, peaked in May, then declined after October.</li>
             <li>There was a <b>negative correlation</b> between chlorophyll-a and SST: higher chlorophyll was found when SST was lower.</li>
             </ul>
-            </div>
+      </div>
        
 <h4 style="margin-bottom: .2em;">
   <a href="./projects/4_1_project.pdf" 
