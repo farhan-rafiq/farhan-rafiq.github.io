@@ -106,14 +106,14 @@ layout: homepage
 
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
   <h4 style="margin-bottom:.2em;">Key Findings</h4>       
-    <ul style="margin: 0">
+    <ul style="margin: 0.5em">
             <li>PAR ranged from <b>32.47 – 55 Einstein/m²/day</b> with higher values offshore and seasonal highs in May–July.</li>
             <li>Kd<sub>490</sub> values indicated higher water turbidity (up to <b>0.33 m⁻¹</b>) near coastlines due to runoff &amp; anthropogenic impacts.</li>
             <li>SST varied seasonally from <b>22°C – 31°C</b>, revealing a subtle multi-year warming trend.</li>
     </ul>
   </div>
 
-<div style="display:flex; flex-wrap:wrap; gap:1em;">   
+<div style="display:flex; flex-wrap:wrap; gap:1.5em;">   
   <h4 style="margin-bottom: 2em;">
     <a href="./projects/undergrad_project.pdf" 
        target="_blank" 
