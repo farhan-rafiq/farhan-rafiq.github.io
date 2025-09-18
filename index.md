@@ -105,7 +105,7 @@ layout: homepage
    <p> This research investigates how <strong>Photosynthetically Available Radiation (PAR)</strong>, <strong>Diffuse Attenuation Coefficient (Kd<sub>490</sub>)</strong>, and <strong>Sea Surface Temperature (SST)</strong> vary both spatially and temporally in the Bangladesh Exclusive Economic Zone (EEZ) from 2016 to 2022. Using satellite-derived data (MODIS-Aqua) processed in SeaDAS and ArcGIS, the study analyzes monthly and annual trends for each parameter. The aim is to reveal how these physical factors influence marine ecosystems in the Bay of Bengal and to provide insights crucial for sustainable management amid climate change.</p> 
 
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
-  <h4 style="margin-bottom:.2em;">Key Findings</h4>       
+  <h4 style="margin-bottom: 0;">Key Findings</h4>       
    <ul style="margin-top:0;">
             <li>PAR ranged from <b>32.47 – 55 Einstein/m²/day</b> with higher values offshore and seasonal highs in May–July.</li>
             <li>Kd<sub>490</sub> values indicated higher water turbidity (up to <b>0.33 m⁻¹</b>) near coastlines due to runoff &amp; anthropogenic impacts.</li>
@@ -138,10 +138,10 @@ layout: homepage
   <h4 style="margin-bottom:.2em;">Project Summary</h4>
       
   <p> This research analyzes the spatial and temporal patterns of Chlorophyll-a concentration and Sea Surface Temperature (SST) in the Bay of Bengal using monthly satellite data from January to December 2020. Data were sourced from the NASA Ocean Color Web and processed using SNAP and ArcMap software. Specific coastal regions near Bangladesh were selected for detailed comparison, while regional and seasonal variability across the Bay was mapped and quantified. The study aimed to enrich understanding of marine ecological dynamics and climate processes in the Bay of Bengal, providing valuable data for marine research and management.</p>
-      </div> 
+
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">    
-  <h4 style="margin-bottom:.2em;">Key Findings</h4>
-         <ul style="margin-top: 0; padding: 0">
+  <h4 style="margin-bottom: 0;">Key Findings</h4>
+         <ul style="margin-top: 0">
             <li>Chlorophyll-a levels were <b>lowest</b> in May and peaked in August, indicating strong seasonal variation.</li>   
             <li>Sea Surface Temperature (SST) <b>increased</b> gradually from January, peaked in May, then declined after October.</li>
             <li>There was a <b>negative correlation</b> between chlorophyll-a and SST: higher chlorophyll was found when SST was lower.</li>
