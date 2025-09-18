@@ -107,26 +107,27 @@ layout: homepage
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
   <h4 style="margin-bottom:.2em;">Key Findings</h4>       
    <ul style="margin-top:0;">
-    
             <li>PAR ranged from <b>32.47 – 55 Einstein/m²/day</b> with higher values offshore and seasonal highs in May–July.</li>
             <li>Kd<sub>490</sub> values indicated higher water turbidity (up to <b>0.33 m⁻¹</b>) near coastlines due to runoff &amp; anthropogenic impacts.</li>
             <li>SST varied seasonally from <b>22°C – 31°C</b>, revealing a subtle multi-year warming trend.</li>
-          </ul>
+    </ul>
+  </div>
 
 <div style="display:flex; flex-wrap:wrap; gap:1.5em;">   
-<h4 style="margin-bottom: .2em;">
-  <a href="./projects/undergrad_project.pdf" 
-     target="_blank" 
-     style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; gap: 6px;">
-    View Project
-    <svg xmlns="http://www.w3.org/2000/svg" 
-         width="16" height="16" fill="currentColor" 
-         viewBox="0 0 24 24" style="margin-left: 4px;">
-      <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
-      <path d="M5 5h5V3H3v7h2V5zm0 14v-5H3v7h7v-2H5z"/>
-    </svg>
-  </a>
-</h4>
+  <h4 style="margin-bottom:.2em;">
+    <a href="./projects/undergrad_project.pdf" 
+       target="_blank" 
+       style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; gap: 6px;">
+      View Project
+      <svg xmlns="http://www.w3.org/2000/svg" 
+           width="16" height="16" fill="currentColor" 
+           viewBox="0 0 24 24" style="margin-left: 4px;">
+        <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
+        <path d="M5 5h5V3H3v7h2V5zm0 14v-5H3v7h7v-2H5z"/>
+      </svg>
+    </a>
+  </h4>
+</div>
 
   <h3 style="margin-bottom: 5px;"> Quantitative Analysis of Annual Chlorophyll-a and Sea Surface Temperature Fluctuations in the Bay of Bengal Using Remote Sensing Data</h3>
   <p style="margin-top: 0;">Lab Project &nbsp; | &nbsp; <b>Supervisor:</b> Dr. Subrata Sarker &nbsp; | &nbsp; May 2023 - Jun 2023</p>
