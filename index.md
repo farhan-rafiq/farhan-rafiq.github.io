@@ -113,7 +113,7 @@ layout: homepage
     </ul>
 
   
-  <h4 style="margin-top: .5em; margin-bottom: 2em">
+  <h4 style="margin-top: 0; margin-bottom: 2em">
     <a href="./projects/undergrad_project.pdf" 
        target="_blank" 
        style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; gap: 6px;">
@@ -129,7 +129,7 @@ layout: homepage
 
 
   <h3 style="margin-bottom: 5px;"> Quantitative Analysis of Annual Chlorophyll-a and Sea Surface Temperature Fluctuations in the Bay of Bengal Using Remote Sensing Data</h3>
-  <p style="margin-top: 0;">Lab Project &nbsp; | &nbsp; <b>Supervisor:</b> Dr. Subrata Sarker &nbsp; | &nbsp; May 2023 - Jun 2023</p>
+  <p style="margin-top: 0;">Academic Project &nbsp; | &nbsp; <b>Supervisor:</b> Dr. Subrata Sarker &nbsp; | &nbsp; May 2023 - Jun 2023</p>
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
     
    <div style="flex:2; min-width:320px;">
