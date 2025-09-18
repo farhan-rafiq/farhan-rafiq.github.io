@@ -41,7 +41,7 @@ layout: homepage
 <h2>Research Interests</h2>
 <ul style="list-style:none; padding-left:0;">
   <li style="margin-bottom:20px; display:flex; align-items:flex-start;">
-    <span style="width:34px; height:34px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.4em; margin-right:12px; flex-shrink:0;">
+    <span style="width:34px; height:34px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.4em; margin-right:12px; flex-shrink:0; margin-top:5px;">
       🌍
     </span>
     <div>
@@ -50,7 +50,7 @@ layout: homepage
     </div>
   </li>
   <li style="margin-bottom:20px; display:flex; align-items:flex-start;">
-    <span style="width:34px; height:34px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.4em; margin-right:12px; flex-shrink:0;">
+    <span style="width:34px; height:34px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.4em; margin-right:12px; flex-shrink:0; margin-top:5px;">
       📊
     </span>
     <div>
@@ -59,7 +59,7 @@ layout: homepage
     </div>
   </li>
   <li style="margin-bottom:20px; display:flex; align-items:flex-start;">
-    <span style="width:34px; height:34px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.4em; margin-right:12px; flex-shrink:0;">
+    <span style="width:34px; height:34px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.4em; margin-right:12px; flex-shrink:0; margin-top:5px;">
       🌊
     </span>
     <div>
@@ -68,7 +68,7 @@ layout: homepage
     </div>
   </li>
   <li style="margin-bottom:20px; display:flex; align-items:flex-start;">
-    <span style="width:34px; height:34px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.4em; margin-right:12px; flex-shrink:0;">
+    <span style="width:34px; height:34px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.4em; margin-right:12px; flex-shrink:0; margin-top:5px;">
       🌡️
     </span>
     <div>
@@ -77,7 +77,7 @@ layout: homepage
     </div>
   </li>
   <li style="margin-bottom:20px; display:flex; align-items:flex-start;">
-    <span style="width:34px; height:34px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.4em; margin-right:12px; flex-shrink:0;">
+    <span style="width:34px; height:34px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.4em; margin-right:12px; flex-shrink:0; margin-top:5px;">
       🤖
     </span>
     <div>
@@ -86,7 +86,7 @@ layout: homepage
     </div>
   </li>
   <li style="margin-bottom:20px; display:flex; align-items:flex-start;">
-    <span style="width:34px; height:34px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.4em; margin-right:12px; flex-shrink:0;">
+    <span style="width:34px; height:34px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.4em; margin-right:12px; flex-shrink:0; margin-top:5px;">
       ⚓
     </span>
     <div>
@@ -95,8 +95,6 @@ layout: homepage
     </div>
   </li>
 </ul>
-
-
 
 
 <h2>Research Projects</h2>
