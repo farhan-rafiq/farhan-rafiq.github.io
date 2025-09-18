@@ -106,19 +106,17 @@ layout: homepage
   <div style="flex:2; min-width:320px;">
     
   <h4 style="margin-bottom:.2em;">Project Summary</h4>
-      <div style="text-align: justify;">
-      <p> This research investigates how <strong>Photosynthetically Available Radiation (PAR)</strong>, <strong>Diffuse Attenuation Coefficient (Kd<sub>490</sub>)</strong>, and <strong>Sea Surface Temperature (SST)</strong> vary both spatially and temporally in the Bangladesh Exclusive Economic Zone (EEZ) from 2016 to 2022. Using satellite-derived data (MODIS-Aqua) processed in SeaDAS and ArcGIS, the study analyzes monthly and annual trends for each parameter. The aim is to reveal how these physical factors influence marine ecosystems in the Bay of Bengal and to provide insights crucial for sustainable management amid climate change.</p>
-      </div> 
+     
+   <p> This research investigates how <strong>Photosynthetically Available Radiation (PAR)</strong>, <strong>Diffuse Attenuation Coefficient (Kd<sub>490</sub>)</strong>, and <strong>Sea Surface Temperature (SST)</strong> vary both spatially and temporally in the Bangladesh Exclusive Economic Zone (EEZ) from 2016 to 2022. Using satellite-derived data (MODIS-Aqua) processed in SeaDAS and ArcGIS, the study analyzes monthly and annual trends for each parameter. The aim is to reveal how these physical factors influence marine ecosystems in the Bay of Bengal and to provide insights crucial for sustainable management amid climate change.</p>
       
-  <h4 style="margin-bottom:.2em;">Key Findings</h4>
-       <div style="text-align: justify;">
-          <ul style="margin-top:0;">
+  <h4 style="margin-bottom:.2em;">Key Findings</h4>       
+   <ul style="margin-top:0;">
             <li>PAR ranged from <b>32.47 – 55 Einstein/m²/day</b> with higher values offshore and seasonal highs in May–July.</li>
             <li>Kd<sub>490</sub> values indicated higher water turbidity (up to <b>0.33 m⁻¹</b>) near coastlines due to runoff &amp; anthropogenic impacts.</li>
             <li>SST varied seasonally from <b>22°C – 31°C</b>, revealing a subtle multi-year warming trend.</li>
           </ul>
-       </div>
-       
+   </div>
+   
 <h4 style="margin-bottom: .2em;">
   <a href="./projects/undergrad_project.pdf" 
      target="_blank" 
@@ -137,35 +135,19 @@ layout: homepage
   <p style="margin-top: 0;">Lab Project &nbsp; | &nbsp; <b>Supervisor:</b> Dr. Subrata Sarker &nbsp; | &nbsp; May 2023 - Jun 2023</p>
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
     
-    <!-- Representative Project Image 
-    <div style="flex:1; gap: 10px; flex-wrap: wrap;">
+   <div style="flex:2; min-width:320px;">
     
-      <img src="./projects/study_area.png" 
-      alt="study_area" style="width:50%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
-      <img src="./projects/PAR.png" 
-      alt="PAR" style="width:50%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
-      <img src="./projects/KD.png" 
-      alt="KD" style="width:50%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
-      <img src="./projects/SST.png" 
-      alt="SST" style="width:50%; border-radius:0px; box-shadow:0 2px 8px #bbb;">
-     </div> -->
-
-    <!-- Project Highlights -->
-    <div style="flex:2; min-width:320px;">
-    
-      <h4 style="margin-bottom:.2em;">Project Summary</h4>
-      <div style="text-align: justify;">
-      <p> This research analyzes the spatial and temporal patterns of Chlorophyll-a concentration and Sea Surface Temperature (SST) in the Bay of Bengal using monthly satellite data from January to December 2020. Data were sourced from the NASA Ocean Color Web and processed using SNAP and ArcMap software. Specific coastal regions near Bangladesh were selected for detailed comparison, while regional and seasonal variability across the Bay was mapped and quantified. The study aimed to enrich understanding of marine ecological dynamics and climate processes in the Bay of Bengal, providing valuable data for marine research and management.</p>
+  <h4 style="margin-bottom:.2em;">Project Summary</h4>
+      
+  <p> This research analyzes the spatial and temporal patterns of Chlorophyll-a concentration and Sea Surface Temperature (SST) in the Bay of Bengal using monthly satellite data from January to December 2020. Data were sourced from the NASA Ocean Color Web and processed using SNAP and ArcMap software. Specific coastal regions near Bangladesh were selected for detailed comparison, while regional and seasonal variability across the Bay was mapped and quantified. The study aimed to enrich understanding of marine ecological dynamics and climate processes in the Bay of Bengal, providing valuable data for marine research and management.</p>
       </div> 
       
-       <h4 style="margin-bottom:.2em;">Key Findings</h4>
-       <div style="text-align: justify;">
-          <ul style="margin-top:0;">
+  <h4 style="margin-bottom:.2em;">Key Findings</h4>
+         <ul style="margin-top:0;">
             <li>Chlorophyll-a levels were <b>lowest</b> in May and peaked in August, indicating strong seasonal variation.</li>   
             <li>Sea Surface Temperature (SST) <b>increased</b> gradually from January, peaked in May, then declined after October.</li>
             <li>There was a <b>negative correlation</b> between chlorophyll-a and SST: higher chlorophyll was found when SST was lower.</li>
-            </ul>
-      </div>
+         </ul>
        
 <h4 style="margin-bottom: .2em;">
   <a href="./projects/4_1_project.pdf" 
