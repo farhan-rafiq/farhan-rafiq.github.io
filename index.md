@@ -9,7 +9,7 @@ layout: homepage
   }
 
   /* Keep all headings aligned left */
-  h1, h2, h4, h5, h6 {
+  h2, h4, h5, h6 {
     text-align: left;
   }
 
