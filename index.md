@@ -139,13 +139,14 @@ layout: homepage
       
   <p> This research analyzes the spatial and temporal patterns of Chlorophyll-a concentration and Sea Surface Temperature (SST) in the Bay of Bengal using monthly satellite data from January to December 2020. Data were sourced from the NASA Ocean Color Web and processed using SNAP and ArcMap software. Specific coastal regions near Bangladesh were selected for detailed comparison, while regional and seasonal variability across the Bay was mapped and quantified. The study aimed to enrich understanding of marine ecological dynamics and climate processes in the Bay of Bengal, providing valuable data for marine research and management.</p>
       </div> 
-      
+  <div style="display:flex; flex-wrap:wrap; gap:1.5em;">    
   <h4 style="margin-bottom:.2em;">Key Findings</h4>
          <ul style="margin-top:0;">
             <li>Chlorophyll-a levels were <b>lowest</b> in May and peaked in August, indicating strong seasonal variation.</li>   
             <li>Sea Surface Temperature (SST) <b>increased</b> gradually from January, peaked in May, then declined after October.</li>
             <li>There was a <b>negative correlation</b> between chlorophyll-a and SST: higher chlorophyll was found when SST was lower.</li>
          </ul>
+  </div>
        
 <h4 style="margin-bottom: .2em;">
   <a href="./projects/4_1_project.pdf" 
