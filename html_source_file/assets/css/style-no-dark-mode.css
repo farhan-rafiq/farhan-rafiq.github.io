@@ -163,7 +163,3 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
     text-align: justify;
 }
 
-html, body {
-  font-size: 18px !important;
-  line-height: 1.6;
-}
