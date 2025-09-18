@@ -6,7 +6,7 @@ layout: homepage
   body {
     text-align: justify;   /* justify entire site */
   }
-    h1, h2, h4, h5, h6 {
+    h1, h4, h5, h6 {
     text-align: left; /* keep headings aligned left */
   }
 
