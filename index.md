@@ -3,6 +3,11 @@ layout: homepage
 ---
 
 <style>
+  body {
+    text-align: justify;   /* justify entire site */
+  }
+
+<style>
   h2 {
     border-bottom: 1.5px solid #d3d3d3; /* light gray line */
     padding-bottom: 0.3em; 
