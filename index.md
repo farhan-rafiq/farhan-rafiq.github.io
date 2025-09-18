@@ -149,20 +149,18 @@ layout: homepage
             <li>There was a <b>negative correlation</b> between chlorophyll-a and SST: higher chlorophyll was found when SST was lower.</li>
          </ul>
        
-<h4 style="margin-bottom:.2em;">
-  <span style="display:inline-block; padding-bottom:.3em; border-bottom:1px solid #ddd;">
-    <a href="./projects/undergrad_project.pdf" 
-       target="_blank" 
-       style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; gap: 6px;">
-      View Project
-      <svg xmlns="http://www.w3.org/2000/svg" 
-           width="16" height="16" fill="currentColor" 
-           viewBox="0 0 24 24" style="margin-left: 4px;">
-        <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
-        <path d="M5 5h5V3H3v7h2V5zm0 14v-5H3v7h7v-2H5z"/>
-      </svg>
-    </a>
-  </span>
+<h4 style="margin-bottom: .2em;">
+  <a href="./projects/4_1_project.pdf" 
+     target="_blank" 
+     style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; gap: 6px;">
+    View Project
+    <svg xmlns="http://www.w3.org/2000/svg" 
+         width="16" height="16" fill="currentColor" 
+         viewBox="0 0 24 24" style="margin-left: 4px;">
+      <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
+      <path d="M5 5h5V3H3v7h2V5zm0 14v-5H3v7h7v-2H5z"/>
+    </svg>
+  </a>
 </h4>
 
 
