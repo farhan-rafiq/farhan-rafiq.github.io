@@ -141,7 +141,7 @@ layout: homepage
       </div> 
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">    
   <h4 style="margin-bottom:.2em;">Key Findings</h4>
-         <ul style="margin-top:0;">
+         <ul style="margin-top: 0; padding: 0">
             <li>Chlorophyll-a levels were <b>lowest</b> in May and peaked in August, indicating strong seasonal variation.</li>   
             <li>Sea Surface Temperature (SST) <b>increased</b> gradually from January, peaked in May, then declined after October.</li>
             <li>There was a <b>negative correlation</b> between chlorophyll-a and SST: higher chlorophyll was found when SST was lower.</li>
