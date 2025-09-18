@@ -102,8 +102,7 @@ layout: homepage
     
   <h4 style="margin-bottom:.2em;">Project Summary</h4>
      
-   <p> This research investigates how <strong>Photosynthetically Available Radiation (PAR)</strong>, <strong>Diffuse Attenuation Coefficient (Kd<sub>490</sub>)</strong>, and <strong>Sea Surface Temperature (SST)</strong> vary both spatially and temporally in the Bangladesh Exclusive Economic Zone (EEZ) from 2016 to 2022. Using satellite-derived data (MODIS-Aqua) processed in SeaDAS and ArcGIS, the study analyzes monthly and annual trends for each parameter. The aim is to reveal how these physical factors influence marine ecosystems in the Bay of Bengal and to provide insights crucial for sustainable management amid climate change.</p>
-   </div>   
+   <p> This research investigates how <strong>Photosynthetically Available Radiation (PAR)</strong>, <strong>Diffuse Attenuation Coefficient (Kd<sub>490</sub>)</strong>, and <strong>Sea Surface Temperature (SST)</strong> vary both spatially and temporally in the Bangladesh Exclusive Economic Zone (EEZ) from 2016 to 2022. Using satellite-derived data (MODIS-Aqua) processed in SeaDAS and ArcGIS, the study analyzes monthly and annual trends for each parameter. The aim is to reveal how these physical factors influence marine ecosystems in the Bay of Bengal and to provide insights crucial for sustainable management amid climate change.</p> 
 
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
   <h4 style="margin-bottom:.2em;">Key Findings</h4>       
