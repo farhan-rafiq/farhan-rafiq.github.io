@@ -3,11 +3,14 @@ layout: homepage
 ---
 
 <style>
+  /* Justify all normal text */
   body {
-    text-align: justify;   /* justify entire site */
+    text-align: justify;
   }
-    h1, h4, h5, h6 {
-    text-align: left; /* keep headings aligned left */
+
+  /* Keep all headings aligned left */
+  h1, h2, h3, h4, h5, h6 {
+    text-align: left;
   }
 
 <style>
@@ -15,6 +18,7 @@ layout: homepage
     border-bottom: 1.5px solid #d3d3d3; /* light gray line */
     padding-bottom: 0.3em; 
     margin-bottom: 0.8em; 
+    display: block; /* ensures line spans full width */
   }
 
   /* Add extra top margin only to h2 except the first one */
