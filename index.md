@@ -113,7 +113,7 @@ layout: homepage
     </ul>
   </div>
 
-<div style="display:flex; flex-wrap:wrap; gap:1.5em;">   
+<div style="display:flex; flex-wrap:wrap; gap:0.5em;">   
   <h4 style="margin-bottom: 2em;">
     <a href="./projects/undergrad_project.pdf" 
        target="_blank" 
