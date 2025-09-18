@@ -8,11 +8,6 @@ layout: homepage
     text-align: justify;
   }
 
-  /* Keep all headings aligned left */
-  h2, h4, h5, h6 {
-    text-align: left;
-  }
-
 
   h2 {
     border-bottom: 1.5px solid #d3d3d3; /* light gray line */
