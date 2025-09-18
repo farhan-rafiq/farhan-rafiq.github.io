@@ -9,7 +9,7 @@ layout: homepage
   }
 
   /* Keep all headings aligned left */
-  h1, h4, h5, h6 {
+  h1, h2, h4, h5, h6 {
     text-align: left;
   }
 
@@ -18,7 +18,8 @@ layout: homepage
     border-bottom: 1.5px solid #d3d3d3; /* light gray line */
     padding-bottom: 0.3em; 
     margin-bottom: 0.8em; 
-    display: block; /* ensures line spans full width */
+    display: block;
+    width: 100%;/* ensures line spans full width */
   }
 
   /* Add extra top margin only to h2 except the first one */
