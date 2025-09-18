@@ -114,7 +114,7 @@ layout: homepage
 
 
    
-  <h4 style="margin-bottom: 2em; margin-top: 0.5em;">
+  <h4 style="margin-bottom: 2em; ">
     <a href="./projects/undergrad_project.pdf" 
        target="_blank" 
        style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; gap: 6px;">
