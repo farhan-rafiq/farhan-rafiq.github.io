@@ -13,7 +13,7 @@ layout: homepage
     text-align: left;
   }
 
-<style>
+
   h2 {
     border-bottom: 1.5px solid #d3d3d3; /* light gray line */
     padding-bottom: 0.3em; 
@@ -149,6 +149,7 @@ layout: homepage
 
 <p>
 </p>
+<br>
   <h3 style="margin-top: 1.3em; margin-bottom: 5px;"> Quantitative Analysis of Annual Chlorophyll-a and Sea Surface Temperature Fluctuations in the Bay of Bengal Using Remote Sensing Data</h3>
   <p style="margin-top: 0;">Lab Project &nbsp; | &nbsp; <b>Supervisor:</b> Dr. Subrata Sarker &nbsp; | &nbsp; May 2023 - Jun 2023</p>
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
