@@ -4,7 +4,6 @@
 
 body { background-color: #fff; padding-top: 0px; font: 18px/1.4 Crimson Pro, serif; color: #505050; font-weight: 600; margin: 0; }
 
-.sidebar-nav a:hover { background-color: #20212b; color: black; transform: scale(1.2); }
 
 .pub-row { display: flex; align-items: center; }
 
