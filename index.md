@@ -147,7 +147,7 @@ layout: homepage
           </ul>
 
        
-<h4 style="margin-top: .5em;">
+<h4 style="margin-top: .5em; margin-bottom: 2em">
   <a href="./projects/4_1_project.pdf" 
      target="_blank" 
      style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; gap: 6px;">
@@ -186,7 +186,7 @@ layout: homepage
     </ul>
 
   
-  <h4 style="margin-bottom: 2em">
+  <h4 style="margin-bottom: 2em;">
     <a href="./projects/Internship_project.pdf" 
        target="_blank" 
        style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; gap: 6px;">
