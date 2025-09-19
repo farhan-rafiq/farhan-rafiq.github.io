@@ -162,4 +162,49 @@ layout: homepage
 </h4>
 
 
+<section id="professional-experience">
+  <h2>Professional Experience</h2>
+  
+  <article class="internship">
+    <h3>Internship: Growth, Observation, and Identification of Indigenous Marine Phytoplankton of the Bay of Bengal, Bangladesh</h3>
+    <div class="internship-meta">
+      <span class="organization">Bangladesh Fisheries Research Institute (BFRI), Marine Fisheries and Technology Station</span>
+      <span class="date">Duration: 15 Days</span>
+    </div>
+    <div class="internship-content">
+      <p>
+        During this hands-on internship, I focused on a critical aspect of marine biology: understanding the diversity and growth of phytoplankton, the foundation of the marine food web. This experience honed my laboratory skills and provided a deeper insight into marine biodiversity assessments and fisheries management.
+      </p>
+      <h4>Key Activities & Achievements:</h4>
+      <ul>
+        <li>
+          [cite_start]<strong class="activity-title">Sample Collection & Fieldwork:</strong> Collected water samples from the Bay of Bengal using specialized plankton nets (20µm mesh size)[cite: 99].
+        </li>
+        <li>
+          [cite_start]<strong class="activity-title">Laboratory & Culture Techniques:</strong> Received hands-on training in isolating and culturing marine phytoplankton[cite: 95]. [cite_start]Prepared culture mediums and maintained controlled conditions for growth[cite: 103, 104].
+        </li>
+        <li>
+          [cite_start]<strong class="activity-title">Microscopic Analysis & Identification:</strong> Performed morphological identification of species using both light and fluorescence microscopes[cite: 110]. [cite_start]Successfully isolated and cultured 25 distinct phytoplankton strains[cite: 123].
+        </li>
+        <li>
+          [cite_start]<strong class="activity-title">Research & Documentation:</strong> Contributed to a comprehensive report that documented the diversity, distribution, and growth characteristics of indigenous marine phytoplankton[cite: 122].
+        </li>
+      </ul>
+      <a href="path/to/your/Internship_Report_DRAFT.pdf" target="_blank" class="view-report-link">View Full Report (PDF)</a>
+    </div>
+  </article>
 
+  <article class="tutoring">
+    <h3>Academic Tutor</h3>
+    <div class="tutoring-meta">
+      <span class="organization">Private Tutoring</span>
+      <span class="date">2019 - Present</span>
+    </div>
+    <div class="tutoring-content">
+      <p>
+        As a private tutor for students in classes V to XII, I've developed strong communication and mentorship skills. I've focused on breaking down complex subjects like Mathematics and Physics into understandable concepts, helping students build a solid academic foundation and improve their problem-solving abilities.
+      </p>
+    </div>
+  </article>
+
+</section>
