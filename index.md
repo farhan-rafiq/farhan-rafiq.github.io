@@ -41,7 +41,7 @@ layout: homepage
       🌍
     </span>
     <div>
-      <div style="font-size:1.05em; font-weight:600;">Remote Sensing & GIS Applications</div>
+      <div style="font-size:1.05em; font-weight:600; line-height:1.2em; margin-bottom: 2px;">Remote Sensing & GIS Applications</div>
       <div style="color:#444;">Satellite data analysis, spatial modeling, and geospatial data management.</div>
     </div>
   </li>
