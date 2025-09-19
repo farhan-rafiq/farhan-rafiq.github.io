@@ -202,7 +202,7 @@ layout: homepage
 
 
 <h3 style= "font-size:22px; margin-bottom: 5px;">Teaching Experience</h3> 
-     <p style="margin-top: 0;"><b>Private Tutor & Coaching Instructor</b> &nbsp; | &nbsp; Oct 2019 - Present2025</p>
+     <p style="margin-top: 0;"><b>Private Tutor & Coaching Instructor</b> &nbsp; | &nbsp; Oct 2019 - Present</p>
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
 
    <ul style="margin-top: 0; margin-bottom:.5em">
