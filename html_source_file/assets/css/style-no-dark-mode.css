@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
 
 
-body { background-color: #fff; padding: 0px; font: 18px/1.5 Crimson Pro, serif; color: #505050; font-weight: 600; margin: 0; }
+body { background-color: #fff; padding-top: 20px; font: 18px/1.5 Crimson Pro, serif; color: #505050; font-weight: 600; margin: 0; }
 
 .pub-row { display: flex; align-items: center; }
 
