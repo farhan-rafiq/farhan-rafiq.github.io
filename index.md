@@ -164,13 +164,13 @@ layout: homepage
 
   <h2>Professional Experience</h2>
   
-  <h3 style= "font-size:20px; margin-bottom: .5em;">Internship</h3>
-  <h3>Growth, Observation, and Identification of Indigenous Marine Phytoplankton of the Bay of Bengal, Bangladesh</h3>
-    
+  <h3 style= "font-size:22px; margin-bottom: .5em;">Internship</h3>
+  <h3 style="margin-bottom: 5px;">Growth, Observation, and Identification of Indigenous Marine Phytoplankton of the Bay of Bengal, Bangladesh</h3>  
   <p style="margin-top: 0;">Bangladesh Fisheries Research Institute (BFRI), Marine Fisheries and Technology Station, Cox's Bazar</p>
       <p style="margin-top: 0;"><b>Supervisor:</b> Zahidul Islam &nbsp; | &nbsp; 5 Mar 2025 - 19 Mar 2025</p>
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
-    <div style="flex:2; min-width:320px;">
+
+  <div style="flex:2; min-width:320px;">
     
   <h4 style="margin-bottom:.2em;">Project Summary</h4>
       <p>
@@ -184,11 +184,19 @@ layout: homepage
     <li><strong>Growth Analysis:</strong> Conducted a comparative analysis of **Skeletonema sp.** growth in both Natural Seawater (NSW) and Artificial Seawater (ASW). The results demonstrated robust growth in NSW, while the population rapidly declined in ASW.</li>
     <li><strong>Phytoplankton Identification:</strong> Performed morphological identification of species using light and fluorescence microscopy (10x, 40x). Referenced the book 'Plankton of Bangladesh' to ensure taxonomic accuracy. Identified species from groups including diatoms and dinoflagellates.</li>
   </ul>
-        </p>
-      </div>
-    </div>
-    <a href="./projects/Internship_report.pdf" target="_blank" class="view-report-link">
-      <i class="fas fa-file-pdf"></i> View Report
-    </a>
+   
+<h4 style="margin-top: .5em;">
+  <a href="./projects/Internship_report.pdf" 
+     target="_blank" 
+     style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; gap: 6px;">
+    View Project
+    <svg xmlns="http://www.w3.org/2000/svg" 
+         width="16" height="16" fill="currentColor" 
+         viewBox="0 0 24 24" style="margin-left: 4px;">
+      <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
+      <path d="M5 5h5V3H3v7h2V5zm0 14v-5H3v7h7v-2H5z"/>
+    </svg>
+  </a>
+</h4>
 
 
