@@ -36,8 +36,8 @@ layout: homepage
 <h2>Research Interests</h2>
 
 <ul style="list-style:none; padding-left:0;">
-  <li style="margin-bottom:20px; display:flex; align-items:flex-start;">
-    <span style="width:34px; height:34px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.4em; margin-right:10px; flex-shrink:0; margin-top:10px;">
+  <li style="margin-bottom:16px; display:flex; align-items:flex-start;">
+    <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.4em; margin-right:10px; flex-shrink:0; margin-top:10px;">
       🌍
     </span>
     <div>
@@ -45,8 +45,8 @@ layout: homepage
       <div style="color:#444;">Satellite data analysis, spatial modeling, and geospatial data management.</div>
     </div>
   </li>
-  <li style="margin-bottom:20px; display:flex; align-items:flex-start;">
-    <span style="width:34px; height:34px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.4em; margin-right:10px; flex-shrink:0; margin-top:10px;">
+  <li style="margin-bottom:16px; display:flex; align-items:flex-start;">
+    <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.4em; margin-right:10px; flex-shrink:0; margin-top:10px;">
       📊
     </span>
     <div>
@@ -54,8 +54,8 @@ layout: homepage
       <div style="color:#444;">Computational and statistical approaches to marine and atmospheric datasets.</div>
     </div>
   </li>
-  <li style="margin-bottom:20px; display:flex; align-items:flex-start;">
-    <span style="width:34px; height:34px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.4em; margin-right:10px; flex-shrink:0; margin-top:10px;">
+  <li style="margin-bottom:16px; display:flex; align-items:flex-start;">
+    <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.4em; margin-right:10px; flex-shrink:0; margin-top:10px;">
       🌊
     </span>
     <div>
@@ -63,8 +63,8 @@ layout: homepage
       <div style="color:#444;">Integrated modeling, spatial analysis, and machine learning applications.</div>
     </div>
   </li>
-  <li style="margin-bottom:20px; display:flex; align-items:flex-start;">
-    <span style="width:34px; height:34px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.4em; margin-right:10px; flex-shrink:0; margin-top:10px;">
+  <li style="margin-bottom:16px; display:flex; align-items:flex-start;">
+    <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.4em; margin-right:10px; flex-shrink:0; margin-top:10px;">
       🌡️
     </span>
     <div>
@@ -72,22 +72,13 @@ layout: homepage
       <div style="color:#444;">Impacts on coastal ecosystems, agriculture, and trade vulnerability.</div>
     </div>
   </li>
-  <li style="margin-bottom:20px; display:flex; align-items:flex-start;">
-    <span style="width:34px; height:34px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.4em; margin-right:10px; flex-shrink:0; margin-top:10px;">
+  <li style="margin-bottom:16px; display:flex; align-items:flex-start;">
+    <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.4em; margin-right:10px; flex-shrink:0; margin-top:10px;">
       🤖
     </span>
     <div>
       <div style="font-size:1.05em; font-weight:600;">Geospatial Artificial Intelligence (GeoAI)</div>
       <div style="color:#444;">Machine learning and predictive modeling for environmental systems.</div>
-    </div>
-  </li>
-  <li style="margin-bottom:20px; display:flex; align-items:flex-start;">
-    <span style="width:34px; height:34px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1.4em; margin-right:10px; flex-shrink:0; margin-top:10px;">
-      ⚓
-    </span>
-    <div>
-      <div style="font-size:1.05em; font-weight:600;">Marine & Coastal Resource Management</div>
-      <div style="color:#444;">Sustainable development, conservation, and blue economy applications.</div>
     </div>
   </li>
 </ul>
