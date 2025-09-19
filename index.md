@@ -23,7 +23,7 @@ layout: homepage
   }
 </style>
 
-<h2>About Me</h2>
+<h2 id="about-me">About Me</h2>
 
   <p>
     I am an Oceanography graduate and geospatial enthusiast with a strong foundation in remote sensing, GIS mapping, and environmental data science. My expertise spans geospatial analysis, spatial modeling, and advanced data visualization, with proficiency in tools such as ArcGIS, SeaDAS, and Google Earth Engine for satellite data processing and geographic analysis.
@@ -33,7 +33,7 @@ layout: homepage
   </p>
 
 
-<h2>Research Interests</h2>
+<h2 id="research-interests">Research Interests</h2>
 
 <ul style="list-style:none; padding-left:0;">
   <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
@@ -84,7 +84,7 @@ layout: homepage
 </ul>
 
 
-<h2>Research Experience</h2>
+<h2 id="research-experience">Research Experience</h2>
   <h3 style="margin-bottom: 5px;">Spatial and Temporal Variability of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)</h3>
   <p style="margin-top: 0;">Undergraduate Project &nbsp; | &nbsp; <b>Supervisor:</b> Abu Bokkar Siddique &nbsp; | &nbsp; Jul 2023 - Dec 2023</p>
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
@@ -153,7 +153,7 @@ layout: homepage
 </h4>
 
 
-  <h2>Professional Experience</h2>
+  <h2 id="professional-experience">Professional Experience</h2>
 
  <h3 style= "font-size:22px; margin-bottom: .5em;">Internship</h3> 
  <h3 style="margin-bottom: 5px;">Growth, Observation, and Identification of Indigenous Marine Phytoplankton of the Bay of Bengal, Bangladesh</h3>
