@@ -181,7 +181,7 @@ layout: homepage
   <ul style="margin: 0">
     <li><strong>Sample Collection & Fieldwork:</strong> Collected seawater samples from coastal waters near Laboni Beach, Cox's Bazar, using a plankton net with a 20µm mesh size.</li>
     <li><strong>Culture & Media Preparation:</strong> Prepared and sterilized glassware and utilized Guillard's F/2 media to culture the marine microalgae. Successfully isolated and cultured 29 distinct phytoplankton strains.</li>
-    <li><strong>Growth Analysis:</strong> Conducted a comparative analysis of **Skeletonema sp.** growth in both Natural Seawater (NSW) and Artificial Seawater (ASW). The results demonstrated robust growth in NSW, while the population rapidly declined in ASW.</li>
+    <li><strong>Growth Analysis:</strong> Conducted a comparative analysis of <i>Skeletonema sp.</i> growth in both Natural Seawater (NSW) and Artificial Seawater (ASW). The results demonstrated robust growth in NSW, while the population rapidly declined in ASW.</li>
     <li><strong>Phytoplankton Identification:</strong> Performed morphological identification of species using light and fluorescence microscopy (10x, 40x). Referenced the book 'Plankton of Bangladesh' to ensure taxonomic accuracy. Identified species from groups including diatoms and dinoflagellates.</li>
   </ul>
    
