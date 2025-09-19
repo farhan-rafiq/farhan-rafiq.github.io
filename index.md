@@ -12,7 +12,7 @@ layout: homepage
   h2 {
     border-bottom: 1.5px solid #d3d3d3; /* light gray line */
     padding-bottom: 0.3em; 
-    margin-bottom: 01em; 
+    margin-bottom: .5em; 
     display: block;
     width: 100%;/* ensures line spans full width */
   }
