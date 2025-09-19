@@ -167,22 +167,22 @@ layout: homepage
   <h3 style= "font-size:22px; margin-bottom: .5em;">Internship</h3>
   <h3 style="margin-bottom: 5px;">Growth, Observation, and Identification of Indigenous Marine Phytoplankton of the Bay of Bengal, Bangladesh</h3>  
   <p style="margin-top: 0;">Bangladesh Fisheries Research Institute (BFRI), Marine Fisheries and Technology Station, Cox's Bazar</p>
-      <p style="margin-top: 0;"><b>Supervisor:</b> Zahidul Islam &nbsp; | &nbsp; 5 Mar 2025 - 19 Mar 2025</p>
+      <p style="margin: 0;"><b>Supervisor:</b> Zahidul Islam &nbsp; | &nbsp; 5 Mar 2025 - 19 Mar 2025</p>
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
 
   <div style="flex:2; min-width:320px;">
     
   <h4 style="margin-bottom:.2em;">Project Summary</h4>
-      <p>
-      This internship provided a comprehensive overview of a study focused on <stong>marine phytoplankton</strong> indigenous to the Bay of Bengal. The research encompassed the culture, growth observation, isolation, and identification of these microscopic organisms. The findings contribute meaningfully to enhancing marine biodiversity assessments and supporting effective management strategies for fisheries resources in the region.
-      </p>
+      
+  <p>This internship provided a comprehensive overview of a study focused on <strong>marine phytoplankton</strong> indigenous to the Bay of Bengal. The research encompassed the culture, growth observation, isolation, and identification of these microscopic organisms. The findings contribute meaningfully to enhancing marine biodiversity assessments and supporting effective management strategies for fisheries resources in the region.</p>
+      
 
      <h4>Key Activities</h4>
-  <ul style="margin: 0">
+  <ul style="margin-top: 0">
     <li><strong>Sample Collection & Fieldwork:</strong> Collected seawater samples from coastal waters near Laboni Beach, Cox's Bazar, using a plankton net with a 20µm mesh size.</li>
     <li><strong>Culture & Media Preparation:</strong> Prepared and sterilized glassware and utilized Guillard's F/2 media to culture the marine microalgae. Successfully isolated and cultured 29 distinct phytoplankton strains.</li>
     <li><strong>Growth Analysis:</strong> Conducted a comparative analysis of <i>Skeletonema sp.</i> growth in both Natural Seawater (NSW) and Artificial Seawater (ASW). The results demonstrated robust growth in NSW, while the population rapidly declined in ASW.</li>
-    <li><strong>Phytoplankton Identification:</strong> Performed morphological identification of species using light and fluorescence microscopy (10x, 40x). Referenced the book 'Plankton of Bangladesh' to ensure taxonomic accuracy. Identified species from groups including diatoms and dinoflagellates.</li>
+    <li><strong>Phytoplankton Identification:</strong> Performed morphological identification of species using light and fluorescence microscopy (20x, 40x). Referenced the book 'Plankton of Bangladesh' to ensure taxonomic accuracy. Identified species from groups including diatoms and dinoflagellates.</li>
   </ul>
    
 <h4 style="margin-top: .5em;">
