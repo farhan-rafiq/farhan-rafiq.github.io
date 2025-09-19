@@ -200,4 +200,15 @@ layout: homepage
     </a>
   </h4>
 
- 
+
+<h3 style= "font-size:22px; margin-bottom: 5px;">Teaching Experience</h3> 
+     <p style="margin-top: 0;"><b>Private Tutor & Coaching Instructor</b> &nbsp; | &nbsp; Oct 2019 - Present2025</p>
+  <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
+
+   <ul style="margin-top: 0; margin-bottom:.5em">
+    <li>Delivered personalized instruction to over 40+ students from <strong>GCSE, O-Level, A-Level, and National Curriculum (Class 5–12)</strong>, ensuring improved academic performance.</li>
+    <li>Specialized in <strong>Higher Mathematics and Physics at Higher Secondary level</strong>, simplifying complex concepts through structured lessons and problem-solving strategies.</li>
+    <li>Provided comprehensive guidance in <strong>all core subjects at Secondary level</strong>, adapting teaching methods to diverse learning styles.</li>
+    <li>Conducted <strong>over 250+ classes at multiple coaching centres</strong>, developing classroom management and communication skills.</li>
+    <li>Designed lesson plans, practice materials, and exam-focused sessions that prepared students for <strong>board exams and international curricula</strong>.</li>
+  </ul>
