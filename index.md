@@ -105,15 +105,15 @@ layout: homepage
    <p> This research investigates how <strong>Photosynthetically Available Radiation (PAR)</strong>, <strong>Diffuse Attenuation Coefficient (Kd<sub>490</sub>)</strong>, and <strong>Sea Surface Temperature (SST)</strong> vary both spatially and temporally in the Bangladesh Exclusive Economic Zone (EEZ) from 2016 to 2022. Using satellite-derived data (MODIS-Aqua) processed in SeaDAS and ArcGIS, the study analyzes monthly and annual trends for each parameter. The aim is to reveal how these physical factors influence marine ecosystems in the Bay of Bengal and to provide insights crucial for sustainable management amid climate change.</p> 
 
 
-  <h4 style="margin-bottom: 0.2em;">Key Findings</h4>       
-    <ul style="margin-top: 0">
+  <h4 style="margin-bottom: 0;">Key Findings</h4>       
+    <ul style="margin-top: 0; margin-bottom:.5em">
             <li>PAR ranged from <b>32.47 – 55 Einstein/m²/day</b> with higher values offshore and seasonal highs in May–July.</li>
             <li>Kd<sub>490</sub> values indicated higher water turbidity (up to <b>0.33 m⁻¹</b>) near coastlines due to runoff &amp; anthropogenic impacts.</li>
             <li>SST varied seasonally from <b>22°C – 31°C</b>, revealing a subtle multi-year warming trend.</li>
     </ul>
 
   
-  <h4 style="margin-top: .5em;">
+  <h4 style="margin-bottom: 2em">
     <a href="./projects/undergrad_project.pdf" 
        target="_blank" 
        style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; gap: 6px;">
@@ -129,7 +129,7 @@ layout: homepage
 
 
   <h3 style="margin-bottom: 5px;"> Quantitative Analysis of Annual Chlorophyll-a and Sea Surface Temperature Fluctuations in the Bay of Bengal Using Remote Sensing Data</h3>
-  <p style="margin-top: 0;">Lab Project &nbsp; | &nbsp; <b>Supervisor:</b> Dr. Subrata Sarker &nbsp; | &nbsp; May 2023 - Jun 2023</p>
+  <p style="margin-top: 0;">Academic Project &nbsp; | &nbsp; <b>Supervisor:</b> Dr. Subrata Sarker &nbsp; | &nbsp; May 2023 - Jun 2023</p>
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
     
    <div style="flex:2; min-width:320px;">
