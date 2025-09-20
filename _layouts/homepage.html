@@ -110,6 +110,26 @@
   }
 </style>
 
+<style>
+  /* Enables smooth scrolling for the entire page */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Creates the offset (the 20px gap at the top) */
+  #about-me::before,
+  #research-interests::before,
+  #research-experience::before,
+  #professional-experience::before {
+    content: ""; /* Required for pseudo-elements */
+    display: block; /* Makes it a block-level element */
+    height: 20px; /* The gap you want from the top */
+    margin-top: -20px; /* Pulls the element up so it doesn't add extra space */
+    visibility: hidden; /* Makes it invisible */
+    pointer-events: none; /* Prevents it from interfering with clicks */
+  }
+</style>
+
       <hr style="border: none; border-top: 0px solid #d3d3d3; margin-top: 0px; margin-bottom: .5em;">
       
       <div class="sidebar-nav" style="text-align: left; margin-left: 30px; line-height:1.5em; padding-top: 0;">
