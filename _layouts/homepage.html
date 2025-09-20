@@ -109,6 +109,22 @@
     color: #043361 !important; font-weight: bold ; /* A professional blue */
   }
 </style>
+
+<style>
+  /* Sidebar navigation links: bold and professional blue */
+  .sidebar-nav a {
+    color: #043361 !important;
+    font-weight: bold !important;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+    font-size: 1rem;
+  }
+  .sidebar-nav a:hover,
+  .sidebar-nav a.active-link {
+    color: #043361 !important;
+    font-weight: bold !important;
+    text-decoration: underline;
+  }
+</style>
 <script>
   // Add 'active-link' class to sidebar-nav links based on current hash
   document.addEventListener("DOMContentLoaded", function() {
