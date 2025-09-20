@@ -206,6 +206,15 @@
     {% endif %}
 
     <!-- Highlight sidebar-nav link based on scroll position -->
+    <style>
+  /* Style for the active/default link on page load */
+      .sidebar-nav a.active-link {
+        font-weight: bold;
+        color: #043361 !important; /* Match h4 color */
+        text-decoration: underline;
+      }
+    </style>
+    
     <script>
       document.addEventListener("DOMContentLoaded", function() {
         const sections = [
