@@ -7,6 +7,11 @@ layout: homepage
   body {
     text-align: justify;
   }
+  
+  h2#about-me {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
 
   h2 {
     border-bottom: 1.5px solid #d3d3d3; /* light gray line */
