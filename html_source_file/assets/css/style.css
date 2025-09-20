@@ -79,6 +79,10 @@ h1 { font-weight: 500; color: #043361; margin: 0 0 20px; }
 
 h2 { color: #043361; font-weight: 500; margin: 2px 0px 15px; font-size: 157%; }
 
+h2:first-of-type {
+  margin-top: 0px !important;
+}
+
 @media (prefers-color-scheme: dark) { h1, h3, h4, h5, h6 { color: #3eb7f0; }
   h2 { color: #3eb7f0; } }
 p, ul, ol, table, pre, dl { margin: 0 0 20px; }
