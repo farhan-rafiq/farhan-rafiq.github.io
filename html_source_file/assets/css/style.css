@@ -4,7 +4,7 @@
 body { background-color: #fff; padding-top: 0px; font-size: 18.0px/1.4 Crimson Pro, serif; color: #505050; font-weight: 600; margin: 0; }
 
 
-.pub-row { display: flex; align-items: center; padding-top: 0px; }
+.pub-row { display: flex; align-items: center; padding-top: 0px !important; }
 
 .social-icons a { display: inline-block; height: 2.4rem; width: 2.4rem; background-color: transparent; color: #043361 !important; border-radius: 100%; text-align: center; font-size: 1.15rem; line-height: 2.5rem; margin-right: 1rem; }
 
