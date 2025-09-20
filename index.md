@@ -16,6 +16,9 @@ layout: homepage
     display: block;
     width: 100%;/* ensures line spans full width */
   }
+  
+    #about-me {
+    margin-top: -20px; /* Adds 20px of space before the "About Me" heading */
 
   /* Add extra top margin only to h2 except the first one */
   h2:not(:first-of-type) {
