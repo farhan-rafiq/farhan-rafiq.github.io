@@ -100,40 +100,15 @@
         </div>
         <br>
 
-
-
 <style>
-  /* Sidebar navigation links: bold and professional blue */
   .sidebar-nav a {
-    color: #043361 !important;
-    font-weight: bold !important;
     transition: color 0.3s ease, text-decoration 0.3s ease;
-    font-size: 1rem;
   }
-  .sidebar-nav a:hover,
-  .sidebar-nav a.active-link {
-    color: #043361 !important;
-    font-weight: bold !important;
+
+  .sidebar-nav a:hover {
+    color: #043361 !important; font-weight: bold ; /* A professional blue */
   }
 </style>
-<script>
-  // Add 'active-link' class to sidebar-nav links based on current hash
-  document.addEventListener("DOMContentLoaded", function() {
-    function setActiveLink() {
-      var links = document.querySelectorAll('.sidebar-nav a');
-      var hash = window.location.hash || "#about-me";
-      links.forEach(function(link) {
-        if (link.getAttribute('href') === hash) {
-          link.classList.add('active-link');
-        } else {
-          link.classList.remove('active-link');
-        }
-      });
-    }
-    setActiveLink();
-    window.addEventListener('hashchange', setActiveLink);
-  });
-</script>
 
 <style>
   /* Enables smooth scrolling for the entire page */
@@ -156,11 +131,21 @@
 </style>
 
 <style>
- /* Style for the active/default link on page load */
-  .sidebar-nav a.active-link {
-    font-weight: bold !important;
+  /* Base styles for your sidebar navigation links */
+  .sidebar-nav a {
+    transition: font-weight 0.3s ease;
   }
 
+  /* Style for the active/default link on page load */
+  .sidebar-nav a.active-link {
+    font-weight: bold;
+    /* You can add a different color or border here too if you like */
+  }
+
+  /* You can also add a hover effect for all links */
+  .sidebar-nav a:hover {
+    font-weight: bold;
+  }
 </style>
 
       <hr style="border: none; border-top: 0px solid #d3d3d3; margin-top: 0px; margin-bottom: .5em;">
