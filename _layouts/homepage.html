@@ -109,6 +109,24 @@
     color: #043361 !important; font-weight: bold ; /* A professional blue */
   }
 </style>
+<script>
+  // Add 'active-link' class to sidebar-nav links based on current hash
+  document.addEventListener("DOMContentLoaded", function() {
+    function setActiveLink() {
+      var links = document.querySelectorAll('.sidebar-nav a');
+      var hash = window.location.hash || "#about-me";
+      links.forEach(function(link) {
+        if (link.getAttribute('href') === hash) {
+          link.classList.add('active-link');
+        } else {
+          link.classList.remove('active-link');
+        }
+      });
+    }
+    setActiveLink();
+    window.addEventListener('hashchange', setActiveLink);
+  });
+</script>
 
 <style>
   /* Enables smooth scrolling for the entire page */
@@ -131,12 +149,7 @@
 </style>
 
 <style>
-  /* Base styles for your sidebar navigation links */
-  .sidebar-nav a {
-    transition: font-weight 0.3s ease;
-  }
-
-  /* Style for the active/default link on page load */
+ /* Style for the active/default link on page load */
   .sidebar-nav a.active-link {
     font-weight: bold !important;
   }
