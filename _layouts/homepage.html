@@ -129,7 +129,7 @@
   }
 
   /* Creates the offset (the 20px gap at the top) */
-  #about-me,
+  #about-me::before,
   #research-interests::before,
   #research-experience::before,
   #professional-experience::before {
@@ -140,6 +140,13 @@
     visibility: hidden; /* Makes it invisible */
     pointer-events: none; /* Prevents it from interfering with clicks */
   }
+
+    /* Reduce gap only for About Me section */
+  #about-me::before {
+    height: 20px;
+    margin-top: -20px;
+  }
+
 </style>
 
 <style>
