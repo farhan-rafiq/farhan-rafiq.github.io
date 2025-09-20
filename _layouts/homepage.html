@@ -204,49 +204,5 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
-
-    <!-- Highlight sidebar-nav link based on scroll position -->
-    <style>
-  /* Style for the active/default link on page load */
-      .sidebar-nav a.active-link {
-        font-weight: bold;
-        color: #043361 !important; /* Match h4 color */
-        text-decoration: underline;
-      }
-    </style>
-    
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        const sections = [
-          "about-me",
-          "research-interests",
-          "research-experience",
-          "professional-experience"
-        ];
-        const navLinks = document.querySelectorAll('.sidebar-nav a');
-
-        function highlightNav() {
-          let found = false;
-          for (let i = 0; i < sections.length; i++) {
-            const section = document.getElementById(sections[i]);
-            if (section) {
-              const rect = section.getBoundingClientRect();
-              if (rect.top <= 80 && rect.bottom > 80) {
-                navLinks.forEach(link => link.classList.remove('active-link'));
-                navLinks[i].classList.add('active-link');
-                found = true;
-                break;
-              }
-            }
-          }
-          if (!found) {
-            navLinks.forEach(link => link.classList.remove('active-link'));
-          }
-        }
-
-        window.addEventListener('scroll', highlightNav);
-        highlightNav();
-      });
-    </script>
   </body>
 </html>
