@@ -8,16 +8,6 @@ layout: homepage
     text-align: justify;
   }
 
-
-  h2 id="about-me" {
-    margin-top: 10px !important; /* Reduce top margin */
-  }
-  header {
-    margin-top: 0 !important;    /* Remove any extra top margin */
-    padding-top: 0 !important;   /* Remove any extra top padding */
-  }
-
-
   h2 {
     border-bottom: 1.5px solid #d3d3d3; /* light gray line */
     padding-bottom: 0.3em; 
