@@ -63,11 +63,13 @@
         <br>
         {% endif %}
 
-        <div style="margin-top: 20px; margin-bottom: 20px;"></div>
+      
         {% if site.affiliation %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+         <a href="{{ site.affiliation_link }}" rel="noopener">
+            <autocolor style="display: block; margin-top: 10px; margin-bottom: 10px;">{{ site.affiliation }}</autocolor>
+        </a>
         <br>
-        </div>
+        
 
         {% endif %}
         {% if site.email %}
