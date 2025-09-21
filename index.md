@@ -9,7 +9,7 @@ layout: homepage
   }
   
   h2#about-me {
-    margin-top: -2em !important;
+    margin-top: -3em !important;
     padding-top: 0 !important;
   }
 
