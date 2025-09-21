@@ -183,4 +183,8 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
     text-align: justify;
 }
 
-
+.sidebar-nav li:hover a,
+.sidebar-nav li.active a {
+  color: #043361;
+  font-weight: bold; /* A shade of blue for the text */
+}
