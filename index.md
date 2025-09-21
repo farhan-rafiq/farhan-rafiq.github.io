@@ -24,7 +24,7 @@ layout: homepage
 
   /* Add extra top margin only to h2 except the first one */
   h2:not(:first-of-type) {
-    margin-top: 0; /* space before subsequent h2 */
+    margin-top: 1.5em; /* space before subsequent h2 */
   }
 </style>
 
