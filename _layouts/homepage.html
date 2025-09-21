@@ -118,17 +118,22 @@
 
         
 <style>
+  /* Sidebar navigation link transitions and hover effects */
   .sidebar-nav a {
-    transition: color 0.3s ease, text-decoration 0.3s ease;
+    font-size: 18px;
+    transition: font-weight 0.3s ease, color 0.3s ease, text-decoration 0.3s ease, transform 0.3s ease;
   }
-
   .sidebar-nav a:hover {
-    color: #043361 !important; font-weight: bold ; /* A professional blue */
-    transform: translateX(5px) !important; 
+    color: #043361 !important;
+    font-weight: bold;
+    transform: translateX(5px) !important;
+    text-decoration: none;
   }
-</style>
+  .sidebar-nav li.active a {
+    color: #043361;
+    font-weight: bold;
+  }
 
-<style>
   /* Enables smooth scrolling for the entire page */
   html {
     scroll-behavior: smooth;
@@ -139,52 +144,31 @@
   #research-interests::before,
   #research-experience::before,
   #professional-experience::before {
-    content: ""; /* Required for pseudo-elements */
-    display: block; /* Makes it a block-level element */
-    height: 20px; /* The gap you want from the top */
-    margin-top: -25px; /* Pulls the element up so it doesn't add extra space */
-    visibility: hidden; /* Makes it invisible */
-    pointer-events: none; /* Prevents it from interfering with clicks */
+    content: "";
+    display: block;
+    height: 20px;
+    margin-top: -25px;
+    visibility: hidden;
+    pointer-events: none;
   }
 
-    /* Reduce gap only for About Me section */
+  /* Reduce gap only for About Me section */
   #about-me::before {
     height: 20px;
     margin-top: 0 !important;
   }
-
 </style>
 
-<style>
-  /* Base styles for your sidebar navigation links */
-  .sidebar-nav a {
-    transition: font-weight 0.3s ease, color 0.3s ease, text-decoration 0.3s ease, transform 0.3s ease;
-  }
-
-  /* Style for the active/default link on page load */
-    <div class="sidebar-nav">
-          <ul>
-            <li class="active"><a href="#about-me">About Me</a></li>
-            <li><a href="#research-interests">Research Interests</a></li>
-            <li><a href="#research-experience">Research Interests</a></li>
-            <li><a href="#professional-experience">Research Interests</a></li>
-            </ul>
-    </div>
-    /* You can add a different color or border here too if you like */
-  }
-
-  /* You can also add a hover effect for all links */
-  .sidebar-nav a:hover {
-    font-weight: bold;
-    transform: translateX(5px);
-  }
-
-  .sidebar-nav li.active a {
-  color: #043361;
-  font-weight: bold; /* A shade of blue for the text */
-  }
-
 </style>
+<!-- Moved HTML markup outside of <style> block -->
+<div class="sidebar-nav">
+  <ul>
+    <li class="active"><a href="#about-me">About Me</a></li>
+    <li><a href="#research-interests">Research Interests</a></li>
+    <li><a href="#research-experience">Research Experience</a></li>
+    <li><a href="#professional-experience">Professional Experience</a></li>
+  </ul>
+</div>
 
       <hr style="border: none; border-top: 0px solid #d3d3d3; margin-top: -20px; margin-bottom: .5em;">
       
