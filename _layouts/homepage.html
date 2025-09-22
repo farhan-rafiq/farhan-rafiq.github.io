@@ -63,11 +63,15 @@
         <br>
         {% endif %}
 
-      
+        {% if site.affiliation %}
+        <affiliation style="font-size:1.10rem;">{{ site.affiliation }}</affiliation>
+        <br>
+        
+      <!--
         {% if site.affiliation %}
         <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
         <br>
-        
+      -->
 
         {% endif %}
         {% if site.email %}
