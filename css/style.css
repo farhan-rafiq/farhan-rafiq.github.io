@@ -445,8 +445,9 @@ header {
 }
 
 .sidebar-nav a.active {
+  color: #043361 !important;
   font-weight: bold;
-  transform: translateX(5px);
+  transform: translateX(5px) !important;
 }
 
 /* Enables smooth scrolling for the entire page */
