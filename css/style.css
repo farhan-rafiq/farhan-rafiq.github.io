@@ -433,7 +433,7 @@ header {
 
 /* Sidebar navigation link transitions and hover effects */
 .sidebar-nav a {
-  font-size: 16px;
+  font-size: 14px;
   transition: font-weight 0.3s ease, color 0.3s ease, text-decoration 0.3s ease, transform 0.3s ease;
 }
 
