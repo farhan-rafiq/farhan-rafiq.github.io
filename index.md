@@ -143,7 +143,7 @@ layout: homepage
           </ul>
 
        
-<h4 style="margin-top: .5em; margin-bottom: 2em">
+<h4 style="margin-top: .5em; margin-bottom: 2.5em">
   <a href="./projects/4_1_project.pdf" 
      target="_blank" 
      style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; gap: 6px;">
