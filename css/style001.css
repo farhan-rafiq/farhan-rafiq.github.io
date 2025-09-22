@@ -42,7 +42,7 @@ a {
     color: #39c;
     text-decoration: none;
 }
-
+/*---
 a:hover {
     color: #069;
 }
@@ -58,7 +58,7 @@ a small {
 a:hover small {
     color: #777;
 }
-
+---*/
 strong {
     color: #222;
     font-weight: 500;
