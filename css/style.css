@@ -482,6 +482,28 @@ html {
   margin-bottom: 20px;
 }
 
+/* Default style for the vertical line */
+h2 {
+    position: relative;
+    padding-left: 20px; /* Add padding to make space for the line */
+}
+
+h2::before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 1.5px;
+    background-color: #d3d3d3; /* Faded gray for non-active state */
+    transition: background-color 0.3s ease;
+}
+
+/* Style for the vertical line when the section is active */
+h2.active::before {
+    background-color: #043361; /* Professional blue for active state */
+}
+
 
 
 /* --- Media Queries --- */
