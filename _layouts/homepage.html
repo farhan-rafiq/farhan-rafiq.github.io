@@ -144,7 +144,7 @@
       <script>
       document.addEventListener('DOMContentLoaded', () => {
           // Select all sections with an ID and all sidebar links
-          const sections = document.querySelectorAll('section[id], div[id]');
+          const sections = document.querySelectorAll('h2[id], div[id]');
           const navLinks = document.querySelectorAll('.sidebar-nav a');
 
           const observer = new IntersectionObserver((entries) => {
@@ -165,8 +165,8 @@
           }, { threshold: 0.5, rootMargin: "-50px 0px -50px 0px" });
 
           // Observe each section
-          sections.forEach(section => {
-              observer.observe(section);
+          sections.forEach(h2 => {
+              observer.observe(h2);
           });
       });
       </script>
