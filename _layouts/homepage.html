@@ -141,45 +141,38 @@
     </script>
     {% endif %}
 
-          <script>
-          document.addEventListener('DOMContentLoaded', () => {
-              const sections = document.querySelectorAll('h2[id]');
-              const navLinks = document.querySelectorAll('.sidebar-nav a');
+      <script>
+      document.addEventListener('DOMContentLoaded', () => {
+          // Select all sections with an ID and all sidebar links
+          const sections = document.querySelectorAll('h2[id]');
+          const navLinks = document.querySelectorAll('.sidebar-nav a');
 
-              const observer = new IntersectionObserver((entries) => {
-                  entries.forEach(entry => {
-                      const id = entry.target.getAttribute('id');
-                      const correspondingLink = document.querySelector(`.sidebar-nav a[href="#${id}"]`);
-                      const correspondingHeading = document.querySelector(`h2#${id}`); // Select the h2 element itself
+          const observer = new IntersectionObserver((entries) => {
+              entries.forEach(entry => {
+                  const id = entry.target.getAttribute('id');
+                  const correspondingLink = document.querySelector(`.sidebar-nav a[href="#${id}"]`);
 
-                      if (entry.isIntersecting) {
-                          // Remove active class from all links and headings
-                          navLinks.forEach(link => {
-                              link.classList.remove('active');
-                          });
-                          sections.forEach(h2 => { // Also remove class from h2s
-                              h2.classList.remove('active');
-                          });
-                          
-                          // Add active class to the correct link and heading
-                          if (correspondingLink) {
-                              correspondingLink.classList.add('active');
-                          }
-                          if (correspondingHeading) {
-                              correspondingHeading.classList.add('active');
-                          }
+                  if (entry.isIntersecting) {
+                      navLinks.forEach(link => {
+                          link.classList.remove('active');
+                      });
+                      
+                      if (correspondingLink) {
+                          correspondingLink.classList.add('active');
                       }
-                  });
-              }, { 
-                  threshold: 0.5, 
-                  rootMargin: "-20px 0px -500px 0px"
+                  }
               });
-
-              sections.forEach(h2 => {
-                  observer.observe(h2);
-              });
+          }, { 
+              threshold: 0.5, 
+              rootMargin: "-20px 0px -500px 0px"
           });
-          </script>
+
+          // Observe each section
+          sections.forEach(h2 => {
+              observer.observe(h2);
+          });
+      });
+      </script>
 
 
   </body>
