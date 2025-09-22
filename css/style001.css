@@ -471,6 +471,19 @@ header ul a strong {
 }
 
 @media print, screen and (max-width: 480px) {
+    /* Main wrapper to be full width on a phone */
+    .wrapper {
+        width: 100%;
+        padding: 0 15px; /* Add some padding for spacing */
+    }
+    
+    /* Ensure the header content stacks and is centered */
+    header {
+        position: static;
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+    }
     .pub-row {
         display: block;
         align-items: center;
