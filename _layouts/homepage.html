@@ -105,7 +105,7 @@
 
           <div class="sidebar-nav" style="text-align: left; margin-left: 20px; margin-right: 20px; color:#043361; line-height:1em; padding-top: 0;">
 
-            <a href="#about-me" style="display:block; background:#f0f4fb; padding:5px 10px; margin-bottom: 5px; border-radius:0; color:#043361;">About Me</a>
+            <a href="#about-me" class="active" style="display:block; background:#f0f4fb; padding:5px 10px; margin-bottom: 5px; border-radius:0; color:#043361;">About Me</a>
             <a href="#research-interests" style="display:block; background:#f0f4fb; padding:5px 10px; margin-bottom: 5px; border-radius:0; color:#043361;">Research Interests</a>
             <a href="#research-experience" style="display:block; background:#f0f4fb; padding:5px 10px; margin-bottom: 5px; border-radius:0; color:#043361;">Research Experience</a>
             <a href="#professional-experience" style="display:block; background:#f0f4fb; padding:5px 10px; margin-bottom: 5px; border-radius:0; color:#043361;">Professional Experience</a>
@@ -140,5 +140,32 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
+
+      <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.sidebar-nav a');
+
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              navLinks.forEach(link => {
+                link.classList.remove('active');
+              });
+              const activeLink = document.querySelector(`.sidebar-nav a[href="#${entry.target.id}"]`);
+              if (activeLink) {
+                activeLink.classList.add('active');
+              }
+            }
+          });
+        }, { threshold: 0.5 }); // Adjust this value to control when the active class changes
+
+        sections.forEach(section => {
+          observer.observe(section);
+        });
+      });
+      </script>
+
+
   </body>
 </html>
