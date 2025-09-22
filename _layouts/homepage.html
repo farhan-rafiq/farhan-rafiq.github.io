@@ -128,7 +128,7 @@
     transform: translateX(5px) !important;
     text-decoration: none !important;
   }
-  .sidebar-nav.active a {
+  .sidebar-nav a.active {
     color: #043361;
     font-weight: bold;
   }
@@ -205,5 +205,45 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
+
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const navLinks = document.querySelectorAll('.sidebar-nav a');
+        const sections = document.querySelectorAll('section[id]');
+
+        // Function to determine the active link
+        function highlightActiveLink() {
+            let currentSectionId = '';
+            
+            // Iterate through each section to see which one is in the viewport
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                
+                // Check if the user has scrolled past the top of the section
+                // The `window.scrollY` value is the current vertical scroll position.
+                // The `-100` offset makes the link active a little before the section is fully at the top
+                if (window.scrollY >= sectionTop - 100) {
+                    currentSectionId = section.id;
+                }
+            });
+
+            // Remove 'active' class from all links and add it to the current one
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.href.includes(currentSectionId)) {
+                    link.classList.add('active');
+                }
+            });
+        }
+        
+        // Initial call to set the active state on page load
+        highlightActiveLink();
+        
+        // Add an event listener to call the function on every scroll
+        window.addEventListener('scroll', highlightActiveLink);
+     });
+    </script>
+
   </body>
 </html>
