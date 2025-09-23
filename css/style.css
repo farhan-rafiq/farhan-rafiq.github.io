@@ -9,7 +9,7 @@ h2#about-me {
 }
 
 h2 {
-    border-bottom: 1px solid #043361; /* light blue line */
+    border-bottom: .5px solid #043361; /* light blue line */
     padding-bottom: 0.3em; 
     margin-bottom: .5em; 
     display: block;
