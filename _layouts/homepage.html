@@ -33,6 +33,7 @@
   </head>
   <body>
     <div class="wrapper">
+      <div class="overlay"></div> 
       <header>
         
         {% if site.avatar %}
@@ -171,24 +172,40 @@
               observer.observe(h2);
             });
 
+           
             // --- NEW Hamburger Menu Logic ---
             const hamburger = document.querySelector('.hamburger-menu');
             const sidebar = document.getElementById('mySidebarNav');
+            const overlay = document.querySelector('.overlay');
 
             if (hamburger && sidebar) {
-              // Toggle the sidebar when the hamburger icon is clicked
-              hamburger.addEventListener('click', () => {
-                sidebar.classList.toggle('show');
-              });
-
-              // Close the sidebar when a link is clicked
-              // This is for a better user experience on mobile
-              const sidebarLinks = sidebar.querySelectorAll('a');
-              sidebarLinks.forEach(link => {
-                link.addEventListener('click', () => {
-                  sidebar.classList.remove('show');
+                // Toggle the sidebar when the hamburger icon is clicked
+                hamburger.addEventListener('click', () => {
+                    sidebar.classList.toggle('show');
+                    // Toggle the overlay as well
+                    if (overlay) {
+                      overlay.classList.toggle('show');
+                    }
                 });
-              });
+
+                // Close the sidebar and overlay when a link is clicked
+                const sidebarLinks = sidebar.querySelectorAll('a');
+                sidebarLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        sidebar.classList.remove('show');
+                        if (overlay) {
+                            overlay.classList.remove('show');
+                        }
+                    });
+                });
+
+                // Close the sidebar and overlay when the overlay is clicked
+                if (overlay) {
+                    overlay.addEventListener('click', () => {
+                        sidebar.classList.remove('show');
+                        overlay.classList.remove('show');
+                    });
+                }
             }
           });
         </script>
