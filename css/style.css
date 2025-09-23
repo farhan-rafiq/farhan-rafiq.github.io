@@ -24,7 +24,7 @@ h2:not(:first-of-type) {
 
 /* --- General Styles --- */
 body {
-    background-color: #E7F6FF;
+    background-color: #fff;
     padding-top: 0;
     font: 16px/1.25 "Crimson Pro", serif !important;
     color: #505050;
@@ -196,13 +196,13 @@ section {
 }
 
 .social-icons a:hover {
-    background-color: #E7F6FF;
+    background-color: #fff;
     color: black;
     transform: scale(1.2);
 }
 
 .icon-button {
-    background-color: #E7F6FF;
+    background-color: #fff;
     border-radius: 3.6rem;
     cursor: pointer;
     display: inline-block;
@@ -631,7 +631,7 @@ html {
     margin-top: 50px; /* Remove any extra top padding */
     width: 100%;
     height: 100%;
-    background-color: #E7F6FF; /* Slightly transparent background */
+    background-color: #fff; /* Slightly transparent background */
     padding-top: 0; /* Space for the header/hamburger icon */
     z-index: 20;
     text-align: left;
