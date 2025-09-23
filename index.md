@@ -9,66 +9,68 @@ layout: homepage
   }
 </style>
 
-<h2 id="about-me">About Me</h2>
 
-  <p>
-    I am an Oceanography graduate and geospatial enthusiast with a strong foundation in remote sensing, GIS mapping, and environmental data science. My expertise spans geospatial analysis, spatial modeling, and advanced data visualization, with proficiency in tools such as ArcGIS, SeaDAS, and Google Earth Engine for satellite data processing and geographic analysis.
-  </p>
-  <p>
-    In addition to my technical skills, I am experienced in programming with Python and R, as well as advanced MS Excel, enabling me to apply computational, statistical, and spatial approaches to complex environmental and oceanographic datasets. I am particularly passionate about leveraging these skills to address practical challenges in coastal and urban systems, contributing to innovative, data-driven research and solutions.
-  </p>
+<div id="about-me" class="content-section">
+  <h2>About Me</h2>
+    <p>
+      I am an Oceanography graduate and geospatial enthusiast with a strong foundation in remote sensing, GIS mapping, and environmental data science. My expertise spans geospatial analysis, spatial modeling, and advanced data visualization, with proficiency in tools such as ArcGIS, SeaDAS, and Google Earth Engine for satellite data processing and geographic analysis.
+    </p>
+    <p>
+      In addition to my technical skills, I am experienced in programming with Python and R, as well as advanced MS Excel, enabling me to apply computational, statistical, and spatial approaches to complex environmental and oceanographic datasets. I am particularly passionate about leveraging these skills to address practical challenges in coastal and urban systems, contributing to innovative, data-driven research and solutions.
+    </p>
+</div>
 
 
-<h2 id="research-interests">Research Interests</h2>
-
-<ul style="list-style:none; padding-left:0;">
-  <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
-    <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">
-      🌍
-    </span>
-    <div>
-      <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Remote Sensing & GIS Applications</div>
-      <div style="color:#444; font-size:.95em;">Satellite data analysis, spatial modeling, and geospatial data management.</div>
-    </div>
-  </li>
-  <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
-    <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">
-      📊
-    </span>
-    <div>
-      <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Oceanographic Data Science</div>
-      <div style="color:#444; font-size:.95em;">Computational and statistical approaches to marine and atmospheric datasets.</div>
-    </div>
-  </li>
-  <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
-    <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">
-      🌊
-    </span>
-    <div>
-      <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Coastal & Urban Flood Risk Assessment</div>
-      <div style="color:#444; font-size:.95em;">Integrated modeling, spatial analysis, and machine learning applications.</div>
-    </div>
-  </li>
-  <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
-    <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">
-      🌡️
-    </span>
-    <div>
-      <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Climate Change & Environmental Monitoring</div>
-      <div style="color:#444; font-size:.95em;">Impacts on coastal ecosystems, agriculture, and trade vulnerability.</div>
-    </div>
-  </li>
-  <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
-    <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">
-      🤖
-    </span>
-    <div>
-      <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Geospatial Artificial Intelligence (GeoAI)</div>
-      <div style="color:#444; font-size:.95em;">Machine learning and predictive modeling for environmental systems.</div>
-    </div>
-  </li>
-</ul>
-
+<div id="about-me" class="content-section">
+  <h2>Research Interests</h2>
+  <ul style="list-style:none; padding-left:0;">
+    <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
+      <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">
+        🌍
+      </span>
+      <div>
+        <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Remote Sensing & GIS Applications</div>
+        <div style="color:#444; font-size:.95em;">Satellite data analysis, spatial modeling, and geospatial data management.</div>
+      </div>
+    </li>
+    <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
+      <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">
+        📊
+      </span>
+      <div>
+        <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Oceanographic Data Science</div>
+        <div style="color:#444; font-size:.95em;">Computational and statistical approaches to marine and atmospheric datasets.</div>
+      </div>
+    </li>
+    <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
+      <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">
+        🌊
+      </span>
+      <div>
+        <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Coastal & Urban Flood Risk Assessment</div>
+        <div style="color:#444; font-size:.95em;">Integrated modeling, spatial analysis, and machine learning applications.</div>
+      </div>
+    </li>
+    <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
+      <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">
+        🌡️
+      </span>
+      <div>
+        <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Climate Change & Environmental Monitoring</div>
+        <div style="color:#444; font-size:.95em;">Impacts on coastal ecosystems, agriculture, and trade vulnerability.</div>
+      </div>
+    </li>
+    <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
+      <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">
+        🤖
+      </span>
+      <div>
+        <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Geospatial Artificial Intelligence (GeoAI)</div>
+        <div style="color:#444; font-size:.95em;">Machine learning and predictive modeling for environmental systems.</div>
+      </div>
+    </li>
+  </ul>
+</div>
 
 <h2 id="research-experience">Research Experience</h2>
   <h3 style="margin-bottom: 5px;">Spatial and Temporal Variability of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)</h3>
