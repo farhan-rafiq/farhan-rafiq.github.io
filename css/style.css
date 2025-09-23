@@ -24,7 +24,7 @@ h2:not(:first-of-type) {
 
 /* --- General Styles --- */
 body {
-    background-color: #fff;
+    background-color: white;
     padding-top: 0;
     font: 16px/1.25 "Crimson Pro", serif !important;
     color: #505050;
