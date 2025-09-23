@@ -180,7 +180,6 @@ layout: homepage
       </svg>
     </a>
   </h4>
-</div>
 
 
 <h3 style= "font-size:22px; margin-bottom: 5px;">Teaching Experience</h3> 
