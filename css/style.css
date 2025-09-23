@@ -29,7 +29,7 @@ body {
     color: #505050;
     font-weight: 600;
     margin: 0;
-    text-align: justify;
+    text-align: justify !important;
 }
 
 h1 {
