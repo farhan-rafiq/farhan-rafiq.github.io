@@ -655,7 +655,7 @@ html {
     .hamburger-menu {
         display: block;
         position: fixed; /* Fixed position to stay visible when scrolling */
-        top: 20px;
+        top: 0;
         left: 20px;
         z-index: 1001; /* Must be higher than the sidebar */
     }
