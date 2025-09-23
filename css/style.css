@@ -2,11 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
 
 <style>
-  /* Justify all normal text */
-  body {
-    text-align: justify;
-  }
-  
+
   h2#about-me {
     margin-top: -10px !important;
     padding-top: 0 !important;
@@ -35,6 +31,7 @@ body {
     color: #505050;
     font-weight: 600;
     margin: 0;
+    text-align: justify;
 }
 
 h1 {
