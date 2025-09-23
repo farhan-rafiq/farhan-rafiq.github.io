@@ -101,8 +101,13 @@
 
       <hr style="border: none; border-top: 0px solid #d3d3d3; margin-top: -20px; margin-bottom: .5em;">
       
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
 
-          <div class="sidebar-nav" style="text-align: left; margin-left: 20px; margin-right: 20px; color:#043361; line-height:1em; padding-top: 0;">
+          <div class="sidebar-nav" id="mySidebarNav" style="text-align: left; margin-left: 20px; margin-right: 20px; color:#043361; line-height:1em; padding-top: 0;">
 
             <a href="#about-me" class="active" style="display:block; background:#f0f4fb; padding:5px 10px; margin-bottom: 5px; border-radius:0; color:#043361;">About Me</a>
             <a href="#research-interests" style="display:block; background:#f0f4fb; padding:5px 10px; margin-bottom: 5px; border-radius:0; color:#043361;">Research Interests</a>
@@ -140,38 +145,53 @@
     </script>
     {% endif %}
 
-      <script>
-      document.addEventListener('DOMContentLoaded', () => {
-          // Select all sections with an ID and all sidebar links
-          const sections = document.querySelectorAll('h2[id]');
-          const navLinks = document.querySelectorAll('.sidebar-nav a');
-
-          const observer = new IntersectionObserver((entries) => {
+        <script>
+          document.addEventListener('DOMContentLoaded', () => {
+            // --- Existing Intersection Observer Script (NO CHANGES) ---
+            const sections = document.querySelectorAll('h2[id]');
+            const navLinks = document.querySelectorAll('.sidebar-nav a');
+            const observer = new IntersectionObserver((entries) => {
               entries.forEach(entry => {
-                  const id = entry.target.getAttribute('id');
-                  const correspondingLink = document.querySelector(`.sidebar-nav a[href="#${id}"]`);
-
-                  if (entry.isIntersecting) {
-                      navLinks.forEach(link => {
-                          link.classList.remove('active');
-                      });
-                      
-                      if (correspondingLink) {
-                          correspondingLink.classList.add('active');
-                      }
+                const id = entry.target.getAttribute('id');
+                const correspondingLink = document.querySelector(`.sidebar-nav a[href="#${id}"]`);
+                if (entry.isIntersecting) {
+                  navLinks.forEach(link => {
+                    link.classList.remove('active');
+                  });
+                  if (correspondingLink) {
+                    correspondingLink.classList.add('active');
                   }
+                }
               });
-          }, { 
-              threshold: 0.5, 
+            }, {
+              threshold: 0.5,
               rootMargin: "-20px 0px -500px 0px"
-          });
-
-          // Observe each section
-          sections.forEach(h2 => {
+            });
+            sections.forEach(h2 => {
               observer.observe(h2);
+            });
+
+            // --- NEW Hamburger Menu Logic ---
+            const hamburger = document.querySelector('.hamburger-menu');
+            const sidebar = document.getElementById('mySidebarNav');
+
+            if (hamburger && sidebar) {
+              // Toggle the sidebar when the hamburger icon is clicked
+              hamburger.addEventListener('click', () => {
+                sidebar.classList.toggle('show');
+              });
+
+              // Close the sidebar when a link is clicked
+              // This is for a better user experience on mobile
+              const sidebarLinks = sidebar.querySelectorAll('a');
+              sidebarLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                  sidebar.classList.remove('show');
+                });
+              });
+            }
           });
-      });
-      </script>
+        </script>
 
 
   </body>
