@@ -140,24 +140,33 @@
     </script>
     {% endif %}
 
-      <script>
+    <script>
       document.addEventListener('DOMContentLoaded', () => {
-          // Select all sections with an ID and all sidebar links
-          const sections = document.querySelectorAll('h2[id]');
+          // Select all sections with a class of "content-section"
+          const sections = document.querySelectorAll('.content-section');
           const navLinks = document.querySelectorAll('.sidebar-nav a');
 
           const observer = new IntersectionObserver((entries) => {
               entries.forEach(entry => {
                   const id = entry.target.getAttribute('id');
                   const correspondingLink = document.querySelector(`.sidebar-nav a[href="#${id}"]`);
+                  const correspondingSection = document.querySelector(`.content-section#${id}`); // Target the parent div
 
                   if (entry.isIntersecting) {
+                      // Remove active class from all links and sections
                       navLinks.forEach(link => {
                           link.classList.remove('active');
                       });
+                      sections.forEach(section => {
+                          section.classList.remove('active');
+                      });
                       
+                      // Add active class to the correct link and section
                       if (correspondingLink) {
                           correspondingLink.classList.add('active');
+                      }
+                      if (correspondingSection) {
+                          correspondingSection.classList.add('active');
                       }
                   }
               });
@@ -166,12 +175,12 @@
               rootMargin: "-20px 0px -500px 0px"
           });
 
-          // Observe each section
-          sections.forEach(h2 => {
-              observer.observe(h2);
+          // Observe each content section div
+          sections.forEach(section => {
+              observer.observe(section);
           });
       });
-      </script>
+    </script>
 
 
   </body>
