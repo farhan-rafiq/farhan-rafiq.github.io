@@ -553,7 +553,7 @@ html {
         word-wrap: normal;
     }
     .section-line { 
-    display: none;  /* Completely hide the line */
+    visibility:hidden !important;  /* Completely hide the line */
     }
 }
 
