@@ -632,7 +632,7 @@ html {
     width: 100%;
     height: 100%;
     background-color: #E7F6FF; /* Slightly transparent background */
-    padding-top: 70px; /* Space for the header/hamburger icon */
+    padding-top: 0; /* Space for the header/hamburger icon */
     z-index: 20;
     text-align: left;
     box-shadow: none;
