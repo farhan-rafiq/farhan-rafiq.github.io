@@ -521,8 +521,7 @@ html {
         margin-bottom: -20px;
     }
     section {
-        border: .5px solid #e5e5e5; 
-        border-width: 1px 0;
+        border: none;
         padding: 0 0;
         margin: 0 0 20px;
     }
