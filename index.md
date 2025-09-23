@@ -25,7 +25,7 @@ layout: homepage
 
 <ul style="list-style:none; padding-left:0;">
   <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
-    <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">
+    <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#E7F6FF; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">
       🌍
     </span>
     <div>
@@ -34,7 +34,7 @@ layout: homepage
     </div>
   </li>
   <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
-    <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">
+    <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#E7F6FF; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">
       📊
     </span>
     <div>
@@ -43,7 +43,7 @@ layout: homepage
     </div>
   </li>
   <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
-    <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">
+    <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#E7F6FF; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">
       🌊
     </span>
     <div>
@@ -52,7 +52,7 @@ layout: homepage
     </div>
   </li>
   <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
-    <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">
+    <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#E7F6FF; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">
       🌡️
     </span>
     <div>
@@ -61,7 +61,7 @@ layout: homepage
     </div>
   </li>
   <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
-    <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#f6f6f6; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">
+    <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#E7F6FF; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">
       🤖
     </span>
     <div>
