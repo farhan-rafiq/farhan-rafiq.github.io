@@ -521,10 +521,7 @@ html {
         margin-bottom: -20px;
     }
     section {
-        border: 1px solid #e5e5e5;
-        border-width: 1px 0;
-        padding: 0 0;
-        margin: 0 0 20px;
+        visibility: hidden;
     }
     header a small {
         display: inline;
@@ -551,9 +548,6 @@ html {
     }
     pre, code {
         word-wrap: normal;
-    }
-    .section-line { 
-    visibility:hidden !important;  /* Completely hide the line */
     }
 }
 
@@ -630,8 +624,8 @@ html {
     top: 0;
     left: 0;
     right: 0;
-    padding: 0 1.4rem 1.4rem 1.4rem; /* Remove top padding, keep side/bottom */
-    margin-top: 0; /* Remove any extra top padding */
+    padding: 0; /* Remove top padding, keep side/bottom */
+    margin: 0; /* Remove any extra top padding */
     width: 100%;
     height: 100%;
     background-color: #fff; /* Slightly transparent background */
