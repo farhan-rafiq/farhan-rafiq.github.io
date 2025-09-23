@@ -645,9 +645,9 @@ html {
 
   .sidebar-nav a {
     display: block; /* Make links full-width */
-    font-size: 20px;
+    font-size: 18px;
     margin: 15px 0;
-    padding: 10px;
+    padding: 0;
   }
 
   .hamburger-menu {
