@@ -642,6 +642,11 @@ html {
                 opacity 0.5s cubic-bezier(0.77,0,0.175,1),
                 visibility 0.5s cubic-bezier(0.77,0,0.175,1);
     transform: translateX(-100%); /* Initially off-screen */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centers items vertically */
+    align-items: flex-start; /* keep links aligned left */
+    height: 100%;
   }
 
   .sidebar-nav.show {
