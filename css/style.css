@@ -10,11 +10,13 @@ h2#about-me {
 
 h2 {
     border-bottom: 1.5px solid #d3d3d3; /* light gray line */
-    padding-bottom: 0.3em;
-    margin-bottom: .5em;
+    padding-bottom: 0.3em; 
+    margin-bottom: .5em; 
+    display: block;
+    width: 100%;/* ensures line spans full width */
 }
-
-.content-section + .content-section {
+  /* Add extra top margin only to h2 except the first one */
+h2:not(:first-of-type) {
     margin-top: 2em; /* space before subsequent h2 */
 }
 
