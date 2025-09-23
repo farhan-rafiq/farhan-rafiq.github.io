@@ -9,7 +9,7 @@ h2#about-me {
 }
 
 h2 {
-    border-bottom: 1.5px solid #d3d3d3; /* light gray line */
+    border-bottom: 1.5px solid #043361; /* light gray line */
     padding-bottom: 0.3em; 
     margin-bottom: .5em; 
     display: block;
@@ -625,14 +625,14 @@ html {
     position: fixed; /* Make it an overlay */
     top: 0;
     left: 0;
-    width: 70%;
+    width: 60%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 0.95); /* Slightly transparent background */
     padding-top: 70px; /* Space for the header/hamburger icon */
     z-index: 999;
     text-align: left;
     box-shadow: none;
-    transition: transform 0.4s ease-in-out, visibility 0s 0.4s;
+    transition: transform 0.3s ease-in-out, visibility 0s 0.3s;
     transform: translateX(-100%); /* Initially off-screen */
   }
 
