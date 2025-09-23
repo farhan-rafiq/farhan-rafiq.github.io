@@ -628,6 +628,7 @@ html {
     visibility: hidden; /* Hide the sidebar by default */
     position: fixed; /* Make it an overlay */
     top: 0 !important;
+    padding-top: 0 !important; /* Space for the header/hamburger icon */
     left: 0;
     right: 0;
     padding: 0 1.4rem 1.4rem 1.4rem; /* Remove top padding, keep side/bottom */
