@@ -100,14 +100,20 @@
         <br>
 
 
-      
-          <div class="hamburger-menu">
+        
+    <!--  <div class="hamburger-menu">
             <div class="bar"></div>
             <div class="bar"></div>
             <div class="bar"></div>
-          </div>
+          </div> -->
 
-          <div class="sidebar-nav" id="mySidebarNav" style="text-align: left; margin-left: 20px; margin-right: 20px; color:#043361; line-height:1em; padding-top: 0;">
+          <button class="menu-toggle" aria-label="Toggle navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+
+          <div class="sidebar-nav" style="text-align: left; margin-left: 20px; margin-right: 20px; color:#043361; line-height:1em; padding-top: 0;">
 
             <a href="#about-me" class="active" style="display:block; background:#f0f4fb; padding:5px 10px; margin-bottom: 5px; border-radius:0; color:#043361;">About Me</a>
             <a href="#research-interests" style="display:block; background:#f0f4fb; padding:5px 10px; margin-bottom: 5px; border-radius:0; color:#043361;">Research Interests</a>
@@ -133,7 +139,7 @@
         
       </footer>
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <-- <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -145,6 +151,19 @@
     </script>
     {% endif %}
 
+      <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const sidebar = document.querySelector('.sidebar');
+
+        menuToggle.addEventListener('click', () => {
+          menuToggle.classList.toggle('active');
+          sidebar.classList.toggle('active');
+        });
+      </script>
+
+
+
+<!-- 
         <script>
           document.addEventListener('DOMContentLoaded', () => {
             // --- Existing Intersection Observer Script (NO CHANGES) ---
@@ -207,7 +226,9 @@
                 }
             }
           });
-        </script>
+        </script> 
+      
+-->
 
 
   </body>
