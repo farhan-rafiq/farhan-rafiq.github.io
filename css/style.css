@@ -562,7 +562,7 @@ html {
     /* Main wrapper to be full width on a phone */
     .wrapper {
         width: 100%;
-        padding: 0 15px; /* Add some padding for spacing */
+        padding: 0; /* Add some padding for spacing */
     }
     
     /* Ensure the header content stacks and is centered */
