@@ -33,7 +33,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="overlay"></div> 
+    
       <header>
         
         {% if site.avatar %}
@@ -172,41 +172,28 @@
 
            
             // --- NEW Hamburger Menu Logic ---
+                    document.addEventListener('DOMContentLoaded', () => {
+            // Select the hamburger menu and the sidebar
             const hamburger = document.querySelector('.hamburger-menu');
             const sidebar = document.getElementById('mySidebarNav');
-            const overlay = document.querySelector('.overlay');
 
             if (hamburger && sidebar) {
-                // Toggle the sidebar when the hamburger icon is clicked
+                // When the hamburger is clicked, add or remove the 'show' class
                 hamburger.addEventListener('click', () => {
                     sidebar.classList.toggle('show');
-                    // Toggle the overlay as well
-                    if (overlay) {
-                      overlay.classList.toggle('show');
-                    }
                 });
 
-                // Close the sidebar and overlay when a link is clicked
+                // Add a listener to close the menu when a link is clicked
                 const sidebarLinks = sidebar.querySelectorAll('a');
                 sidebarLinks.forEach(link => {
                     link.addEventListener('click', () => {
                         sidebar.classList.remove('show');
-                        if (overlay) {
-                            overlay.classList.remove('show');
-                        }
                     });
                 });
-
-                // Close the sidebar and overlay when the overlay is clicked
-                if (overlay) {
-                    overlay.addEventListener('click', () => {
-                        sidebar.classList.remove('show');
-                        overlay.classList.remove('show');
-                    });
-                }
             }
-          });
-        </script>
+        });
+
+      </script>
 
 
   </body>
