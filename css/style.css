@@ -625,8 +625,8 @@ html {
     position: fixed; /* Make it an overlay */
     top: 0;
     left: 0;
-    width: 50%;
-    height: 50%;
+    width: 75%;
+    height: 100%;
     background-color: rgba(255, 255, 255, 0.95);
     padding-top: 60px; /* Space for the header/hamburger icon */
     z-index: 999;
