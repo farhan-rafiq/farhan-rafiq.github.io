@@ -552,7 +552,11 @@ html {
     pre, code {
         word-wrap: normal;
     }
+    .section-line { 
+    display: none; /* Completely hide the line */
+    }
 }
+
 
 @media print, screen and (max-width: 480px) {
     /* Main wrapper to be full width on a phone */
