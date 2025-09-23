@@ -629,7 +629,7 @@ html {
         
         /* Make it half the screen width, and full height */
         width: 50%; 
-        height: 100%;
+        height: 50%;
         
         /* Add a background color to prevent content from showing behind it */
         background-color: #f0f4fb;
