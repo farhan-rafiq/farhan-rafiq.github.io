@@ -20,8 +20,8 @@ layout: homepage
       🌍
     </span>
     <div>
-      <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 0;">Remote Sensing & GIS Applications</div>
-      <div style="color:#444; font-size:.9em;">Satellite data analysis, spatial modeling, and geospatial data management.</div>
+      <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Remote Sensing & GIS Applications</div>
+      <div style="color:#444; font-size:.95em;">Satellite data analysis, spatial modeling, and geospatial data management.</div>
     </div>
   </li>
   <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
@@ -29,8 +29,8 @@ layout: homepage
       📊
     </span>
     <div>
-      <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 0;">Oceanographic Data Science</div>
-      <div style="color:#444; font-size:.9em;">Computational and statistical approaches to marine and atmospheric datasets.</div>
+      <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Oceanographic Data Science</div>
+      <div style="color:#444; font-size:.95em;">Computational and statistical approaches to marine and atmospheric datasets.</div>
     </div>
   </li>
   <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
@@ -38,8 +38,8 @@ layout: homepage
       🌊
     </span>
     <div>
-      <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 0;">Coastal & Urban Flood Risk Assessment</div>
-      <div style="color:#444; font-size:.9em;">Integrated modeling, spatial analysis, and machine learning applications.</div>
+      <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Coastal & Urban Flood Risk Assessment</div>
+      <div style="color:#444; font-size:.95em;">Integrated modeling, spatial analysis, and machine learning applications.</div>
     </div>
   </li>
   <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
@@ -47,8 +47,8 @@ layout: homepage
       🌡️
     </span>
     <div>
-      <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 0;">Climate Change & Environmental Monitoring</div>
-      <div style="color:#444; font-size:.9em;">Impacts on coastal ecosystems, agriculture, and trade vulnerability.</div>
+      <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Climate Change & Environmental Monitoring</div>
+      <div style="color:#444; font-size:.95em;">Impacts on coastal ecosystems, agriculture, and trade vulnerability.</div>
     </div>
   </li>
   <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
@@ -56,8 +56,8 @@ layout: homepage
       🤖
     </span>
     <div>
-      <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 0;">Geospatial Artificial Intelligence (GeoAI)</div>
-      <div style="color:#444; font-size:.9em;">Machine learning and predictive modeling for environmental systems.</div>
+      <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Geospatial Artificial Intelligence (GeoAI)</div>
+      <div style="color:#444; font-size:.95em;">Machine learning and predictive modeling for environmental systems.</div>
     </div>
   </li>
 </ul>
