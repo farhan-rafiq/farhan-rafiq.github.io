@@ -626,7 +626,7 @@ html {
     top: 0;
     left: 0;
     right: 0;
-    padding: 0; /* Remove top padding, keep side/bottom */
+    padding: 0 !important; /* Remove top padding, keep side/bottom */
     margin: 0; /* Remove any extra top padding */
     width: 100%;
     height: 100%;
