@@ -2,32 +2,6 @@
 layout: homepage
 ---
 
-<style>
-  /* Justify all normal text */
-  body {
-    text-align: justify;
-  }
-  
-  h2#about-me {
-    margin-top: -10px !important;
-    padding-top: 0 !important;
-  }
-
-  h2 {
-    border-bottom: 1.5px solid #d3d3d3; /* light gray line */
-    padding-bottom: 0.3em; 
-    margin-bottom: .5em; 
-    display: block;
-    width: 100%;/* ensures line spans full width */
-  }
-  
-
-  /* Add extra top margin only to h2 except the first one */
-  h2:not(:first-of-type) {
-    margin-top: 2em; /* space before subsequent h2 */
-  }
-</style>
-
 <h2 id="about-me">About Me</h2>
 
   <p>
