@@ -21,7 +21,7 @@ layout: homepage
 </div>
 
 
-<div id="about-me" class="content-section">
+<div id="research-interests" class="content-section">
   <h2>Research Interests</h2>
   <ul style="list-style:none; padding-left:0;">
     <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
@@ -72,10 +72,11 @@ layout: homepage
   </ul>
 </div>
 
-<h2 id="research-experience">Research Experience</h2>
-  <h3 style="margin-bottom: 5px;">Spatial and Temporal Variability of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)</h3>
-  <p style="margin-top: 0;">Undergraduate Project &nbsp; | &nbsp; <b>Supervisor:</b> Abu Bokkar Siddique &nbsp; | &nbsp; Jul 2023 - Dec 2023</p>
-  <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
+<div id="research-experience" class="content-section">
+  <h2>Research Experience</h2>
+    <h3 style="margin-bottom: 5px;">Spatial and Temporal Variability of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)</h3>
+      <p style="margin-top: 0;">Undergraduate Project &nbsp; | &nbsp; <b>Supervisor:</b> Abu Bokkar Siddique &nbsp; | &nbsp; Jul 2023 - Dec 2023</p>
+        <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
     
   <div style="flex:2; min-width:320px;">
     
@@ -126,28 +127,29 @@ layout: homepage
           </ul>
 
        
-<h4 style="margin-top: .5em; margin-bottom: 2.5em">
-  <a href="./projects/4_1_project.pdf" 
-     target="_blank" 
-     style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; gap: 6px;">
-    View Project
-    <svg xmlns="http://www.w3.org/2000/svg" 
-         width="16" height="16" fill="currentColor" 
-         viewBox="0 0 24 24" style="margin-left: 4px;">
-      <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
-      <path d="M5 5h5V3H3v7h2V5zm0 14v-5H3v7h7v-2H5z"/>
-    </svg>
-  </a>
-</h4>
+  <h4 style="margin-top: .5em; margin-bottom: 2.5em">
+    <a href="./projects/4_1_project.pdf" 
+      target="_blank" 
+      style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; gap: 6px;">
+      View Project
+      <svg xmlns="http://www.w3.org/2000/svg" 
+          width="16" height="16" fill="currentColor" 
+          viewBox="0 0 24 24" style="margin-left: 4px;">
+        <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
+        <path d="M5 5h5V3H3v7h2V5zm0 14v-5H3v7h7v-2H5z"/>
+      </svg>
+    </a>
+  </h4>
+</div>
 
+<div id="professional-experience" class="content-section">
+  <h2>Professional Experience</h2>
 
-  <h2 id="professional-experience">Professional Experience</h2>
-
- <h3 style= "font-size:22px; margin-bottom: .5em;">Internship</h3> 
- <h3 style="margin-bottom: 5px;">Growth, Observation, and Identification of Indigenous Marine Phytoplankton of the Bay of Bengal, Bangladesh</h3>
- <p style="margin: 0;">Bangladesh Fisheries Research Institute (BFRI), Marine Fisheries and Technology Station, Cox's Bazar</p>
-  <p style="margin-top: 0;"><b>Supervisor:</b> Zahidul Islam &nbsp; | &nbsp; 5 Mar 2025 - 19 Mar 2025</p>
-  <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
+  <h3 style= "font-size:22px; margin-bottom: .5em;">Internship</h3> 
+  <h3 style="margin-bottom: 5px;">Growth, Observation, and Identification of Indigenous Marine Phytoplankton of the Bay of Bengal, Bangladesh</h3>
+  <p style="margin: 0;">Bangladesh Fisheries Research Institute (BFRI), Marine Fisheries and Technology Station, Cox's Bazar</p>
+    <p style="margin-top: 0;"><b>Supervisor:</b> Zahidul Islam &nbsp; | &nbsp; 5 Mar 2025 - 19 Mar 2025</p>
+    <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
     
   <div style="flex:2; min-width:320px;">
     
@@ -191,3 +193,4 @@ layout: homepage
     <li>Conducted <strong>over 250+ classes at multiple coaching centres</strong>, developing classroom management and communication skills.</li>
     <li>Designed lesson plans, practice materials, and exam-focused sessions that prepared students for <strong>board exams and international curricula</strong>.</li>
   </ul>
+</div>
