@@ -634,7 +634,9 @@ html {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    justify-content: center;   /* Vertically center */
+    align-items: flex-start;   /* Keep left alignment */
+    text-align: left;
     background-color: #fff; /* Slightly transparent background */
     z-index: 20;
     text-align: left;
