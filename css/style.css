@@ -627,7 +627,7 @@ html {
     visibility: hidden; /* Hide the sidebar by default */
     position: fixed; /* Make it an overlay */
     top: 0;
-    left: 0!important;
+    left: 0 !important;
     right: 0;
     padding: 0 !important; /* Remove top padding, keep side/bottom */
     margin: 0; /* Remove any extra top padding */
@@ -645,14 +645,15 @@ html {
 
   .sidebar-nav.show {
     transform: translateX(0); /* Slide it in when the 'show' class is added */
-    visibility: visible; /* Make sure it's visible */
+    visibility: visible;
+    padding: 0 !important; /* Make sure it's visible */
   }
 
   .sidebar-nav a {
     display: block; /* Make links full-width */
     font-size: 18px;
     margin: 15px 0;
-    padding: 15px 0; /* Increase padding for easier tapping */
+    padding: 0 0; /* Increase padding for easier tapping */
   }
 
   .hamburger-menu {
