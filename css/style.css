@@ -630,7 +630,7 @@ html {
     left: 0 !important;
     right: 0;
     padding: 0 !important; /* Remove top padding, keep side/bottom */
-    margin-left: 50px; /* Remove any extra top padding */
+    margin-left: 0; /* Remove any extra top padding */
     width: 100vh;
     height: 100vh;
     background-color: #fff; /* Slightly transparent background */

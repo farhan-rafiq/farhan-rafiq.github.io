@@ -166,7 +166,7 @@ layout: homepage
 
   
   <h4 style="margin-bottom: 2em;">
-    <a href="./projects/Internship_project.pdf" 
+    <a href="./projects/Internship_report.pdf" 
        target="_blank" 
        style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; gap: 6px;">
       View Project
