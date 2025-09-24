@@ -624,24 +624,26 @@ html {
 /* MOBILE MEDIA QUERY */
 @media screen and (max-width: 960px) {
   .sidebar-nav {
-    position: fixed;
+    position: fixed; /* Make it an overlay */
     top: 0;
-    left: 0;
-    width: 100vw;              /* Full width */
-    height: 100vh;            /* Full height */
-    margin: 0;                /* Remove margin */
-    padding: 0;               /* Remove padding that caused gap */
-    box-sizing: border-box;   /* Ensure padding/borders don’t add extra width */
-    background-color: #fff;   /* Solid background (prevents text showing through) */
-    z-index: 20;            /* Keep above everything */
+    left: 0 !important;
+    right: 0;
+    padding: 0 1.4rem 1.4rem 1.4rem; /* Remove top padding, keep side/bottom */
+    padding-top: 0; /* Remove any extra top padding */
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;   /* Vertically center content */
-    align-items: flex-start;   /* Keep text aligned to the left */
+    align-items: stretch;
+    background-color: #fff; /* Slightly transparent background */
+    z-index: 20;
     text-align: left;
-    transform: translateX(-100%); 
-    will-change: transform;  /* Slide-in effect */
-    transition: transform 0.7s cubic-bezier(0.77,0,0.175,1);
+    box-shadow: none;
+    visibility: hidden; /* Hide the sidebar by default */
+    transition: transform 0.7s cubic-bezier(0.77,0,0.175,1),
+                opacity 0.5s cubic-bezier(0.77,0,0.175,1),
+                visibility 0.5s cubic-bezier(0.77,0,0.175,1);
+    transform: translateX(-100%); /* Initially off-screen */
   }
 
   .sidebar-nav.show {
@@ -652,8 +654,7 @@ html {
   .sidebar-nav a {
     display: block; /* Make links full-width */
     font-size: 18px;
-    padding: 1rem 1.4rem;
-    margin-bottom: 1rem /* Increase padding for easier tapping */
+    padding: 1.4rem; /* Increase padding for easier tapping */
   }
 
   .hamburger-menu {
