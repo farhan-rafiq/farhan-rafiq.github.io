@@ -656,7 +656,8 @@ html {
   .sidebar-nav a {
     display: block; /* Make links full-width */
     font-size: 18px;
-    padding: 1.4rem; /* Increase padding for easier tapping */
+    padding: 1rem 0;
+    margin-bottom: 1.5rem; /* Increase padding for easier tapping */
   }
 
   .hamburger-menu {
