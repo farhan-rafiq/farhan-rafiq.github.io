@@ -627,7 +627,7 @@ html {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;              /* Full width */
+    width: 100vw;              /* Full width */
     height: 100vh;            /* Full height */
     margin: 0;                /* Remove margin */
     padding: 0;               /* Remove padding that caused gap */
@@ -639,7 +639,8 @@ html {
     justify-content: center;   /* Vertically center content */
     align-items: flex-start;   /* Keep text aligned to the left */
     text-align: left;
-    transform: translateX(-100%);   /* Slide-in effect */
+    transform: translateX(-100%); 
+    will-change: transform;  /* Slide-in effect */
     transition: transform 0.7s cubic-bezier(0.77,0,0.175,1);
   }
 
