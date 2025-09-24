@@ -525,6 +525,9 @@ html {
         padding: 0 0;
         margin: 0 0 20px;
     }
+    .line-under-icons {
+        visibility: hidden;
+    }
     header a small {
         display: inline;
     }
