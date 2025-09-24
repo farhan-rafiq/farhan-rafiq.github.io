@@ -630,7 +630,7 @@ html {
     width: 100%;              /* Full width */
     height: 100vh;            /* Full height */
     margin: 0;                /* Remove margin */
-    padding: 0 0 0 1.5rem;               /* Remove padding that caused gap */
+    padding: 0;               /* Remove padding that caused gap */
     box-sizing: border-box;   /* Ensure padding/borders don’t add extra width */
     background-color: #fff;   /* Solid background (prevents text showing through) */
     z-index: 20;            /* Keep above everything */
