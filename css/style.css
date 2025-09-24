@@ -626,7 +626,7 @@ html {
   .sidebar-nav {
     position: fixed; /* Make it an overlay */
     top: 0;
-    left: 0 !important;
+    left: -20px !important;
     right: 0;
     padding: 0 1.4rem 1.4rem 1.4rem; /* Remove top padding, keep side/bottom */
     padding-top: 0; /* Remove any extra top padding */
@@ -656,8 +656,7 @@ html {
   .sidebar-nav a {
     display: block; /* Make links full-width */
     font-size: 18px;
-    padding: 1rem 0;
-    margin-bottom: 1.5rem; /* Increase padding for easier tapping */
+    margin: 1rem 4rem; /* Increase padding for easier tapping */
   }
 
   .hamburger-menu {
