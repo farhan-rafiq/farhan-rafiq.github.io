@@ -643,7 +643,7 @@ html {
     transition: transform 0.7s cubic-bezier(0.77,0,0.175,1),
                 opacity 0.5s cubic-bezier(0.77,0,0.175,1),
                 visibility 0.5s cubic-bezier(0.77,0,0.175,1);
-    transform: translateX(-100%); /* Initially off-screen */
+    transform: translateX(-80%); /* Initially off-screen */
   }
 
   .sidebar-nav.show {
