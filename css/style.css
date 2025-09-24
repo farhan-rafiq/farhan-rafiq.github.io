@@ -630,10 +630,10 @@ html {
     width: 100%;              /* Full width */
     height: 100vh;            /* Full height */
     margin: 0;                /* Remove margin */
-    padding: 0;               /* Remove padding that caused gap */
+    padding: 0 0 0 1.5rem;               /* Remove padding that caused gap */
     box-sizing: border-box;   /* Ensure padding/borders don’t add extra width */
     background-color: #fff;   /* Solid background (prevents text showing through) */
-    z-index: 9999;            /* Keep above everything */
+    z-index: 20;            /* Keep above everything */
     display: flex;
     flex-direction: column;
     justify-content: center;   /* Vertically center content */
@@ -651,7 +651,8 @@ html {
   .sidebar-nav a {
     display: block; /* Make links full-width */
     font-size: 18px;
-    padding: 1rem 1.4rem; /* Increase padding for easier tapping */
+    padding: 1rem 1.4rem;
+    margin-bottom: 1rem /* Increase padding for easier tapping */
   }
 
   .hamburger-menu {
