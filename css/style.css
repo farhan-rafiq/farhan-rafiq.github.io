@@ -653,7 +653,7 @@ html {
     display: block; /* Make links full-width */
     font-size: 18px;
     margin: 15px 0;
-    padding: 0 0; /* Increase padding for easier tapping */
+    padding: 100px 100px; /* Increase padding for easier tapping */
   }
 
   .hamburger-menu {
