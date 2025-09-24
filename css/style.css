@@ -561,6 +561,9 @@ html {
         padding: 0; /* Add some padding for spacing */
     }
     
+    .sidebar-nav {
+        padding-left: 0 !important; /* Remove top padding,   keep side/bottom */
+    }
     /* Ensure the header content stacks and is centered */
     header {
         position: static;
@@ -573,7 +576,7 @@ html {
         align-items: center;
     }
     body {
-        padding: 0;
+        padding: 15px;
     }
     header ul {
         width: 99%;
