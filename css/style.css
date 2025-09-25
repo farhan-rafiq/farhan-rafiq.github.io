@@ -627,7 +627,7 @@ html {
   display: none; /* Hidden by default */
   cursor: pointer;
   padding: 10px;
-  position: absolute;
+  position: fixed;
   top: 20px; /* Adjust as needed */
   right: 20px; /* Adjust as needed */
   z-index: 1000;
@@ -636,7 +636,7 @@ html {
 .hamburger-menu .bar {
   width: 25px;
   height: 3px;border-radius: 20px;
-  background-color: #043361;
+  background-color: #888;
   margin: 4px 0;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
