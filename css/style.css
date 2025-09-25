@@ -140,8 +140,8 @@ small {
 
 hr {
     border: 0;
-    background: #e5e5e5;
-    height: 0.2px;
+    background: #D3D3D3;
+    height: 0.05px;
     margin: 0 0 20px;
 }
 
@@ -468,14 +468,17 @@ header {
 }
 
 .sidebar-nav a {
+  display: block;          /* Makes each link take full width, so the hover box spans across */
+  padding: 1.2rem;         /* Adds space inside the link, so the hover box isn't tight around text */
+  transition: all 0.3s ease-in-out;
   font-size: 18px;
-  transition: transform 0.3s ease, font-weight 0.3s ease;
-  will-change: transform; /* Helps with performance */
 }
 
 .sidebar-nav a:hover {
   color: #043361 !important;
   font-weight: bold;
+  background-color: rgba(135, 206, 250, 0.15); /* very subtle sky blue */
+  box-shadow: 0 2px 6px rgba(135, 206, 250, 0.25); /* soft sky-blue shadow */
   transform: translateX(5px) !important;
   text-decoration: none !important;
 }
