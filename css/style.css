@@ -457,8 +457,17 @@ header {
 }
 
 /* Sidebar navigation link transitions and hover effects */
+
+.sidebar-nav {
+    font-size:16px; 
+    font-weight: 300;
+  /* padding-left: 1.4rem !important; 
+  padding-top: 1.4rem !important;  
+  padding-bottom: 1.4rem !important; */
+}
+
 .sidebar-nav a {
-  font-size: 16px;
+  font-size: 18px;
   transition: transform 0.3s ease, font-weight 0.3s ease;
   will-change: transform; /* Helps with performance */
 }
