@@ -459,8 +459,9 @@ header {
 /* Sidebar navigation link transitions and hover effects */
 
 .sidebar-nav {
-    font-size:16px; 
-    font-weight: 300;
+    font-size:16px;
+    color:#333 
+    font-weight: 200;
   /* padding-left: 1.4rem !important; 
   padding-top: 1.4rem !important;  
   padding-bottom: 1.4rem !important; */
