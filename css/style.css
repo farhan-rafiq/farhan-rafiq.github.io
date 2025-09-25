@@ -34,7 +34,7 @@ body {
 
 h1 {
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 700;
     color: #043361;
     line-height: 1.1;
     margin: 0 0 20px;
@@ -42,14 +42,14 @@ h1 {
 
 h2 {
     font-size: 26px;
-    font-weight: 500;
+    font-weight: 700;
     color: #043361;
     line-height: 1.1;
     margin: 2px 0 15px;
 }
 
 h3, h4, h5, h6 {
-    font-weight: 500;
+    font-weight: 600;
     color: #043361;
     line-height: 1.1;
     margin: 0 0 20px;
@@ -139,7 +139,7 @@ small {
 hr {
     border: 0;
     background: #e5e5e5;
-    height: 1px;
+    height: .5px;
     margin: 0 0 20px;
 }
 
@@ -323,8 +323,8 @@ section {
 
 /* --- Specific Element Colors and Fonts --- */
 .education {
-    font-weight: 500;
-    font-size: 115%;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .papertitle {
