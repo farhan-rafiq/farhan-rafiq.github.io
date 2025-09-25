@@ -469,7 +469,7 @@ header {
 
 .sidebar-nav a {
   display: block;          /* Makes each link take full width, so the hover box spans across */
-  padding: 1.1rem;         /* Adds space inside the link, so the hover box isn't tight around text */
+  padding: 1.2rem;         /* Adds space inside the link, so the hover box isn't tight around text */
   transition: all 0.3s ease-in-out;
   font-size: 18px;
 }
