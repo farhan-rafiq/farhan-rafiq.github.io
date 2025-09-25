@@ -63,13 +63,13 @@ p, ul, ol, table, pre, dl {
 
 a {
     font-size:16px; 
-    font-weight: 300; 
-    color: #39c;
+    font-weight: 200; 
+    color: #333;
     text-decoration: none;
 }
 
 a:hover {
-    color: #069;
+    color: #043361;
 }
 
 
@@ -469,7 +469,7 @@ header {
 
 .sidebar-nav a {
   display: block;          /* Makes each link take full width, so the hover box spans across */
-  padding: 1.2rem;         /* Adds space inside the link, so the hover box isn't tight around text */
+  padding: 1rem;         /* Adds space inside the link, so the hover box isn't tight around text */
   transition: all 0.3s ease-in-out;
   font-size: 18px;
 }
