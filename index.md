@@ -19,12 +19,12 @@ layout: homepage
     In addition to my technical skills, I am experienced in programming with Python and R, as well as advanced MS Excel, enabling me to apply computational, statistical, and spatial approaches to complex environmental and oceanographic datasets. I am particularly passionate about leveraging these skills to address practical challenges in coastal and urban systems, contributing to innovative, data-driven research and solutions.
   </p>
 
-
+<!--
 <h2 id="education">Education</h2>
   <h3 style="margin-bottom: 5px;">Bachelor of Science in Oceanography</h3>
   <p style="margin-top: 0; margin-bottom: 0;">Shahjalal University of Science and Technology, Sylhet-3114, Bangladesh</p>
   <p style="margin-top: 0;"><strong>CGPA:</strong> 3.66 out of 4.00</p>
-
+-->
 <h2 id="research-interests">Research Interests</h2>
 
 <ul style="list-style:none; padding-left:0;">
