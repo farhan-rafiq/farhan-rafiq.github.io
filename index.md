@@ -99,7 +99,7 @@ layout: homepage
 <h4 style="margin-bottom: 2em">
   <a href="./projects/undergrad_project.pdf" 
      target="_blank" 
-     style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; gap: 6px; padding: 4px 8px; border: 1px solid transparent; border-radius:0; transition: all 0.3s ease;">
+     style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; gap: 6px; padding: 4px 8px; border: 1px solid #043361; border-radius:0; transition: all 0.3s ease;">
     View PDF
     <svg xmlns="http://www.w3.org/2000/svg" 
          width="16" height="16" fill="currentColor" 
