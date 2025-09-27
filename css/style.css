@@ -2,24 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
 
 
-
-h2#about-me {
-    margin-top: -10px !important;
-    padding-top: 0 !important;
-}
-
-h2 {
-    border-bottom: 1px solid #D3D3D3; /* light gray line */
-    padding-bottom: 0.3em; 
-    margin-bottom: .5em; 
-    display: block;
-    width: 100%;/* ensures line spans full width */
-}
   /* Add extra top margin only to h2 except the first one */
 h2:not(:first-of-type) {
     margin-top: 2em; /* space before subsequent h2 */
 }
-
+h2#about-me {
+    margin-top: -10px !important;
+    padding-top: 0 !important;
+}
 
 
 /* --- General Styles --- */
@@ -30,6 +20,7 @@ body {
     color: #333333;
     font-weight: 600;
     margin: 0;
+    text-align: justify;
 }
 
 h1 {
@@ -46,6 +37,11 @@ h2 {
     color: #043361;
     line-height: 1.1;
     margin: 2px 0 15px;
+    border-bottom: 1px solid #D3D3D3; /* light gray line */
+    padding-bottom: 0.3em; 
+    margin-bottom: .5em; 
+    display: block;
+    width: 100%;/* ensures line spans full width */
 }
 
 h3, h4, h5, h6 {
