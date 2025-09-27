@@ -2,6 +2,13 @@
 layout: homepage
 ---
 
+<style>
+  body {
+    text-align: justify;
+  }
+</style>
+
+
 <h2 id="about-me">About Me</h2>
 
   <p>
