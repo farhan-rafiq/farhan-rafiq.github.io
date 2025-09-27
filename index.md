@@ -97,9 +97,8 @@ layout: homepage
 
   
 <h4 style="margin-bottom: 2em">
-  <a href="./projects/undergrad_project.pdf" 
-     target="_blank" 
-     style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; gap: 6px; padding: 4px 8px; border: 1px solid #043361; border-radius:0; transition: all 0.3s ease;">
+  <a href="./projects/undergrad_project.pdf"  
+     target="_blank" class="pdf-link">
     View PDF
     <svg xmlns="http://www.w3.org/2000/svg" 
          width="16" height="16" fill="currentColor" 
@@ -132,9 +131,8 @@ layout: homepage
        
 <h4 style="margin-top: .5em; margin-bottom: 2.5em">
   <a href="./projects/4_1_project.pdf" 
-     target="_blank" 
-     style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; gap: 6px;">
-    View Project
+     target="_blank" class="pdf-link">
+    View PDF
     <svg xmlns="http://www.w3.org/2000/svg" 
          width="16" height="16" fill="currentColor" 
          viewBox="0 0 24 24" style="margin-left: 4px;">
@@ -171,9 +169,8 @@ layout: homepage
   
   <h4 style="margin-bottom: 2em;">
     <a href="./projects/Internship_report.pdf" 
-       target="_blank" 
-       style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; gap: 6px;">
-      View Project
+       target="_blank" class="pdf-link">
+      View PDF
       <svg xmlns="http://www.w3.org/2000/svg" 
            width="16" height="16" fill="currentColor" 
            viewBox="0 0 24 24" style="margin-left: 4px;">
