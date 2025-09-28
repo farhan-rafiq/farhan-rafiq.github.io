@@ -189,7 +189,7 @@ layout: homepage
   </ul>
 
 
-<h2 id="education">Education</h2>
+<!--h2 id="education">Education</h2>
   <h3 style="margin-top: 0; margin-bottom: 5px;">Bachelor of Science in Oceanography</h3>
   <p style="margin: 0;">Shahjalal University of Science and Technology, Sylhet-3114, Bangladesh</p>
   <p style="margin-top: 0;"><strong>CGPA:</strong> 3.66 out of 4.00</p>
@@ -203,4 +203,4 @@ layout: homepage
       <li>Meteorology and Ocean Forecasting</li>
       <li>Blue Economy and Sustainable Development</li>
       <li>Port and Shipping Management </li>
-    </ul> 
+    </ul--> 
