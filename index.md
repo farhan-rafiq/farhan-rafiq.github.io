@@ -19,6 +19,11 @@ layout: homepage
   </p>
 
 
+<h2 id="education">Education</h2>
+  <h3 style="margin-bottom: 5px;">Bachelor of Science in Oceanography</h3>
+  <p style="margin-top: 0; margin-bottom: 0;">Shahjalal University of Science and Technology, Sylhet-3114, Bangladesh</p>
+  <p style="margin-top: 0;"><strong>CGPA:</strong> 3.66 out of 4.00</p>
+
 
 <h2 id="research-interests">Research Interests</h2>
 
@@ -187,20 +192,3 @@ layout: homepage
     <li>Conducted <strong>over 250+ classes at multiple coaching centres</strong>, developing classroom management and communication skills.</li>
     <li>Designed lesson plans, practice materials, and exam-focused sessions that prepared students for <strong>board exams and international curricula</strong>.</li>
   </ul>
-
-
-<!--h2 id="education">Education</h2>
-  <h3 style="margin-top: 0; margin-bottom: 5px;">Bachelor of Science in Oceanography</h3>
-  <p style="margin: 0;">Shahjalal University of Science and Technology, Sylhet-3114, Bangladesh</p>
-  <p style="margin-top: 0;"><strong>CGPA:</strong> 3.66 out of 4.00</p>
-  <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
-
-  <h4 style="margin-bottom:.5em;">Relevant Coursework</h4>
-    <ul>
-      <li>GIS Technology</li>
-      <li>Ocean Modelling</li>
-      <li>Remote Sensing and Satellite Oceanography</li>
-      <li>Meteorology and Ocean Forecasting</li>
-      <li>Blue Economy and Sustainable Development</li>
-      <li>Port and Shipping Management </li>
-    </ul--> 
