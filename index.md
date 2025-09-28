@@ -189,8 +189,7 @@ layout: homepage
   </ul>
 
 
-<section id ="education" class= "content-section">
- <h2>Education</h2>
+ <h2 id= "education">Education</h2>
     <h3 style="margin-bottom: 5px;">Bachelor of Science in Oceanography</h3>
     <p style="margin-top: 0; margin-bottom: 0;">Shahjalal University of Science and Technology, Sylhet-3114, Bangladesh</p>
     <p style="margin-top: 20px;"><strong>CGPA:</strong> 3.66 out of 4.00</p>
@@ -205,6 +204,6 @@ layout: homepage
       <li>Blue Economy and Sustainable Development</li>
       <li>Port and Shipping Management </li>
     </ul>
-    </div>
-</section>
+  </div>
+
 

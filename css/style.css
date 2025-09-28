@@ -156,7 +156,10 @@ hr {
 }
 
 .course-column {
-  flex: 1;
+  columns: 2;             /* split into 2 columns */
+  -webkit-columns: 2;     /* Safari support */
+  -moz-columns: 2;        /* Firefox support */
+  column-gap: 40px;       /* space between columns */
   list-style-type: disc;
   padding-left: 20px;
 }
