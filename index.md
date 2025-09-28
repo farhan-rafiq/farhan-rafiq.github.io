@@ -191,14 +191,14 @@ layout: homepage
 
  <h2 id= "education">Education</h2>
     <h3 style="margin-bottom: 5px;">Bachelor of Science in Oceanography</h3>
-    <p style="margin: 0;">Shahjalal University of Science and Technology, Sylhet-3114, Bangladesh</p>
+    <p style="margin-top: 0; margin-bottom: 0;">Shahjalal University of Science and Technology, Sylhet-3114, Bangladesh</p>
     <p style="margin-top: 20px;"><strong>CGPA:</strong> 3.66 out of 4.00</p>
-    <br>
-    <p><strong>Relevant Coursework:</strong></p>
     <ul class="course-column">
       <li>GIS Technology</li>
       <li>Ocean Modelling</li>
       <li>Remote Sensing and Satellite Oceanography</li>
+    </ul>   
+    <ul class="course-column">
       <li>Meteorology and Ocean Forecasting</li>
       <li>Blue Economy and Sustainable Development</li>
       <li>Port and Shipping Management </li>

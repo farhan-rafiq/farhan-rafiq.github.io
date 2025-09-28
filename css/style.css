@@ -149,12 +149,14 @@ hr {
   border: 1px solid rgba(135, 206, 250, 0.6);
 }
 
-.course-column {
+.course-container {
   display: flex;
-  columns: 2;             /* split into 2 columns */
-  -webkit-columns: 2;     /* Safari support */
-  -moz-columns: 2;        /* Firefox support */
-  column-gap: 40px;       /* space between columns */
+  gap: 40px; /* space between columns */
+  margin-top: 10px;
+}
+
+.course-column {
+  flex: 1;
   list-style-type: disc;
   padding-left: 20px;
 }
