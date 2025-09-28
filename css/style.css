@@ -149,6 +149,18 @@ hr {
   border: 1px solid rgba(135, 206, 250, 0.6);
 }
 
+.course-container {
+  display: flex;
+  gap: 40px; /* space between columns */
+  margin-top: 10px;
+}
+
+.course-column {
+  flex: 1;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
 
 /* --- Layout --- */
 .wrapper {
