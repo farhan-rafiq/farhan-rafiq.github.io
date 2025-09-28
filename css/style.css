@@ -58,8 +58,8 @@ p, ul, ol, table, pre, dl {
 
 a {
     font-size:16px; 
-    font-weight: 500; 
-    color: #333;
+    font-weight: 400; 
+    color: #888;
     text-decoration: none;
 }
 
@@ -465,7 +465,7 @@ header {
 
 .sidebar-nav {
     font-size:16px;
-    color:#333 
+    color:#888 
     font-weight: 100;
   /* padding-left: 1.4rem !important; 
   padding-top: 1.4rem !important;  
