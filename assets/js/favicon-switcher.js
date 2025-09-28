@@ -24,7 +24,7 @@ function initSwitcher(delay) {
   current.setAttribute('rel', 'shortcut icon')
   document.head.appendChild(current)
 
-  function faviconApplyLoop() {
+  function avatarApplyLoop() {
     var matched
 
     links.forEach(function(link) {
@@ -43,7 +43,7 @@ function initSwitcher(delay) {
     }
   }
 
-  var intervalId = setInterval(faviconApplyLoop, delay || 300)
+  var intervalId = setInterval(avatarApplyLoop, delay || 300)
 
   function unsubscribe() {
     clearInterval(intervalId)
@@ -52,7 +52,7 @@ function initSwitcher(delay) {
     })
   }
 
-  faviconApplyLoop()
+  avatarApplyLoop()
   links.forEach(function(link) {
     document.head.removeChild(link)
   })
