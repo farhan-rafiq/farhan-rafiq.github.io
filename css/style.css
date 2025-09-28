@@ -149,13 +149,8 @@ hr {
   border: 1px solid rgba(135, 206, 250, 0.6);
 }
 
-.course-container {
-  display: flex;
-  gap: 40px; /* space between columns */
-  margin-top: 10px;
-}
-
 .course-column {
+  display: flex;
   columns: 2;             /* split into 2 columns */
   -webkit-columns: 2;     /* Safari support */
   -moz-columns: 2;        /* Firefox support */
