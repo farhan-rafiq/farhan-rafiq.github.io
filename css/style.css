@@ -503,6 +503,9 @@ header {
   transform: translateX(5px) !important;
 }
 
+#education {
+  scroll-margin-top: 50px; /* adds space above when navigated to */
+}
 /* Enables smooth scrolling for the entire page */
 html {
   scroll-behavior: smooth;
