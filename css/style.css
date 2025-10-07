@@ -11,6 +11,9 @@ h2#about-me {
     padding-top: 0 !important;
 }
 
+h2#education {
+    margin-top:20px !important;
+}
 
 /* --- General Styles --- */
 body {
