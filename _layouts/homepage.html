@@ -77,13 +77,21 @@
         </a>
         {% endif %}
 
+        {% if site.email_link %}
+        <a style="margin: 0 5px 0 0; font-size:1.25rem; font-weight:bold; color:#0A66C2;" href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer">
+          in
+        </a>
+        {% endif %}
+        
+        <!--
         {% if site.linkedin %}
         <a style="margin: 0 0 0 10px" href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer">
           <i class="fab fa-linkedin"></i>
         </a>
         {% endif %}
         </div>
-
+        --->
+          
         {% if site.github_link %}
         <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
           <i class="fab fa-github"></i>
