@@ -509,10 +509,10 @@ html {
 
 /* Creates the offset (the 20px gap at the top) */
 #about-me::before,
-#education::before,
 #research-interests::before,
 #projects::before,
-#experience::before {
+#experience::before,
+#education::before {
   content: "";
   display: block;
   height: 20px;
