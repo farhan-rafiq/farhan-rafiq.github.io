@@ -511,8 +511,8 @@ html {
 #about-me::before,
 #education::before,
 #research-interests::before,
-#research-experience::before,
-#professional-experience::before {
+#projects::before,
+#experience::before {
   content: "";
   display: block;
   height: 20px;

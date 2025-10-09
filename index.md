@@ -76,7 +76,7 @@ layout: homepage
 </ul>
 
 
-<h2 id="research-experience">Research Experience</h2>
+<h2 id="projects">Projects</h2>
   <h3 style="margin-bottom: 5px;">Spatial and Temporal Variability of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)</h3>
   <p style="margin-top: 0;">Undergraduate Project &nbsp; | &nbsp; <b>Supervisor:</b> Abu Bokkar Siddique &nbsp; | &nbsp; Jul 2023 - Dec 2023</p>
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
@@ -143,7 +143,7 @@ layout: homepage
 </h4>
 
 
-  <h2 id="professional-experience">Professional Experience</h2>
+  <h2 id="experience">Experience</h2>
 
  <h3 style= "font-size:22px; margin-bottom: .5em;">Internship</h3> 
  <h3 style="margin-bottom: 5px;">Growth, Observation, and Identification of Indigenous Marine Phytoplankton of the Bay of Bengal, Bangladesh</h3>
