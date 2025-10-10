@@ -59,8 +59,8 @@ layout: homepage
   </ul>
 </section>
 
-<section id="projects-section">
-  <h2 id="projects">Projects</h2>
+<section id="research-projects-section">
+  <h2 id="research-projects">Projects</h2>
 
   <h3 style="margin-bottom: 5px;">Spatial and Temporal Variability of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)</h3>
   <p style="margin-top: 0;">Undergraduate Project &nbsp; | &nbsp; <b>Supervisor:</b> Abu Bokkar Siddique &nbsp; | &nbsp; Jul 2023 - Dec 2023</p>

@@ -505,7 +505,7 @@ html {
 /* Creates the offset (the 20px gap at the top) */
 #about-me::before,
 #research-interests::before,
-#projects::before,
+#research-projects::before,
 #experience::before,
 #education::before {
   content: "";
