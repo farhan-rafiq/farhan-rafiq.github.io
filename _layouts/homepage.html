@@ -179,6 +179,7 @@
             if (hamburger && sidebar) {
                 // Toggle the sidebar when the hamburger icon is clicked
                 hamburger.addEventListener('click', () => {
+                    hamburger.classList.toggle('open');
                     sidebar.classList.toggle('show');
                     // Toggle the overlay as well
                     if (overlay) {
@@ -191,6 +192,7 @@
                 sidebarLinks.forEach(link => {
                     link.addEventListener('click', () => {
                         sidebar.classList.remove('show');
+                        hamburger.classList.remove('open');
                         if (overlay) {
                             overlay.classList.remove('show');
                         }
@@ -201,6 +203,7 @@
                 if (overlay) {
                     overlay.addEventListener('click', () => {
                         sidebar.classList.remove('show');
+                        hamburger.classList.remove('open');
                         overlay.classList.remove('show');
                     });
                 }

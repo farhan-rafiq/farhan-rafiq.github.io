@@ -653,6 +653,24 @@ html {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* --- NEW CSS FOR THE CROSS (X) STATE --- */
+
+/* 1. Hide the middle bar */
+.hamburger-menu.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+/* 2. Rotate the top bar (1st child) + move it to the center */
+.hamburger-menu.open .bar:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+/* 3. Rotate the bottom bar (3rd child) + move it to the center */
+.hamburger-menu.open .bar:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+
 /* MOBILE MEDIA QUERY */
 @media screen and (max-width: 960px) {
   .sidebar-nav {
