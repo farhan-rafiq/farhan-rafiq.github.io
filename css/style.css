@@ -178,10 +178,6 @@ hr {
   text-align: left; 
 }
 
-.course-column:last-child {
-    margin-left: -40px; /* moves 2nd column 5px to the left */
-}
-
 /* ==========================================
    LAYOUT
    - Wrapper, header, footer, section
@@ -685,7 +681,7 @@ html {
     gap: 0; /* No gap when stacked */
   }
   .course-column {
-    padding-left: 40px; /* adjust for mobile */
+    padding-left: 30px; /* adjust for mobile */
     margin-bottom: 0;
   }
 }
