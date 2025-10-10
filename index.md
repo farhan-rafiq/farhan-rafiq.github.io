@@ -102,7 +102,7 @@ layout: homepage
             <li>There was a <b>negative correlation</b> between chlorophyll-a and SST: higher chlorophyll was found when SST was lower.</li>
           </ul>
 
-          <h4 style="margin-top: .5em; margin-bottom: 2.5em">
+          <h4 style="margin-top: .5em; margin-bottom: 2em">
             <a href="./projects/4_1_project.pdf" target="_blank" class="pdf-link">
               View PDF
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" style="margin-left: 4px;">
@@ -152,7 +152,7 @@ layout: homepage
       <p style="margin-top: 0;"><b>Private Tutor & Coaching Instructor</b> &nbsp; | &nbsp; Oct 2019 - Present</p>
 
       <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
-        <ul style="margin-top: 0; margin-bottom:.5em">
+        <ul style="margin-top: 0; margin-bottom: 1em">
           <li>Delivered personalized instruction to over 40+ students from <strong>GCSE, O-Level, A-Level, and National Curriculum (Class 5–12)</strong>, ensuring improved academic performance.</li>
           <li>Specialized in <strong>Higher Mathematics and Physics at Higher Secondary level</strong>, simplifying complex concepts through structured lessons and problem-solving strategies.</li>
           <li>Provided comprehensive guidance in <strong>all core subjects at Secondary level</strong>, adapting teaching methods to diverse learning styles.</li>
