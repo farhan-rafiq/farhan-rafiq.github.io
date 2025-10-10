@@ -673,6 +673,17 @@ html {
     }
 }
 
+/* Responsive: stack course columns on small screens */
+@media screen and (max-width: 480px) {
+  .course-container {
+    flex-direction: column;
+  }
+  .course-column {
+    padding-left: 15px; /* adjust for mobile */
+    margin-bottom: 10px;
+  }
+}
+
 /* PRINT STYLING */
 @media print {
     body {
