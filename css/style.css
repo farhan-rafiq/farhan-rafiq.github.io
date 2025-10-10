@@ -167,7 +167,7 @@ hr {
 
 .course-container {
   display: flex; /* Side-by-side columns */
-  gap: 0;
+  gap: -20px; /* Space between columns */
   margin-top: 10px;
 }
 
