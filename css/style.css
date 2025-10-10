@@ -163,7 +163,7 @@ hr {
 
 /* --- Layout --- */
 .wrapper {
-    width: 960px;
+    width: 768px;
     margin: 0 auto;
 }
 
@@ -532,7 +532,7 @@ html {
 
 
 /* --- Media Queries --- */
-@media print, screen and (max-width: 960px) {
+@media print, screen and768) {
     div.wrapper {
         width: 100%;
         margin: 0;
@@ -572,7 +572,7 @@ html {
     }
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 768px) {
     body {
         word-wrap: break-word;
         padding: 15px;
@@ -672,7 +672,7 @@ html {
 
 
 /* MOBILE MEDIA QUERY */
-@media screen and (max-width: 960px) {
+@media screen and768) {
   .sidebar-nav {
     position: fixed; /* Make it an overlay */
     top: 0;
@@ -713,7 +713,7 @@ html {
     display: block; /* Show the hamburger icon */
   }
 
-  /* Your existing header media query styles for <960px might need adjustment */
+  /* Your existing header media query styles for <768px might need adjustment */
   header {
     width: auto;
     float: none;
