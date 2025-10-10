@@ -23,10 +23,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     
+    <!--{% if site.font == "Sans Serif" %}
+    <link rel="stylesheet" href="./css/font_sans_serif.css">
+    {% else %}
+    <link rel="stylesheet" href="./css/font.css"-->
+
     <link rel="stylesheet" href="./css/style.css">
     {% endif %}
-  </head>
 
+
+  </head>
   <body>
     <div class="wrapper">
       <div class="overlay"></div> 
@@ -57,9 +63,8 @@
         {% endif %}
 
         <div style="display:inline-block; margin-left: 0px; white-space:nowrap;">
-
         {% if site.cv_link %}
-        <a id="openCVBtn" style="margin: 0 5px 0 0; font-size:1.25rem; font-weight:bold; color:#0A66C2; cursor:pointer;">
+        <a style="margin: 0 5px 0 0; font-size:1.25rem; font-weight:bold; color:#0A66C2;" href="{{ site.cv_link }}" target="_blank" rel="noopener noreferrer">
           CV
         </a>
         {% endif %}
@@ -115,6 +120,7 @@
       <section>
 
       {{ content }}
+
       <br>
 
       {% if site.enable_footnote %}
@@ -126,15 +132,6 @@
         
       </footer>
     </div>
-
-    <!-- CV Popup Modal -->
-    <div id="cvModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); justify-content:center; align-items:center; z-index:9999;">
-      <div style="background:white; width:90%; height:90%; position:relative; border-radius:10px; overflow:hidden;">
-        <span id="closeCVBtn" style="position:absolute; top:10px; right:20px; font-size:28px; cursor:pointer;">&times;</span>
-        <iframe src="{{ site.cv_link }}" style="width:100%; height:100%; border:none; border-radius:10px;"></iframe>
-      </div>
-    </div>
-
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
@@ -147,75 +144,70 @@
     </script>
     {% endif %}
 
-    <script>
-      document.addEventListener('DOMContentLoaded', () => {
-        // --- Existing Intersection Observer Script (NO CHANGES) ---
-        const sections = document.querySelectorAll('h2[id]');
-        const navLinks = document.querySelectorAll('.sidebar-nav a');
-        const observer = new IntersectionObserver((entries) => {
-          entries.forEach(entry => {
-            const id = entry.target.getAttribute('id');
-            const correspondingLink = document.querySelector(`.sidebar-nav a[href="#${id}"]`);
-            if (entry.isIntersecting) {
-              navLinks.forEach(link => {
-                link.classList.remove('active');
-              });
-              if (correspondingLink) {
-                correspondingLink.classList.add('active');
-              }
-            }
-          });
-        }, {
-          threshold: 0.5,
-          rootMargin: "-20px 0px -500px 0px"
-        });
-        sections.forEach(h2 => {
-          observer.observe(h2);
-        });
-
-        // --- NEW Hamburger Menu Logic ---
-        const hamburger = document.querySelector('.hamburger-menu');
-        const sidebar = document.getElementById('mySidebarNav');
-        const overlay = document.querySelector('.overlay');
-
-        if (hamburger && sidebar) {
-            hamburger.addEventListener('click', () => {
-                sidebar.classList.toggle('show');
-                if (overlay) {
-                  overlay.classList.toggle('show');
+        <script>
+          document.addEventListener('DOMContentLoaded', () => {
+            // --- Existing Intersection Observer Script (NO CHANGES) ---
+            const sections = document.querySelectorAll('h2[id]');
+            const navLinks = document.querySelectorAll('.sidebar-nav a');
+            const observer = new IntersectionObserver((entries) => {
+              entries.forEach(entry => {
+                const id = entry.target.getAttribute('id');
+                const correspondingLink = document.querySelector(`.sidebar-nav a[href="#${id}"]`);
+                if (entry.isIntersecting) {
+                  navLinks.forEach(link => {
+                    link.classList.remove('active');
+                  });
+                  if (correspondingLink) {
+                    correspondingLink.classList.add('active');
+                  }
                 }
+              });
+            }, {
+              threshold: 0.5,
+              rootMargin: "-20px 0px -500px 0px"
+            });
+            sections.forEach(h2 => {
+              observer.observe(h2);
             });
 
-            const sidebarLinks = sidebar.querySelectorAll('a');
-            sidebarLinks.forEach(link => {
-                link.addEventListener('click', () => {
-                    sidebar.classList.remove('show');
+           
+            // --- NEW Hamburger Menu Logic ---
+            const hamburger = document.querySelector('.hamburger-menu');
+            const sidebar = document.getElementById('mySidebarNav');
+            const overlay = document.querySelector('.overlay');
+
+            if (hamburger && sidebar) {
+                // Toggle the sidebar when the hamburger icon is clicked
+                hamburger.addEventListener('click', () => {
+                    sidebar.classList.toggle('show');
+                    // Toggle the overlay as well
                     if (overlay) {
-                        overlay.classList.remove('show');
+                      overlay.classList.toggle('show');
                     }
                 });
-            });
 
-            if (overlay) {
-                overlay.addEventListener('click', () => {
-                    sidebar.classList.remove('show');
-                    overlay.classList.remove('show');
+                // Close the sidebar and overlay when a link is clicked
+                const sidebarLinks = sidebar.querySelectorAll('a');
+                sidebarLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        sidebar.classList.remove('show');
+                        if (overlay) {
+                            overlay.classList.remove('show');
+                        }
+                    });
                 });
+
+                // Close the sidebar and overlay when the overlay is clicked
+                if (overlay) {
+                    overlay.addEventListener('click', () => {
+                        sidebar.classList.remove('show');
+                        overlay.classList.remove('show');
+                    });
+                }
             }
-        }
+          });
+        </script>
 
-        // --- CV Popup Logic ---
-        const openCVBtn = document.getElementById("openCVBtn");
-        const cvModal = document.getElementById("cvModal");
-        const closeCVBtn = document.getElementById("closeCVBtn");
-
-        if (openCVBtn && cvModal && closeCVBtn) {
-          openCVBtn.onclick = () => cvModal.style.display = "flex";
-          closeCVBtn.onclick = () => cvModal.style.display = "none";
-          window.onclick = (e) => { if (e.target === cvModal) cvModal.style.display = "none"; };
-        }
-      });
-    </script>
 
   </body>
 </html>
