@@ -635,6 +635,7 @@ html {
 .hamburger-menu {
   display: none; /* Hidden by default */
   cursor: pointer;
+  background-color: #fff;
   border: 1px solid #ccc; /* subtle grayish border */
   border-radius: 0;
   padding: 10px;
