@@ -635,7 +635,7 @@ html {
 .hamburger-menu {
   display: none; /* Hidden by default */
   cursor: pointer;
-  background-color: #fff;
+  background: linear-gradient(to right, rgba(135, 206, 250, 0.15) 50%, transparent 100%);
   border: 1px solid #ccc; /* subtle grayish border */
   border-radius: 0;
   padding: 10px;
