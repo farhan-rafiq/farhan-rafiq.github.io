@@ -125,18 +125,19 @@ layout: homepage
           </ul>
 
        
-<h4 style="margin-top: .5em; margin-bottom: 2.5em">
-  <a href="./projects/4_1_project.pdf" 
-     target="_blank" class="pdf-link">
-    View PDF
-    <svg xmlns="http://www.w3.org/2000/svg" 
-         width="16" height="16" fill="currentColor" 
-         viewBox="0 0 24 24" style="margin-left: 4px;">
-      <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
-      <path d="M5 5h5V3H3v7h2V5zm0 14v-5H3v7h7v-2H5z"/>
-    </svg>
-  </a>
-</h4>
+  <h4 style="margin-top: .5em; margin-bottom: 2.5em">
+      <a href="./projects/4_1_project.pdf" 
+        target="_blank" class="pdf-link">
+        View PDF
+        <svg xmlns="http://www.w3.org/2000/svg" 
+            width="16" height="16" fill="currentColor" 
+            viewBox="0 0 24 24" style="margin-left: 4px;">
+          <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
+          <path d="M5 5h5V3H3v7h2V5zm0 14v-5H3v7h7v-2H5z"/>
+        </svg>
+      </a>
+  </h4>
+
 </section>
 
 <section id="experience-section">
@@ -189,11 +190,12 @@ layout: homepage
     <li>Conducted <strong>over 250+ classes at multiple coaching centres</strong>, developing classroom management and communication skills.</li>
     <li>Designed lesson plans, practice materials, and exam-focused sessions that prepared students for <strong>board exams and international curricula</strong>.</li>
   </ul>
+
 </section>
 
 <section id="education-section">
   <h2 id="education">Education</h2>
-    <h3 style="margin: 0;">Bachelor of Science in Oceanography</h3>
-      <p style="margin: 0;">Shahjalal University of Science and Technology, Sylhet-3114, Bangladesh</p>
-      <p style="margin: 0;"><strong>CGPA:</strong> 3.66 out of 4.00</p>
+    <h3 style="margin-bottom: 5px;">Bachelor of Science in Oceanography</h3>
+      <p style="margin-bottom: 10px;">Shahjalal University of Science and Technology, Sylhet-3114, Bangladesh</p>
+      <p style="margin-bottom: 10px;"><strong>CGPA:</strong> 3.66 out of 4.00</p>
 </section>
