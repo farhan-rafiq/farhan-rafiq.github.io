@@ -1,22 +1,35 @@
+/* ==========================================
+   GOOGLE FONTS
+   - Importing Crimson Pro for main text and headings
+   - Importing Ubuntu Mono for code/email sections
+========================================== */
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
 
-  /* Add extra top margin only to h2 except the first one */
+/* ==========================================
+   HEADING MARGINS
+   - Controls spacing between headings
+========================================== */
+/* Extra top margin only for h2 except the first one */
 h2:not(:first-of-type) {
-    margin-top: 2em; /* space before subsequent h2 */
+    margin-top: 2em; /* Adds vertical spacing before subsequent H2 headings */
 }
+
+/* Adjust About Me section specifically */
 h2#about-me {
-    margin-top: -10px !important;
+    margin-top: -10px !important; /* Override default spacing for About Me */
     padding-top: 0 !important;
 }
 
-
-/* --- General Styles --- */
+/* ==========================================
+   GENERAL STYLES
+   - Base styles for body, headings, paragraphs, lists, links
+========================================== */
 body {
-    background-color: white;
+    background-color: white; /* Page background */
     padding-top: 0;
-    font: 18px/1.4 "Crimson Pro", serif !important;
-    color: #333333;
+    font: 18px/1.4 "Crimson Pro", serif !important; /* Main font */
+    color: #333333; /* Default text color */
     font-weight: 500;
     margin: 0;
 }
@@ -24,7 +37,7 @@ body {
 h1 {
     font-size: 28px;
     font-weight: 700;
-    color: #043361;
+    color: #043361; /* Dark blue heading */
     line-height: 1.1;
     margin: 0 0 20px;
 }
@@ -35,11 +48,11 @@ h2 {
     color: #043361;
     line-height: 1.1;
     margin: 2px 0 15px;
-    border-bottom: 1px solid #D3D3D3; /* light gray line */
-    padding-bottom: 0.3em; 
-    margin-bottom: .5em; 
+    border-bottom: 1px solid #D3D3D3; /* Light gray underline */
+    padding-bottom: 0.3em;
+    margin-bottom: 0.5em;
     display: block;
-    width: 100%;/* ensures line spans full width */
+    width: 100%; /* Underline spans full width */
 }
 
 h3, h4, h5, h6 {
@@ -50,22 +63,22 @@ h3, h4, h5, h6 {
 }
 
 p, ul, ol, table, pre, dl {
-    margin: 0 0 20px;
+    margin: 0 0 20px; /* Consistent spacing between content blocks */
     letter-spacing: 0.01em;
     font-weight: 400;
 }
 
+/* Anchor tags */
 a {
-    font-size:16px; 
-    font-weight: 400; 
-    color: #888;
+    font-size: 16px;
+    font-weight: 400;
+    color: #888; /* Light gray links */
     text-decoration: none;
 }
 
 a:hover {
-    color: #043361;
+    color: #043361; /* Dark blue on hover */
 }
-
 
 strong {
     color: #222;
@@ -90,7 +103,7 @@ pre {
     background: #f8f8f8;
     border-radius: 5px;
     border: 1px solid #e5e5e5;
-    overflow-x: auto;
+    overflow-x: auto; /* Enable horizontal scroll for long code lines */
 }
 
 table {
@@ -101,11 +114,11 @@ table {
 th, td {
     text-align: left;
     padding: 5px 10px;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5; /* Light table row separators */
 }
 
 th {
-    color: #444;
+    color: #444; /* Slightly darker for table headers */
 }
 
 dt {
@@ -114,7 +127,7 @@ dt {
 }
 
 img {
-    max-width: 100%;
+    max-width: 100%; /* Make images responsive */
 }
 
 small {
@@ -123,11 +136,15 @@ small {
 
 hr {
     border: 0;
-    background: #D3D3D3;
+    background: #D3D3D3; /* Thin horizontal line */
     height: 0.05px;
     margin: 0 0 20px;
 }
 
+/* ==========================================
+   PDF LINKS AND COURSES
+   - Styling for download links and course lists
+========================================== */
 .pdf-link {
   text-decoration: none;
   color: inherit;
@@ -144,13 +161,13 @@ hr {
 }
 
 .pdf-link:hover {
-  background-position: right center;
+  background-position: right center; /* Slide background on hover */
   border: 1px solid rgba(135, 206, 250, 0.6);
 }
 
 .course-container {
-  display: flex;
-  gap: 40px; /* space between columns */
+  display: flex; /* Side-by-side columns */
+  gap: 40px;
   margin-top: 10px;
 }
 
@@ -160,11 +177,14 @@ hr {
   padding-left: 20px;
 }
 
-
-/* --- Layout --- */
+/* ==========================================
+   LAYOUT
+   - Wrapper, header, footer, section
+========================================== */
 .wrapper {
     width: 960px;
     margin: 0 auto;
+    margin-top: 10px !important; /* Reduce top margin */
 }
 
 header {
@@ -174,6 +194,8 @@ header {
     -webkit-font-smoothing: subpixel-antialiased;
     padding-top: 1.0em;
     text-align: center;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
 }
 
 footer {
@@ -192,12 +214,9 @@ section {
     padding-bottom: 20px;
 }
 
-/* --- Custom Classes and Components --- */
-.pub-row {
-    display: flex;
-    align-items: center;
-}
-
+/* ==========================================
+   SOCIAL ICONS
+========================================== */
 .social-icons a {
     display: inline-block;
     height: 2.4rem;
@@ -209,6 +228,7 @@ section {
     font-size: 1.15rem;
     line-height: 2.5rem;
     margin-right: 1rem;
+    transition: transform 0.3s;
 }
 
 .social-icons a:last-child {
@@ -221,6 +241,9 @@ section {
     transform: scale(1.2);
 }
 
+/* ==========================================
+   ICON BUTTONS
+========================================== */
 .icon-button {
     background-color: #fff;
     border-radius: 3.6rem;
@@ -232,9 +255,6 @@ section {
     margin: 0 5px;
     position: relative;
     text-align: center;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
     width: 3.6rem;
 }
@@ -277,6 +297,9 @@ section {
     color: white;
 }
 
+/* ==========================================
+   IMAGE STYLING
+========================================== */
 .image {
     border-radius: 0.35em;
     border: 0;
@@ -316,89 +339,9 @@ section {
     width: 8.00em;
 }
 
-.biblink {
-    text-decoration: none;
-    display: inline;
-    margin-right: 0;
-}
-
-.fakelink {
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.bibref {
-    font-size: 70%;
-    margin-top: 10px;
-    margin-left: 0;
-    display: none;
-    font-family: monospace;
-}
-
-.post-content {
-    text-align: justify;
-}
-
-/* --- Specific Element Colors and Fonts --- */
-.papertitle {
-    font-weight: 600;
-    font-size: 100%;
-}
-
-.twitter span {
-    background-color: #4099ff;
-}
-
-.facebook span {
-    background-color: #4286f4;
-}
-
-.linkedin span {
-    background-color: #0077B5;
-}
-
-.github span {
-    background-color: #000;
-}
-
-.icon-button .icon-twitter {
-    color: #4099ff;
-}
-
-.icon-button .icon-facebook {
-    color: #4286f4;
-}
-
-.icon-button .icon-github {
-    color: #000;
-}
-
-.icon-button .icon-linkedin {
-    color: #0077B5;
-}
-
-.autocolor {
-    color: #333333;
-}
-
-.lightonly {
-    visibility: visible;
-}
-
-.darkonly {
-    visibility: hidden;
-}
-
-/* Fixes for HTML element selectors with missing tag */
-email {
-    font-size: 14px;
-    font-family: "Ubuntu Mono";
-}
-/* This is likely a custom tag and should be styled as a class instead:
-   .email-style { font-size: 14px; font-family: "Ubuntu Mono"; }
-*/
-
-/* Fixes for header and list styles */
+/* ==========================================
+   HEADER LIST STYLING
+========================================== */
 header ul {
     list-style: none;
     height: 40px;
@@ -437,18 +380,9 @@ header ul a {
     padding-top: 6px;
     height: 34px;
 }
-/* Removed redundant hover rule
-header ul a:hover {
-    color: #999;
-}
-*/
+
 header ul a:active {
     background-color: #f0f0f0;
-}
-
-header ul li + li + li {
-    width: 89px;
-    /* Redundant rule, replaced by header li:last-child */
 }
 
 header ul a strong {
@@ -456,53 +390,48 @@ header ul a strong {
     display: block;
     color: #222;
 }
-
-/* General layout fixes */
-.wrapper {
-  margin-top: 10px !important; /* Reduce top margin */
-}
-
-header {
-  margin-top: 0 !important;    /* Remove any extra top margin */
-  padding-top: 0 !important;  /* Remove any extra top padding */
-}
-
-/* Sidebar navigation link transitions and hover effects */
-
+/* ==========================================
+   SIDEBAR NAVIGATION
+   - Sidebar links for desktop and mobile
+   - Hover effects and smooth transitions
+========================================== */
 .sidebar-nav {
-    font-size:16px;
-    color:#888;
+    font-size: 16px;
+    color: #888;
     font-weight: 100;
 }
 
 .sidebar-nav a {
-  display: block;          /* Makes each link take full width, so the hover box spans across */
-  padding: 1.2rem;         /* Adds space inside the link, so the hover box isn't tight around text */
-  transition: all 0.3s ease-in-out;
-  font-size: 18px;
+    display: block;          /* Full width clickable area */
+    padding: 1.2rem;         /* Space inside each link */
+    transition: all 0.3s ease-in-out; /* Smooth hover/active transitions */
+    font-size: 18px;
 }
 
 .sidebar-nav a:hover {
-  color: #043361 !important;
-  font-weight: bold;
-  background-color: rgba(135, 206, 250, 0.15); /* very subtle sky blue */
-  box-shadow: 0 2px 6px rgba(135, 206, 250, 0.25); /* soft sky-blue shadow */
-  transform: translateX(5px) !important;
-  text-decoration: none !important;
+    color: #043361 !important; /* Dark blue text on hover */
+    font-weight: bold;
+    background-color: rgba(135, 206, 250, 0.15); /* Subtle blue background */
+    box-shadow: 0 2px 6px rgba(135, 206, 250, 0.25); /* Soft shadow */
+    transform: translateX(5px) !important; /* Slight slide effect */
+    text-decoration: none !important;
 }
 
 .sidebar-nav a.active {
-  color: #043361 !important;
-  font-weight: bold;
-  transform: translateX(5px) !important;
+    color: #043361 !important;
+    font-weight: bold;
+    transform: translateX(5px) !important; /* Active link moves slightly */
 }
 
-/* Enables smooth scrolling for the entire page */
+/* ==========================================
+   SMOOTH SCROLLING & OFFSET FOR ANCHORS
+   - Creates small gap when scrolling to sections
+========================================== */
 html {
   scroll-behavior: smooth;
 }
 
-/* Creates the offset (the 20px gap at the top) */
+/* Offset pseudo-elements to add spacing before sections */
 #about-me::before,
 #research-interests::before,
 #research-projects::before,
@@ -510,227 +439,245 @@ html {
 #education::before {
   content: "";
   display: block;
-  height: 20px;
-  margin-top: -25px;
-  visibility: hidden;
+  height: 20px;          /* Default top spacing */
+  margin-top: -25px;     /* Adjusts scrolling position */
+  visibility: hidden;    /* Invisible element */
   pointer-events: none;
 }
 
-/* Reduce gap only for About Me section */
+/* Reduce gap specifically for About Me section */
 #about-me::before {
   height: 20px;
   margin-top: 0 !important;
 }
 
-/* Adds 20px gap before and after the affiliation */
+/* Adds spacing for affiliations */
 .affiliation-gap {
   display: block;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-
-
-/* --- Media Queries --- */
-@media print, screen and (max-width: 960px) {
-    h2:not(:first-of-type) {
-    margin-top: 1.5em; /* Gives 2em to every H2 EXCEPT the first one. */
+/* ==========================================
+   HAMBURGER MENU
+   - For mobile menu toggle
+========================================== */
+.hamburger-menu {
+  display: none; /* Hidden by default on desktop */
+  cursor: pointer;
+  background: linear-gradient(to right, rgba(135, 206, 250, 0.15) 50%, transparent 100%);
+  border: 1px solid #ccc; /* Subtle grayish border */
+  border-radius: 0;
+  padding: 10px;
+  position: fixed;
+  top: 20px;  /* Adjust vertical position */
+  right: 20px; /* Adjust horizontal position */
+  z-index: 1000; /* Always on top */
 }
-    
+
+.hamburger-menu .bar {
+  width: 25px;
+  height: 3px;
+  border-radius: 20px;
+  background-color: #888; /* Bar color */
+  margin: 4px 0;          /* Space between bars */
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* Smooth animation */
+}
+
+/* HAMBURGER OPEN STATE (CROSS/X) */
+.hamburger-menu.open .bar:nth-child(2) {
+  opacity: 0; /* Hide middle bar */
+}
+
+.hamburger-menu.open .bar:nth-child(1) {
+  transform: translateY(7px) rotate(45deg); /* Top bar rotates */
+}
+
+.hamburger-menu.open .bar:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg); /* Bottom bar rotates */
+}
+
+/* ==========================================
+   MOBILE MENU STYLING
+   - Media query for screens <960px
+========================================== */
+@media screen and (max-width: 960px) {
+
+  /* Sidebar overlay */
+  .sidebar-nav {
+    position: fixed; /* Overlay instead of side nav */
+    top: 0;
+    left: -20px !important;
+    right: 0;
+    padding: 0 1.4rem 1.4rem 1.4rem;
+    padding-top: 0;
+    width: 100vw;       /* Full viewport width */
+    height: 100vh;      /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center links */
+    align-items: flex-start; /* Left alignment */
+    text-align: left;
+    background-color: #fff;
+    z-index: 20;
+    visibility: hidden;  /* Hidden by default */
+    transition: transform 0.7s cubic-bezier(0.77,0,0.175,1),
+                opacity 0.5s cubic-bezier(0.77,0,0.175,1),
+                visibility 0.5s cubic-bezier(0.77,0,0.175,1);
+    transform: translateX(-100%); /* Off-screen */
+  }
+
+  /* Show sidebar when active */
+  .sidebar-nav.show {
+    transform: translateX(0);
+    visibility: visible;
+  }
+
+  .sidebar-nav a {
+    display: block;
+    font-size: 18px;
+    margin: 1rem 4rem; /* Easier to tap links */
+  }
+
+  .hamburger-menu {
+    display: block; /* Show hamburger icon */
+  }
+
+  /* Header adjustments */
+  header {
+    width: auto;
+    float: none;
+    position: static;
+    padding: 20px 15px;
+  }
+
+  .sidebar-nav.show header {
+    padding-right: 0;
+  }
+
+  /* Hide main content when menu is open */
+  .sidebar-nav.show + section {
+    display: none;
+  }
+}
+
+/* ==========================================
+   MEDIA QUERIES FOR RESPONSIVE DESIGN
+   - Adjust layout for screens <=960px
+========================================== */
+@media print, screen and (max-width: 960px) {
+
+    h2:not(:first-of-type) {
+        margin-top: 1.5em; /* Adjust spacing for smaller screens */
+    }
+
     div.wrapper {
         width: 100%;
         margin: 0;
     }
+
     header, section, footer {
         float: none;
         position: static;
         width: auto;
     }
+
     header {
         padding-right: 320px;
         margin-bottom: -20px;
     }
+
     section {
         border: none;
         padding: 0 0;
         margin: 0 0 20px;
     }
+
     .line-under-icons {
         display: none;
     }
+
     header a small {
         display: inline;
     }
+
     header ul {
         position: absolute;
         right: 50px;
         top: 52px;
     }
+
     .image.avatar img {
         border-radius: 100%;
         width: 117px;
         padding: 20px;
     }
+
     #head1o2, #head2o2 {
         visibility: hidden;
     }
-}
 
-@media print, screen and (max-width: 960px) {
     body {
         word-wrap: break-word;
         padding: 15px;
     }
+
     pre, code {
         word-wrap: normal;
     }
 }
 
-
+/* Very small screens <480px adjustments */
 @media print, screen and (max-width: 480px) {
-    /* Main wrapper to be full width on a phone */
     .wrapper {
         width: 100%;
-        padding: 0; /* Add some padding for spacing */
+        padding: 0;
     }
-    
+
     .sidebar-nav {
-        padding-left: 0 !important; /* Remove top padding,   keep side/bottom */
+        padding-left: 0 !important;
     }
-    /* Ensure the header content stacks and is centered */
+
     header {
         position: static;
         width: 100%;
         padding-right: 0;
         text-align: center;
     }
+
     .pub-row {
         display: block;
         align-items: center;
     }
-    body {
-        padding: 15px;
-    }
+
     header ul {
         width: 99%;
     }
+
     header li, header ul li + li + li {
         width: 33%;
     }
+
     .image.avatar img {
         border-radius: 100%;
         width: 95px;
         padding: 20px;
     }
+
     #head1o2, #head2o2 {
         visibility: hidden;
     }
+
+    body {
+        padding: 15px;
+    }
 }
 
+/* PRINT STYLING */
 @media print {
     body {
         padding: 0.4in;
         font-size: 12pt;
         color: #444;
     }
-}
-
-/* HAMBURGER MENU will be here*/
-.hamburger-menu {
-  display: none; /* Hidden by default */
-  cursor: pointer;
-  background: linear-gradient(to right, rgba(135, 206, 250, 0.15) 50%, transparent 100%);
-  border: 1px solid #ccc; /* subtle grayish border */
-  border-radius: 0;
-  padding: 10px;
-  position: fixed;
-  top: 20px; /* Adjust as needed */
-  right: 20px; /* Adjust as needed */
-  z-index: 1000;
-}
-
-.hamburger-menu .bar {
-  width: 25px;
-  height: 3px;border-radius: 20px;
-  background-color: #888;
-  margin: 4px 0;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/* --- NEW CSS FOR THE CROSS (X) STATE --- */
-
-/* 1. Hide the middle bar */
-.hamburger-menu.open .bar:nth-child(2) {
-  opacity: 0;
-}
-
-/* 2. Rotate the top bar (1st child) + move it to the center */
-.hamburger-menu.open .bar:nth-child(1) {
-  transform: translateY(7px) rotate(45deg);
-}
-
-/* 3. Rotate the bottom bar (3rd child) + move it to the center */
-.hamburger-menu.open .bar:nth-child(3) {
-  transform: translateY(-7px) rotate(-45deg);
-}
-
-
-/* MOBILE MEDIA QUERY */
-@media screen and (max-width: 960px) {
-  .sidebar-nav {
-    position: fixed; /* Make it an overlay */
-    top: 0;
-    left: -20px !important;
-    right: 0;
-    padding: 0 1.4rem 1.4rem 1.4rem; /* Remove top padding, keep side/bottom */
-    padding-top: 0; /* Remove any extra top padding */
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;   /* Vertically center */
-    align-items: flex-start;   /* Keep left alignment */
-    text-align: left;
-    background-color: #fff; /* Slightly transparent background */
-    z-index: 20;
-    text-align: left;
-    box-shadow: none;
-    visibility: hidden; /* Hide the sidebar by default */
-    transition: transform 0.7s cubic-bezier(0.77,0,0.175,1),
-                opacity 0.5s cubic-bezier(0.77,0,0.175,1),
-                visibility 0.5s cubic-bezier(0.77,0,0.175,1);
-    transform: translateX(-100%); /* Initially off-screen */
-  }
-
-  .sidebar-nav.show {
-    transform: translateX(0); /* Slide it in when the 'show' class is added */
-    visibility: visible; /* Make sure it's visible */
-  }
-
-  .sidebar-nav a {
-    display: block; /* Make links full-width */
-    font-size: 18px;
-    margin: 1rem 4rem; /* Increase padding for easier tapping */
-  }
-
-  .hamburger-menu {
-    display: block; /* Show the hamburger icon */
-  }
-
-  /* Your existing header media query styles for <960px might need adjustment */
-  header {
-    width: auto;
-    float: none;
-    position: static;
-    padding: 20px 15px; /* Add some padding to prevent content from touching the edges */
-  }
-
-  .sidebar-nav.show header {
-    padding-right: 0; /* Override the desktop header padding when the menu is open */
-  }
-
-  /* Hide the rest of the content when the menu is open to focus the user */
-  .sidebar-nav.show + section {
-    display: none;
-  }
 }
