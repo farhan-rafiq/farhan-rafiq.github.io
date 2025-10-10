@@ -672,7 +672,7 @@ html {
 
 
 /* MOBILE MEDIA QUERY */
-@media screen and768) {
+@media screen and (max-width: 960px) {
   .sidebar-nav {
     position: fixed; /* Make it an overlay */
     top: 0;
