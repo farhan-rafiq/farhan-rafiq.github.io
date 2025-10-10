@@ -174,12 +174,8 @@ hr {
 .course-column {
   flex: 1;
   list-style-type: disc;
-  padding-left: 40px;
+  padding-left: 0;
   text-align: left; 
-}
-
-.course-column:last-child {
-    margin-left: -20px; /* moves 2nd column 5px to the left */
 }
 
 /* ==========================================
