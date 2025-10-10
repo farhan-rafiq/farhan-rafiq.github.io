@@ -8,7 +8,7 @@ layout: homepage
   }
 </style>
 
-
+<section id="about-me-section">
 <h2 id="about-me">About Me</h2>
 
   <p>
@@ -17,8 +17,9 @@ layout: homepage
   <p>
     In addition to my technical skills, I have experience in programming with Python and R, as well as advanced MS Excel, which enables me to apply computational, statistical, and spatial approaches to complex environmental and oceanographic datasets. I am particularly passionate about leveraging these skills to address practical challenges in coastal and urban systems, contributing to innovative, data-driven research and solutions.
   </p>
+</section>
 
-
+<section id="research-interests-section">
 <h2 id="research-interests">Research Interests</h2>
 
 <ul style="list-style:none; padding-left:0;">
@@ -68,8 +69,9 @@ layout: homepage
     </div>
   </li>
 </ul>
+</section>
 
-
+<section id="projects-section">
 <h2 id="projects">Projects</h2>
   <h3 style="margin-bottom: 5px;">Spatial and Temporal Variability of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)</h3>
   <p style="margin-top: 0;">Undergraduate Project &nbsp; | &nbsp; <b>Supervisor:</b> Abu Bokkar Siddique &nbsp; | &nbsp; Jul 2023 - Dec 2023</p>
@@ -135,8 +137,9 @@ layout: homepage
     </svg>
   </a>
 </h4>
+</section>
 
-
+<section id="experience-section">
   <h2 id="experience">Experience</h2>
 
  <h3 style= "font-size:22px; margin-bottom: .5em;">Internship</h3> 
@@ -186,9 +189,11 @@ layout: homepage
     <li>Conducted <strong>over 250+ classes at multiple coaching centres</strong>, developing classroom management and communication skills.</li>
     <li>Designed lesson plans, practice materials, and exam-focused sessions that prepared students for <strong>board exams and international curricula</strong>.</li>
   </ul>
+</section>
 
-
+<section id="education-section">
   <h2 id="education">Education</h2>
     <h3 style="margin: 0;">Bachelor of Science in Oceanography</h3>
       <p style="margin: 0;">Shahjalal University of Science and Technology, Sylhet-3114, Bangladesh</p>
       <p style="margin: 0;"><strong>CGPA:</strong> 3.66 out of 4.00</p>
+</section>
