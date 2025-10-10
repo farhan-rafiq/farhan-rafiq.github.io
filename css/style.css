@@ -685,7 +685,7 @@ html {
     gap: 0; /* No gap when stacked */
   }
   .course-column {
-    padding-left: 30px; /* adjust for mobile */
+    padding-left: 40px; /* adjust for mobile */
     margin-bottom: 0;
   }
 }
