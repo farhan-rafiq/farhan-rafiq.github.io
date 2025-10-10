@@ -533,6 +533,12 @@ html {
 
 /* --- Media Queries --- */
 @media print, screen and (max-width: 960px) {
+    h2:not(:first-of-type),
+    h2#about-me {
+        margin-top: 1.5em !important; /* Forces all h2 elements to use the same top margin */
+        padding-top: 0 !important;  /* Ensure no padding-top is introduced */
+    }
+    
     div.wrapper {
         width: 100%;
         margin: 0;
