@@ -167,15 +167,19 @@ hr {
 
 .course-container {
   display: flex; /* Side-by-side columns */
-  gap: 20px; /* Space between columns */
+  gap: 0; /* Space between columns */
   margin-top: 10px;
 }
 
 .course-column {
   flex: 1;
   list-style-type: disc;
-  padding-left: 0;
+  padding-left: 40px;
   text-align: left; 
+}
+
+.course-column:last-child {
+    margin-left: -40px; /* moves 2nd column 5px to the left */
 }
 
 /* ==========================================
