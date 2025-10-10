@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <title> {{ site.title }} </title>
+    <title>{{ site.title }}</title>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,27 +17,19 @@
     {% endif %}
 
     <link rel="icon" href="{{ site.avatar }}" type="image/png"/>
-    <!--script src="./assets/js/favicon-switcher.js" type="application/javascript"></script-->
 
-    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     
-    <!--{% if site.font == "Sans Serif" %}
-    <link rel="stylesheet" href="./css/font_sans_serif.css">
-    {% else %}
-    <link rel="stylesheet" href="./css/font.css"-->
-
     <link rel="stylesheet" href="./css/style.css">
-    {% endif %}
-
 
   </head>
   <body>
     <div class="wrapper">
       <div class="overlay"></div> 
+
       <header>
-        
         {% if site.avatar %}
         <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
         {% endif %}
@@ -45,94 +37,80 @@
         <h1>{{ site.title }}</h1>
 
         {% if site.bio %}
-        <bio style="font-size:18px;">{{ site.bio }}</bio>
-        <br>
+        <bio style="font-size:18px;">{{ site.bio }}</bio><br>
         {% endif %}           
 
         {% if site.affiliation %}
-        <affiliation style="font-size:18px">{{ site.affiliation }}</affiliation>
-        <br>
+        <affiliation style="font-size:18px">{{ site.affiliation }}</affiliation><br>
         {% endif %}
 
         <br>
         <div class="social-icons">
-        {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
-          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
-        </a>  
-        {% endif %}
+          {% if site.google_scholar %}
+          <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
+            <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
+          </a>  
+          {% endif %}
 
-        <div style="display:inline-block; margin-left: 0px; white-space:nowrap;">
-        {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0; font-size:1.25rem; font-weight:bold; color:#0A66C2;" href="{{ site.cv_link }}" target="_blank" rel="noopener noreferrer">
-          CV
-        </a>
-        {% endif %}
+          <div style="display:inline-block; margin-left: 0px; white-space:nowrap;">
+            {% if site.cv_link %}
+            <a style="margin: 0 5px 0 0; font-size:1.25rem; font-weight:bold; color:#0A66C2;" href="{{ site.cv_link }}" target="_blank" rel="noopener noreferrer">CV</a>
+            {% endif %}
 
-        {% if site.email_link %}
-        <a style="margin: 0 5px 0 0; font-size:1.25rem; font-weight:bold; color:#0A66C2;" href="mailto:{{ site.email_link }}" target="_blank" rel="noopener noreferrer">
-          Email
-        </a>
-        {% endif %}
+            {% if site.email_link %}
+            <a style="margin: 0 5px 0 0; font-size:1.25rem; font-weight:bold; color:#0A66C2;" href="mailto:{{ site.email_link }}" target="_blank" rel="noopener noreferrer">Email</a>
+            {% endif %}
 
-        {% if site.linkedin %}
-        <a style="margin: 0 0 0 10px" href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        {% endif %}
-        </div>
+            {% if site.linkedin %}
+            <a style="margin: 0 0 0 10px" href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            {% endif %}
+          </div>
           
-        {% if site.github_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
-          <i class="fab fa-github"></i>
-        </a>
-        {% endif %}
+          {% if site.github_link %}
+          <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
+            <i class="fab fa-github"></i>
+          </a>
+          {% endif %}
 
-        {% if site.twitter %}
-        <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
-          <i class="fab fa-x-twitter"></i>
-        </a>
-        {% endif %}
+          {% if site.twitter %}
+          <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
+            <i class="fab fa-x-twitter"></i>
+          </a>
+          {% endif %}
         </div>
-        
 
         <hr class="line-under-icons" style="width:100%; margin-top: 5px; margin-bottom:0; border:0; border-top:.05px solid #D3D3D3;">
-      
-          <div class="hamburger-menu">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-          </div>
 
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
 
-          <div class="sidebar-nav" id="mySidebarNav" style="text-align: left; color: #888; font-weight: 20; margin-left: 10px; margin-right: 10px; line-height:.9em; padding-top: 10px;">
-
-            <a href="#about-me" class="active" style="display:block; padding:5px 10px; margin-bottom: 5px; border-radius:0;">About Me</a>
-            <a href="#research-interests" style="display:block; padding:5px 10px; margin-bottom: 5px; border-radius:0;">Research Interests</a>
-            <a href="#research-projects" style="display:block; padding:5px 10px; margin-bottom: 5px; border-radius:0;">Research Projects</a>
-            <a href="#experience" style="display:block; padding:5px 10px; margin-bottom: 5px; border-radius:0;">Experience</a>
-            <a href="#education" style="display:block; padding:5px 10px; margin-bottom: 5px; border-radius:0;">Education</a>
-          
-          </div>
-
-      
+        <div class="sidebar-nav" id="mySidebarNav" style="text-align: left; color: #888; font-weight: 20; margin-left: 10px; margin-right: 10px; line-height:.9em; padding-top: 10px;">
+          <a href="#about-me" class="active" style="display:block; padding:5px 10px; margin-bottom: 5px; border-radius:0;">About Me</a>
+          <a href="#research-interests" style="display:block; padding:5px 10px; margin-bottom: 5px; border-radius:0;">Research Interests</a>
+          <a href="#research-projects" style="display:block; padding:5px 10px; margin-bottom: 5px; border-radius:0;">Research Projects</a>
+          <a href="#experience" style="display:block; padding:5px 10px; margin-bottom: 5px; border-radius:0;">Experience</a>
+          <a href="#education" style="display:block; padding:5px 10px; margin-bottom: 5px; border-radius:0;">Education</a>
+        </div>
       </header>
+
       <section>
-
-      {{ content }}
-
-      <br>
-
-      {% if site.enable_footnote %}
-      <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
-      {% endif %}
-
+        {{ content }}
+        <br>
+        {% if site.enable_footnote %}
+        <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
+        {% endif %}
       </section>
-      <footer>
-        
-      </footer>
+
+      <footer></footer>
     </div>
+
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -144,73 +122,53 @@
     </script>
     {% endif %}
 
-        <script>
-          document.addEventListener('DOMContentLoaded', () => {
-            // --- Existing Intersection Observer Script (NO CHANGES) ---
-            const sections = document.querySelectorAll('h2[id]');
-            const navLinks = document.querySelectorAll('.sidebar-nav a');
-            const observer = new IntersectionObserver((entries) => {
-              entries.forEach(entry => {
-                const id = entry.target.getAttribute('id');
-                const correspondingLink = document.querySelector(`.sidebar-nav a[href="#${id}"]`);
-                if (entry.isIntersecting) {
-                  navLinks.forEach(link => {
-                    link.classList.remove('active');
-                  });
-                  if (correspondingLink) {
-                    correspondingLink.classList.add('active');
-                  }
-                }
-              });
-            }, {
-              threshold: 0.5,
-              rootMargin: "-20px 0px -500px 0px"
-            });
-            sections.forEach(h2 => {
-              observer.observe(h2);
-            });
-
-           
-            // --- NEW Hamburger Menu Logic ---
-            const hamburger = document.querySelector('.hamburger-menu');
-            const sidebar = document.getElementById('mySidebarNav');
-            const overlay = document.querySelector('.overlay');
-
-            if (hamburger && sidebar) {
-                // Toggle the sidebar when the hamburger icon is clicked
-                hamburger.addEventListener('click', () => {
-                    hamburger.classList.toggle('open');
-                    sidebar.classList.toggle('show');
-                    // Toggle the overlay as well
-                    if (overlay) {
-                      overlay.classList.toggle('show');
-                    }
-                });
-
-                // Close the sidebar and overlay when a link is clicked
-                const sidebarLinks = sidebar.querySelectorAll('a');
-                sidebarLinks.forEach(link => {
-                    link.addEventListener('click', () => {
-                        sidebar.classList.remove('show');
-                        hamburger.classList.remove('open');
-                        if (overlay) {
-                            overlay.classList.remove('show');
-                        }
-                    });
-                });
-
-                // Close the sidebar and overlay when the overlay is clicked
-                if (overlay) {
-                    overlay.addEventListener('click', () => {
-                        sidebar.classList.remove('show');
-                        hamburger.classList.remove('open');
-                        overlay.classList.remove('show');
-                    });
-                }
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        // Intersection Observer
+        const sections = document.querySelectorAll('h2[id]');
+        const navLinks = document.querySelectorAll('.sidebar-nav a');
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            const id = entry.target.getAttribute('id');
+            const correspondingLink = document.querySelector(`.sidebar-nav a[href="#${id}"]`);
+            if (entry.isIntersecting) {
+              navLinks.forEach(link => link.classList.remove('active'));
+              if (correspondingLink) correspondingLink.classList.add('active');
             }
           });
-        </script>
+        }, { threshold: 0.5, rootMargin: "-20px 0px -500px 0px" });
+        sections.forEach(h2 => observer.observe(h2));
 
+        // Hamburger Menu Logic
+        const hamburger = document.querySelector('.hamburger-menu');
+        const sidebar = document.getElementById('mySidebarNav');
+        const overlay = document.querySelector('.overlay');
+
+        if (hamburger && sidebar) {
+          hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('open');
+            sidebar.classList.toggle('show');
+            if (overlay) overlay.classList.toggle('show');
+          });
+
+          sidebar.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+              sidebar.classList.remove('show');
+              hamburger.classList.remove('open');
+              if (overlay) overlay.classList.remove('show');
+            });
+          });
+
+          if (overlay) {
+            overlay.addEventListener('click', () => {
+              sidebar.classList.remove('show');
+              hamburger.classList.remove('open');
+              overlay.classList.remove('show');
+            });
+          }
+        }
+      });
+    </script>
 
   </body>
 </html>
