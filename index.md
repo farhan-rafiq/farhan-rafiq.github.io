@@ -179,9 +179,9 @@ layout: homepage
       <li>Remote Sensing and Satellite Oceanography</li>
     </ul>
     <ul class="course-column">
+      <li>Ocean Geophysics</li>
       <li>Meteorology and Ocean Forecasting</li>
-      <li>Blue Economy and Sustainable Development</li>
-      <li>Port and Shipping Management</li>
+      <li>Marine Environment and Climate Change</li>
     </ul>
   </div>
 </section>
