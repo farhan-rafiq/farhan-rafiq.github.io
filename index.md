@@ -70,14 +70,14 @@ layout: homepage
       <h4 style="margin-bottom:.2em;">Project Summary</h4>
       <p>This research investigates how <strong>Photosynthetically Available Radiation (PAR)</strong>, <strong>Diffuse Attenuation Coefficient (Kd<sub>490</sub>)</strong>, and <strong>Sea Surface Temperature (SST)</strong> vary both spatially and temporally in the Bangladesh Exclusive Economic Zone (EEZ) from 2016 to 2022. Using satellite-derived data (MODIS-Aqua) processed in SeaDAS and ArcGIS, the study analyzes monthly and annual trends for each parameter. The aim is to reveal how these physical factors influence marine ecosystems in the Bay of Bengal and to provide insights crucial for sustainable management in the face of climate change.</p>
 
-      <h4 style="margin-bottom: 0;">Key Findings</h4>
+  <h4 style="margin-bottom: 0;">Key Findings</h4>
       <ul style="margin-top: 0; margin-bottom:.5em">
         <li>PAR ranged from <b>32.47 – 55 Einstein/m²/day</b> with higher values offshore and seasonal highs in May–July.</li>
         <li>Kd<sub>490</sub> values indicated higher water turbidity (up to <b>0.33 m⁻¹</b>) near coastlines due to runoff &amp; anthropogenic impacts.</li>
         <li>SST varied seasonally from <b>22°C – 31°C</b>, revealing a subtle multi-year warming trend.</li>
       </ul>
 
-      <h4 style="margin-bottom: 2em">
+  <h4 style="margin-bottom: 2em">
         <a href="./projects/undergrad_project.pdf" target="_blank" class="pdf-link">
           View PDF
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" style="margin-left: 4px;">
@@ -87,22 +87,22 @@ layout: homepage
         </a>
       </h4>
 
-      <h3 style="margin-bottom: 5px;">Quantitative Analysis of Annual Chlorophyll-a and Sea Surface Temperature Fluctuations in the Bay of Bengal Using Remote Sensing Data</h3>
+  <h3 style="margin-bottom: 5px;">Quantitative Analysis of Annual Chlorophyll-a and Sea Surface Temperature Fluctuations in the Bay of Bengal Using Remote Sensing Data</h3>
       <p style="margin-top: 0;">Academic Project &nbsp; | &nbsp; <b>Supervisor:</b> Dr. Subrata Sarker &nbsp; | &nbsp; Jun 2023</p>
 
-      <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
+  <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
         <div style="flex:2; min-width:320px;">
           <h4 style="margin-bottom:.2em;">Project Summary</h4>
           <p>This research analyzes the spatial and temporal patterns of Chlorophyll-a concentration and Sea Surface Temperature (SST) in the Bay of Bengal using monthly satellite data from January to December 2020. Data were sourced from the NASA Ocean Color Web and processed using SNAP and ArcMap software. Specific coastal regions near Bangladesh were selected for detailed comparison, while regional and seasonal variability across the Bay was mapped and quantified. The study aimed to enrich understanding of marine ecological dynamics and climate processes in the Bay of Bengal, providing valuable data for marine research and management.</p>
 
-          <h4 style="margin-bottom: 0.2em;">Key Findings</h4>
+  <h4 style="margin-bottom: 0.2em;">Key Findings</h4>
           <ul style="margin: 0">
             <li>Chlorophyll-a levels were <b>lowest</b> in May and peaked in August, indicating strong seasonal variation.</li>
             <li>Sea Surface Temperature (SST) <b>increased</b> gradually from January, peaked in May, then declined after October.</li>
             <li>There was a <b>negative correlation</b> between chlorophyll-a and SST: higher chlorophyll was found when SST was lower.</li>
           </ul>
 
-          <h4 style="margin-top: .5em; margin-bottom: 1.5em">
+  <h4 style="margin-top: .5em; margin-bottom: 1.5em">
             <a href="./projects/4_1_project.pdf" target="_blank" class="pdf-link">
               View PDF
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" style="margin-left: 4px;">
@@ -130,7 +130,7 @@ layout: homepage
       <h4 style="margin-bottom:.2em;">Project Summary</h4>
       <p>This internship provided a comprehensive overview of a study focused on <strong>marine phytoplankton</strong> indigenous to the Bay of Bengal. The research encompassed the culture, growth observation, isolation, and identification of these microscopic organisms. The findings contribute meaningfully to enhancing marine biodiversity assessments and supporting effective management strategies for fisheries resources in the region.</p>
 
-      <h4 style="margin-bottom: 0;">Key Activities</h4>
+  <h4 style="margin-bottom: 0;">Key Activities</h4>
       <ul style="margin-top: 0; margin-bottom:.5em">
         <li><strong>Sample Collection & Fieldwork:</strong> Collected seawater samples from coastal waters near Laboni Beach, Cox's Bazar, using a plankton net with a 20µm mesh size.</li>
         <li><strong>Culture & Media Preparation:</strong> Prepared and sterilized glassware and utilized Guillard's F/2 media to culture the marine microalgae. Successfully isolated and cultured 29 distinct phytoplankton strains.</li>
@@ -138,7 +138,7 @@ layout: homepage
         <li><strong>Phytoplankton Identification:</strong> Performed morphological identification of species using light and fluorescence microscopy (20x, 40x). Referenced the book 'Plankton of Bangladesh' to ensure taxonomic accuracy. Identified species from groups including diatoms and dinoflagellates.</li>
       </ul>
 
-      <h4 style="margin-bottom: 2em;">
+  <h4 style="margin-bottom: 2em;">
         <a href="./projects/Internship_report.pdf" target="_blank" class="pdf-link">
           View PDF
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" style="margin-left: 4px;">
@@ -148,10 +148,10 @@ layout: homepage
         </a>
       </h4>
 
-      <h3 style="font-size:22px; margin-bottom: 5px;">Teaching Experience</h3>
-      <p style="margin-top: 0;"><b>Private Tutor & Coaching Instructor</b> &nbsp; | &nbsp; Oct 2019 - Present</p>
+  <h3 style="font-size:22px; margin-bottom: 5px;">Teaching Experience</h3>
+      <p style="margin-top: 0;"><b>Private Tutor & Coaching Instructor</b> &nbsp; | &nbsp; Oct 2021 - Present</p>
 
-      <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
+  <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
         <ul style="margin-top: 0; margin-bottom: 1em">
           <li>Delivered personalized instruction to over 40+ students from <strong>GCSE, O-Level, A-Level, and National Curriculum (Class 5–12)</strong>, ensuring improved academic performance.</li>
           <li>Specialized in <strong>Higher Mathematics and Physics at Higher Secondary level</strong>, simplifying complex concepts through structured lessons and problem-solving strategies.</li>
