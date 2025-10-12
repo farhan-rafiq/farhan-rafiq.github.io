@@ -586,10 +586,10 @@ html {
         width: auto;
     }
 
-    header {
+    /*header {
         padding-right: 320px;
         margin-bottom: -20px;
-    }
+    }*/
 
     section {
         border: none;
