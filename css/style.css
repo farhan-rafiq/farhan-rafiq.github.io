@@ -764,10 +764,6 @@ html {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-  .pdf-header {
-    padding: 8px 16px;
-    font-size: 0.9rem;
-  }
   .close-btn {
     top: 10px;
     right: 14px;

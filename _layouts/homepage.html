@@ -182,6 +182,7 @@
         const cvButton = document.getElementById("cvButton");
         const modal = document.getElementById("pdfModal");
         const pdfViewer = document.getElementById("pdfViewer");
+        const closePdf = document.getElementById("closePdf");
 
         // Replace with your actual CV link from Jekyll
         const pdfUrl = "{{ site.cv_link }}#toolbar=1&navpanes=0&scrollbar=0&view=FitH";
@@ -200,6 +201,8 @@
           document.body.style.overflow = "";
         }
 
+        closePdf.addEventListener("click", closeModal);
+        
         // Close on ESC
         document.addEventListener("keydown", (e) => {
           if (e.key === "Escape" && modal.classList.contains("show")) {
