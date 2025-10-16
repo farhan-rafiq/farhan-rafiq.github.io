@@ -52,10 +52,16 @@
           </a>  
           {% endif %}
 
-          <div style="display:inline-block; margin-left: 0px; white-space:nowrap;">
+          <!--div style="display:inline-block; margin-left: 0px; white-space:nowrap;">
             {% if site.cv_link %}
             <a style="margin: 0 5px 0 0; font-size:1.25rem; font-weight:bold; color:#0A66C2;" href="{{ site.cv_link }}" target="_blank" rel="noopener noreferrer">CV</a>
+            {% endif %}-->
+          <div style="display:inline-block; margin-left: 0px; white-space:nowrap;">
+            {% if site.cv_link %}
+            <a id="cvButton" style="margin: 0 5px 0 0; font-size:1.25rem; font-weight:bold; color:#0A66C2; cursor:pointer;">CV</a>
             {% endif %}
+          </div>
+
 
             {% if site.email_link %}
             <a style="margin: 0 5px 0 0; font-size:1.25rem; font-weight:bold; color:#0A66C2;" href="mailto:{{ site.email_link }}" target="_blank" rel="noopener noreferrer">Email</a>
@@ -81,6 +87,17 @@
           {% endif %}
         </div>
 
+        <!-- PDF Modal -->
+        <div id="pdfModal" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button id="backButton" class="back-btn">&#8592; Back</button>
+              <span class="close-modal">&times;</span>
+            </div>
+            <iframe id="pdfViewer" src="" frameborder="0"></iframe>
+          </div>
+        </div>
+        
         <hr class="line-under-icons" style="width:100%; margin-top: 5px; margin-bottom:0; border:0; border-top:.05px solid #D3D3D3;">
 
         <div class="hamburger-menu">
@@ -170,5 +187,44 @@
       });
     </script>
 
+  <!--PDF viewer-->
+    <script>
+        const pdfUrl = '{{ site.cv_link }}#toolbar=0&navpanes=0&view=FitH';
+        const modal = document.getElementById('pdfModal');
+        const pdfViewer = document.getElementById('pdfViewer');
+        const closeModal = document.querySelector('.close-modal');
+        const backButton = document.getElementById('backButton');
+        const cvButton = document.getElementById('cvButton');
+      
+        function openModal() {
+          modal.style.display = 'flex';
+          setTimeout(() => modal.classList.add('show'), 10);
+          pdfViewer.src = pdfUrl;
+          document.body.style.overflow = 'hidden';
+        }
+      
+        function closeModalFunc() {
+          modal.classList.remove('show');
+          setTimeout(() => {
+            modal.style.display = 'none';
+            pdfViewer.src = '';
+            document.body.style.overflow = '';
+          }, 300);
+        }
+      
+        cvButton.addEventListener('click', openModal);
+        closeModal.addEventListener('click', closeModalFunc);
+        backButton.addEventListener('click', closeModalFunc);
+      
+        window.addEventListener('click', e => {
+          if (e.target === modal) closeModalFunc();
+        });
+      
+        document.addEventListener('keydown', e => {
+          if (e.key === 'Escape' && modal.style.display === 'flex') closeModalFunc();
+        });
+    </script>
+
+    
   </body>
 </html>
