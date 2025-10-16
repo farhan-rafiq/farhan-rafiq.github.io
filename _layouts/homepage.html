@@ -187,6 +187,19 @@
         // Replace with your actual CV link from Jekyll
         const pdfUrl = "{{ site.cv_link }}#toolbar=1&navpanes=0&scrollbar=0&view=FitH";
 
+          // Handle all elements with class="pdf-link"
+        const pdfLinks = document.querySelectorAll(".pdf-link");
+
+      pdfLinks.forEach(link => {
+        link.addEventListener("click", function(event) {
+          event.preventDefault(); // Stop normal navigation
+          const pdfUrl = this.getAttribute("data-pdf") + "#toolbar=1&navpanes=0&scrollbar=0&view=FitH";
+          modal.classList.add("show");
+          pdfViewer.src = pdfUrl;
+          document.body.style.overflow = "hidden";
+        });
+      });
+      
         // Open modal
         cvButton.addEventListener("click", function() {
           modal.classList.add("show");
@@ -202,7 +215,7 @@
         }
 
         closePdf.addEventListener("click", closeModal);
-        
+
         // Close on ESC
         document.addEventListener("keydown", (e) => {
           if (e.key === "Escape" && modal.classList.contains("show")) {

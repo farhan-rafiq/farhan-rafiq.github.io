@@ -78,14 +78,17 @@ layout: homepage
       </ul>
 
   <h4 style="margin-bottom: 2em">
-        <a href="./projects/undergrad_project.pdf" target="_blank" class="pdf-link">
-          View PDF
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" style="margin-left: 4px;">
-            <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
-            <path d="M5 5h5V3H3v7h2V5zm0 14v-5H3v7h7v-2H5z"/>
-          </svg>
-        </a>
-      </h4>
+    <a href="#" 
+      class="pdf-link" 
+      data-pdf="./projects/undergrad_project.pdf">
+      View PDF
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" style="margin-left: 4px;">
+        <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
+        <path d="M5 5h5V3H3v7h2V5zm0 14v-5H3v7h7v-2H5z"/>
+      </svg>
+    </a>
+  </h4>
+
 
   <h3 style="margin-bottom: 5px;">Quantitative Analysis of Annual Chlorophyll-a and Sea Surface Temperature Fluctuations in the Bay of Bengal Using Remote Sensing Data</h3>
       <p style="margin-top: 0;">Academic Project &nbsp; | &nbsp; <b>Supervisor:</b> Dr. Subrata Sarker &nbsp; | &nbsp; Jun 2023</p>
