@@ -182,7 +182,6 @@
         const cvButton = document.getElementById("cvButton");
         const modal = document.getElementById("pdfModal");
         const pdfViewer = document.getElementById("pdfViewer");
-        const closePdf = document.getElementById("closePdf");
 
         // Replace with your actual CV link from Jekyll
         const pdfUrl = "{{ site.cv_link }}#toolbar=1&navpanes=0&scrollbar=0&view=FitH";
@@ -200,8 +199,6 @@
           pdfViewer.src = "";
           document.body.style.overflow = "";
         }
-
-        closePdf.addEventListener("click", closeModal);
 
         // Close on ESC
         document.addEventListener("keydown", (e) => {
@@ -223,10 +220,7 @@
     <!-- PDF Modal -->
     <div id="pdfModal" class="modal">
       <div class="modal-content">
-        <div class="pdf-header">
-          <button class="back-btn" id="closePdf">&larr; Back</button>
-          <span class="pdf-title">My CV</span>
-        </div>
+        <button class="close-btn" id="closePdf">&times;</button>
         <iframe id="pdfViewer" src="" frameborder="0"></iframe>
       </div>
     </div>
