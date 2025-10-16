@@ -741,9 +741,9 @@ html {
 
 .close-btn {
   position: absolute;
-  top: 12px;
-  right: 18px;
-  background: rgba(0, 0, 0, 0.55);
+  top: 11x;
+  right: 12px;
+  background: #043361;
   color: white;
   border: none;
   font-size: 1.8rem;
