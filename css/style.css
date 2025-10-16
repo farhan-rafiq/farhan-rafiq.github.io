@@ -741,7 +741,7 @@ html {
 
 .close-btn {
   position: absolute;
-  top: 11x;
+  top: 11px;
   right: 12px;
   background: #111;
   color: white;
@@ -749,7 +749,7 @@ html {
   font-size: 1.8rem;
   font-weight: 500;
   cursor: pointer;
-  border-radius: 50%;
+  border-radius: 0;
   width: 36px;
   height: 36px;
   line-height: 0;
