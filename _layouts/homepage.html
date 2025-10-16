@@ -53,13 +53,13 @@
           {% endif %}
 
           <div style="display:inline-block; margin-left: 0px; white-space:nowrap;">
-            {% if site.cv_link %}
-            <a style="margin: 0 5px 0 0; font-size:1.25rem; font-weight:bold; color:#0A66C2;" href="{{ site.cv_link }}" target="_blank" rel="noopener noreferrer">CV</a>
-            {% endif %}
-            
             <!--{% if site.cv_link %}
-            <a style="display:inline-block; margin-left: 0px; white-space:nowrap;" id="cvButton" style="margin: 0 5px 0 0; font-size:1.25rem; font-weight:bold; color:#0A66C2; cursor:pointer;">CV</a>
+            <a style="margin: 0 5px 0 0; font-size:1.25rem; font-weight:bold; color:#0A66C2;" href="{{ site.cv_link }}" target="_blank" rel="noopener noreferrer">CV</a>
             {% endif %}-->
+            
+            {% if site.cv_link %}
+            <a id="cvButton" style="margin: 0 5px 0 0; font-size:1.25rem; font-weight:bold; color:#0A66C2; cursor:pointer;">CV</a>
+            {% endif %}
 
 
             {% if site.email_link %}
@@ -176,54 +176,60 @@
       });
     </script>
 
-  <!--PDF viewer--
+  <!--PDF viewer-->
     <script>
-        const pdfUrl = '{{ site.cv_link }}#toolbar=0&navpanes=0&view=FitH';
-        const modal = document.getElementById('pdfModal');
-        const pdfViewer = document.getElementById('pdfViewer');
-        const closeModal = document.querySelector('.close-modal');
-        const backButton = document.getElementById('backButton');
-        const cvButton = document.getElementById('cvButton');
-      
-        function openModal() {
-          modal.style.display = 'flex';
-          setTimeout(() => modal.classList.add('show'), 10);
+      document.addEventListener("DOMContentLoaded", function() {
+        const cvButton = document.getElementById("cvButton");
+        const modal = document.getElementById("pdfModal");
+        const pdfViewer = document.getElementById("pdfViewer");
+        const closePdf = document.getElementById("closePdf");
+
+        // Replace with your actual CV link from Jekyll
+        const pdfUrl = "{{ site.cv_link }}#toolbar=1&navpanes=0&scrollbar=0&view=FitH";
+
+        // Open modal
+        cvButton.addEventListener("click", function() {
+          modal.classList.add("show");
           pdfViewer.src = pdfUrl;
-          document.body.style.overflow = 'hidden';
-        }
-      
-        function closeModalFunc() {
-          modal.classList.remove('show');
-          setTimeout(() => {
-            modal.style.display = 'none';
-            pdfViewer.src = '';
-            document.body.style.overflow = '';
-          }, 300);
-        }
-      
-        cvButton.addEventListener('click', openModal);
-        closeModal.addEventListener('click', closeModalFunc);
-        backButton.addEventListener('click', closeModalFunc);
-      
-        window.addEventListener('click', e => {
-          if (e.target === modal) closeModalFunc();
+          document.body.style.overflow = "hidden";
         });
-      
-        document.addEventListener('keydown', e => {
-          if (e.key === 'Escape' && modal.style.display === 'flex') closeModalFunc();
+
+        // Close modal
+        function closeModal() {
+          modal.classList.remove("show");
+          pdfViewer.src = "";
+          document.body.style.overflow = "";
+        }
+
+        closePdf.addEventListener("click", closeModal);
+
+        // Close on ESC
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "Escape" && modal.classList.contains("show")) {
+            closeModal();
+          }
         });
+
+        // Close if clicking outside
+        modal.addEventListener("click", (e) => {
+          if (e.target === modal) {
+            closeModal();
+          }
+        });
+      });
     </script>
 
-        <!-- PDF Modal --
-        <div id="pdfModal" class="modal">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button id="backButton" class="back-btn">&#8592; Back</button>
-              <span class="close-modal">&times;</span>
-            </div>
-            <iframe id="pdfViewer" src="" frameborder="0"></iframe>
-          </div>
-        </div-->
     
+    <!-- PDF Modal -->
+    <div id="pdfModal" class="modal">
+      <div class="modal-content">
+        <div class="pdf-header">
+          <button class="back-btn" id="closePdf">&larr; Back</button>
+          <span class="pdf-title">My CV</span>
+        </div>
+        <iframe id="pdfViewer" src="" frameborder="0"></iframe>
+      </div>
+    </div>
+
   </body>
 </html>
