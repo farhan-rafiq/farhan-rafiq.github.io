@@ -106,7 +106,9 @@ layout: homepage
           </ul>
 
   <h4 style="margin-top: .5em; margin-bottom: 1.5em">
-            <a href="./projects/4_1_project.pdf" target="_blank" class="pdf-link">
+            <a href="#"
+            class="pdf-link"
+            data-pdf="./projects/4_1_project.pdf">
               View PDF
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" style="margin-left: 4px;">
                 <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
@@ -142,7 +144,9 @@ layout: homepage
       </ul>
 
   <h4 style="margin-bottom: 2em;">
-        <a href="./projects/Internship_report.pdf" target="_blank" class="pdf-link">
+        <a href="#"
+        class="pdf-link"
+        data-pdf="./projects/Internship_report.pdf">
           View PDF
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" style="margin-left: 4px;">
             <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
