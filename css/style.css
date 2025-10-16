@@ -701,7 +701,7 @@ html {
     }
 }
 
-/* ===== PDF Modal Styles ===== 
+/* ===== PDF Modal Styles ===== */
 .modal {
   display: none;
   position: fixed;
@@ -764,7 +764,7 @@ html {
   border: none;
 }
 
-/* Mobile view 
+/* Mobile view */
 @media (max-width: 768px) {
   .modal-content {
     width: 100%;
@@ -772,5 +772,5 @@ html {
     border-radius: 0;
   }
 }
-*/
+
 
