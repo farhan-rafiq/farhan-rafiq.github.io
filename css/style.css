@@ -2,9 +2,13 @@
    GOOGLE FONTS
    - Importing Crimson Pro for main text and headings
    - Importing Ubuntu Mono for code/email sections
-========================================== */
+========================================== 
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap"); */
+
+/* Update the font imports at the very top */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap");
 
 /* ==========================================
    HEADING MARGINS
@@ -28,14 +32,15 @@ h2#about-me {
 body {
     background-color: white; /* Page background */
     padding-top: 0;
-    font: 18px/1.4 "Crimson Pro", serif !important; /* Main font */
+    font: 16px/1.4 "Merriweather", serif !important; /* Main font */
     color: #333333; /* Default text color */
-    font-weight: 500;
+    font-weight: 400;
     margin: 0;
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
     font-weight: 700;
     color: #043361; /* Dark blue heading */
     line-height: 1.1;
@@ -43,7 +48,8 @@ h1 {
 }
 
 h2 {
-    font-size: 26px;
+    font-size: 28px;
+    font-family: "Lato", sans-serif;
     font-weight: 700;
     color: #043361;
     line-height: 1.1;
@@ -56,6 +62,7 @@ h2 {
 }
 
 h3, h4, h5, h6 {
+    font-family: "Lato", sans-serif;
     font-weight: 600;
     color: #043361;
     line-height: 1.1;
