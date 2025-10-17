@@ -422,7 +422,6 @@ header ul a strong {
 
 .sidebar-nav a:hover {
     color: #043361 !important; /* Dark blue text on hover */
-    font-weight: bold;
     background-color: rgba(135, 206, 250, 0.15); /* Subtle blue background */
     box-shadow: 0 2px 6px rgba(135, 206, 250, 0.25); /* Soft shadow */
     transform: translateX(5px) !important; /* Slight slide effect */
