@@ -443,6 +443,11 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  /* 🚀 ENHANCEMENT FOR MOBILE */
+    -webkit-overflow-scrolling: touch;
+}
+
 /* Offset pseudo-elements to add spacing before sections */
 #about-me::before,
 #research-interests::before,
