@@ -34,7 +34,7 @@ body {
     padding-top: 0;
     font: 16px/1.4 "Merriweather", serif !important; /* Main font */
     color: #333333; /* Default text color */
-    font-weight: 400;
+    font-weight: 300;
     margin: 0;
 }
 
@@ -72,7 +72,7 @@ h3, h4, h5, h6 {
 p, ul, ol, table, pre, dl {
     margin: 0 0 20px; /* Consistent spacing between content blocks */
     letter-spacing: 0.01em;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 /* Anchor tags */
