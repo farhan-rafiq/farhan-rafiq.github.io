@@ -792,3 +792,22 @@ body {
   }
 }
 
+
+/* Add spacing and vertical line indicator for each section */
+.section-content {
+    padding-left: 1.5rem;      /* Space for vertical line */
+    position: relative;
+    margin-bottom: 2.5rem;     /* Gap between sections */
+}
+
+/* Vertical line on the left of each section content */
+.section-content::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;                /* Thickness of vertical line */
+    background-color: #043361; /* Line color (matches headings) */
+    border-radius: 2px;
+}

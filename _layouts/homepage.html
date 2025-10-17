@@ -232,6 +232,41 @@
       });
     </script>
 
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const sections = document.querySelectorAll(".section-content");
+        const navLinks = document.querySelectorAll("nav a");
+
+        window.addEventListener("scroll", () => {
+          let current = "";
+
+          // find current section in viewport
+          sections.forEach(section => {
+            const sectionTop = section.offsetTop - 150; // adjust offset
+            if (pageYOffset >= sectionTop) {
+              current = section.getAttribute("id");
+            }
+          });
+
+          // highlight active nav link
+          navLinks.forEach(link => {
+            link.classList.remove("active");
+            if (link.getAttribute("href") === `#${current}`) {
+              link.classList.add("active");
+            }
+          });
+
+          // highlight vertical line
+          sections.forEach(section => {
+            section.classList.remove("active-section");
+            if (section.getAttribute("id") === current) {
+              section.classList.add("active-section");
+            }
+          });
+        });
+      });
+    </script>
+
 
 
     
