@@ -463,7 +463,7 @@ body {
 #education::before {
   content: "";
   display: block;
-  height: 24px;          /* Default top spacing */
+  height: 0;          /* Default top spacing */
   margin-top: 0;     /* Adjusts scrolling position */
   visibility: hidden;    /* Invisible element */
   pointer-events: none;
@@ -807,7 +807,7 @@ body {
     left: 0;
     top: 0;
     bottom: 0;
-    width: 2px;                /* Thickness of vertical line */
+    width: 3px;                /* Thickness of vertical line */
     background-color: #1D4770; /* Line color (matches headings) */
     border-radius: 2px;
 }
