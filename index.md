@@ -24,36 +24,36 @@ layout: homepage
     <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
       <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#fff; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">🌍</span>
       <div>
-        <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Remote Sensing & GIS Applications</div>
-        <div style="color:#444; font-size:.95em;">Satellite data analysis, spatial modeling, and geospatial data management.</div>
+        <div style="font-size:1em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Remote Sensing & GIS Applications</div>
+        <div style="color:#444; font-size:.875em;">Satellite data analysis, spatial modeling, and geospatial data management.</div>
       </div>
     </li>
     <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
       <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#fff; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">📊</span>
       <div>
-        <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Oceanographic Data Science</div>
-        <div style="color:#444; font-size:.95em;">Computational and statistical approaches to marine and atmospheric datasets.</div>
+        <div style="font-size:1em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Oceanographic Data Science</div>
+        <div style="color:#444; font-size:.875em;">Computational and statistical approaches to marine and atmospheric datasets.</div>
       </div>
     </li>
     <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
       <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#fff; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">🌊</span>
       <div>
-        <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Coastal & Urban Flood Risk Assessment</div>
-        <div style="color:#444; font-size:.95em;">Integrated modeling, spatial analysis, and machine learning applications.</div>
+        <div style="font-size:1em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Coastal & Urban Flood Risk Assessment</div>
+        <div style="color:#444; font-size:.875em;">Integrated modeling, spatial analysis, and machine learning applications.</div>
       </div>
     </li>
     <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
       <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#fff; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">🌡️</span>
       <div>
-        <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Climate Change & Environmental Monitoring</div>
-        <div style="color:#444; font-size:.95em;">Impacts on coastal ecosystems, agriculture, and trade vulnerability.</div>
+        <div style="font-size:1em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Climate Change & Environmental Monitoring</div>
+        <div style="color:#444; font-size:.875em;">Impacts on coastal ecosystems, agriculture, and trade vulnerability.</div>
       </div>
     </li>
     <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
       <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#fff; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">🤖</span>
       <div>
-        <div style="font-size:1.05em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Geospatial Artificial Intelligence (GeoAI)</div>
-        <div style="color:#444; font-size:.95em;">Machine learning and predictive modeling for environmental systems.</div>
+        <div style="font-size:1em; font-weight:600; line-height: 1.1em; margin-bottom: 3px;">Geospatial Artificial Intelligence (GeoAI)</div>
+        <div style="color:#444; font-size:.875em;">Machine learning and predictive modeling for environmental systems.</div>
       </div>
     </li>
   </ul>
