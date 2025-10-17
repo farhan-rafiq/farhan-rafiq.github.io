@@ -792,56 +792,53 @@ body {
   }
 }
 
-/* === Vertical Line beside Each Section === */
+
+/* === Vertical Line beside Each Section (with gaps) === */
 section {
   position: relative;
   padding-left: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 4rem; /* adds space between sections */
 }
 
+/* Vertical line that stops before the next section starts */
 section::before {
   content: "";
   position: absolute;
   left: 0.5rem;
   top: 0;
-  bottom: 0;
+  height: calc(100% - 2rem); /* leaves a gap at bottom */
   width: 3px;
-  background-color: #043361; /* your theme color */
+  background-color: #043361;
   border-radius: 2px;
   opacity: 0.8;
-  transition: opacity 0.3s ease;
-}
-
-/* === Fade-in Animation (Optional) === */
-section::before {
+  transition: transform 0.6s ease-out;
   transform: scaleY(0);
   transform-origin: top;
-  transition: transform 0.6s ease-out;
 }
+
+/* Animate on scroll (optional) */
 section.visible::before {
   transform: scaleY(1);
 }
 
-/* === Responsive Fix for Mobile Screens === */
+/* === Responsive Adjustments === */
 @media (max-width: 768px) {
   section {
-    padding-left: 1rem; /* reduce space */
+    padding-left: 1rem;
     margin-bottom: 3rem;
   }
 
   section::before {
-    left: 0.25rem; /* closer to edge */
-    width: 2px; /* thinner line */
-    opacity: 0.6; /* subtler look */
+    left: 0.25rem;
+    width: 2px;
+    height: calc(100% - 1.5rem);
+    opacity: 0.6;
   }
 }
 
 @media (max-width: 480px) {
-  section {
-    padding-left: 0.5rem;
-  }
-
   section::before {
-    display: none; /* hide line completely on very small screens */
+    display: none; /* hide on small phones */
   }
 }
+
