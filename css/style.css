@@ -792,43 +792,10 @@ body {
   }
 }
 
-/* === SECTION SEPARATION STYLES === */
-section {
-  position: relative;
-  margin-bottom: 4rem; /* Adds vertical space between sections */
-  padding-bottom: 2rem; /* Extra breathing room inside */
-  border-bottom: 1px solid #e0e0e0; /* Light line divider */
-}
-
-/* Optional: soft background alternation for readability */
-section:nth-of-type(odd) {
-  background-color: #fafafa;
-  border-radius: 8px;
-  padding: 2rem;
-}
-
-section:nth-of-type(even) {
-  background-color: #ffffff;
-  border-radius: 8px;
-  padding: 2rem;
-}
-
-/* Ensure last section doesn’t have a bottom border */
-section:last-of-type {
-  border-bottom: none;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-@media (max-width: 768px) {
-  section {
-    margin-bottom: 2rem;
-    padding: 1.5rem;
-  }
-}
-
-
-/* === Basic vertical line for each section === */
+/* ==========================================
+   SECTION SEPARATION STYLES
+   - Vertical lines for section separation
+========================================== */
 section {
   position: relative;
   margin-bottom: 4rem;
