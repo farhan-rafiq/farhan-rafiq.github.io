@@ -32,7 +32,7 @@ h2#about-me {
 body {
     background-color: white; /* Page background */
     padding-top: 0;
-    font: 16px/1.4 "Merriweather", serif !important; /* Main font */
+    font: 14px/1.4 "Merriweather", serif !important; /* Main font */
     color: #333333; /* Default text color */
     font-weight: 300;
     margin: 0;
@@ -84,7 +84,7 @@ p, ul, ol, table, pre, dl {
 
 /* Anchor tags */
 a {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: #888; /* Light gray links */
     text-decoration: none;
@@ -416,7 +416,7 @@ header ul a strong {
    - Hover effects and smooth transitions
 ========================================== */
 .sidebar-nav {
-    font-size: 16px;
+    font-size: 14px;
     color: #888;
     font-weight: 100;
 }
@@ -425,7 +425,7 @@ header ul a strong {
     display: block;          /* Full width clickable area */
     padding: 1.2rem;         /* Space inside each link */
     transition: all 0.3s ease-in-out; /* Smooth hover/active transitions */
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .sidebar-nav a:hover {
@@ -558,7 +558,7 @@ body {
 
   .sidebar-nav a {
     display: block;
-    font-size: 16px;
+    font-size: 14px;
     margin: 1rem 4rem; /* Easier to tap links */
   }
 
