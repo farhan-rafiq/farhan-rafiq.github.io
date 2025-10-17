@@ -29,6 +29,14 @@ h2#about-me {
    GENERAL STYLES
    - Base styles for body, headings, paragraphs, lists, links
 ========================================== */
+
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     background-color: white; /* Page background */
     padding-top: 0;
@@ -205,6 +213,7 @@ hr {
     width: 1080px; /* 960 to 1080 */
     margin: 0 auto;
     margin-top: 10px !important; /* Reduce top margin */
+    padding: 20px;
 }
 
 header {
