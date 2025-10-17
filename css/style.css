@@ -155,6 +155,64 @@ hr {
     margin: 0 0 20px;
 }
 
+/* =======================================
+   1. Desktop Style (Vertical Line)
+   ======================================= */
+section {
+    /* Existing section styles */
+    width: 650px;
+    float: right;
+    padding-top: 0;
+    padding-bottom: 20px;
+    
+    /* Base Vertical Line (Subtle Gray) */
+    border-left: 2px solid #D3D3D3; 
+    padding-left: 20px; 
+    margin-left: -2px; 
+    transition: border-left 0.3s ease, border-top 0.3s ease; /* Smooth transition */
+}
+
+/* Active State for Desktop */
+section.section-active {
+    /* Thicker, Dark Blue Vertical Line for Active Section */
+    border-left: 3px solid #043361; 
+}
+
+
+/* =======================================
+   2. Mobile Override (Horizontal Line)
+   ======================================= */
+@media (max-width: 768px) { 
+    
+    /* 1. Remove the desktop-specific styles */
+    section {
+        /* Remove the vertical line on smaller screens */
+        border-left: none !important; 
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+        width: 100%; /* Allow sections to take full width */
+        float: none; /* Remove the float for better stacking */
+    }
+    
+    /* 2. Style the active section for mobile */
+    section.section-active {
+        /* REMOVE the desktop active state */
+        border-left: none !important; 
+
+        /* ADD the mobile active state: A bold blue line at the top */
+        border-top: 5px solid #043361; 
+        padding-top: 15px; /* Add space below the new top border */
+    }
+    
+    /* Ensure the sidebar doesn't interfere if it's still present */
+    .sidebar {
+        float: none;
+        width: 100%;
+        /* Add other mobile sidebar styles as needed */
+    }
+}
+
+
 /* ==========================================
    PDF LINKS AND COURSES
    - Styling for download links and course lists
