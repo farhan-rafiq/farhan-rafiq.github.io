@@ -125,7 +125,7 @@ layout: homepage
 <section id="experience-section">
   <h2 id="experience">Experience</h2>
 
-  <h3 style="font-size:22px; margin-bottom: .5em;">Internship</h3>
+  <h3 style="font-size:24px; margin-bottom: .5em;">Internship</h3>
   <h3 style="margin-bottom: 5px;">Growth, Observation, and Identification of Indigenous Marine Phytoplankton of the Bay of Bengal, Bangladesh</h3>
   <p style="margin: 0;">Bangladesh Fisheries Research Institute (BFRI), Marine Fisheries and Technology Station, Cox's Bazar</p>
   <p style="margin-top: 0;"><b>Supervisor:</b> Zahidul Islam &nbsp; | &nbsp; 5 Mar 2025 - 19 Mar 2025</p>
