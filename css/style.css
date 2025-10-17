@@ -186,7 +186,7 @@ hr {
 }
 
 .course-column:nth-child(2) {
-  margin-left: -80px; /* Moves the column 80px to the left */
+  margin-left: -120px; /* Moves the column 80px to the left */
 }
 
 /* ==========================================
