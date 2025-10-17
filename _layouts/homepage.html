@@ -233,17 +233,23 @@
     </script>
 
     <script>
+          // Highlight section in view
     const sections = document.querySelectorAll("section");
 
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("visible");
+    window.addEventListener("scroll", () => {
+      const scrollPos = window.scrollY + window.innerHeight / 3;
+
+      sections.forEach(section => {
+        const top = section.offsetTop;
+        const bottom = top + section.offsetHeight;
+
+        if (scrollPos >= top && scrollPos <= bottom) {
+          section.classList.add("active");
+        } else {
+          section.classList.remove("active");
         }
       });
     });
-
-    sections.forEach(section => observer.observe(section));
     </script>
 
 
