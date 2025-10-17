@@ -202,7 +202,7 @@ hr {
    - Wrapper, header, footer, section
 ========================================== */
 .wrapper {
-    width: 960px;
+    width: 1080px; /* 960 to 1080 */
     margin: 0 auto;
     margin-top: 10px !important; /* Reduce top margin */
 }
@@ -228,7 +228,7 @@ footer {
 }
 
 section {
-    width: 650px;
+    width: 750px; /* 650 to 750 */
     float: right;
     padding-top: 0;
     padding-bottom: 20px;
