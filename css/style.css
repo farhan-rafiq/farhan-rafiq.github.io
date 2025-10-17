@@ -811,3 +811,15 @@ body {
     background-color: #1D4770; /* Line color (matches headings) */
     border-radius: 2px;
 }
+
+/* highlight active nav link */
+nav a.active {
+  color: #043361;
+  font-weight: bold;
+}
+
+/* highlight active section line */
+.section-content.active-section::before {
+  background-color: #005b9e; /* brighter shade of your line color */
+  box-shadow: 0 0 8px rgba(0, 91, 158, 0.5);
+}
