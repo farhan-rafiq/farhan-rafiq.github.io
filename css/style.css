@@ -807,7 +807,7 @@ body {
     left: 0;
     top: 0;
     bottom: 0;
-    width: 4px;                /* Thickness of vertical line */
-    background-color: #043361; /* Line color (matches headings) */
+    width: 2px;                /* Thickness of vertical line */
+    background-color: #1D4770; /* Line color (matches headings) */
     border-radius: 2px;
 }
