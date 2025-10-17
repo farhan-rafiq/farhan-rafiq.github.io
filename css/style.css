@@ -792,39 +792,3 @@ body {
   }
 }
 
-/* ==========================================
-   SECTION SEPARATION STYLES
-   - Vertical lines for section separation
-========================================== */
-section {
-  position: relative;
-  margin-bottom: 4rem;
-  padding-left: 2rem; /* space for line */
-}
-
-section::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 4px; /* line thickness */
-  background-color: #ccc; /* default line color */
-  transition: background-color 0.3s;
-}
-
-/* Active section highlight */
-section.active::before {
-  background-color: #1e90ff; /* highlight color */
-}
-
-/* Mobile responsiveness */
-@media (max-width: 768px) {
-  section {
-    padding-left: 1.5rem;
-  }
-  section::before {
-    width: 3px;
-  }
-}
-
