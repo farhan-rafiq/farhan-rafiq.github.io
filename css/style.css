@@ -6,8 +6,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap"); */
 
-/* Update the font imports at the very top */
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+/* Update the font imports at the very top 
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap");
 
 /* ==========================================
@@ -40,7 +40,7 @@ body {
 
 h1 {
     font-size: 30px;
-    font-family: "Lato", sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-weight: 700;
     color: #043361; /* Dark blue heading */
     line-height: 1.1;
@@ -49,7 +49,7 @@ h1 {
 
 h2 {
     font-size: 28px;
-    font-family: "Lato", sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-weight: 700;
     color: #043361;
     line-height: 1.1;
@@ -62,8 +62,8 @@ h2 {
 }
 
 h3, h4, h5, h6 {
-    font-family: "Lato", sans-serif;
-    font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 700;
     color: #043361;
     line-height: 1.1;
     margin: 0 0 20px;
@@ -231,14 +231,14 @@ section {
 ========================================== */
 .social-icons a {
     display: inline-block;
-    height: 2.4rem;
-    width: 2.4rem;
+    height: 1.4rem;
+    width: 3rem;
     background-color: transparent;
     color: #043361 !important;
     border-radius: 100%;
     text-align: center;
     font-size: 1.15rem;
-    line-height: 2.5rem;
+    line-height: 0;
     margin-right: 1rem;
     transition: transform 0.3s;
 }
@@ -456,8 +456,8 @@ body {
 #education::before {
   content: "";
   display: block;
-  height: 20px;          /* Default top spacing */
-  margin-top: -25px;     /* Adjusts scrolling position */
+  height: 24px;          /* Default top spacing */
+  margin-top: 0;     /* Adjusts scrolling position */
   visibility: hidden;    /* Invisible element */
   pointer-events: none;
 }
