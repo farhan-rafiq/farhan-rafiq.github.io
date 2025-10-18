@@ -211,10 +211,10 @@ layout: homepage
   </div>
 
   <ul class="field-works-details">
-          <li>Used quadrant and transect sampling techniques to collect various types of plastic materials from the beach</li>
-          <li>Analyzed the collected samples and found that polythene and plastic bottles were the most prominent types of waste</li>
-          <li>Explored the Bakkhali River estuary, observing aquaculture: Seaweed, Oyster, Green mussel, Vetki and Khoral culture</li>
-          <li>Collected water data using a mini CTD to measure temperature, salinity, and conductivity</li>
+          <li>Employed quadrant and transect sampling methods to gather different types of plastic debris from the beach</li>
+          <li>Examined the collected materials and identified polythene and plastic bottles as the dominant waste types</li>
+          <li>Conducted field observations at the Bakkhali River estuary, focusing on aquaculture activities such as seaweed, oyster, green mussel, vetki, and khoral culture</li>
+          <li>Measured key water parameters—temperature, salinity, and conductivity—using a mini CTD instrument</li>
         </ul>
       </div>
     </div>
@@ -230,11 +230,11 @@ layout: homepage
   </div>
 
   <ul class="field-works-details">
-          <li>Explored facilities and research at the Bangladesh Fish Research Institute (BFRI)</li>
-          <li>Collected and analyzed CTD data for temperature, salinity, and conductivity</li>
-          <li>Used DO meter, pH meter, and turbidity meter for in-situ water analysis</li>
-          <li>Collected sediment samples using an Ekman grab sampler for texture analysis</li>
-        </ul>
+        <li>Visited the Bangladesh Fisheries Research Institute (BFRI) to explore its research activities and facilities</li>
+        <li>Acquired and processed CTD data to assess temperature, salinity, and conductivity</li>
+        <li>Performed on-site water quality assessments using DO, pH, and turbidity meters</li>
+        <li>Collected sediment samples with an Ekman grab sampler for textural analysis</li>
+  </ul>
       </div>
     </div>
 
@@ -249,11 +249,11 @@ layout: homepage
         ]'></div>
 
   <ul class="field-works-details">
-          <li>Collected sediment samples for particle size and organic content analysis</li>
-          <li>Sampled plankton at Trikon Island to study biodiversity and productivity</li>
-          <li>Measured temperature, salinity, and pH across multiple sites</li>
-          <li>Engaged with fishermen at Dublar Char to understand conservation challenges</li>
-          <li>Observed wild deer at Hiron Point for biodiversity assessment</li>
+          <li>Collected sediment samples to analyze particle size distribution and organic matter content</li>
+          <li>Conducted plankton sampling at Trikon Island to examine biodiversity and productivity levels</li>
+          <li>Recorded temperature, salinity, and pH variations across different sampling sites</li>
+          <li>Interacted with local fishermen at Dublar Char to gain insights into conservation issues</li>
+          <li>Observed wild deer populations at Hiron Point as part of a biodiversity assessment</li>
         </ul>
       </div>
     </div>
@@ -271,9 +271,9 @@ layout: homepage
   </div>
 
   <ul class="field-works-details">
-          <li>Observed coral ecosystems and biodiversity challenges</li>
-          <li>Measured water parameters using a multiparameter device</li>
-          <li>Visited Fish Landing Center and Radiant Fish World for marine studies</li>
+          <li>Studied coral reef ecosystems and identified key biodiversity challenges</li>
+          <li>Measured essential water quality parameters using a multiparameter instrument</li>
+          <li>Visited the Fish Landing Center and Radiant Fish World to explore marine resources and research initiatives</li>
         </ul>
       </div>
   </div>
