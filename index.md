@@ -203,7 +203,7 @@ layout: homepage
       <p class="meta">2023</p>
       <div class="field-works-content">
         <div class="carousel" data-images='[
-          "images/Field_Work/2023_Coxs_Bazar/1.webp",
+          ".assets/img/dubla.png",
           "images/Field_Work/2023_Coxs_Bazar/2.webp",
           "images/Field_Work/2023_Coxs_Bazar/3.webp",
           "images/Field_Work/2023_Coxs_Bazar/4.webp"
@@ -278,9 +278,6 @@ layout: homepage
       </div>
   </div>
 </section>
-
-
-
 
 
 <section id="education-section">
