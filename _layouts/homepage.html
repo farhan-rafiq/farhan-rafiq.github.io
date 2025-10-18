@@ -100,6 +100,7 @@
           <a href="#research-interests" style="display:block; padding:5px 10px; margin-bottom: 5px; border-radius:0;">Research Interests</a>
           <a href="#research-projects" style="display:block; padding:5px 10px; margin-bottom: 5px; border-radius:0;">Research Projects</a>
           <a href="#experience" style="display:block; padding:5px 10px; margin-bottom: 5px; border-radius:0;">Experience</a>
+          <a href="#field-works" style="display:block; padding:5px 10px; margin-bottom: 5px; border-radius:0;">Field Works</a>
           <a href="#education" style="display:block; padding:5px 10px; margin-bottom: 5px; border-radius:0;">Education</a>
         </div>
       </header>
@@ -267,6 +268,35 @@
       });
     </script>
 
+      <script>
+      // Tabs
+      document.querySelectorAll('.tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+          document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+          document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+
+          tab.classList.add('active');
+          document.getElementById(tab.dataset.target).classList.add('active');
+        });
+      });
+
+      // Carousel
+      document.querySelectorAll('.carousel').forEach(carousel => {
+        const slides = carousel.querySelector('.slides');
+        const images = carousel.querySelectorAll('img');
+        let index = 0;
+
+        carousel.querySelector('.next').addEventListener('click', () => {
+          index = (index + 1) % images.length;
+          slides.style.transform = `translateX(-${index * 100}%)`;
+        });
+
+        carousel.querySelector('.prev').addEventListener('click', () => {
+          index = (index - 1 + images.length) % images.length;
+          slides.style.transform = `translateX(-${index * 100}%)`;
+        });
+      });
+      </script>
 
 
     

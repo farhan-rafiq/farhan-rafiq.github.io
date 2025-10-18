@@ -817,3 +817,109 @@ body {
 .section-content.active-section::before {
   background-color: #005b9e; /* brighter shade of your line color */
 }
+
+/* ==========================================
+   FIELDWORK EXPERIENCE SECTION
+   - Tabs, carousel, and details styling
+========================================== */
+
+#field-works {
+  margin-top: 3rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 2rem;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1.5rem;
+}
+
+.tab {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  position: relative;
+  color: #555;
+}
+
+.tab.active {
+  color: #b00000;
+  font-weight: bold;
+}
+
+.tab.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 2px;
+  background: #b00000;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.year {
+  color: #777;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.fieldwork-container {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.carousel {
+  position: relative;
+  width: 45%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.4);
+  color: white;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.carousel .prev { left: 10px; }
+.carousel .next { right: 10px; }
+
+.fieldwork-details {
+  list-style: disc;
+  color: #333;
+  text-align: justify;
+  width: 55%;
+}
+
+.fieldwork-details li {
+  margin-bottom: 1rem;
+}

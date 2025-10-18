@@ -183,6 +183,43 @@ layout: homepage
   </div>
 </section>
 
+<section id="field-works-section">
+  <h2 id="field-works">Field Works</h2>
+  <div class="section-content">
+  
+  <div class="tabs">
+    <button class="tab active" data-target="coxs-bazar">Cox’s Bazar</button>
+    <button class="tab" data-target="kuakata">Kuakata</button>
+    <button class="tab" data-target="sundarban">Sundarban</button>
+    <button class="tab" data-target="saint-martins">Saint Martin’s</button>
+  </div>
+
+  <div id="coxs-bazar" class="tab-content active">
+    <p class="year">2023</p>
+    <div class="fieldwork-container">
+      <div class="carousel">
+        <div class="slides">
+          <img src="images/coxs1.jpg" alt="Cox’s Bazar Fieldwork 1">
+          <img src="images/coxs2.jpg" alt="Cox’s Bazar Fieldwork 2">
+          <img src="images/coxs3.jpg" alt="Cox’s Bazar Fieldwork 3">
+        </div>
+        <button class="prev">❮</button>
+        <button class="next">❯</button>
+      </div>
+
+      <ul class="fieldwork-details">
+        <li>Used quadrant and transect sampling techniques to collect various types of plastic materials from the beach</li>
+        <li>Analyzed the collected samples and found that polythene and plastic bottles were the most prominent types of waste</li>
+        <li>Explored the Bakkhali River estuary, observing various types of aquaculture including: Seaweed, Oyster, Green mussel, Vetki and Khoral culture</li>
+        <li>Collected water data using a mini CTD to measure key parameters like temperature, salinity, and conductivity</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+
+
 <section id="education-section">
 
   <h2 id="education">Education</h2>
