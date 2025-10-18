@@ -129,53 +129,33 @@
     </script>
     {% endif %}
 
-    <script>
-      document.addEventListener('DOMContentLoaded', () => {
-        // Intersection Observer
-        const sections = document.querySelectorAll('h2[id]');
-        const navLinks = document.querySelectorAll('.sidebar-nav a');
-        const observer = new IntersectionObserver((entries) => {
-          entries.forEach(entry => {
-            const id = entry.target.getAttribute('id');
-            const correspondingLink = document.querySelector(`.sidebar-nav a[href="#${id}"]`);
-            if (entry.isIntersecting) {
-              navLinks.forEach(link => link.classList.remove('active'));
-              if (correspondingLink) correspondingLink.classList.add('active');
-            }
-          });
-        }, { threshold: 0.5, rootMargin: "-20px 0px -500px 0px" });
-        sections.forEach(h2 => observer.observe(h2));
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const sections = document.querySelectorAll('h2[id]');
+  const navLinks = document.querySelectorAll('.sidebar-nav a');
+  const sectionContents = document.querySelectorAll('.section-content');
 
-        // Hamburger Menu Logic
-        const hamburger = document.querySelector('.hamburger-menu');
-        const sidebar = document.getElementById('mySidebarNav');
-        const overlay = document.querySelector('.overlay');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const id = entry.target.getAttribute('id');
+        const correspondingLink = document.querySelector(`.sidebar-nav a[href="#${id}"]`);
+        const correspondingSection = entry.target.closest('.section-content');
+        
+        // Remove active from all
+        navLinks.forEach(link => link.classList.remove('active'));
+        sectionContents.forEach(section => section.classList.remove('active-section'));
+        
+        // Add active to current
+        if (correspondingLink) correspondingLink.classList.add('active');
+        if (correspondingSection) correspondingSection.classList.add('active-section');
+      }
+    });
+  }, { threshold: 0.5, rootMargin: "-20px 0px -500px 0px" });
 
-        if (hamburger && sidebar) {
-          hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('open');
-            sidebar.classList.toggle('show');
-            if (overlay) overlay.classList.toggle('show');
-          });
-
-          sidebar.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', () => {
-              sidebar.classList.remove('show');
-              hamburger.classList.remove('open');
-              if (overlay) overlay.classList.remove('show');
-            });
-          });
-
-          if (overlay) {
-            overlay.addEventListener('click', () => {
-              sidebar.classList.remove('show');
-              hamburger.classList.remove('open');
-              overlay.classList.remove('show');
-            });
-          }
-        }
-      });
-    </script>
+  sections.forEach(h2 => observer.observe(h2));
+});
+</script>
 
   <!--PDF viewer-->
     <script>
@@ -233,40 +213,7 @@
       });
     </script>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const sections = document.querySelectorAll(".section-content");
-        const navLinks = document.querySelectorAll("nav a");
-
-        window.addEventListener("scroll", () => {
-          let current = "";
-
-          // find current section in viewport
-          sections.forEach(section => {
-            const sectionTop = section.offsetTop - 150; // adjust offset
-            if (pageYOffset >= sectionTop) {
-              current = section.getAttribute("id");
-            }
-          });
-
-          // highlight active nav link
-          navLinks.forEach(link => {
-            link.classList.remove("active");
-            if (link.getAttribute("href") === `#${current}`) {
-              link.classList.add("active");
-            }
-          });
-
-          // highlight vertical line
-          sections.forEach(section => {
-            section.classList.remove("active-section");
-            if (section.getAttribute("id") === current) {
-              section.classList.add("active-section");
-            }
-          });
-        });
-      });
-    </script>
+    
 
 <!--Tab switching functionality -->
 <script>
