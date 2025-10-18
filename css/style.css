@@ -945,7 +945,6 @@ body {
 /* Details List Styling - Right Column */
 .field-works-details {
   list-style: disc;
-  padding-left: 1.5rem;
   margin-top: 0;
   margin-bottom: 0;
   display: flex;
@@ -997,4 +996,8 @@ body {
     font-size: 0.95rem;
     margin-bottom: 1.2rem;
   }
+}
+
+.carousel {
+  display: none;
 }
