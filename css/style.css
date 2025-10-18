@@ -825,6 +825,7 @@ body {
 ========================================== */
 
 /* Styling for the main section title */
+/* Styling for the main section title */
 .section-title {
   font-size: 1.8rem;
   margin-bottom: 1rem;
@@ -893,7 +894,7 @@ body {
   display: grid;
   grid-template-columns: 400px 1fr;
   gap: 3rem;
-  align-items: start;
+  align-items: stretch;
 }
 
 /* Carousel (Image/Media) Styling - Left Column */
@@ -903,7 +904,7 @@ body {
   overflow: hidden;
   background: #f6f6f6;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -948,6 +949,10 @@ body {
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
 
 /* Individual List Item Styling - Custom Bullet Point */
@@ -970,7 +975,7 @@ body {
   top: 0.6em;
   width: 8px;
   height: 8px;
-  background-color: #c94444;
+  background-color: #043361;
   border-radius: 50%;
   transform: translateY(-50%);
 }
