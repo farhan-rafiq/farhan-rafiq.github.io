@@ -884,7 +884,7 @@ body {
 .meta {
   color: #777;
   font-size: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   display: block;
 }
 
@@ -951,6 +951,7 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 100%;
+  width: 270px;
 }
 
 /* Individual List Item Styling - Default Bullet Point */
@@ -998,6 +999,8 @@ body {
   }
 }
 
+
+/* remove 964, edit 884 (1rem), then remove this too */
 .carousel {
   display: none;
 }
