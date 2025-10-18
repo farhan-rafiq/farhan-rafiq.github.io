@@ -129,8 +129,11 @@
     </script>
     {% endif %}
 
+
+    
 <script>
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener('DOMContentLoaded', () => {
+  // Intersection Observer for sidebar nav and vertical line
   const sections = document.querySelectorAll('h2[id]');
   const navLinks = document.querySelectorAll('.sidebar-nav a');
   const sectionContents = document.querySelectorAll('.section-content');
@@ -158,8 +161,40 @@ document.addEventListener("DOMContentLoaded", function () {
   }, { threshold: 0.5, rootMargin: "-20px 0px -500px 0px" });
 
   sections.forEach(h2 => observer.observe(h2));
+
+  // Hamburger Menu Logic
+  const hamburger = document.querySelector('.hamburger-menu');
+  const sidebar = document.getElementById('mySidebarNav');
+  const overlay = document.querySelector('.overlay');
+
+  if (hamburger && sidebar) {
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('open');
+      sidebar.classList.toggle('show');
+      if (overlay) overlay.classList.toggle('show');
+    });
+
+    sidebar.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        sidebar.classList.remove('show');
+        hamburger.classList.remove('open');
+        if (overlay) overlay.classList.remove('show');
+      });
+    });
+
+    if (overlay) {
+      overlay.addEventListener('click', () => {
+        sidebar.classList.remove('show');
+        hamburger.classList.remove('open');
+        overlay.classList.remove('show');
+      });
+    }
+  }
 });
 </script>
+
+
+
 
   <!--PDF viewer-->
     <script>
