@@ -21,7 +21,7 @@ h2:not(:first-of-type) {
 
 /* Adjust About Me section specifically */
 h2#about-me {
-    margin-top: -20px !important; /* Override default spacing for About Me */
+    margin-top: -25px !important; /* Override default spacing for About Me */
     padding-top: 0 !important;
 }
 
