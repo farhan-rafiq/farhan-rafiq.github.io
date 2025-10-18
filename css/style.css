@@ -857,7 +857,7 @@ body {
 }
 
 .tab-link.active {
-  color: #943c3c;
+  color: #043361;
   font-weight: 400;
 }
 
@@ -868,7 +868,7 @@ body {
   left: 0;
   height: 2px;
   width: 100%;
-  background-color: #943c3c;
+  background-color: #043361;
 }
 
 /* Tab content container */
@@ -944,8 +944,8 @@ body {
 
 /* Details List Styling - Right Column */
 .field-works-details {
-  list-style: none;
-  padding-left: 0;
+  list-style: disc;
+  padding-left: 1.5rem;
   margin-top: 0;
   margin-bottom: 0;
   display: flex;
@@ -954,29 +954,13 @@ body {
   height: 100%;
 }
 
-/* Individual List Item Styling - Custom Bullet Point */
+/* Individual List Item Styling - Default Bullet Point */
 .field-works-details li {
-  position: relative;
-  list-style: none;
-  padding-left: 1.8rem;
   margin-bottom: 0.5rem;
   font-size: 14px;
   line-height: 1.6;
   color: #333;
   text-align: justify;
-}
-
-/* Custom bullet point - Red circle */
-.field-works-details li::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0.5em;
-  width: 7px;
-  height: 7px;
-  background-color: #c94444;
-  border-radius: 50%;
-  transform: translateY(-50%);
 }
 
 /* Mobile adjustments */
@@ -1010,14 +994,7 @@ body {
 
   /* Adjust bullet padding for mobile */
   .field-works-details li {
-    padding-left: 1.5rem;
     font-size: 0.95rem;
     margin-bottom: 1.2rem;
-  }
-
-  .field-works-details li::before {
-    width: 6px;
-    height: 6px;
-    top: 0.65em;
   }
 }
