@@ -268,57 +268,59 @@
       });
     </script>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        // Tabs
-        const tabs = document.querySelectorAll(".tab-link");
-        const contents = document.querySelectorAll(".tab-content");
+// Tab switching functionality
+<script
+document.addEventListener('DOMContentLoaded', function() {
+  const tabLinks = document.querySelectorAll('.tab-link');
+  const tabContents = document.querySelectorAll('.tab-content');
 
-        tabs.forEach(tab => {
-          tab.addEventListener("click", () => {
-            tabs.forEach(t => t.classList.remove("active"));
-            contents.forEach(c => c.classList.remove("active"));
-            tab.classList.add("active");
-            document.getElementById(tab.dataset.tab).classList.add("active");
-          });
-        });
+  tabLinks.forEach(link => {
+    link.addEventListener('click', function() {
+      const targetTab = this.getAttribute('data-tab');
 
-        // Dynamic carousel builder
-        document.querySelectorAll(".carousel").forEach(carousel => {
-          const imagePaths = JSON.parse(carousel.getAttribute("data-images"));
-          let index = 0;
+      // Remove active class from all tabs and contents
+      tabLinks.forEach(l => l.classList.remove('active'));
+      tabContents.forEach(c => c.classList.remove('active'));
 
-          const img = document.createElement("img");
-          img.src = imagePaths[0];
-          carousel.appendChild(img);
+      // Add active class to clicked tab and corresponding content
+      this.classList.add('active');
+      document.getElementById(targetTab).classList.add('active');
+    });
+  });
 
-          const prev = document.createElement("button");
-          prev.innerHTML = "❮";
-          prev.className = "control prev";
-          carousel.appendChild(prev);
+  // Initialize carousels
+  initializeCarousels();
+});
 
-          const next = document.createElement("button");
-          next.innerHTML = "❯";
-          next.className = "control next";
-          carousel.appendChild(next);
+// Carousel functionality
+function initializeCarousels() {
+  const carousels = document.querySelectorAll('.carousel');
 
-          const update = () => {
-            img.src = imagePaths[index];
-          };
+  carousels.forEach(carousel => {
+    const images = JSON.parse(carousel.getAttribute('data-images'));
+    let currentIndex = 0;
 
-          next.addEventListener("click", () => {
-            index = (index + 1) % imagePaths.length;
-            update();
-          });
+    const img = carousel.querySelector('img');
+    const prevBtn = carousel.querySelector('.prev');
+    const nextBtn = carousel.querySelector('.next');
 
-          prev.addEventListener("click", () => {
-            index = (index - 1 + imagePaths.length) % imagePaths.length;
-            update();
-          });
-        });
-      });
-    </script>
+    // Set initial image
+    img.src = images[currentIndex];
 
+    // Previous button
+    prevBtn.addEventListener('click', () => {
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      img.src = images[currentIndex];
+    });
+
+    // Next button
+    nextBtn.addEventListener('click', () => {
+      currentIndex = (currentIndex + 1) % images.length;
+      img.src = images[currentIndex];
+    });
+  });
+}
+</script>
 
 
     
