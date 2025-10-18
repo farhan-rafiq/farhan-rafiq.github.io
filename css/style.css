@@ -831,8 +831,7 @@ body {
 
 .field-works-tabs {
   display: flex;
-  gap: 2rem;
-  border-bottom: 1px solid #ccc;
+  gap: 3rem;
   margin-bottom: 2rem;
 }
 
@@ -848,7 +847,7 @@ body {
 
 .tab-link.active {
   color: #043361;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .tab-link.active::after {
