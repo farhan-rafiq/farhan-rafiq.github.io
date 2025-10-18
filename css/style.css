@@ -922,7 +922,7 @@ body {
 
 
 /* Details List Styling - Right Column */
-.field-works-tabs-details {
+.field-works-details {
   list-style: none;
   padding-left: 0;
   text-align: justify;
@@ -939,7 +939,7 @@ body {
 }
 
 /* Individual List Item Styling - Custom Bullet Point */
-.field-works-tabs-details li {
+.field-works-details li {
   position: relative;
   list-style: none; 
   padding-left: 1.5rem; 
@@ -950,7 +950,7 @@ body {
 }
 
 /* Custom bullet point ::before element */
-.field-works-tabs-details li::before {
+.field-works-details li::before {
   content: '';
   position: absolute;
   left: 0;
@@ -976,17 +976,17 @@ body {
 
   /* Make image and details take full width */
   .carousel,
-  .field-works-tabs-details {
+  .field-works-details {
     width: 100%;
   }
 
   /* Adjust bullet padding for mobile */
-  .field-works-tabs-details li {
+  .field-works-details li {
     padding-left: 1.3rem;
     font-size: 0.92rem;
   }
 
-  .field-works-tabs-details li::before {
+  .field-works-details li::before {
     width: 5px;
     height: 5px;
   }
