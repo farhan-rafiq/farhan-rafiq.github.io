@@ -146,13 +146,13 @@ layout: homepage
       <h4 style="margin-bottom:.2em;">Project Summary</h4>
       <p>This internship provided a comprehensive overview of a study focused on <strong>marine phytoplankton</strong> indigenous to the Bay of Bengal. The research encompassed the culture, growth observation, isolation, and identification of these microscopic organisms. The findings contribute meaningfully to enhancing marine biodiversity assessments and supporting effective management strategies for fisheries resources in the region.</p>
 
-  <h4 style="margin-bottom: 0;">Key Activities</h4>
+  <!--h4 style="margin-bottom: 0;">Key Activities</h4>
       <ul style="margin-top: 0; margin-bottom:.5em">
         <li><b>Sample Collection & Fieldwork:</b> Collected seawater samples from coastal waters near Laboni Beach, Cox's Bazar, using a plankton net with a 20µm mesh size.</li>
         <li><b>Culture & Media Preparation:</b> Prepared and sterilized glassware and utilized Guillard's F/2 media to culture the marine microalgae. Successfully isolated and cultured 29 distinct phytoplankton strains.</li>
         <li><b>Growth Analysis:</b> Conducted a comparative analysis of <i>Skeletonema sp.</i> growth in both Natural Seawater (NSW) and Artificial Seawater (ASW). The results demonstrated robust growth in NSW, while the population rapidly declined in ASW.</li>
         <li><b>Phytoplankton Identification:</b> Performed morphological identification of species using light and fluorescence microscopy (20x, 40x). Referenced the book 'Plankton of Bangladesh' to ensure taxonomic accuracy. Identified species from groups including diatoms and dinoflagellates.</li>
-      </ul>
+      </ul-->
 
   <h4 style="margin-bottom: 2em;">
         <a href="#"
