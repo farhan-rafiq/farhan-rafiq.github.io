@@ -21,7 +21,7 @@ h2:not(:first-of-type) {
 
 /* Adjust About Me section specifically */
 h2#about-me {
-    margin-top: -10px !important; /* Override default spacing for About Me */
+    margin-top: -20px !important; /* Override default spacing for About Me */
     padding-top: 0 !important;
 }
 
@@ -465,7 +465,7 @@ body {
   content: "";
   display: block;
   height: 0;          /* Default top spacing */
-  margin-top: 0;     /* Adjusts scrolling position */
+  padding-top: 20px;     /* Adjusts scrolling position */
   visibility: hidden;    /* Invisible element */
   pointer-events: none;
 }
