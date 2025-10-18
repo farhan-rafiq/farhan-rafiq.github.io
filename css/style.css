@@ -828,13 +828,11 @@ body {
   font-size: 1.8rem;
   margin-bottom: 1rem;
 }
-
 .field-works-tabs {
   display: flex;
   gap: 3rem;
   margin-bottom: 2rem;
 }
-
 .tab-link {
   background: none;
   border: none;
@@ -844,12 +842,10 @@ body {
   position: relative;
   font: 16px / 1.6 "Merriweather", serif !important;
 }
-
 .tab-link.active {
   color: #043361;
   font-weight: 600;
 }
-
 .tab-link.active::after {
   content: "";
   position: absolute;
@@ -859,29 +855,24 @@ body {
   width: 100%;
   background-color: #043361;
 }
-
 .tab-content {
   display: none;
 }
-
 .tab-content.active {
   display: block;
 }
-
 .meta {
   color: #777;
   font-size: 1rem;
   margin-bottom: 1.2rem;
 }
-
 .field-works-tabs {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
   align-items: flex-start;
 }
-
-/* Carousel*/
+/* Carousel */
 .carousel {
   position: relative;
   width: 45%;
@@ -889,13 +880,11 @@ body {
   overflow: hidden;
   background: #f6f6f6;
 }
-
 .carousel img {
   width: 100%;
   display: block;
   border-radius: 10px;
 }
-
 .carousel .control {
   position: absolute;
   top: 50%;
@@ -907,26 +896,38 @@ body {
   cursor: pointer;
   border-radius: 50%;
 }
-
-.carousel .prev { left: 10px; }
-.carousel .next { right: 10px; }
-
+.carousel .prev {
+  left: 10px;
+}
+.carousel .next {
+  right: 10px;
+}
 .field-works-tabs-details {
   width: 50%;
   list-style: disc;
   text-align: justify;
   color: #333;
 }
-
 .field-works-tabs-details li {
   margin-bottom: 0.8rem;
+}
+
+/* New/Modified styles for layout */
+.tab-content.active { /* Assuming .tab-content.active is the parent of both carousel and details */
+  display: flex; /* Use flexbox to align children horizontally */
+  gap: 20px; /* Add some space between the image and the text */
+  align-items: flex-start; /* Align items to the top */
 }
 
 @media (max-width: 768px) {
   .field-works-tabs {
     flex-direction: column;
   }
-  .carousel, .field-works-tabs-details {
+  .carousel,
+  .field-works-tabs-details {
     width: 100%;
+  }
+  .tab-content.active { /* On small screens, stack them again */
+    flex-direction: column;
   }
 }
