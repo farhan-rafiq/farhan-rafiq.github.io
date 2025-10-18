@@ -807,13 +807,13 @@ body {
     top: 0;
     bottom: 0;
     width: 3px;                /* Thickness of vertical line */
-    background-color: #1D4770; /* Line color (matches headings) */
+    background-color: #E5EAEF; /* Line color (matches headings) */
     border-radius: 2px;
 }
 
 /* highlight active section line */
 .section-content.active-section::before {
-  background-color: #005b9e; /* brighter shade of your line color */
+  background-color: #043361; /* brighter shade of your line color */
 }
 
 /* ==========================================
