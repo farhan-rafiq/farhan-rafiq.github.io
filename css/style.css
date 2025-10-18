@@ -996,6 +996,7 @@ body {
   .field-works-details li {
     font-size: 0.95rem;
     margin-bottom: 1.2rem;
+    width: 0;
   }
 }
 
