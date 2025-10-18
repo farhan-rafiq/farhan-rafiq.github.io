@@ -424,7 +424,6 @@ header ul a strong {
     padding: 1.2rem;         /* Space inside each link */
     transition: all 0.3s ease-in-out; /* Smooth hover/active transitions */
     font-size: 16px;
-    border-left: 3px solid #e0e0e0; /* Add subtle left border */
 }
 
 .sidebar-nav a:hover {
@@ -433,14 +432,12 @@ header ul a strong {
     box-shadow: 0 2px 6px rgba(135, 206, 250, 0.25); /* Soft shadow */
     transform: translateX(5px) !important; /* Slight slide effect */
     text-decoration: none !important;
-    border-left-color: #043361; /* Darker blue on hover */
 }
 
 .sidebar-nav a.active {
     color: #043361 !important;
     font-weight: bold;
     transform: translateX(5px) !important; /* Active link moves slightly */
-    border-left-color: #043361; /* Darker blue for active */
 }
 
 /* ==========================================
