@@ -840,15 +840,15 @@ body {
   background: none;
   border: none;
   font-size: 1.1rem;
-  color: #555;
   cursor: pointer;
   padding-bottom: 0.5rem;
   position: relative;
+  font: 16px / 1.6 "Merriweather", serif !important;
 }
 
 .tab-link.active {
-  color: #b00000;
-  font-weight: 600;
+  color: #043361;
+  font-weight: bold;
 }
 
 .tab-link.active::after {
