@@ -6,8 +6,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap"); */
 
-/* Update the font imports at the very top */
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"); 
+/* Update the font imports at the very top 
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap");
 
 /* ==========================================
@@ -40,9 +40,8 @@ body {
 }
 
 h1 {
-    font-size: 30px;
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
+    font-size: 29px;
+    font-weight: 600;
     color: #043361; /* Dark blue heading */
     line-height: 1.1;
     margin: 0 0 20px;
@@ -50,13 +49,12 @@ h1 {
 
 h2 {
     font-size: 28px;
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     color: #043361;
     line-height: 1.1;
     margin: 2px 0 15px;
     border-bottom: 1px solid #D3D3D3; /* Light gray underline */
-    padding-bottom: 0.3em;
+    padding-bottom: 0.5em;
     margin-bottom: 0.5em;
     display: block;
     width: 100%; /* Underline spans full width */
@@ -70,8 +68,7 @@ h4 {
     font-size: 18px;
 }
 h3, h4, h5, h6 {
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     color: #043361;
     line-height: 1.1;
     margin: 0 0 20px;
@@ -209,7 +206,7 @@ hr {
 }
 
 header {
-    width: 232px;
+    width: 250px;
     float: left;
     position: fixed;
     -webkit-font-smoothing: subpixel-antialiased;
