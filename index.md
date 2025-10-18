@@ -113,7 +113,7 @@ layout: homepage
             <li>There was a <b>negative correlation</b> between chlorophyll-a and SST: higher chlorophyll was found when SST was lower.</li>
           </ul-->
 
-  <h4 style="margin-top: .5em; margin-bottom: 1.5em">
+  <h4 style="margin-top: .5em; margin-bottom: 2px">
             <a href="#"
             class="pdf-link"
             data-pdf="./projects/4_1_project.pdf">
