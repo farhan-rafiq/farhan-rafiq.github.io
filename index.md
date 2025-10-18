@@ -76,7 +76,15 @@ layout: homepage
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
     <div style="flex:2; min-width:320px;">
       <h4 style="margin-bottom:.2em;">Project Summary</h4>
-      <p>This research investigates how <strong>Photosynthetically Available Radiation (PAR)</strong>, <strong>Diffuse Attenuation Coefficient (Kd<sub>490</sub>)</strong>, and <strong>Sea Surface Temperature (SST)</strong> vary both spatially and temporally in the Bangladesh Exclusive Economic Zone (EEZ) from 2016 to 2022. Using satellite-derived data (MODIS-Aqua) processed in SeaDAS and ArcGIS, the study analyzes monthly and annual trends for each parameter. The aim is to reveal how these physical factors influence marine ecosystems in the Bay of Bengal and to provide insights crucial for sustainable management in the face of climate change.</p>
+      <p>This research investigates how <strong>Photosynthetically Available Radiation (PAR)</strong>, 
+            <strong>Diffuse Attenuation Coefficient (Kd490)</strong>, and <strong>Sea Surface Temperature (SST)</strong> 
+            vary both <strong>spatially</strong> and <strong>temporally</strong> in the 
+            <strong>Bangladesh Exclusive Economic Zone (EEZ)</strong> from <strong>2016 to 2022</strong>. 
+            Using <strong>satellite-derived data (MODIS-Aqua)</strong> processed in <strong>SeaDAS</strong> 
+            and <strong>ArcGIS</strong>, the study analyzes <strong>monthly and annual trends</strong> for each parameter. 
+            The aim is to reveal how these <strong>physical factors</strong> influence <strong>marine ecosystems</strong> 
+            in the <strong>Bay of Bengal</strong> and to provide insights crucial for <strong>sustainable management</strong> 
+            in the face of <strong>climate change</strong></p>
 
   <!--h4 style="margin-bottom: 0;">Key Findings</h4>
       <ul style="margin-top: 0; margin-bottom:.5em">
@@ -104,7 +112,16 @@ layout: homepage
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
         <div style="flex:2; min-width:320px;">
           <h4 style="margin-bottom:.2em;">Project Summary</h4>
-          <p>This research analyzes the spatial and temporal patterns of Chlorophyll-a concentration and Sea Surface Temperature (SST) in the Bay of Bengal using monthly satellite data from January to December 2020. Data were sourced from the NASA Ocean Color Web and processed using SNAP and ArcMap software. Specific coastal regions near Bangladesh were selected for detailed comparison, while regional and seasonal variability across the Bay was mapped and quantified. The study aimed to enrich understanding of marine ecological dynamics and climate processes in the Bay of Bengal, providing valuable data for marine research and management.</p>
+          <p>This research analyzes the <strong>spatial and temporal patterns</strong> of 
+            <strong>Chlorophyll-a concentration</strong> and <strong>Sea Surface Temperature (SST)</strong> 
+            in the <strong>Bay of Bengal</strong> using <strong>monthly satellite data</strong> from 
+            <strong>January to December 2020</strong>. Data were sourced from the 
+            <strong>NASA Ocean Color Web</strong> and processed using <strong>SNAP</strong> and 
+            <strong>ArcMap software</strong>. Specific <strong>coastal regions near Bangladesh</strong> 
+            were selected for detailed comparison, while <strong>regional and seasonal variability</strong> 
+            across the Bay was mapped and quantified. The study aimed to enrich understanding of 
+            <strong>marine ecological dynamics</strong> and <strong>climate processes</strong> in the 
+            Bay of Bengal, providing valuable data for <strong>marine research and management</strong>.</p>
 
   <!--h4 style="margin-bottom: 0.2em;">Key Findings</h4>
           <ul style="margin: 0">
@@ -144,7 +161,13 @@ layout: homepage
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
     <div style="flex:2; min-width:320px;">
       <h4 style="margin-bottom:.2em;">Project Summary</h4>
-      <p>This internship provided a comprehensive overview of a study focused on <strong>marine phytoplankton</strong> indigenous to the Bay of Bengal. The research encompassed the culture, growth observation, isolation, and identification of these microscopic organisms. The findings contribute meaningfully to enhancing marine biodiversity assessments and supporting effective management strategies for fisheries resources in the region.</p>
+      <p> This internship provided a comprehensive overview of a study focused on 
+            <strong>marine phytoplankton</strong> indigenous to the <strong>Bay of Bengal</strong>. 
+            The research encompassed the <strong>culture</strong>, <strong>growth observation</strong>, 
+            <strong>isolation</strong>, and <strong>identification</strong> of these 
+            <strong>microscopic organisms</strong>. The findings contribute meaningfully to enhancing 
+            <strong>marine biodiversity assessments</strong> and supporting effective 
+            <strong>management strategies</strong> for <strong>fisheries resources</strong> in the region.</p>
 
   <!--h4 style="margin-bottom: 0;">Key Activities</h4>
       <ul style="margin-top: 0; margin-bottom:.5em">
