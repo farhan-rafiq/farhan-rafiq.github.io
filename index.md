@@ -187,35 +187,100 @@ layout: homepage
   <h2 id="field-works">Field Works</h2>
   <div class="section-content">
   
-  <div class="tabs">
-    <button class="tab active" data-target="coxs-bazar">Cox’s Bazar</button>
-    <button class="tab" data-target="kuakata">Kuakata</button>
-    <button class="tab" data-target="sundarban">Sundarban</button>
-    <button class="tab" data-target="saint-martins">Saint Martin’s</button>
+  <!-- Tabs -->
+  <div class="field-works-tabs">
+    <button class="tab-link active" data-tab="coxs-bazar">Cox's Bazar</button>
+    <button class="tab-link" data-tab="kuakata">Kuakata</button>
+    <button class="tab-link" data-tab="sundarban">Sundarban</button>
+    <button class="tab-link" data-tab="saint-martin">Saint Martin's</button>
   </div>
 
-  <div id="coxs-bazar" class="tab-content active">
-    <p class="year">2023</p>
-    <div class="fieldwork-container">
-      <div class="carousel">
-        <div class="slides">
-          <img src=".assets/img/dubla.png" alt="Cox’s Bazar Fieldwork 1">
-          <img src="images/coxs2.jpg" alt="Cox’s Bazar Fieldwork 2">
-          <img src="images/coxs3.jpg" alt="Cox’s Bazar Fieldwork 3">
-        </div>
-        <button class="prev">❮</button>
-        <button class="next">❯</button>
-      </div>
+  <!-- Content Wrapper -->
+  <div class="field-works-content-wrapper">
 
-      <ul class="fieldwork-details">
-        <li>Used quadrant and transect sampling techniques to collect various types of plastic materials from the beach</li>
-        <li>Analyzed the collected samples and found that polythene and plastic bottles were the most prominent types of waste</li>
-        <li>Explored the Bakkhali River estuary, observing various types of aquaculture including: Seaweed, Oyster, Green mussel, Vetki and Khoral culture</li>
-        <li>Collected water data using a mini CTD to measure key parameters like temperature, salinity, and conductivity</li>
-      </ul>
+    <!-- Template: Each tab -->
+  <div id="coxs-bazar" class="tab-content active">
+      <p class="meta">2023</p>
+      <div class="field-works-content">
+        <div class="carousel" data-images='[
+          "images/Field_Work/2023_Coxs_Bazar/1.webp",
+          "images/Field_Work/2023_Coxs_Bazar/2.webp",
+          "images/Field_Work/2023_Coxs_Bazar/3.webp",
+          "images/Field_Work/2023_Coxs_Bazar/4.webp"
+        ]'>
+  </div>
+
+  <ul class="field-works-details">
+          <li>Used quadrant and transect sampling techniques to collect various types of plastic materials from the beach</li>
+          <li>Analyzed the collected samples and found that polythene and plastic bottles were the most prominent types of waste</li>
+          <li>Explored the Bakkhali River estuary, observing aquaculture: Seaweed, Oyster, Green mussel, Vetki and Khoral culture</li>
+          <li>Collected water data using a mini CTD to measure temperature, salinity, and conductivity</li>
+        </ul>
+      </div>
     </div>
+
+  <div id="kuakata" class="tab-content">
+      <p class="meta">2022</p>
+      <div class="field-works-content">
+        <div class="carousel" data-images='[
+          "images/Field_Work/2022_Kuakata/1.webp",
+          "images/Field_Work/2022_Kuakata/2.webp",
+          "images/Field_Work/2022_Kuakata/3.webp"
+        ]'>
+  </div>
+
+  <ul class="field-works-details">
+          <li>Explored facilities and research at the Bangladesh Fish Research Institute (BFRI)</li>
+          <li>Collected and analyzed CTD data for temperature, salinity, and conductivity</li>
+          <li>Used DO meter, pH meter, and turbidity meter for in-situ water analysis</li>
+          <li>Collected sediment samples using an Ekman grab sampler for texture analysis</li>
+        </ul>
+      </div>
+    </div>
+
+  <div id="sundarban" class="tab-content">
+      <p class="meta">2020</p>
+      <div class="field-works-content">
+        <div class="carousel" data-images='[
+          "images/Field_Work/2020_Sundarban/1.webp",
+          "images/Field_Work/2020_Sundarban/2.webp",
+          "images/Field_Work/2020_Sundarban/3.webp",
+          "images/Field_Work/2020_Sundarban/4.webp"
+        ]'></div>
+
+  <ul class="field-works-details">
+          <li>Collected sediment samples for particle size and organic content analysis</li>
+          <li>Sampled plankton at Trikon Island to study biodiversity and productivity</li>
+          <li>Measured temperature, salinity, and pH across multiple sites</li>
+          <li>Engaged with fishermen at Dublar Char to understand conservation challenges</li>
+          <li>Observed wild deer at Hiron Point for biodiversity assessment</li>
+        </ul>
+      </div>
+    </div>
+
+  <div id="saint-martin" class="tab-content">
+      <p class="meta">2019</p>
+      <div class="field-works-content">
+        <div class="carousel" data-images='[
+          "images/Field_Work/2019_Saint_Martin/1.webp",
+          "images/Field_Work/2019_Saint_Martin/2.webp",
+          "images/Field_Work/2019_Saint_Martin/3.webp",
+          "images/Field_Work/2019_Saint_Martin/4.webp",
+          "images/Field_Work/2019_Saint_Martin/5.webp"
+        ]'>
+  </div>
+
+  <ul class="field-works-details">
+          <li>Observed coral ecosystems and biodiversity challenges</li>
+          <li>Measured water parameters using a multiparameter device</li>
+          <li>Visited Fish Landing Center and Radiant Fish World for marine studies</li>
+        </ul>
+      </div>
+  </div>
+
   </div>
 </section>
+
 
 
 
