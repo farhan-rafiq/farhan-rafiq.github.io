@@ -834,10 +834,9 @@ body {
 .field-works-tabs {
   display: flex;
   gap: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   flex-wrap: wrap;
   align-items: flex-start;
-  border-bottom: 1px solid #ddd;
 }
 
 .tab-link {
@@ -854,11 +853,12 @@ body {
 
 .tab-link:hover {
   color: #043361;
+  font-weight: bold;
 }
 
 .tab-link.active {
   color: #043361;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 .tab-link.active::after {
