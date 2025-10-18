@@ -140,7 +140,9 @@ document.addEventListener("DOMContentLoaded", function () {
       if (entry.isIntersecting) {
         const id = entry.target.getAttribute('id');
         const correspondingLink = document.querySelector(`.sidebar-nav a[href="#${id}"]`);
-        const correspondingSection = entry.target.closest('.section-content');
+        
+        // Find the .section-content that comes right after this h2
+        const correspondingSection = entry.target.nextElementSibling;
         
         // Remove active from all
         navLinks.forEach(link => link.classList.remove('active'));
@@ -148,7 +150,9 @@ document.addEventListener("DOMContentLoaded", function () {
         
         // Add active to current
         if (correspondingLink) correspondingLink.classList.add('active');
-        if (correspondingSection) correspondingSection.classList.add('active-section');
+        if (correspondingSection && correspondingSection.classList.contains('section-content')) {
+          correspondingSection.classList.add('active-section');
+        }
       }
     });
   }, { threshold: 0.5, rootMargin: "-20px 0px -500px 0px" });
