@@ -858,9 +858,14 @@ body {
 .tab-content {
   display: none;
 }
+/* --- FIX APPLIED HERE --- */
 .tab-content.active {
-  display: block;
+  display: block; /* original rule */
+  display: flex; /* NEW: Use Flexbox to align children */
+  gap: 20px; /* NEW: Space between image and bullet points */
+  align-items: flex-start; /* NEW: Align content to the top */
 }
+/* --- END FIX --- */
 .meta {
   color: #777;
   font-size: 1rem;
@@ -911,14 +916,6 @@ body {
 .field-works-tabs-details li {
   margin-bottom: 0.8rem;
 }
-
-/* New/Modified styles for layout */
-.tab-content.active { /* Assuming .tab-content.active is the parent of both carousel and details */
-  display: flex; /* Use flexbox to align children horizontally */
-  gap: 20px; /* Add some space between the image and the text */
-  align-items: flex-start; /* Align items to the top */
-}
-
 @media (max-width: 768px) {
   .field-works-tabs {
     flex-direction: column;
@@ -927,7 +924,8 @@ body {
   .field-works-tabs-details {
     width: 100%;
   }
-  .tab-content.active { /* On small screens, stack them again */
+  /* NEW: Stack content vertically on small screens */
+  .tab-content.active {
     flex-direction: column;
   }
 }
