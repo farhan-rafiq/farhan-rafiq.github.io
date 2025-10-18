@@ -199,7 +199,7 @@ layout: homepage
     <div class="fieldwork-container">
       <div class="carousel">
         <div class="slides">
-          <img src="images/coxs1.jpg" alt="Cox’s Bazar Fieldwork 1">
+          <img src=".assets/img/dubla.png" alt="Cox’s Bazar Fieldwork 1">
           <img src="images/coxs2.jpg" alt="Cox’s Bazar Fieldwork 2">
           <img src="images/coxs3.jpg" alt="Cox’s Bazar Fieldwork 3">
         </div>
