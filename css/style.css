@@ -951,7 +951,7 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  width: 270px;
+  width: 685px;
 }
 
 /* Individual List Item Styling - Default Bullet Point */
@@ -1000,7 +1000,7 @@ body {
 }
 
 
-/* remove 964, edit 884 (1rem), edit 960 (14px), then remove this too */
+/* remove 954, edit 884 (1rem), edit 960 (14px), then remove this too */
 .carousel {
   display: none;
 }
