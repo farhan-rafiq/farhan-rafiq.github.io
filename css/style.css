@@ -525,7 +525,7 @@ body {
    MOBILE MENU STYLING
    - Media query for screens <960px
 ========================================== */
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1080px) {
 
   /* Sidebar overlay */
   .sidebar-nav {
@@ -588,7 +588,7 @@ body {
    MEDIA QUERIES FOR RESPONSIVE DESIGN
    - Adjust layout for screens <=960px
 ========================================== */
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1080px) {
 
     h2:not(:first-of-type) {
         margin-top: 1.5em; /* Adjust spacing for smaller screens */
