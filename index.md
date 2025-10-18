@@ -9,9 +9,9 @@ layout: homepage
 </style>
 
 <section id="about-me-section">
-<div class="section-content">
+
   <h2 id="about-me">About Me</h2>
-  
+  <div class="section-content">  
   <p>
     I am an Oceanography graduate and geospatial enthusiast with a strong foundation in remote sensing, GIS mapping, and environmental data science. My expertise encompasses geospatial analysis, spatial modeling, and advanced data visualization, with proficiency in tools such as ArcGIS, SeaDAS, and Google Earth Engine for processing satellite data and conducting geographic analysis.
   </p>
@@ -22,9 +22,9 @@ layout: homepage
 </section>
 
 <section id="research-interests-section">
-<div class="section-content">
+
   <h2 id="research-interests">Research Interests</h2>
-  
+  <div class="section-content">  
   <ul style="list-style:none; padding-left:0;">
     <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
       <span style="width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:#fff; border-radius:50%; font-size:1em; margin-right:10px; flex-shrink:0; margin-top:10px;">🌍</span>
@@ -66,9 +66,9 @@ layout: homepage
 </section>
 
 <section id="research-projects-section">
-<div class="section-content">
+
   <h2 id="research-projects">Research Projects</h2>
-  
+  <div class="section-content">  
 
   <h3 style="margin-bottom: 5px;">Spatial and Temporal Variability of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)</h3>
   <p style="margin-top: 0;">Undergraduate Project &nbsp; | &nbsp; <b>Supervisor:</b> Abu Bokkar Siddique &nbsp; | &nbsp; Dec 2023</p>
@@ -132,9 +132,9 @@ layout: homepage
 </section>
 
 <section id="experience-section">
-<div class="section-content">
+
   <h2 id="experience">Experience</h2>
-  
+  <div class="section-content">  
 
   <h3 style="font-size:24px; margin-bottom: .5em;">Internship</h3>
   <h3 style="margin-bottom: 5px;">Growth, Observation, and Identification of Indigenous Marine Phytoplankton of the Bay of Bengal, Bangladesh</h3>
@@ -184,9 +184,9 @@ layout: homepage
 </section>
 
 <section id="education-section">
-<div class="section-content">
+
   <h2 id="education">Education</h2>
-  
+  <div class="section-content">  
   <h3 style="margin-bottom: 5px;">Bachelor of Science in Oceanography</h3>
   <p style="margin-bottom: 5px;">Shahjalal University of Science and Technology, Sylhet-3114, Bangladesh</p>
   <p style="margin-bottom: 10px;"><strong>CGPA:</strong> 3.66 out of 4.00</p>
