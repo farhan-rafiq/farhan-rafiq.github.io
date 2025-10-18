@@ -30,13 +30,6 @@ h2#about-me {
    - Base styles for body, headings, paragraphs, lists, links
 ========================================== */
 
-/* Reset & Base Styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
     background-color: white; /* Page background */
     padding-top: 0;
