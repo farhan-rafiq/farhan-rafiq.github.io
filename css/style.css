@@ -1004,12 +1004,12 @@ body {
   }
   
   .field-works-details {
-    width: 100%;
-    padding-left: 1.2rem;
+    width: 90%;
+    padding-left: 30px;
   }
 
   .field-works-details li {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6;
     margin-bottom: 0.8rem;
   }
