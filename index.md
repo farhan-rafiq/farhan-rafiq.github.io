@@ -277,8 +277,6 @@ layout: homepage
         </ul>
       </div>
   </div>
-
-  </div>
 </section>
 
 
