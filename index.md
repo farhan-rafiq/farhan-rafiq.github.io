@@ -71,26 +71,18 @@ layout: homepage
   <div class="section-content">  
 
   <h3 style="margin-bottom: 5px;">Spatial and Temporal Variability of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)</h3>
-  <p style="margin-top: 0;">Undergraduate Project &nbsp; | &nbsp; <b>Supervisor:</b> Abu Bokkar Siddique &nbsp; | &nbsp; Dec 2023</p>
+  <p style="margin-top: 0;">Undergraduate Project &nbsp; | &nbsp; Supervisor: Abu Bokkar Siddique &nbsp; | &nbsp; Dec 2023</p>
 
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
     <div style="flex:2; min-width:320px;">
-      <h4 style="margin-bottom:.2em;">Project Summary</h4>
-      <p>This research investigates how <strong>Photosynthetically Available Radiation (PAR)</strong>, 
-            <strong>Diffuse Attenuation Coefficient (Kd490)</strong>, and <strong>Sea Surface Temperature (SST)</strong> 
-            vary both <strong>spatially</strong> and <strong>temporally</strong> in the 
-            <strong>Bangladesh Exclusive Economic Zone (EEZ)</strong> from <strong>2016 to 2022</strong>. 
-            Using <strong>satellite-derived data (MODIS-Aqua)</strong> processed in <strong>SeaDAS</strong> 
-            and <strong>ArcGIS</strong>, the study analyzes <strong>monthly and annual trends</strong> for each parameter. 
-            The aim is to reveal how these <strong>physical factors</strong> influence <strong>marine ecosystems</strong> 
-            in the <strong>Bay of Bengal</strong> and to provide insights crucial for <strong>sustainable management</strong> 
-            in the face of <strong>climate change</strong></p>
+      <h4 style="margin-bottom:.2em;">Summary</h4>
+      <p>This research investigates how Photosynthetically Available Radiation (PAR), Diffuse Attenuation Coefficient (Kd490), and Sea Surface Temperature (SST) vary both spatially and temporally in the Bangladesh Exclusive Economic Zone (EEZ) from 2016 to 2022. Using satellite-derived data (MODIS-Aqua) processed in SeaDAS and ArcGIS, the study analyzes monthly and annual trends for each parameter. The aim is to reveal how these physical factors influence marine ecosystems in the Bay of Bengal and to provide insights crucial for sustainable management in the face of climate change.</p>
 
   <!--h4 style="margin-bottom: 0;">Key Findings</h4>
       <ul style="margin-top: 0; margin-bottom:.5em">
-        <li>PAR ranged from <b>32.47 – 55 Einstein/m²/day</b> with higher values offshore and seasonal highs in May–July.</li>
-        <li>Kd<sub>490</sub> values indicated higher water turbidity (up to <b>0.33 m⁻¹</b>) near coastlines due to runoff &amp; anthropogenic impacts.</li>
-        <li>SST varied seasonally from <b>22°C – 31°C</b>, revealing a subtle multi-year warming trend.</li>
+        <li>PAR ranged from 32.47 – 55 Einstein/m²/day with higher values offshore and seasonal highs in May–July.</li>
+        <li>Kd<sub>490</sub> values indicated higher water turbidity (up to 0.33 m⁻¹) near coastlines due to runoff &amp; anthropogenic impacts.</li>
+        <li>SST varied seasonally from 22°C – 31°C, revealing a subtle multi-year warming trend.</li>
       </ul-->
 
   <h4 style="margin-bottom: 2em">
@@ -106,28 +98,19 @@ layout: homepage
   </h4>
 
 
-  <h3 style="margin-bottom: 5px;">Quantitative Analysis of Annual Chlorophyll-a and Sea Surface Temperature Fluctuations in the Bay of Bengal Using Remote Sensing Data</h3>
-      <p style="margin-top: 0;">Academic Project &nbsp; | &nbsp; <b>Supervisor:</b> Dr. Subrata Sarker &nbsp; | &nbsp; Jun 2023</p>
+  <h3 style="margin-bottom: 5px;">Quantitative Analysis of Annual Chlorophyll-a and Sea Surface Temperature Fluctuations in the Bay of Bengal</h3>
+      <p style="margin-top: 0;">Academic Project &nbsp; | &nbsp; Supervisor: Dr. Subrata Sarker &nbsp; | &nbsp; Jun 2023</p>
 
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
         <div style="flex:2; min-width:320px;">
-          <h4 style="margin-bottom:.2em;">Project Summary</h4>
-          <p>This research analyzes the <strong>spatial and temporal patterns</strong> of 
-            <strong>Chlorophyll-a concentration</strong> and <strong>Sea Surface Temperature (SST)</strong> 
-            in the <strong>Bay of Bengal</strong> using <strong>monthly satellite data</strong> from 
-            <strong>January to December 2020</strong>. Data were sourced from the 
-            <strong>NASA Ocean Color Web</strong> and processed using <strong>SNAP</strong> and 
-            <strong>ArcMap software</strong>. Specific <strong>coastal regions near Bangladesh</strong> 
-            were selected for detailed comparison, while <strong>regional and seasonal variability</strong> 
-            across the Bay was mapped and quantified. The study aimed to enrich understanding of 
-            <strong>marine ecological dynamics</strong> and <strong>climate processes</strong> in the 
-            Bay of Bengal, providing valuable data for <strong>marine research and management</strong>.</p>
+          <h4 style="margin-bottom:.2em;">Summary</h4>
+          <p>This research analyzes the spatial and temporal patterns of Chlorophyll-a concentration and Sea Surface Temperature (SST) in the Bay of Bengal using monthly satellite data from January to December 2020. Data were sourced from the NASA Ocean Color Web and processed using SNAP and ArcMap software. Specific coastal regions near Bangladesh were selected for detailed comparison, while regional and seasonal variability across the Bay was mapped and quantified. The study aimed to enrich understanding of marine ecological dynamics and climate processes in the Bay of Bengal, providing valuable data for marine research and management.</p>
 
   <!--h4 style="margin-bottom: 0.2em;">Key Findings</h4>
           <ul style="margin: 0">
-            <li>Chlorophyll-a levels were <b>lowest</b> in May and peaked in August, indicating strong seasonal variation.</li>
-            <li>Sea Surface Temperature (SST) <b>increased</b> gradually from January, peaked in May, then declined after October.</li>
-            <li>There was a <b>negative correlation</b> between chlorophyll-a and SST: higher chlorophyll was found when SST was lower.</li>
+            <li>Chlorophyll-a levels were lowest in May and peaked in August, indicating strong seasonal variation.</li>
+            <li>Sea Surface Temperature (SST) increased gradually from January, peaked in May, then declined after October.</li>
+            <li>There was a negative correlation between chlorophyll-a and SST: higher chlorophyll was found when SST was lower.</li>
           </ul-->
 
   <h4 style="margin-top: .5em; margin-bottom: 2px">
@@ -156,25 +139,19 @@ layout: homepage
   <h3 style="font-size:24px; margin-bottom: .5em;">Internship</h3>
   <h3 style="margin-bottom: 5px;">Growth, Observation, and Identification of Indigenous Marine Phytoplankton of the Bay of Bengal, Bangladesh</h3>
   <p style="margin: 0;">Bangladesh Fisheries Research Institute (BFRI), Marine Fisheries and Technology Station, Cox's Bazar</p>
-  <p style="margin-top: 0;"><b>Supervisor:</b> Zahidul Islam &nbsp; | &nbsp; 5 Mar 2025 - 19 Mar 2025</p>
+  <p style="margin-top: 0;">Supervisor: Zahidul Islam &nbsp; | &nbsp; 5 Mar 2025 - 19 Mar 2025</p>
 
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
     <div style="flex:2; min-width:320px;">
       <h4 style="margin-bottom:.2em;">Project Summary</h4>
-      <p> This internship provided a comprehensive overview of a study focused on 
-            <strong>marine phytoplankton</strong> indigenous to the <strong>Bay of Bengal</strong>. 
-            The research encompassed the <strong>culture</strong>, <strong>growth observation</strong>, 
-            <strong>isolation</strong>, and <strong>identification</strong> of these 
-            <strong>microscopic organisms</strong>. The findings contribute meaningfully to enhancing 
-            <strong>marine biodiversity assessments</strong> and supporting effective 
-            <strong>management strategies</strong> for <strong>fisheries resources</strong> in the region.</p>
+      <p>This internship provided a comprehensive overview of a study focused on marine phytoplankton indigenous to the Bay of Bengal. The research encompassed the culture, growth observation, isolation, and identification of these microscopic organisms. The findings contribute meaningfully to enhancing marine biodiversity assessments and supporting effective management strategies for fisheries resources in the region.</p>
 
   <!--h4 style="margin-bottom: 0;">Key Activities</h4>
       <ul style="margin-top: 0; margin-bottom:.5em">
-        <li><b>Sample Collection & Fieldwork:</b> Collected seawater samples from coastal waters near Laboni Beach, Cox's Bazar, using a plankton net with a 20µm mesh size.</li>
-        <li><b>Culture & Media Preparation:</b> Prepared and sterilized glassware and utilized Guillard's F/2 media to culture the marine microalgae. Successfully isolated and cultured 29 distinct phytoplankton strains.</li>
-        <li><b>Growth Analysis:</b> Conducted a comparative analysis of <i>Skeletonema sp.</i> growth in both Natural Seawater (NSW) and Artificial Seawater (ASW). The results demonstrated robust growth in NSW, while the population rapidly declined in ASW.</li>
-        <li><b>Phytoplankton Identification:</b> Performed morphological identification of species using light and fluorescence microscopy (20x, 40x). Referenced the book 'Plankton of Bangladesh' to ensure taxonomic accuracy. Identified species from groups including diatoms and dinoflagellates.</li>
+        <li>Sample Collection & Fieldwork: Collected seawater samples from coastal waters near Laboni Beach, Cox's Bazar, using a plankton net with a 20µm mesh size.</li>
+        <li>Culture & Media Preparation: Prepared and sterilized glassware and utilized Guillard's F/2 media to culture the marine microalgae. Successfully isolated and cultured 29 distinct phytoplankton strains.</li>
+        <li>Growth Analysis: Conducted a comparative analysis of <i>Skeletonema sp.</i> growth in both Natural Seawater (NSW) and Artificial Seawater (ASW). The results demonstrated robust growth in NSW, while the population rapidly declined in ASW.</li>
+        <li>Phytoplankton Identification: Performed morphological identification of species using light and fluorescence microscopy (20x, 40x). Referenced the book 'Plankton of Bangladesh' to ensure taxonomic accuracy. Identified species from groups including diatoms and dinoflagellates.</li>
       </ul-->
 
   <h4 style="margin-bottom: 2em;">
@@ -190,15 +167,15 @@ layout: homepage
       </h4>
 
   <h3 style="font-size:22px; margin-bottom: 5px;">Teaching Experience</h3>
-      <p style="margin-top: 0;"><b>Private Tutor & Coaching Instructor</b> &nbsp; | &nbsp; Oct 2021 - Present</p>
+      <p style="margin-top: 0;">Private Tutor & Coaching Instructor &nbsp; | &nbsp; Oct 2021 - Present</p>
 
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
         <ul style="margin-top: 0; margin-bottom: 1em">
-          <li>Delivered personalized instruction to over 40+ students from <strong>GCSE, O-Level, A-Level, and National Curriculum (Class 5–12)</strong>, ensuring improved academic performance.</li>
-          <li>Specialized in <strong>Higher Mathematics and Physics at Higher Secondary level</strong>, simplifying complex concepts through structured lessons and problem-solving strategies.</li>
-          <li>Provided comprehensive guidance in <strong>all core subjects at Secondary level</strong>, adapting teaching methods to diverse learning styles.</li>
-          <li>Conducted <strong>over 250+ classes at multiple coaching centres</strong>, developing classroom management and communication skills.</li>
-          <li>Designed lesson plans, practice materials, and exam-focused sessions that prepared students for <strong>board exams and international curricula</strong>.</li>
+         <li>Delivered personalized instruction to over 40+ students from GCSE, O-Level, A-Level, and National Curriculum (Class 5–12), ensuring improved academic performance.</li>
+<li>Specialized in Higher Mathematics and Physics at Higher Secondary level, simplifying complex concepts through structured lessons and problem-solving strategies.</li>
+<li>Provided comprehensive guidance in all core subjects at Secondary level, adapting teaching methods to diverse learning styles.</li>
+<li>Conducted over 250+ classes at multiple coaching centres, developing classroom management and communication skills.</li>
+<li>Designed lesson plans, practice materials, and exam-focused sessions that prepared students for board exams and international curricula.</li>
         </ul>
       </div>
     </div>

@@ -30,7 +30,7 @@ body {
 }
 
 h1 {
-    font-size: 29px;
+    font-size: 28px;
     font-weight: 600;
     color: #043361; /* Dark blue heading */
     line-height: 1.1;
@@ -38,7 +38,7 @@ h1 {
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 600;
     color: #043361;
     line-height: 1.1;
@@ -51,7 +51,7 @@ h2 {
 }
 
 h3 {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 h4 {
