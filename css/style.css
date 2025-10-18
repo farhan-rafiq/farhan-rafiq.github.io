@@ -824,14 +824,19 @@ body {
    - Tabs, carousel, and details styling
 ========================================== */
 
+/* Styling for the main section title */
 .section-title {
   font-size: 1.8rem;
   margin-bottom: 1rem;
 }
+
+/* Tabs styling */
 .field-works-tabs {
   display: flex;
   gap: 3rem;
   margin-bottom: 2rem;
+  flex-wrap: wrap; /* Keep existing wrap */
+  align-items: flex-start;
 }
 .tab-link {
   background: none;
@@ -855,41 +860,51 @@ body {
   width: 100%;
   background-color: #043361;
 }
+
+/* Tab content container - This acts as your new 'project-content' */
 .tab-content {
   display: none;
 }
-/* --- FIX APPLIED HERE --- */
 .tab-content.active {
-  display: block; /* original rule */
-  display: flex; /* NEW: Use Flexbox to align children */
-  gap: 20px; /* NEW: Space between image and bullet points */
-  align-items: flex-start; /* NEW: Align content to the top */
+  display: grid; /* Use Grid for side-by-side layout */
+  grid-template-columns: 40% 1fr; /* 40% for image, rest for details */
+  gap: 2rem; /* Gap between image and details */
+  align-items: flex-start; /* Align contents to the start */
 }
-/* --- END FIX --- */
+
+/* Metadata style */
 .meta {
   color: #777;
   font-size: 1rem;
   margin-bottom: 1.2rem;
+  /* Add display: block and padding-left to mimic the example meta style */
+  display: block;
+  padding-left: 0.5rem;
 }
-.field-works-tabs {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  align-items: flex-start;
-}
-/* Carousel */
+
+
+/* Carousel (Image/Media) Styling - Equivalent to .project-image */
 .carousel {
   position: relative;
-  width: 45%;
+  /* Removing width: 45% because grid handles the width */
   border-radius: 10px;
   overflow: hidden;
   background: #f6f6f6;
+  width: 100%;
+  /* Added aspect-ratio to match the example styling */
+  aspect-ratio: 1 / 1; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .carousel img {
   width: 100%;
+  height: 100%; /* Added height: 100% */
+  object-fit: cover; /* Added object-fit: cover */
   display: block;
   border-radius: 10px;
 }
+/* Carousel Controls - Existing styles */
 .carousel .control {
   position: absolute;
   top: 50%;
@@ -907,25 +922,75 @@ body {
 .carousel .next {
   right: 10px;
 }
+
+
+/* Details List Styling - Equivalent to .project-details */
 .field-works-tabs-details {
-  width: 50%;
-  list-style: disc;
+  /* Removing width: 50% because grid handles the width */
+  list-style: none; /* Removed disc to use custom bullet */
+  padding-left: 0; /* Important for list-style: none */
   text-align: justify;
   color: #333;
+
+  /* Added layout properties to mimic the example's .project-details */
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
+
+/* Individual List Item Styling - Custom Bullet Point */
 .field-works-tabs-details li {
-  margin-bottom: 0.8rem;
+  /* Combined styling from your example's li and ::before */
+  position: relative;
+  list-style: none; /* Ensure no default bullet */
+  padding-left: 1.5rem; /* Space for the custom bullet */
+  margin-bottom: 0.8rem; /* Kept your original margin-bottom, adjust if needed */
+  font-size: 0.95rem; /* Smaller font size like the example */
+  line-height: 1.4;
+  color: #333; /* Kept your original color */
 }
+
+/* Custom bullet point ::before element */
+.field-works-tabs-details li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  background-color: #043361; /* Using the tab active color as an accent */
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+
+/* Mobile adjustments */
 @media (max-width: 768px) {
   .field-works-tabs {
     flex-direction: column;
   }
+  
+  /* Stack the image and details vertically on smaller screens */
+  .tab-content.active {
+    grid-template-columns: 1fr; /* Full width for image and details */
+  }
+
+  /* Make image and details take full width */
   .carousel,
   .field-works-tabs-details {
     width: 100%;
   }
-  /* NEW: Stack content vertically on small screens */
-  .tab-content.active {
-    flex-direction: column;
+
+  /* Adjust bullet padding for mobile */
+  .field-works-tabs-details li {
+    padding-left: 1.3rem;
+    font-size: 0.92rem;
+  }
+
+  .field-works-tabs-details li::before {
+    width: 5px;
+    height: 5px;
   }
 }
