@@ -70,6 +70,10 @@ p, ul, ol, table, pre, dl {
     font-weight: 200;
 }
 
+li {
+    margin-bottom: 0.5em;
+}
+
 /* Anchor tags */
 a {
     font-size: 16px;
