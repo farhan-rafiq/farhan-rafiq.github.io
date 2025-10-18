@@ -957,7 +957,7 @@ body {
 /* Individual List Item Styling - Default Bullet Point */
 .field-works-details li {
   margin-bottom: 0.5rem;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
   color: #333;
   text-align: justify;
@@ -1000,7 +1000,7 @@ body {
 }
 
 
-/* remove 964, edit 884 (1rem), then remove this too */
+/* remove 964, edit 884 (1rem), edit 960 (14px), then remove this too */
 .carousel {
   display: none;
 }
