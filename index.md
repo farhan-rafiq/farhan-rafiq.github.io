@@ -172,8 +172,8 @@ layout: homepage
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
         <ul style="margin-top: 0; margin-bottom: 1em">
          <li>Delivered personalized instruction to over 40+ students from GCSE, O-Level, A-Level, and National Curriculum (Class 5–12), ensuring improved academic performance.</li>
-<li>Specialized in Higher Mathematics and Physics at Higher Secondary level, simplifying complex concepts through structured lessons and problem-solving strategies.</li>
-<li>Provided comprehensive guidance in all core subjects at Secondary level, adapting teaching methods to diverse learning styles.</li>
+<li>Specialized in Higher Mathematics and Physics at the Higher Secondary level, simplifying complex concepts through structured lessons and problem-solving strategies.</li>
+<li>Provided comprehensive guidance in all core subjects at the Secondary level, adapting teaching methods to diverse learning styles.</li>
 <li>Conducted over 250+ classes at multiple coaching centres, developing classroom management and communication skills.</li>
 <li>Designed lesson plans, practice materials, and exam-focused sessions that prepared students for board exams and international curricula.</li>
         </ul>
@@ -188,7 +188,7 @@ layout: homepage
   <div class="section-content">
   
     <!-- Tabs -->
-    <div class="field-works-tabs">
+  <div class="field-works-tabs">
       <button class="tab-link active" data-tab="coxs-bazar">Cox's Bazar</button>
       <button class="tab-link" data-tab="kuakata">Kuakata</button>
       <button class="tab-link" data-tab="sundarban">Sundarban</button>
@@ -196,10 +196,10 @@ layout: homepage
     </div>
 
     <!-- Content Wrapper -->
-    <div class="field-works-content-wrapper">
+  <div class="field-works-content-wrapper">
 
       <!-- Cox's Bazar Tab -->
-      <div id="coxs-bazar" class="tab-content active">
+  <div id="coxs-bazar" class="tab-content active">
         <p class="meta">2023</p>
         <div class="field-works-content">
           <div class="carousel" data-images='[
@@ -213,17 +213,17 @@ layout: homepage
             <button class="control next">›</button>
           </div>
 
-          <ul class="field-works-details">
+  <ul class="field-works-details">
             <li>Used quadrant and transect sampling techniques to collect various types of plastic materials from the beach</li>
             <li>Analyzed the collected samples and found that polythene and plastic bottles were the most prominent types of waste</li>
-            <li>Explored the Bakkhali River estuary, observing various types of aquaculture including: Seaweed farming, Oyster farming, Green mussel farming, Vetki and Khoral culture</li>
-            <li>Collected water data using a mini CTD to measure key parameters like temperature, salinity, and conductivitys</li>
+            <li>Explored the Bakkhali River estuary, observing various types of aquaculture, including: Seaweed farming, Oyster farming, Green mussel farming, Vetki and Khoral culture</li>
+            <li>Collected water data using a mini CTD to measure key parameters like temperature, salinity, and conductivity </li>
           </ul>
         </div>
       </div>
 
       <!-- Kuakata Tab -->
-      <div id="kuakata" class="tab-content">
+  <div id="kuakata" class="tab-content">
         <p class="meta">2022</p>
         <div class="field-works-content">
           <div class="carousel" data-images='[
@@ -236,7 +236,7 @@ layout: homepage
             <button class="control next">›</button>
           </div>
 
-          <ul class="field-works-details">
+  <ul class="field-works-details">
             <li>Visited the Bangladesh Fisheries Research Institute (BFRI) to explore its research activities and facilities</li>
             <li>Acquired and processed CTD data to assess temperature, salinity, and conductivity</li>
             <li>Performed on-site water quality assessments using DO, pH, and turbidity meters</li>
@@ -246,7 +246,7 @@ layout: homepage
       </div>
 
       <!-- Sundarban Tab -->
-      <div id="sundarban" class="tab-content">
+  <div id="sundarban" class="tab-content">
         <p class="meta">2020</p>
         <div class="field-works-content">
           <div class="carousel" data-images='[
@@ -260,7 +260,7 @@ layout: homepage
             <button class="control next">›</button>
           </div>
 
-          <ul class="field-works-details">
+  <ul class="field-works-details">
             <li>Collected sediment samples to analyze particle size distribution and organic matter content</li>
             <li>Conducted plankton sampling at Trikon Island to examine biodiversity and productivity levels</li>
             <li>Recorded temperature, salinity, and pH variations across different sampling sites</li>
@@ -271,7 +271,7 @@ layout: homepage
       </div>
 
       <!-- Saint Martin's Tab -->
-      <div id="saint-martin" class="tab-content">
+  <div id="saint-martin" class="tab-content">
         <p class="meta">2019</p>
         <div class="field-works-content">
           <div class="carousel" data-images='[
@@ -286,7 +286,7 @@ layout: homepage
             <button class="control next">›</button>
           </div>
 
-          <ul class="field-works-details">
+  <ul class="field-works-details">
             <li>Studied coral reef ecosystems and identified key biodiversity challenges</li>
             <li>Measured essential water quality parameters using a multiparameter instrument</li>
             <li>Visited the Fish Landing Center and Radiant Fish World to explore marine resources and research initiatives</li>
@@ -294,7 +294,7 @@ layout: homepage
         </div>
       </div>
 
-    </div>
+  </div>
   </div>
 </section>
 
