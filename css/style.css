@@ -836,6 +836,8 @@ body {
   font-size: 1.1rem;
   cursor: pointer;
   padding-bottom: 0.5rem;
+  padding-left: 0;
+  padding-right: 0;
   position: relative;
   font-family: "Merriweather", serif;
   color: #666;
@@ -966,8 +968,8 @@ body {
   }
   
   .field-works-details li {
-    font-size: 14px;
-    margin-bottom: 1rem;
+    font-size: 16px;
+    margin-bottom: 0.5rem;
   }
 }
 
