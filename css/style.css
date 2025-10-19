@@ -495,7 +495,7 @@ body {
   width: 20px;
   height: 3px;
   border-radius: 20px;
-  background-color: #9999; /* Bar color */
+  background-color: #999; /* Bar color */
   margin: 4px 0;          /* Space between bars */
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* Smooth animation */
 }
@@ -517,7 +517,7 @@ body {
    MOBILE MENU STYLING
    - Media query for screens <960px
 ========================================== */
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 960px) {
 
   /* Sidebar overlay */
   .sidebar-nav {
@@ -580,7 +580,7 @@ body {
    MEDIA QUERIES FOR RESPONSIVE DESIGN
    - Adjust layout for screens <=960px
 ========================================== */
-@media print, screen and (max-width: 1080px) {
+@media print, screen and (max-width: 960px) {
 
     h2:not(:first-of-type) {
         margin-top: 1.5em; /* Adjust spacing for smaller screens */
