@@ -846,7 +846,6 @@ body {
 
 .tab-link:hover {
   color: #043361;
-  font-weight: bold;
 }
 
 .tab-link.active {
