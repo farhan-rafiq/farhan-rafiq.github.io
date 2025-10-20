@@ -71,7 +71,7 @@ p, ul, ol, table, pre, dl {
 }
 
 li {
-    margin-bottom: 0.5em;
+    margin-bottom: 0;
 }
 
 /* Anchor tags */
