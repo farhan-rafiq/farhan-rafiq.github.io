@@ -300,12 +300,51 @@ layout: homepage
 
 
 
-<section id="education-section">
+<!--section id="education-section">
 
   <h2 id="education">Education</h2>
   <div class="section-content">  
   <h3 style="margin-bottom: 5px;">Bachelor of Science in Oceanography</h3>
   <p style="margin-bottom: 5px;">Shahjalal University of Science and Technology, Sylhet-3114, Bangladesh</p>
+  <p style="margin-bottom: 10px;"><strong>CGPA:</strong> 3.66 out of 4.00</p>
+
+  <!-- Relevant Coursework --
+  <h4 style="margin-bottom: 5px;">Relevant Coursework</h4>
+  <div class="course-container">
+    <ul class="course-column">
+      <li>GIS Technology</li>
+      <li>Ocean Modelling</li>
+      <li>Ocean Geophysics</li>
+    </ul>
+    <ul class="course-column">
+      <li>Remote Sensing and Satellite Oceanography</li>
+      <li>Meteorology and Ocean Forecasting</li>
+      <li>Marine Environment and Climate Change</li>
+    </ul>
+  </div>
+  </div>
+</section-->
+
+<section id="education-section">
+  <h2 id="education">Education</h2>
+  <div class="section-content">  
+  <h3 style="margin-bottom: 5px;">Master of Science in Oceanography</h3>
+  <p style="margin-bottom: 5px;">Shahjalal University of Science and Technology, Sylhet, Bangladesh</p>
+  <p style="margin-bottom: 10px;"><strong>CGPA:</strong> 3.78 out of 4.00 (40/52 credits completed)</p>
+
+  <!-- Relevant Coursework -->
+  <h4 style="margin-bottom: 5px;">Relevant Coursework</h4>
+  <div class="course-container">
+    <ul class="course-column">
+      <li>Computational Oceanography and Data Analysis</li>
+      <li>Advanced Ocean Dynamics</li>
+      <li>Coastal and Marine Fluid Dynamics</li>
+      <li>Coastal Hydrogeology</li>
+    </ul>
+  </div>
+ 
+  <h3 style="margin-bottom: 5px;">Bachelor of Science in Oceanography</h3>
+  <p style="margin-bottom: 5px;">Shahjalal University of Science and Technology, Sylhet, Bangladesh</p>
   <p style="margin-bottom: 10px;"><strong>CGPA:</strong> 3.66 out of 4.00</p>
 
   <!-- Relevant Coursework -->
@@ -324,3 +363,4 @@ layout: homepage
   </div>
   </div>
 </section>
+
