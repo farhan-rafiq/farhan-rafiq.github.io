@@ -308,7 +308,7 @@ layout: homepage
 <section id="education-section">
   <h2 id="education">Education</h2>
   <div class="section-content">  
-  <h3 style="margin-bottom: 5px;">Master of Science in Oceanography</h3>
+  <h3 style="margin-bottom: 5px;">Master of Science in Oceanography (Thesis)</h3>
   <p style="margin-bottom: 5px;">Shahjalal University of Science and Technology, Sylhet, Bangladesh</p>
   <p style="margin-bottom: 5px;"><strong>CGPA:</strong> 3.78 out of 4.00 (40/52 credits completed)</p>
   <p style="margin-bottom: 10px;"><strong>Award:</strong> National Science and Technology Fellowship, Ministry of Science & Technology, Bangladesh</p>
