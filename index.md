@@ -324,7 +324,7 @@ layout: homepage
     </ul>
   </div>
  
-  <h3 style="margin-top: 3em; margin-bottom: 5px;">Bachelor of Science in Oceanography</h3>
+  <h3 style="margin-top: 2em; margin-bottom: 5px;">Bachelor of Science in Oceanography</h3>
   <p style="margin-bottom: 5px;">Shahjalal University of Science and Technology, Sylhet, Bangladesh</p>
   <p style="margin-bottom: 10px;"><strong>CGPA:</strong> 3.66 out of 4.00</p>
 
