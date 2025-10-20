@@ -174,7 +174,7 @@ layout: homepage
       <p style="margin-top: 0;">Private Tutor & Coaching Instructor &nbsp; | &nbsp; Oct 2021 - Present</p>
 
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
-        <ul style="margin-top: 0; margin-bottom: 1em">
+        <ul style="margin-top: 0; margin-bottom: 0">
          <li>Delivered personalized instruction to over 40+ students from GCSE, O-Level, A-Level, and National Curriculum (Class 5–12), ensuring improved academic performance.</li>
 <li>Specialized in Higher Mathematics and Physics at the Higher Secondary level, simplifying complex concepts through structured lessons and problem-solving strategies.</li>
 <li>Provided comprehensive guidance in all core subjects at the Secondary level, adapting teaching methods to diverse learning styles.</li>
@@ -331,12 +331,12 @@ layout: homepage
   <!-- Relevant Coursework -->
   <h4 style="margin-top: 20px; margin-bottom: 5px;">Relevant Coursework</h4>
   <div class="course-container">
-    <ul class="course-column">
+    <ul class="course-column" style="margin-bottom: 0;">
       <li>GIS Technology</li>
       <li>Ocean Modelling</li>
       <li>Ocean Geophysics</li>
     </ul>
-    <ul class="course-column">
+    <ul class="course-column" style="margin-bottom: 0;">
       <li>Remote Sensing and Satellite Oceanography</li>
       <li>Meteorology and Ocean Forecasting</li>
       <li>Marine Environment and Climate Change</li>
