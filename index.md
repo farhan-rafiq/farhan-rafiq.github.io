@@ -101,7 +101,7 @@ layout: homepage
   </h4>
 
 
-  <h3 style="margin-bottom: 5px;">Quantitative Analysis of Annual Chlorophyll-a and Sea Surface Temperature Fluctuations in the Bay of Bengal</h3>
+  <h3 style="margin-top: 2.8em; margin-bottom: 5px;">Quantitative Analysis of Annual Chlorophyll-a and Sea Surface Temperature Fluctuations in the Bay of Bengal</h3>
       <p style="margin-top: 0;">Academic Project &nbsp; | &nbsp; Supervisor: Dr. Subrata Sarker &nbsp; | &nbsp; Jun 2023</p>
 
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
