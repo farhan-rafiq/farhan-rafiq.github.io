@@ -8,8 +8,9 @@ layout: homepage
   }
 </style>
 
-<section id="about-me-section">
 
+<!-- ABOUT ME SECTION -->
+<section id="about-me-section">
   <h2 id="about-me">About Me</h2>
   <div class="section-content">  
   <p>
@@ -21,8 +22,9 @@ layout: homepage
   </div>
 </section>
 
-<section id="research-interests-section">
 
+<!-- RESEARCH INTERESTS SECTION -->
+<section id="research-interests-section">
   <h2 id="research-interests">Research Interests</h2>
   <div class="section-content">  
   <ul style="list-style:none; padding-left:0;">
@@ -65,8 +67,9 @@ layout: homepage
   </div>
 </section>
 
-<section id="research-projects-section">
 
+<!-- RESEARCH PROJECTS SECTION -->
+<section id="research-projects-section">
   <h2 id="research-projects">Research Projects</h2>
   <div class="section-content">  
 
@@ -131,8 +134,9 @@ layout: homepage
   </div>
 </section>
 
-<section id="experience-section">
 
+<!-- EXPERIENCE SECTION -->
+<section id="experience-section">
   <h2 id="experience">Experience</h2>
   <div class="section-content">  
 
@@ -166,7 +170,7 @@ layout: homepage
         </a>
       </h4>
 
-  <h3 style="font-size:22px; margin-bottom: 5px;">Teaching Experience</h3>
+  <h3 style="font-size:22px; margin-top: 2.5em; margin-bottom: 5px;">Teaching Experience</h3>
       <p style="margin-top: 0;">Private Tutor & Coaching Instructor &nbsp; | &nbsp; Oct 2021 - Present</p>
 
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
@@ -183,6 +187,8 @@ layout: homepage
   </div>
 </section>
 
+
+<!-- FIELDWORKS SECTION -->
 <section id="field-works-section">
   <h2 id="field-works">Field Works</h2>
   <div class="section-content">
@@ -298,42 +304,17 @@ layout: homepage
   </div>
 </section>
 
-
-
-<!--section id="education-section">
-
-  <h2 id="education">Education</h2>
-  <div class="section-content">  
-  <h3 style="margin-bottom: 5px;">Bachelor of Science in Oceanography</h3>
-  <p style="margin-bottom: 5px;">Shahjalal University of Science and Technology, Sylhet-3114, Bangladesh</p>
-  <p style="margin-bottom: 10px;"><strong>CGPA:</strong> 3.66 out of 4.00</p>
-
-  <!-- Relevant Coursework --
-  <h4 style="margin-bottom: 5px;">Relevant Coursework</h4>
-  <div class="course-container">
-    <ul class="course-column">
-      <li>GIS Technology</li>
-      <li>Ocean Modelling</li>
-      <li>Ocean Geophysics</li>
-    </ul>
-    <ul class="course-column">
-      <li>Remote Sensing and Satellite Oceanography</li>
-      <li>Meteorology and Ocean Forecasting</li>
-      <li>Marine Environment and Climate Change</li>
-    </ul>
-  </div>
-  </div>
-</section-->
-
+<!-- EDUCATION SECTION -->
 <section id="education-section">
   <h2 id="education">Education</h2>
   <div class="section-content">  
   <h3 style="margin-bottom: 5px;">Master of Science in Oceanography</h3>
   <p style="margin-bottom: 5px;">Shahjalal University of Science and Technology, Sylhet, Bangladesh</p>
-  <p style="margin-bottom: 10px;"><strong>CGPA:</strong> 3.78 out of 4.00 (40/52 credits completed)</p>
+  <p style="margin-bottom: 5px;"><strong>CGPA:</strong> 3.78 out of 4.00 (40/52 credits completed)</p>
+  <p style="margin-bottom: 10px;"><strong>Award:</strong> National Science and Technology Fellowship, Ministry of Science & Technology, Bangladesh</p>
 
   <!-- Relevant Coursework -->
-  <h4 style="margin-bottom: 5px;">Relevant Coursework</h4>
+  <h4 style="margin-top: 20px; margin-bottom: 5px;">Relevant Coursework</h4>
   <div class="course-container">
     <ul class="course-column">
       <li>Computational Oceanography and Data Analysis</li>
@@ -343,12 +324,12 @@ layout: homepage
     </ul>
   </div>
  
-  <h3 style="margin-bottom: 5px;">Bachelor of Science in Oceanography</h3>
+  <h3 style="margin-top: 2em; margin-bottom: 5px;">Bachelor of Science in Oceanography</h3>
   <p style="margin-bottom: 5px;">Shahjalal University of Science and Technology, Sylhet, Bangladesh</p>
   <p style="margin-bottom: 10px;"><strong>CGPA:</strong> 3.66 out of 4.00</p>
 
   <!-- Relevant Coursework -->
-  <h4 style="margin-bottom: 5px;">Relevant Coursework</h4>
+  <h4 style="margin-top: 20px; margin-bottom: 5px;">Relevant Coursework</h4>
   <div class="course-container">
     <ul class="course-column">
       <li>GIS Technology</li>
