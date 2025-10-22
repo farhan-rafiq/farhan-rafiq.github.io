@@ -174,7 +174,7 @@ layout: homepage
       <p style="margin-top: 0;">Private Tutor & Coaching Instructor &nbsp; | &nbsp; Oct 2021 - Present</p>
 
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
-        <ul style="margin-top: 0; margin-bottom: 0">
+        <ul style="margin-top: 0; margin-bottom: 0; padding-left: 2.5rem;">
          <li>Delivered personalized instruction to over 40+ students from GCSE, O-Level, A-Level, and National Curriculum (Class 5–12), ensuring improved academic performance.</li>
 <li>Specialized in Higher Mathematics and Physics at the Higher Secondary level, simplifying complex concepts through structured lessons and problem-solving strategies.</li>
 <li>Provided comprehensive guidance in all core subjects at the Secondary level, adapting teaching methods to diverse learning styles.</li>
