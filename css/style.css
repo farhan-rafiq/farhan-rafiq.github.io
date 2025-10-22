@@ -1,0 +1,657 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&display=swap");
+
+/* ==========================================
+   RESET & BASE STYLES
+========================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Offset for fixed nav */
+}
+
+body {
+  background-color: white;
+  font: 16px/1.6 "Merriweather", serif !important;
+  color: #333333;
+  font-weight: 200;
+  margin: 0;
+  padding-top: 70px; /* Space for fixed nav */
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ==========================================
+   TOP NAVIGATION BAR
+========================================== */
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+/* Brand Section */
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-avatar {
+  display: flex;
+  align-items: center;
+}
+
+.brand-avatar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.brand-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #043361;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.brand-name:hover {
+  color: #0A66C2;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex: 1;
+  justify-content: center;
+}
+
+.nav-link {
+  font-size: 15px;
+  color: #666;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  position: relative;
+}
+
+.nav-link:hover {
+  color: #043361;
+  background-color: rgba(135, 206, 250, 0.1);
+}
+
+.nav-link.active {
+  color: #043361;
+  font-weight: 600;
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: #043361;
+}
+
+/* Navigation Actions */
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-cv-btn {
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  background: #043361;
+  padding: 8px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.nav-cv-btn:hover {
+  background: #0A66C2;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(4, 51, 97, 0.2);
+}
+
+.nav-icon {
+  font-size: 18px;
+  color: #043361;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.nav-icon:hover {
+  color: #0A66C2;
+  background-color: rgba(135, 206, 250, 0.1);
+  transform: scale(1.1);
+}
+
+/* Hamburger Menu */
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 4px;
+  z-index: 1001;
+}
+
+.hamburger-menu .bar {
+  width: 24px;
+  height: 3px;
+  background-color: #043361;
+  border-radius: 2px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hamburger-menu.open .bar:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.hamburger-menu.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-menu.open .bar:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* Mobile Menu Overlay */
+.mobile-menu-overlay {
+  display: none;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.mobile-menu-overlay.show {
+  display: block;
+  opacity: 1;
+}
+
+/* ==========================================
+   MAIN CONTENT LAYOUT
+========================================== */
+.main-content {
+  min-height: calc(100vh - 70px);
+}
+
+.content-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* ==========================================
+   TYPOGRAPHY
+========================================== */
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #043361;
+  line-height: 1.1;
+  margin: 0 0 20px;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #043361;
+  line-height: 1.1;
+  margin: 2em 0 15px;
+  border-bottom: 1px solid #D3D3D3;
+  padding-bottom: 0.5em;
+  display: block;
+  width: 100%;
+}
+
+h2:first-of-type {
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #043361;
+  line-height: 1.1;
+  margin: 0 0 20px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #043361;
+  line-height: 1.1;
+  margin: 0 0 20px;
+}
+
+p, ul, ol, table, pre, dl {
+  margin: 0 0 20px;
+  letter-spacing: 0.16px;
+  font-weight: 200;
+}
+
+li {
+  margin-bottom: 0;
+}
+
+a {
+  font-size: 16px;
+  font-weight: 200;
+  color: #888;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #043361;
+}
+
+strong {
+  color: #222;
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* ==========================================
+   SECTION CONTENT STYLING
+========================================== */
+.section-content {
+  padding-left: 1.5rem;
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.section-content::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: #E5EAEF;
+  border-radius: 2px;
+}
+
+.section-content.active-section::before {
+  background-color: #043361;
+}
+
+/* ==========================================
+   PDF LINKS
+========================================== */
+.pdf-link {
+  text-decoration: none;
+  color: inherit;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  border: 1px solid #043361;
+  border-radius: 0;
+  background: linear-gradient(to right, rgba(135, 206, 250, 0.15) 50%, transparent 100%);
+  background-size: 200% 100%;
+  background-position: left center;
+  transition: background-position 0.4s ease, border 0.3s ease;
+}
+
+.pdf-link:hover {
+  background-position: right center;
+  border: 1px solid rgba(135, 206, 250, 0.6);
+}
+
+/* ==========================================
+   COURSE CONTAINER
+========================================== */
+.course-container {
+  display: flex;
+  gap: 0;
+  margin-top: 10px;
+}
+
+.course-column {
+  flex: 1;
+  list-style-type: disc;
+  padding-left: 40px;
+  text-align: left;
+}
+
+.course-column:nth-child(2) {
+  margin-left: -120px;
+}
+
+/* ==========================================
+   PDF MODAL
+========================================== */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  transition: opacity 0.3s ease;
+  overflow: hidden;
+}
+
+.modal.show {
+  display: block;
+  opacity: 1;
+}
+
+.modal-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+#pdfViewer {
+  flex: 1;
+  width: 100%;
+  border: none;
+  background: #fff;
+}
+
+.close-btn {
+  position: absolute;
+  top: 11px;
+  right: 12px;
+  background: #111;
+  color: white;
+  border: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 0;
+  width: 30px;
+  height: 30px;
+  line-height: 0;
+  text-align: center;
+  transition: background 0.2s ease;
+  z-index: 10000;
+}
+
+.close-btn:hover {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+/* ==========================================
+   FIELDWORK TABS & CONTENT
+========================================== */
+.field-works-tabs {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.tab-link {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding-bottom: 0.5rem;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  font-family: "Merriweather", serif;
+  color: #666;
+  transition: color 0.3s ease;
+}
+
+.tab-link:hover {
+  color: #043361;
+}
+
+.tab-link.active {
+  color: #043361;
+  font-weight: bold;
+}
+
+.tab-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #043361;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.meta {
+  color: #777;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.field-works-content {
+  display: grid;
+  grid-template-columns: 35% 1fr;
+  gap: 0;
+  align-items: stretch;
+}
+
+.carousel {
+  display: none;
+}
+
+.field-works-details {
+  list-style: disc;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.field-works-details li {
+  margin-bottom: 0.5rem;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  text-align: justify;
+}
+
+/* ==========================================
+   RESPONSIVE DESIGN - TABLET
+========================================== */
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    gap: 1.5rem;
+  }
+
+  .nav-link {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .content-wrapper {
+    max-width: 100%;
+    padding: 1.5rem;
+  }
+
+  .field-works-content {
+    grid-template-columns: 1fr;
+  }
+
+  .course-column:nth-child(2) {
+    margin-left: 0;
+  }
+}
+
+/* ==========================================
+   RESPONSIVE DESIGN - MOBILE
+========================================== */
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 70px;
+  }
+
+  .nav-container {
+    padding: 0 1rem;
+  }
+
+  .brand-name {
+    font-size: 18px;
+  }
+
+  .brand-avatar img {
+    width: 35px;
+    height: 35px;
+  }
+
+  /* Hide desktop nav, show hamburger */
+  .nav-links {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2rem;
+    gap: 0;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    overflow-y: auto;
+  }
+
+  .nav-links.show {
+    transform: translateX(0);
+  }
+
+  .nav-link {
+    width: 100%;
+    padding: 1rem;
+    font-size: 16px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  .nav-link.active::after {
+    display: none;
+  }
+
+  .nav-actions {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+
+  .content-wrapper {
+    padding: 1rem;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .course-container {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .course-column {
+    padding-left: 30px;
+    margin-bottom: 0;
+  }
+
+  .course-column:nth-child(2) {
+    margin-left: 0;
+  }
+
+  .field-works-tabs {
+    gap: 2rem;
+  }
+
+  .tab-link {
+    font-size: 1rem;
+  }
+
+  .field-works-details {
+    width: 100%;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .content-wrapper {
+    padding: 1rem 0.75rem;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-top: 1.5em;
+  }
+
+  .section-content {
+    padding-left: 1rem;
+  }
+}
