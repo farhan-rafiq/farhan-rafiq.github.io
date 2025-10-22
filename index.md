@@ -25,7 +25,7 @@ layout: homepage
 
 <!-- RESEARCH INTERESTS SECTION -->
 <section id="research-interests-section">
-  <h2 id="research-interests">Research Interests</h2>
+  <h2 id="research-interests" style="margin-top: 3em;">Research Interests</h2>
   <div class="section-content">  
   <ul style="list-style:none; padding-left:0;">
     <li style="margin-bottom:10px; display:flex; align-items:flex-start;">
@@ -70,7 +70,7 @@ layout: homepage
 
 <!-- RESEARCH PROJECTS SECTION -->
 <section id="research-projects-section">
-  <h2 id="research-projects">Research Projects</h2>
+  <h2 id="research-projects" style="margin-top: 3em;">Research Projects</h2>
   <div class="section-content">  
 
   <h3 style="margin-bottom: 5px;">Spatial and Temporal Variability of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)</h3>
@@ -137,7 +137,7 @@ layout: homepage
 
 <!-- EXPERIENCE SECTION -->
 <section id="experience-section">
-  <h2 id="experience">Experience</h2>
+  <h2 id="experience" style="margin-top: 3em;">Experience</h2>
   <div class="section-content">  
 
   <h3 style="font-size:24px; margin-bottom: .5em;">Internship</h3>
@@ -190,7 +190,7 @@ layout: homepage
 
 <!-- FIELDWORKS SECTION -->
 <section id="field-works-section">
-  <h2 id="field-works">Field Works</h2>
+  <h2 id="field-works" style="margin-top: 3em;">Field Works</h2>
   <div class="section-content">
   
     <!-- Tabs -->
@@ -306,7 +306,7 @@ layout: homepage
 
 <!-- EDUCATION SECTION -->
 <section id="education-section">
-  <h2 id="education">Education</h2>
+  <h2 id="education" style="margin-top: 3em;">Education</h2>
   <div class="section-content">  
   <h3 style="margin-bottom: 5px;">Master of Science in Oceanography (Thesis)</h3>
   <p style="margin-bottom: 5px;">Shahjalal University of Science and Technology, Sylhet, Bangladesh</p>
