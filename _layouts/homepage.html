@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <title>{{ site.title }}</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description }}">
+
+    {% if site.keywords %}
+    <meta name="keywords" content="{{ site.keywords }}">
+    {% endif %}
+
+    {% if site.canonical %}
+    <link rel="canonical" href="{{ site.canonical }}"/>
+    {% endif %}
+
+    <link rel="icon" href="{{ site.avatar }}" type="image/png"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="./css/style.css">
+
+  </head>
+  <body>
+    <!-- Top Navigation Bar -->
+    <nav class="top-nav">
+      <div class="nav-container">
+        <div class="nav-brand">
+          {% if site.avatar %}
+          <a class="brand-avatar" href="#about-me">
+            <img src="{{ site.avatar }}" alt="avatar" />
+          </a>
+          {% endif %}
+          <a href="#about-me" class="brand-name">{{ site.title }}</a>
+        </div>
+
+        <!-- Desktop Navigation Links -->
+        <div class="nav-links" id="navLinks">
+          <a href="#about-me" class="nav-link active">About Me</a>
+          <a href="#research-interests" class="nav-link">Research Interests</a>
+          <a href="#research-projects" class="nav-link">Research Projects</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#field-works" class="nav-link">Field Works</a>
+          <a href="#education" class="nav-link">Education</a>
+        </div>
+
+        <!-- Social Icons & Actions -->
+        <div class="nav-actions">
+          {% if site.cv_link %}
+          <a id="cvButton" class="nav-cv-btn" style="cursor:pointer;">CV</a>
+          {% endif %}
+
+          {% if site.email_link %}
+          <a class="nav-icon" href="mailto:{{ site.email_link }}" target="_blank" rel="noopener noreferrer" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          {% endif %}
+
+          {% if site.linkedin %}
+          <a class="nav-icon" href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          {% endif %}
+
+          {% if site.github_link %}
+          <a class="nav-icon" href="{{ site.github_link }}" target="_blank" rel="noopener noreferrer" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          {% endif %}
+
+          {% if site.google_scholar %}
+          <a class="nav-icon" href="{{ site.google_scholar }}" target="_blank" rel="noopener noreferrer" title="Google Scholar">
+            <i class="ai ai-google-scholar"></i>
+          </a>
+          {% endif %}
+        </div>
+
+        <!-- Hamburger Menu for Mobile -->
+        <div class="hamburger-menu" id="hamburgerMenu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <div class="content-wrapper">
+        {{ content }}
+        <br>
+        {% if site.enable_footnote %}
+        <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
+        {% endif %}
+      </div>
+    </main>
+
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
+    {% if site.google_analytics %}
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', '{{ site.google_analytics }}', 'auto');
+      ga('send', 'pageview');
+    </script>
+    {% endif %}
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  // Intersection Observer for navigation highlighting
+  const sections = document.querySelectorAll('h2[id]');
+  const navLinks = document.querySelectorAll('.nav-link');
+  const sectionContents = document.querySelectorAll('.section-content');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const id = entry.target.getAttribute('id');
+        const correspondingLink = document.querySelector(`.nav-link[href="#${id}"]`);
+        const correspondingSection = entry.target.nextElementSibling;
+        
+        navLinks.forEach(link => link.classList.remove('active'));
+        sectionContents.forEach(section => section.classList.remove('active-section'));
+        
+        if (correspondingLink) correspondingLink.classList.add('active');
+        if (correspondingSection && correspondingSection.classList.contains('section-content')) {
+          correspondingSection.classList.add('active-section');
+        }
+      }
+    });
+  }, { threshold: 0.3, rootMargin: "-100px 0px -50% 0px" });
+
+  sections.forEach(h2 => observer.observe(h2));
+
+  // Hamburger Menu Logic
+  const hamburger = document.getElementById('hamburgerMenu');
+  const navLinks_mobile = document.getElementById('navLinks');
+  const overlay = document.getElementById('mobileMenuOverlay');
+
+  if (hamburger && navLinks_mobile) {
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('open');
+      navLinks_mobile.classList.toggle('show');
+      if (overlay) overlay.classList.toggle('show');
+      document.body.style.overflow = hamburger.classList.contains('open') ? 'hidden' : '';
+    });
+
+    // Close menu when clicking a link
+    navLinks_mobile.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks_mobile.classList.remove('show');
+        hamburger.classList.remove('open');
+        if (overlay) overlay.classList.remove('show');
+        document.body.style.overflow = '';
+      });
+    });
+
+    // Close menu when clicking overlay
+    if (overlay) {
+      overlay.addEventListener('click', () => {
+        navLinks_mobile.classList.remove('show');
+        hamburger.classList.remove('open');
+        overlay.classList.remove('show');
+        document.body.style.overflow = '';
+      });
+    }
+  }
+
+  // Smooth scroll offset for fixed nav
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        const offset = 100; // Height of fixed nav + padding
+        const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
+        window.scrollTo({
+          top: targetPosition,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+});
+</script>
+
+<!--PDF viewer-->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const cvButton = document.getElementById("cvButton");
+    const modal = document.getElementById("pdfModal");
+    const pdfViewer = document.getElementById("pdfViewer");
+    const closePdf = document.getElementById("closePdf");
+
+    const pdfUrl = "{{ site.cv_link }}#toolbar=1&navpanes=0&scrollbar=0&view=FitH";
+
+    const pdfLinks = document.querySelectorAll(".pdf-link");
+
+    pdfLinks.forEach(link => {
+      link.addEventListener("click", function(event) {
+        event.preventDefault();
+        const pdfUrl = this.getAttribute("data-pdf") + "#toolbar=1&navpanes=0&scrollbar=0&view=FitH";
+        modal.classList.add("show");
+        pdfViewer.src = pdfUrl;
+        document.body.style.overflow = "hidden";
+      });
+    });
+    
+    if (cvButton) {
+      cvButton.addEventListener("click", function() {
+        modal.classList.add("show");
+        pdfViewer.src = pdfUrl;
+        document.body.style.overflow = "hidden";
+      });
+    }
+
+    function closeModal() {
+      modal.classList.remove("show");
+      pdfViewer.src = "";
+      document.body.style.overflow = "";
+    }
+
+    if (closePdf) {
+      closePdf.addEventListener("click", closeModal);
+    }
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && modal.classList.contains("show")) {
+        closeModal();
+      }
+    });
+
+    if (modal) {
+      modal.addEventListener("click", (e) => {
+        if (e.target === modal) {
+          closeModal();
+        }
+      });
+    }
+  });
+</script>
+
+<!--Tab switching functionality -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const tabLinks = document.querySelectorAll('.tab-link');
+  const tabContents = document.querySelectorAll('.tab-content');
+
+  tabLinks.forEach(link => {
+    link.addEventListener('click', function() {
+      const targetTab = this.getAttribute('data-tab');
+
+      tabLinks.forEach(l => l.classList.remove('active'));
+      tabContents.forEach(c => c.classList.remove('active'));
+
+      this.classList.add('active');
+      document.getElementById(targetTab).classList.add('active');
+    });
+  });
+
+  initializeCarousels();
+});
+
+function initializeCarousels() {
+  const carousels = document.querySelectorAll('.carousel');
+
+  carousels.forEach(carousel => {
+    const images = JSON.parse(carousel.getAttribute('data-images'));
+    let currentIndex = 0;
+
+    const img = carousel.querySelector('img');
+    const prevBtn = carousel.querySelector('.prev');
+    const nextBtn = carousel.querySelector('.next');
+
+    img.src = images[currentIndex];
+
+    prevBtn.addEventListener('click', () => {
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      img.src = images[currentIndex];
+    });
+
+    nextBtn.addEventListener('click', () => {
+      currentIndex = (currentIndex + 1) % images.length;
+      img.src = images[currentIndex];
+    });
+  });
+}
+</script>
+
+<!-- PDF Modal -->
+<div id="pdfModal" class="modal">
+  <div class="modal-content">
+    <button class="close-btn" id="closePdf">&times;</button>
+    <iframe id="pdfViewer" src="" frameborder="0"></iframe>
+  </div>
+</div>
+
+  </body>
+</html>
