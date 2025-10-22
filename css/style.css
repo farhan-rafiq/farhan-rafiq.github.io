@@ -11,16 +11,15 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 80px; /* Offset for fixed nav */
+  scroll-padding-top: 80px;
 }
 
 body {
-  background-color: white;
+  background-color: #f5f5f5;
   font: 16px/1.6 "Merriweather", serif !important;
   color: #333333;
   font-weight: 200;
   margin: 0;
-  padding-top: 70px; /* Space for fixed nav */
   -webkit-overflow-scrolling: touch;
 }
 
@@ -35,7 +34,7 @@ body {
   background: #fff;
   border-bottom: 1px solid #e5e5e5;
   z-index: 1000;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .nav-container {
@@ -48,23 +47,9 @@ body {
   height: 70px;
 }
 
-/* Brand Section */
 .nav-brand {
   display: flex;
   align-items: center;
-  gap: 12px;
-}
-
-.brand-avatar {
-  display: flex;
-  align-items: center;
-}
-
-.brand-avatar img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  object-fit: cover;
 }
 
 .brand-name {
@@ -72,36 +57,29 @@ body {
   font-weight: 600;
   color: #043361;
   text-decoration: none;
-  white-space: nowrap;
 }
 
 .brand-name:hover {
   color: #0A66C2;
 }
 
-/* Navigation Links */
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 2rem;
-  flex: 1;
-  justify-content: center;
+  gap: 2.5rem;
 }
 
 .nav-link {
   font-size: 15px;
   color: #666;
   text-decoration: none;
-  padding: 8px 12px;
-  border-radius: 4px;
-  transition: all 0.3s ease;
-  white-space: nowrap;
+  padding: 8px 0;
+  transition: color 0.3s ease;
   position: relative;
 }
 
 .nav-link:hover {
   color: #043361;
-  background-color: rgba(135, 206, 250, 0.1);
 }
 
 .nav-link.active {
@@ -112,58 +90,13 @@ body {
 .nav-link.active::after {
   content: "";
   position: absolute;
-  bottom: -20px;
+  bottom: -21px;
   left: 0;
   right: 0;
   height: 3px;
   background: #043361;
 }
 
-/* Navigation Actions */
-.nav-actions {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.nav-cv-btn {
-  font-size: 15px;
-  font-weight: 600;
-  color: #fff;
-  background: #043361;
-  padding: 8px 20px;
-  border-radius: 4px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  white-space: nowrap;
-}
-
-.nav-cv-btn:hover {
-  background: #0A66C2;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(4, 51, 97, 0.2);
-}
-
-.nav-icon {
-  font-size: 18px;
-  color: #043361;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-}
-
-.nav-icon:hover {
-  color: #0A66C2;
-  background-color: rgba(135, 206, 250, 0.1);
-  transform: scale(1.1);
-}
-
-/* Hamburger Menu */
 .hamburger-menu {
   display: none;
   flex-direction: column;
@@ -177,7 +110,7 @@ body {
   height: 3px;
   background-color: #043361;
   border-radius: 2px;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.3s ease;
 }
 
 .hamburger-menu.open .bar:nth-child(1) {
@@ -192,8 +125,7 @@ body {
   transform: translateY(-7px) rotate(-45deg);
 }
 
-/* Mobile Menu Overlay */
-.mobile-menu-overlay {
+.mobile-overlay {
   display: none;
   position: fixed;
   top: 70px;
@@ -206,35 +138,163 @@ body {
   transition: opacity 0.3s ease;
 }
 
-.mobile-menu-overlay.show {
+.mobile-overlay.show {
   display: block;
   opacity: 1;
 }
 
 /* ==========================================
-   MAIN CONTENT LAYOUT
+   HERO SECTION
 ========================================== */
-.main-content {
-  min-height: calc(100vh - 70px);
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 100px 2rem 4rem;
+  text-align: center;
 }
 
-.content-wrapper {
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-content .image.avatar {
+  margin: 0 auto 2rem;
+  display: block;
+}
+
+.hero-content .image.avatar img {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 5px solid #fff;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #043361;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.hero-bio {
+  display: block;
+  font-size: 18px;
+  font-weight: 300;
+  color: #555;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.hero-affiliation {
+  display: block;
+  font-size: 16px;
+  font-weight: 200;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.hero-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  color: #043361;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.social-icons a:hover {
+  background-color: #043361;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero-btn {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 32px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.hero-btn-primary {
+  background: #043361;
+  color: #fff;
+  border: 2px solid #043361;
+}
+
+.hero-btn-primary:hover {
+  background: #0A66C2;
+  border-color: #0A66C2;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(4, 51, 97, 0.3);
+}
+
+.hero-btn-secondary {
+  background: #fff;
+  color: #043361;
+  border: 2px solid #043361;
+}
+
+.hero-btn-secondary:hover {
+  background: #043361;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(4, 51, 97, 0.3);
+}
+
+/* ==========================================
+   MAIN CONTENT LAYOUT
+========================================== */
+.wrapper {
+  background: #fff;
+  padding: 4rem 0;
+}
+
+.main-section {
   max-width: 900px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0 2rem;
 }
 
 /* ==========================================
    TYPOGRAPHY
 ========================================== */
-h1 {
-  font-size: 28px;
-  font-weight: 600;
-  color: #043361;
-  line-height: 1.1;
-  margin: 0 0 20px;
-}
-
 h2 {
   font-size: 26px;
   font-weight: 600;
@@ -523,12 +583,18 @@ img {
 
   .nav-link {
     font-size: 14px;
-    padding: 6px 10px;
   }
 
-  .content-wrapper {
-    max-width: 100%;
-    padding: 1.5rem;
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .hero-bio {
+    font-size: 16px;
+  }
+
+  .main-section {
+    padding: 0 1.5rem;
   }
 
   .field-works-content {
@@ -544,10 +610,6 @@ img {
    RESPONSIVE DESIGN - MOBILE
 ========================================== */
 @media screen and (max-width: 768px) {
-  body {
-    padding-top: 70px;
-  }
-
   .nav-container {
     padding: 0 1rem;
   }
@@ -556,12 +618,6 @@ img {
     font-size: 18px;
   }
 
-  .brand-avatar img {
-    width: 35px;
-    height: 35px;
-  }
-
-  /* Hide desktop nav, show hamburger */
   .nav-links {
     position: fixed;
     top: 70px;
@@ -593,16 +649,40 @@ img {
     display: none;
   }
 
-  .nav-actions {
-    display: none;
-  }
-
   .hamburger-menu {
     display: flex;
   }
 
-  .content-wrapper {
-    padding: 1rem;
+  .hero-section {
+    padding: 100px 1.5rem 3rem;
+    min-height: 90vh;
+  }
+
+  .hero-content .image.avatar img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .hero-bio {
+    font-size: 15px;
+  }
+
+  .hero-affiliation {
+    font-size: 14px;
+  }
+
+  .social-icons a {
+    width: 42px;
+    height: 42px;
+    font-size: 1.1rem;
+  }
+
+  .main-section {
+    padding: 0 1rem;
   }
 
   h2 {
@@ -642,8 +722,25 @@ img {
 }
 
 @media screen and (max-width: 480px) {
-  .content-wrapper {
-    padding: 1rem 0.75rem;
+  .hero-content h1 {
+    font-size: 28px;
+  }
+
+  .hero-bio {
+    font-size: 14px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-btn {
+    width: 100%;
+  }
+
+  .main-section {
+    padding: 0 0.75rem;
   }
 
   h2 {
