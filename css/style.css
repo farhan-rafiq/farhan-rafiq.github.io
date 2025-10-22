@@ -618,7 +618,6 @@ img {
 }
 
 .field-works-content {
-  display: grid;
   grid-template-columns: 35% 1fr;
   gap: 0;
   align-items: stretch;
