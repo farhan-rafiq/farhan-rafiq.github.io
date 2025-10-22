@@ -20,6 +20,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     
     <link rel="stylesheet" href="./css/style.css">
 
@@ -29,77 +30,96 @@
     <nav class="top-nav">
       <div class="nav-container">
         <div class="nav-brand">
-          {% if site.avatar %}
-          <a class="brand-avatar" href="#about-me">
-            <img src="{{ site.avatar }}" alt="avatar" />
-          </a>
-          {% endif %}
-          <a href="#about-me" class="brand-name">{{ site.title }}</a>
+          <a href="#hero" class="brand-name">{{ site.title }}</a>
         </div>
 
-        <!-- Desktop Navigation Links -->
-        <div class="nav-links" id="navLinks">
-          <a href="#about-me" class="nav-link active">About Me</a>
-          <a href="#research-interests" class="nav-link">Research Interests</a>
-          <a href="#research-projects" class="nav-link">Research Projects</a>
-          <a href="#experience" class="nav-link">Experience</a>
-          <a href="#field-works" class="nav-link">Field Works</a>
-          <a href="#education" class="nav-link">Education</a>
-        </div>
-
-        <!-- Social Icons & Actions -->
-        <div class="nav-actions">
-          {% if site.cv_link %}
-          <a id="cvButton" class="nav-cv-btn" style="cursor:pointer;">CV</a>
-          {% endif %}
-
-          {% if site.email_link %}
-          <a class="nav-icon" href="mailto:{{ site.email_link }}" target="_blank" rel="noopener noreferrer" title="Email">
-            <i class="fas fa-envelope"></i>
-          </a>
-          {% endif %}
-
-          {% if site.linkedin %}
-          <a class="nav-icon" href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          {% endif %}
-
-          {% if site.github_link %}
-          <a class="nav-icon" href="{{ site.github_link }}" target="_blank" rel="noopener noreferrer" title="GitHub">
-            <i class="fab fa-github"></i>
-          </a>
-          {% endif %}
-
-          {% if site.google_scholar %}
-          <a class="nav-icon" href="{{ site.google_scholar }}" target="_blank" rel="noopener noreferrer" title="Google Scholar">
-            <i class="ai ai-google-scholar"></i>
-          </a>
-          {% endif %}
-        </div>
-
-        <!-- Hamburger Menu for Mobile -->
         <div class="hamburger-menu" id="hamburgerMenu">
           <div class="bar"></div>
           <div class="bar"></div>
           <div class="bar"></div>
         </div>
+
+        <div class="nav-links" id="navLinks">
+          <a href="#about-me" class="nav-link">About</a>
+          <a href="#research-interests" class="nav-link">Research</a>
+          <a href="#research-projects" class="nav-link">Projects</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#field-works" class="nav-link">Field Work</a>
+          <a href="#education" class="nav-link">Education</a>
+        </div>
       </div>
     </nav>
 
     <!-- Mobile Menu Overlay -->
-    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+    <div class="mobile-overlay" id="mobileOverlay"></div>
 
-    <!-- Main Content -->
-    <main class="main-content">
-      <div class="content-wrapper">
+    <!-- Hero Section (Center of Homepage) -->
+    <section class="hero-section" id="hero">
+      <div class="hero-content">
+        {% if site.avatar %}
+        <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
+        {% endif %}
+
+        <h1>{{ site.title }}</h1>
+
+        {% if site.bio %}
+        <bio class="hero-bio">{{ site.bio }}</bio>
+        {% endif %}           
+
+        {% if site.affiliation %}
+        <affiliation class="hero-affiliation">{{ site.affiliation }}</affiliation>
+        {% endif %}
+
+        <div class="hero-actions">
+          <div class="social-icons">
+            {% if site.google_scholar %}
+            <a href="{{ site.google_scholar }}" target="_blank" rel="noopener noreferrer" title="Google Scholar">
+              <i class="ai ai-google-scholar"></i>
+            </a>  
+            {% endif %}
+
+            {% if site.github_link %}
+            <a href="{{ site.github_link }}" target="_blank" rel="noopener noreferrer" title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            {% endif %}
+
+            {% if site.linkedin %}
+            <a href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            {% endif %}
+
+            {% if site.twitter %}
+            <a href="{{ site.twitter }}" target="_blank" rel="noopener noreferrer" title="Twitter">
+              <i class="fab fa-x-twitter"></i>
+            </a>
+            {% endif %}
+          </div>
+
+          <div class="hero-buttons">
+            {% if site.cv_link %}
+            <a id="cvButton" class="hero-btn hero-btn-primary">CV</a>
+            {% endif %}
+
+            {% if site.email_link %}
+            <a href="mailto:{{ site.email_link }}" class="hero-btn hero-btn-secondary">Email</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content Sections -->
+    <div class="wrapper">
+      <section class="main-section">
         {{ content }}
         <br>
         {% if site.enable_footnote %}
         <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
         {% endif %}
-      </div>
-    </main>
+      </section>
+    </div>
 
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
 
@@ -116,7 +136,7 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  // Intersection Observer for navigation highlighting
+  // Intersection Observer for nav highlighting
   const sections = document.querySelectorAll('h2[id]');
   const navLinks = document.querySelectorAll('.nav-link');
   const sectionContents = document.querySelectorAll('.section-content');
@@ -137,59 +157,39 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }
     });
-  }, { threshold: 0.3, rootMargin: "-100px 0px -50% 0px" });
+  }, { threshold: 0.5, rootMargin: "-100px 0px -50% 0px" });
 
   sections.forEach(h2 => observer.observe(h2));
 
   // Hamburger Menu Logic
   const hamburger = document.getElementById('hamburgerMenu');
-  const navLinks_mobile = document.getElementById('navLinks');
-  const overlay = document.getElementById('mobileMenuOverlay');
+  const navLinksContainer = document.getElementById('navLinks');
+  const overlay = document.getElementById('mobileOverlay');
 
-  if (hamburger && navLinks_mobile) {
+  if (hamburger && navLinksContainer) {
     hamburger.addEventListener('click', () => {
       hamburger.classList.toggle('open');
-      navLinks_mobile.classList.toggle('show');
-      if (overlay) overlay.classList.toggle('show');
+      navLinksContainer.classList.toggle('show');
+      overlay.classList.toggle('show');
       document.body.style.overflow = hamburger.classList.contains('open') ? 'hidden' : '';
     });
 
-    // Close menu when clicking a link
-    navLinks_mobile.querySelectorAll('a').forEach(link => {
+    navLinksContainer.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => {
-        navLinks_mobile.classList.remove('show');
-        hamburger.classList.remove('open');
-        if (overlay) overlay.classList.remove('show');
-        document.body.style.overflow = '';
-      });
-    });
-
-    // Close menu when clicking overlay
-    if (overlay) {
-      overlay.addEventListener('click', () => {
-        navLinks_mobile.classList.remove('show');
+        navLinksContainer.classList.remove('show');
         hamburger.classList.remove('open');
         overlay.classList.remove('show');
         document.body.style.overflow = '';
       });
-    }
-  }
-
-  // Smooth scroll offset for fixed nav
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-      const target = document.querySelector(this.getAttribute('href'));
-      if (target) {
-        const offset = 100; // Height of fixed nav + padding
-        const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
-        window.scrollTo({
-          top: targetPosition,
-          behavior: 'smooth'
-        });
-      }
     });
-  });
+
+    overlay.addEventListener('click', () => {
+      navLinksContainer.classList.remove('show');
+      hamburger.classList.remove('open');
+      overlay.classList.remove('show');
+      document.body.style.overflow = '';
+    });
+  }
 });
 </script>
 
@@ -216,7 +216,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     if (cvButton) {
-      cvButton.addEventListener("click", function() {
+      cvButton.addEventListener("click", function(event) {
+        event.preventDefault();
         modal.classList.add("show");
         pdfViewer.src = pdfUrl;
         document.body.style.overflow = "hidden";
