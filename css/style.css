@@ -212,12 +212,12 @@ body {
    HERO SECTION
 ========================================== */
 .hero-section {
-  min-height: 100vh;
+  min-height: 75vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--bg-hero);
-  padding: 100px 2rem 4rem;
+  background: var(--bg-primary);
+  padding: 80px 2rem 4rem;
   text-align: center;
   transition: background 0.3s ease;
 }
@@ -228,7 +228,7 @@ body {
 }
 
 .hero-content .image.avatar {
-  margin: 0 auto 2rem;
+  margin: 0 auto 1.5rem;
   display: block;
 }
 
@@ -728,8 +728,8 @@ img {
   }
 
   .hero-section {
-    padding: 100px 1.5rem 3rem;
-    min-height: 90vh;
+    padding: 60px 1.5rem 3rem;
+    min-height: 85vh;
   }
 
   .hero-content .image.avatar img {
