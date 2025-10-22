@@ -408,7 +408,7 @@ p, ul, ol, table, pre, dl {
 }
 
 li {
-  margin-bottom: 0;
+  margin-bottom: 0.5em;
 }
 
 a {
