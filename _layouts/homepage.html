@@ -47,6 +47,11 @@
           <a href="#field-works" class="nav-link">Field Work</a>
           <a href="#education" class="nav-link">Education</a>
         </div>
+
+        <!-- Dark/Light Mode Toggle -->
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <i class="fas fa-moon"></i>
+        </button>
       </div>
     </nav>
 
@@ -104,6 +109,10 @@
 
             {% if site.email_link %}
             <a href="mailto:{{ site.email_link }}" class="hero-btn hero-btn-secondary">Email</a>
+            {% endif %}
+
+            {% if site.linkedin %}
+            <a href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer" class="hero-btn hero-btn-secondary">LinkedIn</a>
             {% endif %}
           </div>
         </div>
@@ -305,5 +314,40 @@ function initializeCarousels() {
   </div>
 </div>
 
+<!-- Theme Toggle Script -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const themeToggle = document.getElementById('themeToggle');
+  const html = document.documentElement;
+  
+  // Check for saved theme preference or default to 'light'
+  const currentTheme = localStorage.getItem('theme') || 'light';
+  html.setAttribute('data-theme', currentTheme);
+  
+  // Update icon based on current theme
+  updateThemeIcon(currentTheme);
+  
+  themeToggle.addEventListener('click', () => {
+    const theme = html.getAttribute('data-theme');
+    const newTheme = theme === 'light' ? 'dark' : 'light';
+    
+    html.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    updateThemeIcon(newTheme);
+  });
+  
+  function updateThemeIcon(theme) {
+    const icon = themeToggle.querySelector('i');
+    if (theme === 'dark') {
+      icon.classList.remove('fa-moon');
+      icon.classList.add('fa-sun');
+    } else {
+      icon.classList.remove('fa-sun');
+      icon.classList.add('fa-moon');
+    }
+  }
+});
+</script>
+    
   </body>
 </html>
