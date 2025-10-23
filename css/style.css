@@ -149,7 +149,7 @@ body {
 /* Theme Toggle Button */
 .theme-toggle {
   background: transparent;
-  border: 2px solid var(--border-color);
+  border: 1px solid var(--border-color);
   color: var(--accent-primary);
   width: 40px;
   height: 40px;
@@ -826,6 +826,7 @@ img {
   }
 
   .hero-btn {
+    border: 1px solid var(--accent-primary);
     text-align: center;
     padding: 5px 10px;
   }
