@@ -214,7 +214,7 @@ layout: homepage
             "images/Field_Work/2023_Coxs_Bazar/3.webp",
             "images/Field_Work/2023_Coxs_Bazar/4.webp"
           ]'>
-            <img src="assets/img/dubla.png" alt="Cox's Bazar Field Work">
+            <img src="images/Field_Work/2023_Coxs_Bazar/1.webp" alt="Cox's Bazar Field Work">
             <button class="control prev">‹</button>
             <button class="control next">›</button>
           </div>
