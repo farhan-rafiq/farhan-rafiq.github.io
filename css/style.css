@@ -313,8 +313,8 @@ body {
 .hero-btn {
   font-size: 16px;
   font-weight: 600;
-  padding: 12px 32px;
-  border-radius: 6px;
+  padding: 10px 15px;
+  border-radius: 5px;
   text-decoration: none;
   transition: all 0.3s ease;
   cursor: pointer;
@@ -811,13 +811,19 @@ img {
     font-size: 14px;
   }
 
+  .hero section {
+    padding: 60px 1.5rem 2rem;
+    min-height: 60vh;
+  }
+
   .hero-buttons {
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
   }
 
   .hero-btn {
-    width: 100%;
+    text-align: center;
+    padding: 5px 10px;
   }
 
   .main-section {
