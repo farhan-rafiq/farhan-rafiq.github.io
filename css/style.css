@@ -844,11 +844,7 @@ img {
     padding-left: 1rem;
   }
 
-  .hamburger-menu {
-    left: 50px;
-  }
-
   .theme-toggle {
-    display: block;
+    display: none;
   }
 }
