@@ -335,8 +335,6 @@ layout: homepage
       <li>GIS Technology</li>
       <li>Ocean Modelling</li>
       <li>Ocean Geophysics</li>
-    </ul>
-    <ul class="course-column" style="margin-bottom: 0;">
       <li>Remote Sensing and Satellite Oceanography</li>
       <li>Meteorology and Ocean Forecasting</li>
       <li>Marine Environment and Climate Change</li>
