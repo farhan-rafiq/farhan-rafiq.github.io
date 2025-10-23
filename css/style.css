@@ -845,6 +845,10 @@ img {
   }
 
   .hamburger-menu {
-    margin-left: 75px;
+    left: 50px;
+  }
+
+  .theme-toggle {
+    display: block;
   }
 }
