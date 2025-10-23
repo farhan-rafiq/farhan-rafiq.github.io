@@ -729,7 +729,7 @@ img {
 
   .hero-section {
     padding: 60px 1.5rem 3rem;
-    min-height: 85vh;
+    min-height: 60vh;
   }
 
   .hero-content .image.avatar img {
@@ -814,6 +814,10 @@ img {
   .hero section {
     padding: 60px 1.5rem 2rem;
     min-height: 60vh;
+  }
+
+  .wrapper {
+    padding: 0 15px;
   }
 
   .hero-buttons {
