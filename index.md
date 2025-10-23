@@ -170,7 +170,7 @@ layout: homepage
         </a>
       </h4>
 
-  <h3 style="font-size:22px; margin-top: 2.5em; margin-bottom: 5px;">Teaching Experience</h3>
+  <h3 style="margin-top: 2.5em; margin-bottom: 5px;">Teaching Experience</h3>
       <p style="margin-top: 0;">Private Tutor & Coaching Instructor &nbsp; | &nbsp; Oct 2021 - Present</p>
 
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
