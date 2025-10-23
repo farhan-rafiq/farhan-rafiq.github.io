@@ -843,4 +843,8 @@ img {
   .section-content {
     padding-left: 1rem;
   }
+
+  .hamburger-menu {
+    padding-left: 50px;
+  }
 }
