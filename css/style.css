@@ -816,10 +816,6 @@ img {
     min-height: 60vh;
   }
 
-  .wrapper {
-    padding: 0 15px;
-  }
-
   .hero-buttons {
     flex-direction: row;
     width: 100%;
