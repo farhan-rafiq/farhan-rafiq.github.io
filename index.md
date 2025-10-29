@@ -73,6 +73,10 @@ layout: homepage
   <h2 id="research-projects" style="margin-top: 3em;">Research Projects</h2>
   <div class="section-content">  
 
+  <h3 style="margin-bottom: 5px;">Integrated Modelling of Urban Flood Risk in Chattogram: Application of TOPSIS, Machine Learning and Spatial Analysis Approaches</h3>
+  <p style="margin-top: 0; margin-bottom:2em; color: var(--text-secondary);">Masters' Thesis &nbsp; | &nbsp; Supervisor: Dr Md Alamgir Kabir    Co-Supervisor: Abu Bokkar Siddique &nbsp; | &nbsp; Ongoing</p>
+
+
   <h3 style="margin-bottom: 5px;">Spatial and Temporal Variability of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)</h3>
   <p style="margin-top: 0; color: var(--text-secondary);">Undergraduate Project &nbsp; | &nbsp; Supervisor: Abu Bokkar Siddique &nbsp; | &nbsp; Dec 2023</p>
 
