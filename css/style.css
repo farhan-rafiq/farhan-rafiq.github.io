@@ -584,7 +584,7 @@ img {
 }
 
 .tab-link:hover {
-  color: var(--accent-secondary);
+  color: var(--accent-primary);
 }
 
 .tab-link.active {
@@ -611,7 +611,7 @@ img {
 }
 
 .meta {
-  color: #777;
+  color: var(--text-tertiary);
   font-size: 1rem;
   margin-bottom: 1rem;
   display: block;
