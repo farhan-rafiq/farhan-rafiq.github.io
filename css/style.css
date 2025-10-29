@@ -723,6 +723,10 @@ img {
     display: none;
   }
 
+  .theme-toggle {
+    display: none;
+  }
+   
   .hamburger-menu {
     display: flex;
   }
