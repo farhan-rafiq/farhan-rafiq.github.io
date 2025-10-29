@@ -588,7 +588,7 @@ img {
 }
 
 .tab-link.active {
-  color: #043361;
+  color: var(--accent-primary);
   font-weight: bold;
 }
 
