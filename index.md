@@ -79,7 +79,7 @@ layout: homepage
 <!--div style="display:flex; flex-wrap:wrap; gap:1.5em;" -->
   <div style="flex:2; min-width:320px;">
       <h4 style="margin-bottom:.2em;">Summary</h4>
-      <p style="margin-bottom: 3em;">My master’s thesis focuses on developing an integrated framework to evaluate urban flood risk in Chattogram, one of Bangladesh’s most climate-vulnerable coastal cities. This research combines multi-criteria decision analysis (TOPSIS) with machine learning and spatial analysis to identify high-risk zones and the key environmental and socio-economic factors driving flood vulnerability.</p>
+      <p style="margin-bottom: 3.5em;">My master’s thesis focuses on developing an integrated framework to evaluate urban flood risk in Chattogram, one of Bangladesh’s most climate-vulnerable coastal cities. This research combines multi-criteria decision analysis (TOPSIS) with machine learning and spatial analysis to identify high-risk zones and the key environmental and socio-economic factors driving flood vulnerability.</p>
 
   <h3 style="margin-bottom: 5px;">Spatial and Temporal Variability of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)</h3>
   <p style="margin-top: 0; color: var(--text-secondary);">Undergraduate Project &nbsp; | &nbsp; Supervisor: Abu Bokkar Siddique &nbsp; | &nbsp; Dec 2023</p>
