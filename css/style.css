@@ -447,12 +447,12 @@ img {
   top: 0;
   bottom: 0;
   width: 3px;
-  background-color: #E5EAEF;
+  background-color: var(--border-color);
   border-radius: 2px;
 }
 
 .section-content.active-section::before {
-  background-color: #043361;
+  background-color: var(--accent-primary);
 }
 
 /* ==========================================
