@@ -579,12 +579,12 @@ img {
   padding-right: 0;
   position: relative;
   font-family: "Merriweather", serif;
-  color: #666;
+  color: var(--text-secondary);
   transition: color 0.3s ease;
 }
 
 .tab-link:hover {
-  color: #043361;
+  color: var(--accent-secondary);
 }
 
 .tab-link.active {
