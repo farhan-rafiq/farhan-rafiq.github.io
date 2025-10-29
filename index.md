@@ -76,8 +76,8 @@ layout: homepage
   <h3 style="margin-bottom: 5px;">Integrated Modelling of Urban Flood Risk in Chattogram: Application of TOPSIS, Machine Learning and Spatial Analysis Approaches</h3>
   <p style="margin-top: 0; color: var(--text-secondary);">Masters' Thesis &nbsp; | &nbsp; Supervisor: Dr Md Alamgir Kabir &nbsp; Co-Supervisor: Abu Bokkar Siddique &nbsp; | &nbsp; Ongoing</p>
 
-<div style="display:flex; flex-wrap:wrap; gap:1.5em;">
-    <div style="flex:2; min-width:320px;">
+<!--div style="display:flex; flex-wrap:wrap; gap:1.5em;" -->
+  <div style="flex:2; min-width:320px;">
       <h4 style="margin-bottom:.2em;">Summary</h4>
       <p style="margin-bottom: 3em;">My master’s thesis focuses on developing an integrated framework to evaluate urban flood risk in Chattogram, one of Bangladesh’s most climate-vulnerable coastal cities. This research combines multi-criteria decision analysis (TOPSIS) with machine learning and spatial analysis to identify high-risk zones and the key environmental and socio-economic factors driving flood vulnerability.</p>
 
@@ -138,6 +138,7 @@ layout: homepage
         </div>
       </div>
     </div>
+  </div>
   </div>
   </div>
 </section>
