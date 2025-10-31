@@ -125,7 +125,6 @@ body {
 
 .nav-link.active {
   color: var(--accent-primary);
-  font-weight: 700;
 }
 
 .nav-link.active::after {
