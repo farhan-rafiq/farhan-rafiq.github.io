@@ -107,11 +107,11 @@ body {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 2.5rem;
+  gap: 2rem;
 }
 
 .nav-link {
-  font-size: 15px;
+  font-size: 14px;
   color: var(--text-secondary);
   text-decoration: none;
   padding: 8px 0;
