@@ -79,7 +79,7 @@ layout: homepage
 <!--div style="display:flex; flex-wrap:wrap; gap:1.5em;" -->
   <div style="flex:2; min-width:320px;">
       <h4 style="margin-bottom:.2em;">Summary</h4>
-      <p style="margin-bottom: 3.5em; border-bottom: 0.5px solid var(--border-color); padding-bottom: 1rem;">My master’s thesis focuses on developing an integrated framework to evaluate urban flood risk in Chattogram, one of Bangladesh’s most climate-vulnerable coastal cities. This research combines multi-criteria decision analysis (TOPSIS) with machine learning and spatial analysis to identify high-risk zones and the key environmental and socio-economic factors driving flood vulnerability.</p>
+      <p style="margin-bottom: 3.5em; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">My master’s thesis focuses on developing an integrated framework to evaluate urban flood risk in Chattogram, one of Bangladesh’s most climate-vulnerable coastal cities. This research combines multi-criteria decision analysis (TOPSIS) with machine learning and spatial analysis to identify high-risk zones and the key environmental and socio-economic factors driving flood vulnerability.</p>
 
   <h3 style="margin-bottom: 5px;">Spatial and Temporal Variability of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)</h3>
   <p style="margin-top: 0; color: var(--text-secondary);">Undergraduate Project &nbsp; | &nbsp; Supervisor: Abu Bokkar Siddique &nbsp; | &nbsp; Dec 2023</p>
@@ -96,7 +96,7 @@ layout: homepage
         <li>SST varied seasonally from 22°C – 31°C, revealing a subtle multi-year warming trend.</li>
       </ul-->
 
-  <h4 style="margin-bottom: 2em; border-bottom: 0.5px solid var(--border-color); padding-bottom: 1rem;">
+  <h4 style="margin-bottom: 2em; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
     <a href="#" 
       class="pdf-link" 
       data-pdf="./projects/undergrad_project.pdf">
@@ -167,7 +167,7 @@ layout: homepage
         <li>Phytoplankton Identification: Performed morphological identification of species using light and fluorescence microscopy (20x, 40x). Referenced the book 'Plankton of Bangladesh' to ensure taxonomic accuracy. Identified species from groups including diatoms and dinoflagellates.</li>
       </ul-->
 
-  <h4 style="margin-bottom: 2em; border-bottom: 0.5px solid var(--border-color); padding-bottom: 1rem;">
+  <h4 style="margin-bottom: 2em; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
         <a href="#"
         class="pdf-link"
         data-pdf="./projects/Internship_report.pdf">
@@ -325,7 +325,7 @@ layout: homepage
   <!-- Relevant Coursework -->
   <h4 style="margin-top: 20px; margin-bottom: 5px;">Relevant Coursework</h4>
   <div class="course-container">
-    <ul class="course-column" style= "border-bottom: 0.5px solid var(--border-color); padding-bottom: 1rem;">
+    <ul class="course-column" style= "border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
       <li>Computational Oceanography and Data Analysis</li>
       <li>Advanced Ocean Dynamics</li>
       <li>Coastal and Marine Fluid Dynamics</li>
