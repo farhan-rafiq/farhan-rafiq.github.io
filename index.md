@@ -79,7 +79,7 @@ layout: homepage
 <!--div style="display:flex; flex-wrap:wrap; gap:1.5em;" -->
   <div style="flex:2; min-width:320px;">
       <h4 style="margin-bottom:.2em;">Summary</h4>
-      <p style="margin-bottom: 3.5em;">My master’s thesis focuses on developing an integrated framework to evaluate urban flood risk in Chattogram, one of Bangladesh’s most climate-vulnerable coastal cities. This research combines multi-criteria decision analysis (TOPSIS) with machine learning and spatial analysis to identify high-risk zones and the key environmental and socio-economic factors driving flood vulnerability.</p>
+      <p style="margin-bottom: 3.5em; border-bottom: 0.5px solid var(--border-color); padding-bottom: 1rem;">My master’s thesis focuses on developing an integrated framework to evaluate urban flood risk in Chattogram, one of Bangladesh’s most climate-vulnerable coastal cities. This research combines multi-criteria decision analysis (TOPSIS) with machine learning and spatial analysis to identify high-risk zones and the key environmental and socio-economic factors driving flood vulnerability.</p>
 
   <h3 style="margin-bottom: 5px;">Spatial and Temporal Variability of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)</h3>
   <p style="margin-top: 0; color: var(--text-secondary);">Undergraduate Project &nbsp; | &nbsp; Supervisor: Abu Bokkar Siddique &nbsp; | &nbsp; Dec 2023</p>
@@ -87,7 +87,7 @@ layout: homepage
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
     <div style="flex:2; min-width:320px;">
       <h4 style="margin-bottom:.2em;">Summary</h4>
-      <p>This research investigates how Photosynthetically Available Radiation (PAR), Diffuse Attenuation Coefficient (Kd490), and Sea Surface Temperature (SST) vary both spatially and temporally in the Bangladesh Exclusive Economic Zone (EEZ) from 2016 to 2022. Using satellite-derived data (MODIS-Aqua) processed in SeaDAS and ArcGIS, the study analyzes monthly and annual trends for each parameter. The aim is to reveal how these physical factors influence marine ecosystems in the Bay of Bengal and to provide insights crucial for sustainable management in the face of climate change.</p>
+      <p>This research investigates how Photosynthetically Available Radiation (PAR), Diffuse Attenuation Coefficient (Kd490), and Sea Surface Temperature (SST) vary both spatially and temporally in the Bangladesh Exclusive Economic Zone (EEZ) from 2016 to 2022. Using satellite-derived data (MODIS-Aqua) processed in SeaDAS and ArcGIS, the study analyzes monthly and annual trends for each parameter. The aim is to elucidate how these physical factors impact marine ecosystems in the Bay of Bengal and to provide insights essential for sustainable management in the face of climate change.</p>
 
   <!--h4 style="margin-bottom: 0;">Key Findings</h4>
       <ul style="margin-top: 0; margin-bottom:.5em">
@@ -96,7 +96,7 @@ layout: homepage
         <li>SST varied seasonally from 22°C – 31°C, revealing a subtle multi-year warming trend.</li>
       </ul-->
 
-  <h4 style="margin-bottom: 2em">
+  <h4 style="margin-bottom: 2em; border-bottom: 0.5px solid var(--border-color); padding-bottom: 1rem;">
     <a href="#" 
       class="pdf-link" 
       data-pdf="./projects/undergrad_project.pdf">
@@ -124,7 +124,7 @@ layout: homepage
             <li>There was a negative correlation between chlorophyll-a and SST: higher chlorophyll was found when SST was lower.</li>
           </ul-->
 
-  <h4 style="margin-top: .5em; margin-bottom: 2px">
+  <h4 style="margin-top: .5em; margin-bottom: 2px;">
             <a href="#"
             class="pdf-link"
             data-pdf="./projects/4_1_project.pdf">
@@ -167,7 +167,7 @@ layout: homepage
         <li>Phytoplankton Identification: Performed morphological identification of species using light and fluorescence microscopy (20x, 40x). Referenced the book 'Plankton of Bangladesh' to ensure taxonomic accuracy. Identified species from groups including diatoms and dinoflagellates.</li>
       </ul-->
 
-  <h4 style="margin-bottom: 2em;">
+  <h4 style="margin-bottom: 2em; border-bottom: 0.5px solid var(--border-color); padding-bottom: 1rem;">
         <a href="#"
         class="pdf-link"
         data-pdf="./projects/Internship_report.pdf">
@@ -184,7 +184,7 @@ layout: homepage
 
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
         <ul style="margin-top: 0; margin-bottom: 0; padding-left: 2.5rem;">
-         <li>Delivered personalized instruction to over 40+ students from GCSE, O-Level, A-Level, and National Curriculum (Class 5–12), ensuring improved academic performance.</li>
+         <li>Delivered personalized instruction to over 40+ students from Edexcel, IGCSE, O-Level, A-Level, and National Curriculum (Class 5–12), ensuring improved academic performance.</li>
 <li>Specialized in Higher Mathematics and Physics at the Higher Secondary level, simplifying complex concepts through structured lessons and problem-solving strategies.</li>
 <li>Provided comprehensive guidance in all core subjects at the Secondary level, adapting teaching methods to diverse learning styles.</li>
 <li>Conducted over 250+ classes at multiple coaching centres, developing classroom management and communication skills.</li>
@@ -325,7 +325,7 @@ layout: homepage
   <!-- Relevant Coursework -->
   <h4 style="margin-top: 20px; margin-bottom: 5px;">Relevant Coursework</h4>
   <div class="course-container">
-    <ul class="course-column">
+    <ul class="course-column" style= "border-bottom: 0.5px solid var(--border-color); padding-bottom: 1rem;">
       <li>Computational Oceanography and Data Analysis</li>
       <li>Advanced Ocean Dynamics</li>
       <li>Coastal and Marine Fluid Dynamics</li>
