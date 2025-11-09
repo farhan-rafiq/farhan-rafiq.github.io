@@ -82,7 +82,7 @@ layout: homepage
       <p style="margin-bottom: 3.5em; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">My master’s thesis focuses on developing an integrated framework to evaluate urban flood risk in Chattogram, one of Bangladesh’s most climate-vulnerable coastal cities. This research combines multi-criteria decision analysis (TOPSIS) with machine learning and spatial analysis to identify high-risk zones and the key environmental and socio-economic factors driving flood vulnerability.</p>
 
   <h3 style="margin-bottom: 5px;">Spatial and Temporal Variability of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)</h3>
-  <p style="margin-top: 0; color: var(--text-secondary);">Undergraduate Project &nbsp; | &nbsp; Supervisor: Abu Bokkar Siddique &nbsp; | &nbsp; Dec 2023</p>
+  <p style="margin-top: 0; color: var(--text-secondary);">Undergraduate Research Project &nbsp; | &nbsp; Supervisor: Abu Bokkar Siddique &nbsp; | &nbsp; Dec 2023</p>
 
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
     <div style="flex:2; min-width:320px;">
@@ -110,7 +110,7 @@ layout: homepage
 
 
   <h3 style="margin-top: 2.8em; margin-bottom: 5px;">Quantitative Analysis of Annual Chlorophyll-a and Sea Surface Temperature Fluctuations in the Bay of Bengal</h3>
-      <p style="margin-top: 0; color: var(--text-secondary);">Academic Project &nbsp; | &nbsp; Supervisor: Dr. Subrata Sarker &nbsp; | &nbsp; Jun 2023</p>
+      <p style="margin-top: 0; color: var(--text-secondary);">Mini Project under “Remote Sensing and Satellite Oceanography” coursework &nbsp; | &nbsp; Supervisor: Dr. Subrata Sarker &nbsp; | &nbsp; Jun 2023</p>
 
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
         <div style="flex:2; min-width:320px;">
