@@ -74,7 +74,7 @@ layout: homepage
   <div class="section-content">  
 
   <h3 style="margin-bottom: 5px;">Integrated Modelling of Urban Flood Risk in Chattogram: Application of TOPSIS, Machine Learning and Spatial Analysis Approaches</h3>
-  <p style="margin-top: 0; color: var(--text-secondary);">Masters' Thesis &nbsp; | &nbsp; Supervisor: Dr Md Alamgir Kabir &nbsp; Co-Supervisor: Abu Bokkar Siddique &nbsp; | &nbsp; Ongoing</p>
+  <p style="margin-top: 0; color: var(--text-secondary);">Masters' Thesis &nbsp; | &nbsp; Supervisor: Dr Md Alamgir Kabir &nbsp; Co-Supervisor: Abu Bokkar Siddique &nbsp; | &nbsp; Dec 2025</p>
 
 <!--div style="display:flex; flex-wrap:wrap; gap:1.5em;" -->
   <div style="flex:2; min-width:320px;">
@@ -152,7 +152,7 @@ layout: homepage
   <h3 style="font-size:24px; margin-bottom: .5em;">Internship</h3>
   <h3 style="margin-bottom: 5px;">Growth, Observation, and Identification of Indigenous Marine Phytoplankton of the Bay of Bengal, Bangladesh</h3>
   <p style="margin: 0; color: var(--text-secondary);">Bangladesh Fisheries Research Institute (BFRI), Marine Fisheries and Technology Station, Cox's Bazar</p>
-  <p style="margin-top: 0; color: var(--text-secondary);">Supervisor: Zahidul Islam &nbsp; | &nbsp; 5 Mar 2025 - 19 Mar 2025</p>
+  <p style="margin-top: 0; color: var(--text-secondary);">Supervisor: Zahidul Islam &nbsp; | &nbsp; Mar 2025</p>
 
   <div style="display:flex; flex-wrap:wrap; gap:1.5em;">
     <div style="flex:2; min-width:320px;">
@@ -317,9 +317,9 @@ layout: homepage
 <section id="education-section">
   <h2 id="education" style="margin-top: 3em;">Education</h2>
   <div class="section-content">  
-  <h3 style="margin-bottom: 5px;">Master of Science in Oceanography (Thesis)</h3>
+  <h3 style="margin-bottom: 5px;">Master of Science (Thesis) in Oceanography</h3>
   <p style="margin-bottom: 10px; color: var(--text-secondary);">Shahjalal University of Science and Technology, Sylhet, Bangladesh</p>
-  <p style="margin-bottom: 5px;"><strong>CGPA:</strong> 3.78 out of 4.00 (40/52 credits completed)</p>
+  <p style="margin-bottom: 5px;"><strong>CGPA:</strong> 3.83 out of 4.00</p>
   <p style="margin-bottom: 10px;"><strong>Award:</strong> National Science and Technology Fellowship, Ministry of Science & Technology, Bangladesh</p>
 
   <!-- Relevant Coursework -->
