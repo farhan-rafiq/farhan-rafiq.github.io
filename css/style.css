@@ -560,8 +560,7 @@ img {
 
 /* ==========================================
    PROJECTS TWO-COLUMN LAYOUT
-========================================== */
-
+==========================================
 .project-row {
   display: grid;
   grid-template-columns: 38% 1fr;
@@ -585,7 +584,9 @@ img {
 .project-carousel img {
   border-radius: 6px;
   box-shadow: 0 6px 20px var(--shadow-md);
-}
+}  */
+
+
 /* ==========================================
    FIELDWORK TABS & CONTENT
 ========================================== */
