@@ -556,6 +556,36 @@ img {
   background: rgba(0, 0, 0, 0.75);
 }
 
+
+
+/* ==========================================
+   PROJECTS TWO-COLUMN LAYOUT
+========================================== */
+
+.project-row {
+  display: grid;
+  grid-template-columns: 38% 1fr;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  align-items: center;
+}
+
+.project-carousel {
+  width: 100%;
+}
+
+.project-summary {
+  text-align: justify;
+}
+
+.project-carousel .carousel {
+  display: block;
+}
+
+.project-carousel img {
+  border-radius: 6px;
+  box-shadow: 0 6px 20px var(--shadow-md);
+}
 /* ==========================================
    FIELDWORK TABS & CONTENT
 ========================================== */
