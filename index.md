@@ -82,9 +82,9 @@ layout: homepage
   <!-- LEFT: Carousel -->
   <div class="project-carousel">
     <div class="carousel" data-images='[
-      "images/projects/chattogram/1.webp",
-      "images/projects/chattogram/2.webp",
-      "images/projects/chattogram/3.webp"
+      "assets/img/VULNRBL.png",
+      "assets/img/FLOOD_RISK.png",
+      "assets/img/urban_flood_risk.png"
     ]'>
       <img src="images/projects/chattogram/1.webp" alt="Urban Flood Risk Project">
       <button class="control prev">‹</button>
