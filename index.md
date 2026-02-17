@@ -129,22 +129,6 @@ layout: homepage
       This research investigates how Photosynthetically Available Radiation (PAR), Diffuse Attenuation Coefficient (Kd490), and Sea Surface Temperature (SST) vary both spatially and temporally in the Bangladesh Exclusive Economic Zone (EEZ) from 2016 to 2022. Using satellite-derived data (MODIS-Aqua) processed in SeaDAS and ArcGIS, the study analyzes monthly and annual trends for each parameter. The aim is to elucidate how these physical factors impact marine ecosystems in the Bay of Bengal and to provide insights essential for sustainable management in the face of climate change.
     </p>
 
-    <!-- ======================= -->
-    <!-- MINI PROJECT -->
-    <!-- ======================= -->
-    <h3 style="margin-bottom: 5px;">
-      Quantitative Analysis of Annual Chlorophyll-a and Sea Surface Temperature Fluctuations in the Bay of Bengal
-    </h3>
-
-    <p style="margin-top: 0; color: var(--text-secondary);">
-      Mini Project under “Remote Sensing and Satellite Oceanography” coursework &nbsp; | &nbsp; Supervisor: Dr. Subrata Sarker &nbsp; | &nbsp; Jun 2023
-    </p>
-
-    <h4 style="margin-bottom: .2em;">Summary</h4>
-    <p style="border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
-      This research analyzes the spatial and temporal patterns of Chlorophyll-a concentration and Sea Surface Temperature (SST) in the Bay of Bengal using monthly satellite data from January to December 2020. Data were sourced from the NASA Ocean Color Web and processed using SNAP and ArcMap software. Specific coastal regions near Bangladesh were selected for detailed comparison, while regional and seasonal variability across the Bay was mapped and quantified. The study aimed to enrich understanding of marine ecological dynamics and climate processes in the Bay of Bengal, providing valuable data for marine research and management.
-    </p>
-
      <!-- ======================= -->
     <!-- INTERNSHIP -->
     <!-- ======================= -->
@@ -166,6 +150,22 @@ layout: homepage
         <p style="border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
           This internship provided a comprehensive overview of a study focused on marine phytoplankton indigenous to the Bay of Bengal. The research encompassed the culture, growth observation, isolation, and identification of these microscopic organisms. The findings contribute meaningfully to enhancing marine biodiversity assessments and supporting effective management strategies for fisheries resources in the region.
         </p>
+
+      <!-- ======================= -->
+    <!-- MINI PROJECT -->
+    <!-- ======================= -->
+    <h3 style="margin-top: 2.8em; margin-bottom: 5px;">
+      Quantitative Analysis of Annual Chlorophyll-a and Sea Surface Temperature Fluctuations in the Bay of Bengal
+    </h3>
+
+    <p style="margin-top: 0; color: var(--text-secondary);">
+      Mini Project under “Remote Sensing and Satellite Oceanography” coursework &nbsp; | &nbsp; Supervisor: Dr. Subrata Sarker &nbsp; | &nbsp; Jun 2023
+    </p>
+
+    <h4 style="margin-bottom: .2em;">Summary</h4>
+    <p style="border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
+      This research analyzes the spatial and temporal patterns of Chlorophyll-a concentration and Sea Surface Temperature (SST) in the Bay of Bengal using monthly satellite data from January to December 2020. Data were sourced from the NASA Ocean Color Web and processed using SNAP and ArcMap software. Specific coastal regions near Bangladesh were selected for detailed comparison, while regional and seasonal variability across the Bay was mapped and quantified. The study aimed to enrich understanding of marine ecological dynamics and climate processes in the Bay of Bengal, providing valuable data for marine research and management.
+    </p>
       </div>
     </div>
 
