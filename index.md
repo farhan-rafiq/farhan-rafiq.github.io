@@ -323,7 +323,7 @@ layout: homepage
   <p style="margin-bottom: 5px;"><strong>CGPA:</strong> 3.83 out of 4.00</p>
   <p style="margin-bottom: 10px;"><strong>Award:</strong> National Science and Technology Fellowship, Ministry of Science & Technology, Bangladesh</p>
 
-  <!-- Relevant Coursework -->
+  <!-- Relevant Coursework --
   <h4 style="margin-top: 20px; margin-bottom: 5px;">Relevant Coursework</h4>
   <div class="course-container">
     <ul class="course-column" style= "border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
@@ -333,12 +333,13 @@ layout: homepage
       <li>Coastal Hydrogeology</li>
     </ul>
   </div>
+  -->
  
   <h3 style="margin-top: 2em; margin-bottom: 5px;">Bachelor of Science in Oceanography</h3>
   <p style="margin-bottom: 10px; color: var(--text-secondary);">Shahjalal University of Science and Technology, Sylhet, Bangladesh</p>
   <p style="margin-bottom: 10px;"><strong>CGPA:</strong> 3.66 out of 4.00</p>
 
-  <!-- Relevant Coursework -->
+  <!-- Relevant Coursework --
   <h4 style="margin-top: 20px; margin-bottom: 5px;">Relevant Coursework</h4>
   <div class="course-container">
     <ul class="course-column" style="margin-bottom: 0;">
@@ -351,5 +352,10 @@ layout: homepage
     </ul>
   </div>
   </div>
+  -->
+
+   <h3 style="margin-top: 2em; margin-bottom: 5px;">Higher Secondary Certificate — Science</h3>
+  <p style="margin-bottom: 10px; color: var(--text-secondary);">New Govt. Degree College, Rajshahi</p>
+  <p style="margin-bottom: 10px;"><strong>CGPA:</strong> 5.00 out of 5.00</p> 
 </section>
 
