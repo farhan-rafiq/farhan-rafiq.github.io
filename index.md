@@ -117,25 +117,6 @@ I am particularly interested in integrating machine learning and multi-criteria 
       <h4 style="margin-bottom:.2em;">Summary</h4>
       <p>This internship provided a comprehensive overview of a study focused on marine phytoplankton indigenous to the Bay of Bengal. The research encompassed the culture, growth observation, isolation, and identification of these microscopic organisms. The findings contribute meaningfully to enhancing marine biodiversity assessments and supporting effective management strategies for fisheries resources in the region.</p>
 
-  <!--h4 style="margin-bottom: 0;">Key Activities</h4>
-      <ul style="margin-top: 0; margin-bottom:.5em">
-        <li>Sample Collection & Fieldwork: Collected seawater samples from coastal waters near Laboni Beach, Cox's Bazar, using a plankton net with a 20µm mesh size.</li>
-        <li>Culture & Media Preparation: Prepared and sterilized glassware and utilized Guillard's F/2 media to culture the marine microalgae. Successfully isolated and cultured 29 distinct phytoplankton strains.</li>
-        <li>Growth Analysis: Conducted a comparative analysis of <i>Skeletonema sp.</i> growth in both Natural Seawater (NSW) and Artificial Seawater (ASW). The results demonstrated robust growth in NSW, while the population rapidly declined in ASW.</li>
-        <li>Phytoplankton Identification: Performed morphological identification of species using light and fluorescence microscopy (20x, 40x). Referenced the book 'Plankton of Bangladesh' to ensure taxonomic accuracy. Identified species from groups including diatoms and dinoflagellates.</li>
-      </ul-->
-
-  <!-- h4 style="margin-bottom: 2em; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
-        <a href="#"
-        class="pdf-link"
-        data-pdf="./projects/Internship_report.pdf">
-          View PDF
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" style="margin-left: 4px;">
-            <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
-            <path d="M5 5h5V3H3v7h2V5zm0 14v-5H3v7h7v-2H5z"/>
-          </svg>
-        </a>
-      </h4-->
 
   <h3 style="margin-top: 2.5em; margin-bottom: 5px;">Teaching Experience</h3>
       <p style="margin-top: 0; color: var(--text-secondary);">Private Tutor & Coaching Instructor &nbsp; | &nbsp; Oct 2021 - Present</p>
@@ -275,43 +256,20 @@ I am particularly interested in integrating machine learning and multi-criteria 
 <section id="education-section">
   <h2 id="education" style="margin-top: 3em;">Education</h2>
   <div class="section-content">  
+  
   <h3 style="margin-bottom: 5px;">Master of Science (Thesis) in Oceanography</h3>
   <p style="margin-bottom: 10px; color: var(--text-secondary);">Shahjalal University of Science and Technology, Sylhet, Bangladesh</p>
   <p style="margin-bottom: 5px;"><strong>CGPA:</strong> 3.83 out of 4.00</p>
   <p style="margin-bottom: 10px;"><strong>Award:</strong> National Science and Technology Fellowship, Ministry of Science & Technology, Bangladesh</p>
 
-  <!-- Relevant Coursework --
-  <h4 style="margin-top: 20px; margin-bottom: 5px;">Relevant Coursework</h4>
-  <div class="course-container">
-    <ul class="course-column" style= "border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
-      <li>Computational Oceanography and Data Analysis</li>
-      <li>Advanced Ocean Dynamics</li>
-      <li>Coastal and Marine Fluid Dynamics</li>
-      <li>Coastal Hydrogeology</li>
-    </ul>
-  </div>
-  -->
  
   <h3 style="margin-top: 2em; margin-bottom: 5px;">Bachelor of Science in Oceanography</h3>
   <p style="margin-bottom: 10px; color: var(--text-secondary);">Shahjalal University of Science and Technology, Sylhet, Bangladesh</p>
   <p style="margin-bottom: 10px;"><strong>CGPA:</strong> 3.66 out of 4.00</p>
 
-  <!-- Relevant Coursework --
-  <h4 style="margin-top: 20px; margin-bottom: 5px;">Relevant Coursework</h4>
-  <div class="course-container">
-    <ul class="course-column" style="margin-bottom: 0;">
-      <li>GIS Technology</li>
-      <li>Ocean Modelling</li>
-      <li>Ocean Geophysics</li>
-      <li>Remote Sensing and Satellite Oceanography</li>
-      <li>Meteorology and Ocean Forecasting</li>
-      <li>Marine Environment and Climate Change</li>
-    </ul>
-  </div>
-  </div>
-  -->
 
-   <h3 style="margin-top: 2em; margin-bottom: 5px;">Higher Secondary Certificate: Science</h3>
+  <h3 style="margin-top: 2em; margin-bottom: 5px;">Higher Secondary Certificate: Science</h3>
   <p style="margin-bottom: 10px; color: var(--text-secondary);">New Govt. Degree College, Rajshahi</p>
   <p style="margin-bottom: 10px;"><strong>CGPA:</strong> 5.00 out of 5.00</p>
-
+</div>
+</section>
