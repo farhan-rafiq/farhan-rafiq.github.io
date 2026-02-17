@@ -351,7 +351,7 @@ I am particularly interested in integrating machine learning and multi-criteria 
   </div>
   -->
 
-   <h3 style="margin-top: 2em; margin-bottom: 5px;">Higher Secondary Certificate — Science</h3>
+   <h3 style="margin-top: 2em; margin-bottom: 5px;">Higher Secondary Certificate: Science</h3>
   <p style="margin-bottom: 10px; color: var(--text-secondary);">New Govt. Degree College, Rajshahi</p>
   <p style="margin-bottom: 10px;"><strong>CGPA:</strong> 5.00 out of 5.00</p>
   
