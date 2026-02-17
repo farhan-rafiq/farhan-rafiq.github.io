@@ -93,7 +93,7 @@ layout: homepage
 <!-- RESEARCH PROJECTS SECTION -->
 <!-- ===================================================== -->
 <section id="research-projects-section">
-  <h2 id="research-projects" style="margin-top: 3em;">Research Projects</h2>
+  <h2 id="research-projects" style="margin-top: 3em;">Research Experience</h2>
 
   <div class="section-content">
 
@@ -163,7 +163,7 @@ layout: homepage
     </p>
 
     <h4 style="margin-bottom: .2em;">Summary</h4>
-    <p style="border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
+    <p>
       This research analyzes the spatial and temporal patterns of Chlorophyll-a concentration and Sea Surface Temperature (SST) in the Bay of Bengal using monthly satellite data from January to December 2020. Data were sourced from the NASA Ocean Color Web and processed using SNAP and ArcMap software. Specific coastal regions near Bangladesh were selected for detailed comparison, while regional and seasonal variability across the Bay was mapped and quantified. The study aimed to enrich understanding of marine ecological dynamics and climate processes in the Bay of Bengal, providing valuable data for marine research and management.
     </p>
       </div>
@@ -177,14 +177,14 @@ layout: homepage
 <!-- EXPERIENCE SECTION -->
 <!-- ===================================================== -->
 <section id="experience-section">
-  <h2 id="experience" style="margin-top: 3em;">Experience</h2>
+  <h2 id="experience" style="margin-top: 3em;">Other Activities</h2>
 
   <div class="section-content">
 
     <!-- ======================= -->
     <!-- TEACHING EXPERIENCE -->
     <!-- ======================= -->
-    <h3 style="margin-top: 2.5em; margin-bottom: 5px;">Teaching Experience</h3>
+    <h3 style="margin-bottom: 5px;">Teaching Experience</h3>
 
     <p style="margin-top: 0; color: var(--text-secondary);">
       Private Tutor & Coaching Instructor &nbsp; | &nbsp; Oct 2021 - Present
