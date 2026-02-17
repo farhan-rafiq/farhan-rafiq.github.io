@@ -125,14 +125,14 @@ layout: homepage
     </p>
 
     <h4 style="margin-bottom: .2em;">Summary</h4>
-    <p>
+    <p style="margin-bottom: 3.5em; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
       This research investigates how Photosynthetically Available Radiation (PAR), Diffuse Attenuation Coefficient (Kd490), and Sea Surface Temperature (SST) vary both spatially and temporally in the Bangladesh Exclusive Economic Zone (EEZ) from 2016 to 2022. Using satellite-derived data (MODIS-Aqua) processed in SeaDAS and ArcGIS, the study analyzes monthly and annual trends for each parameter. The aim is to elucidate how these physical factors impact marine ecosystems in the Bay of Bengal and to provide insights essential for sustainable management in the face of climate change.
     </p>
 
     <!-- ======================= -->
     <!-- MINI PROJECT -->
     <!-- ======================= -->
-    <h3 style="margin-top: 2.8em; margin-bottom: 5px;">
+    <h3 style="margin-bottom: 5px;">
       Quantitative Analysis of Annual Chlorophyll-a and Sea Surface Temperature Fluctuations in the Bay of Bengal
     </h3>
 
@@ -145,23 +145,9 @@ layout: homepage
       This research analyzes the spatial and temporal patterns of Chlorophyll-a concentration and Sea Surface Temperature (SST) in the Bay of Bengal using monthly satellite data from January to December 2020. Data were sourced from the NASA Ocean Color Web and processed using SNAP and ArcMap software. Specific coastal regions near Bangladesh were selected for detailed comparison, while regional and seasonal variability across the Bay was mapped and quantified. The study aimed to enrich understanding of marine ecological dynamics and climate processes in the Bay of Bengal, providing valuable data for marine research and management.
     </p>
 
-  </div>
-</section>
-
-
-<!-- ===================================================== -->
-<!-- EXPERIENCE SECTION -->
-<!-- ===================================================== -->
-<section id="experience-section">
-  <h2 id="experience" style="margin-top: 3em;">Experience</h2>
-
-  <div class="section-content">
-
-    <!-- ======================= -->
+     <!-- ======================= -->
     <!-- INTERNSHIP -->
     <!-- ======================= -->
-    <h3 style="font-size: 24px; margin-bottom: .5em;">Internship</h3>
-
     <h3 style="margin-bottom: 5px;">
       Growth, Observation, and Identification of Indigenous Marine Phytoplankton of the Bay of Bengal, Bangladesh
     </h3>
@@ -177,11 +163,23 @@ layout: homepage
     <div style="display: flex; flex-wrap: wrap; gap: 1.5em;">
       <div style="flex: 2; min-width: 320px;">
         <h4 style="margin-bottom: .2em;">Summary</h4>
-        <p>
+        <p style="border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
           This internship provided a comprehensive overview of a study focused on marine phytoplankton indigenous to the Bay of Bengal. The research encompassed the culture, growth observation, isolation, and identification of these microscopic organisms. The findings contribute meaningfully to enhancing marine biodiversity assessments and supporting effective management strategies for fisheries resources in the region.
         </p>
       </div>
     </div>
+
+  </div>
+</section>
+
+
+<!-- ===================================================== -->
+<!-- EXPERIENCE SECTION -->
+<!-- ===================================================== -->
+<section id="experience-section">
+  <h2 id="experience" style="margin-top: 3em;">Experience</h2>
+
+  <div class="section-content">
 
     <!-- ======================= -->
     <!-- TEACHING EXPERIENCE -->
