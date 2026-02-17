@@ -72,8 +72,6 @@ I am particularly interested in integrating machine learning and multi-criteria 
 
   <h3 style="margin-bottom: 5px;">Integrated Modelling of Urban Flood Risk in Chattogram: Application of TOPSIS, Machine Learning and Spatial Analysis Approaches</h3>
   <p style="margin-top: 0; color: var(--text-secondary);">Masters' Thesis &nbsp; | &nbsp; Supervisor: Dr Md Alamgir Kabir &nbsp; Co-Supervisor: Abu Bokkar Siddique &nbsp; | &nbsp; Dec 2025</p>
-
-<!--div style="display:flex; flex-wrap:wrap; gap:1.5em;" -->
   
   <div style="flex:2; min-width:320px;">
       <h4 style="margin-bottom:.2em;">Summary</h4>
@@ -87,25 +85,6 @@ I am particularly interested in integrating machine learning and multi-criteria 
       <h4 style="margin-bottom:.2em;">Summary</h4>
       <p>This research investigates how Photosynthetically Available Radiation (PAR), Diffuse Attenuation Coefficient (Kd490), and Sea Surface Temperature (SST) vary both spatially and temporally in the Bangladesh Exclusive Economic Zone (EEZ) from 2016 to 2022. Using satellite-derived data (MODIS-Aqua) processed in SeaDAS and ArcGIS, the study analyzes monthly and annual trends for each parameter. The aim is to elucidate how these physical factors impact marine ecosystems in the Bay of Bengal and to provide insights essential for sustainable management in the face of climate change.</p>
 
-  <!--h4 style="margin-bottom: 0;">Key Findings</h4>
-      <ul style="margin-top: 0; margin-bottom:.5em">
-        <li>PAR ranged from 32.47 – 55 Einstein/m²/day with higher values offshore and seasonal highs in May–July.</li>
-        <li>Kd<sub>490</sub> values indicated higher water turbidity (up to 0.33 m⁻¹) near coastlines due to runoff &amp; anthropogenic impacts.</li>
-        <li>SST varied seasonally from 22°C – 31°C, revealing a subtle multi-year warming trend.</li>
-      </ul-->
-
-  <!--h4 style="margin-bottom: 2em; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
-    <a href="#" 
-      class="pdf-link" 
-      data-pdf="./projects/undergrad_project.pdf">
-      View PDF
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" style="margin-left: 4px;">
-        <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
-        <path d="M5 5h5V3H3v7h2V5zm0 14v-5H3v7h7v-2H5z"/>
-      </svg>
-    </a>
-  </h4-->
-
 
   <h3 style="margin-top: 2.8em; margin-bottom: 5px;">Quantitative Analysis of Annual Chlorophyll-a and Sea Surface Temperature Fluctuations in the Bay of Bengal</h3>
       <p style="margin-top: 0; color: var(--text-secondary);">Mini Project under “Remote Sensing and Satellite Oceanography” coursework &nbsp; | &nbsp; Supervisor: Dr. Subrata Sarker &nbsp; | &nbsp; Jun 2023</p>
@@ -114,27 +93,12 @@ I am particularly interested in integrating machine learning and multi-criteria 
         <div style="flex:2; min-width:320px;">
           <h4 style="margin-bottom:.2em;">Summary</h4>
           <p>This research analyzes the spatial and temporal patterns of Chlorophyll-a concentration and Sea Surface Temperature (SST) in the Bay of Bengal using monthly satellite data from January to December 2020. Data were sourced from the NASA Ocean Color Web and processed using SNAP and ArcMap software. Specific coastal regions near Bangladesh were selected for detailed comparison, while regional and seasonal variability across the Bay was mapped and quantified. The study aimed to enrich understanding of marine ecological dynamics and climate processes in the Bay of Bengal, providing valuable data for marine research and management.</p>
-
-  <!--h4 style="margin-bottom: 0.2em;">Key Findings</h4>
-          <ul style="margin: 0">
-            <li>Chlorophyll-a levels were lowest in May and peaked in August, indicating strong seasonal variation.</li>
-            <li>Sea Surface Temperature (SST) increased gradually from January, peaked in May, then declined after October.</li>
-            <li>There was a negative correlation between chlorophyll-a and SST: higher chlorophyll was found when SST was lower.</li>
-          </ul-->
-
-  <!--h4 style="margin-top: .5em; margin-bottom: 2px;">
-            <a href="#"
-            class="pdf-link"
-            data-pdf="./projects/4_1_project.pdf">
-              View PDF
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" style="margin-left: 4px;">
-                <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
-                <path d="M5 5h5V3H3v7h2V5zm0 14v-5H3v7h7v-2H5z"/>
-              </svg>
-            </a>
-          </h4-->
-   </div>
-  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
 
 
