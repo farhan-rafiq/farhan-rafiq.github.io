@@ -94,7 +94,7 @@ I am particularly interested in integrating machine learning and multi-criteria 
         <li>SST varied seasonally from 22°C – 31°C, revealing a subtle multi-year warming trend.</li>
       </ul-->
 
-  <h4 style="margin-bottom: 2em; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
+  <!--h4 style="margin-bottom: 2em; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
     <a href="#" 
       class="pdf-link" 
       data-pdf="./projects/undergrad_project.pdf">
@@ -104,7 +104,7 @@ I am particularly interested in integrating machine learning and multi-criteria 
         <path d="M5 5h5V3H3v7h2V5zm0 14v-5H3v7h7v-2H5z"/>
       </svg>
     </a>
-  </h4>
+  </h4-->
 
 
   <h3 style="margin-top: 2.8em; margin-bottom: 5px;">Quantitative Analysis of Annual Chlorophyll-a and Sea Surface Temperature Fluctuations in the Bay of Bengal</h3>
@@ -122,7 +122,7 @@ I am particularly interested in integrating machine learning and multi-criteria 
             <li>There was a negative correlation between chlorophyll-a and SST: higher chlorophyll was found when SST was lower.</li>
           </ul-->
 
-  <h4 style="margin-top: .5em; margin-bottom: 2px;">
+  <!--h4 style="margin-top: .5em; margin-bottom: 2px;">
             <a href="#"
             class="pdf-link"
             data-pdf="./projects/4_1_project.pdf">
@@ -132,7 +132,7 @@ I am particularly interested in integrating machine learning and multi-criteria 
                 <path d="M5 5h5V3H3v7h2V5zm0 14v-5H3v7h7v-2H5z"/>
               </svg>
             </a>
-          </h4>
+          </h4-->
         </div>
       </div>
     </div>
@@ -165,7 +165,7 @@ I am particularly interested in integrating machine learning and multi-criteria 
         <li>Phytoplankton Identification: Performed morphological identification of species using light and fluorescence microscopy (20x, 40x). Referenced the book 'Plankton of Bangladesh' to ensure taxonomic accuracy. Identified species from groups including diatoms and dinoflagellates.</li>
       </ul-->
 
-  <h4 style="margin-bottom: 2em; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
+  <!-- h4 style="margin-bottom: 2em; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
         <a href="#"
         class="pdf-link"
         data-pdf="./projects/Internship_report.pdf">
@@ -175,7 +175,7 @@ I am particularly interested in integrating machine learning and multi-criteria 
             <path d="M5 5h5V3H3v7h2V5zm0 14v-5H3v7h7v-2H5z"/>
           </svg>
         </a>
-      </h4>
+      </h4-->
 
   <h3 style="margin-top: 2.5em; margin-bottom: 5px;">Teaching Experience</h3>
       <p style="margin-top: 0; color: var(--text-secondary);">Private Tutor & Coaching Instructor &nbsp; | &nbsp; Oct 2021 - Present</p>
