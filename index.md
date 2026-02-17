@@ -13,12 +13,9 @@ layout: homepage
 <section id="about-me-section">
   <h2 id="about-me">About Me</h2>
   <div class="section-content">  
-  <p>
-    I am an Oceanography graduate and geospatial enthusiast with a strong foundation in remote sensing, GIS mapping, and environmental data science. My expertise encompasses geospatial analysis, spatial modeling, and advanced data visualization, with proficiency in tools such as ArcGIS, SeaDAS, and Google Earth Engine for processing satellite data and conducting geographic analysis.
-  </p>
-  <p>
-    In addition to my technical skills, I have experience in programming with Python and R, as well as advanced MS Excel, which enables me to apply computational, statistical, and spatial approaches to complex environmental and oceanographic datasets. I am particularly passionate about leveraging these skills to address practical challenges in coastal and urban systems, contributing to innovative, data-driven research and solutions.
-  </p>
+  <p> I am a geographer and oceanography graduate specializing in geospatial science, spatial modelling, and environmental data analysis. My work applies GIS, remote sensing, and computational techniques to examine urban and coastal systems, with a focus on flood risk assessment and climate-related hazards. Using tools such as ArcGIS, Google Earth Engine, Python, and R, I develop data-driven models and spatial analyses that translate complex environmental data into actionable insights.
+
+I am particularly interested in integrating machine learning and multi-criteria analysis to support resilient urban planning and sustainable environmental management. My long-term goal is to pursue a PhD in geospatial and environmental systems and contribute to interdisciplinary research that bridges science, technology, and policy. </p>
   </div>
 </section>
 
