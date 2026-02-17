@@ -136,9 +136,6 @@ I am particularly interested in integrating machine learning and multi-criteria 
         </div>
       </div>
     </div>
-  </div>
-  </div>
-  </div>
 </section>
 
 
