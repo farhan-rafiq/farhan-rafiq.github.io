@@ -133,9 +133,9 @@ I am particularly interested in integrating machine learning and multi-criteria 
               </svg>
             </a>
           </h4-->
-        </div>
-      </div>
-    </div>
+  </div>
+  </div>
+  </div>
 </section>
 
 
