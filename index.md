@@ -160,8 +160,7 @@ layout: homepage
 
     <h4 style="margin-bottom: .2em;">Summary</h4>
     <p>
-      This research analyzes the spatial and temporal patterns of Chlorophyll-a concentration and Sea Surface Temperature (SST) in the Bay of Bengal using monthly satellite data from January to December 2020. Data were sourced from the NASA Ocean Color Web and processed using SNAP and ArcMap software. Specific coastal regions near Bangladesh were selected for detailed comparison, while regional and seasonal variability across the Bay was mapped and quantified. The study aimed to enrich understanding of marine ecological dynamics and climate processes in the Bay of Bengal, providing valuable data for marine research and management.
-    </p>
+      This research analyzes the spatial and temporal patterns of Chlorophyll-a concentration and Sea Surface Temperature (SST) in the Bay of Bengal using monthly satellite data from January to December 2020. Data were sourced from the NASA Ocean Color Web and processed using SNAP and ArcMap software. Specific coastal regions near Bangladesh were selected for detailed comparison, while regional and seasonal variability across the Bay was mapped and quantified. The study aimed to enrich understanding of marine ecological dynamics and climate processes in the Bay of Bengal, providing valuable data for marine research and management.</p>
       </div>
     </div>
 
@@ -170,7 +169,7 @@ layout: homepage
 
 
 <!-- ===================================================== -->
-<!-- EXPERIENCE SECTION -->
+<!-- OTHER ACTIVITIES SECTION -->
 <!-- ===================================================== -->
 <section id="experience-section">
   <h2 id="experience" style="margin-top: 3em;">Other Activities</h2>
