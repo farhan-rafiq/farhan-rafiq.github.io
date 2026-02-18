@@ -133,7 +133,7 @@ layout: homepage
     </h3>
 
     <p style="margin: 0; color: var(--text-secondary);">
-      Internship &nbsp; | &nbsp; Bangladesh Fisheries Research Institute (BFRI), MFTS, Cox's Bazar &nbsp; | &nbsp; Mar 2025
+      Internship Project &nbsp; | &nbsp; Bangladesh Fisheries Research Institute (BFRI), MFTS, Cox's Bazar &nbsp; | &nbsp; Mar 2025
     </p>
 
     <div style="display: flex; flex-wrap: wrap; gap: 1.5em;">
