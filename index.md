@@ -138,7 +138,7 @@ layout: homepage
 
     <div style="display: flex; flex-wrap: wrap; gap: 1.5em;">
       <div style="flex: 2; min-width: 320px;">
-        <h4 style="margin-bottom: .2em;">Summary</h4>
+        <h4 style="margin-bottom: .2em, margin-top: 1.2em;">Summary</h4>
         <p style="border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
           This internship provided a comprehensive overview of a study focused on marine phytoplankton indigenous to the Bay of Bengal. The research encompassed the culture, growth observation, isolation, and identification of these microscopic organisms. The findings contribute meaningfully to enhancing marine biodiversity assessments and supporting effective management strategies for fisheries resources in the region.
         </p>
