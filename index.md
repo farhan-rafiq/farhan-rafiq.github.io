@@ -133,7 +133,7 @@ layout: homepage
     </h3>
 
     <p style="margin: 0; color: var(--text-secondary);">
-      Bangladesh Fisheries Research Institute (BFRI), Marine Fisheries and Technology Station, Cox's Bazar
+      Internship &nbsp; | &nbsp; Bangladesh Fisheries Research Institute (BFRI), MFTS, Cox's Bazar
     </p>
 
     <p style="margin-top: 0; color: var(--text-secondary);">
