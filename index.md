@@ -155,7 +155,7 @@ layout: homepage
     </h3>
 
     <p style="margin-top: 0; color: var(--text-secondary);">
-      Mini Project under “Remote Sensing and Satellite Oceanography” coursework &nbsp; | &nbsp; Supervisor: Dr. Subrata Sarker &nbsp; | &nbsp; Jun 2023
+      Mini Project under “Remote Sensing” coursework &nbsp; | &nbsp; Supervisor: Dr. Subrata Sarker &nbsp; | &nbsp; Jun 2023
     </p>
 
     <h4 style="margin-bottom: .2em;">Summary</h4>
