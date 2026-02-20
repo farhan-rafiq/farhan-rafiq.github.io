@@ -86,10 +86,10 @@ layout: homepage
 
 
 <!-- ===================================================== -->
-<!-- RESEARCH PROJECTS SECTION -->
+<!-- RESEARCH EXPERIENCE SECTION -->
 <!-- ===================================================== -->
-<section id="research-projects-section">
-  <h2 id="research-projects" style="margin-top: 3em;">Research Experience</h2>
+<section id="research-experience-section">
+  <h2 id="research-experience" style="margin-top: 3em;">Research Experience</h2>
 
   <div class="section-content">
 
@@ -168,8 +168,8 @@ layout: homepage
 <!-- ===================================================== -->
 <!-- OTHER ACTIVITIES SECTION -->
 <!-- ===================================================== -->
-<section id="experience-section">
-  <h2 id="experience" style="margin-top: 3em;">Other Activities</h2>
+<section id="other-activities-section">
+  <h2 id="other-activities" style="margin-top: 3em;">Other Activities</h2>
 
   <div class="section-content">
 
