@@ -666,6 +666,8 @@ img {
   width: 100%;
   height: 320px;
   object-fit: cover;
+  transition: transform 0.8s ease-in-out;
+  animation: kenBurns 12s infinite alternate;
 }
 
 .carousel .control {
@@ -709,6 +711,11 @@ img {
   line-height: 1.6;
   color: var(--text-primary);
   text-align: justify;
+}
+
+@keyframes kenBurns {
+  0%   { transform: scale(1); }
+  100% { transform: scale(1.12); }
 }
 
 /* ==========================================
@@ -783,8 +790,6 @@ img {
   border-radius: 8px;
   box-shadow: 0 6px 18px var(--shadow-md);
   display: block;
-  transition: transform 0.8s ease-in-out;
-  animation: kenBurns 12s infinite alternate;
 }
 
 
