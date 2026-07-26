@@ -90,15 +90,13 @@ layout: homepage
     <div style="margin-top: 1.75em;">
       <div class="interest-title" style="margin-bottom: 0.6em;">Tools & Technologies</div>
       <div class="skills-grid">
-        <span class="skill-badge"><i class="fas fa-map-location-dot"></i>ArcGIS / ArcMap</span>
-        <span class="skill-badge"><i class="fas fa-earth-asia"></i>Google Earth Engine</span>
+        <span class="skill-badge"><i class="fas fa-map-location-dot"></i>ArcGIS Pro / ArcMap</span>
         <span class="skill-badge"><i class="fab fa-python"></i>Python</span>
         <span class="skill-badge"><i class="fas fa-chart-simple"></i>R</span>
-        <span class="skill-badge"><i class="fas fa-satellite-dish"></i>SNAP</span>
-        <span class="skill-badge"><i class="fas fa-water"></i>SeaDAS</span>
+        <span class="skill-badge"><i class="fas fa-satellite-dish"></i>SeaDAS / SNAP</span>
         <span class="skill-badge"><i class="fas fa-brain"></i>Machine Learning</span>
         <span class="skill-badge"><i class="fas fa-layer-group"></i>TOPSIS / MCDA</span>
-        <span class="skill-badge"><i class="fas fa-satellite"></i>MODIS-Aqua</span>
+        <span class="skill-badge"><i class="fas fa-earth-asia"></i>Google Earth Engine</span>
       </div>
     </div>
   </div>
@@ -137,10 +135,6 @@ layout: homepage
       </div>
       <div class="research-figure">
         <img src=".assets/img/research/thesis_flood_risk_map.webp" alt="Chattogram flood risk map">
-        <div class="figure-placeholder">
-          <i class="fas fa-map"></i>
-          <span>Add your flood risk map<br>(TOPSIS output, ~800×600px)</span>
-        </div>
       </div>
     </div>
 
