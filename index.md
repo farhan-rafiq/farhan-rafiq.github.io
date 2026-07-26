@@ -133,7 +133,11 @@ layout: homepage
           My master's thesis focuses on developing an integrated framework to evaluate urban flood risk in Chattogram, one of Bangladesh's most climate-vulnerable coastal cities. This research combines multi-criteria decision analysis (TOPSIS) with machine learning and spatial analysis to identify high-risk zones and the key environmental and socio-economic factors driving flood vulnerability.
         </p>
       </div>
-      <div class="research-figure">
+    <div class="carousel" data-images='[
+      "assets/img/research/thesis_flood_risk_map_1.webp",
+      "assets/img/research/thesis_flood_risk_map_2.webp",
+      "assets/img/research/thesis_flood_risk_map_3.webp"
+    ]'>
         <img src="assets/img/research/thesis_flood_risk_map.webp" alt="Chattogram flood risk map">
       </div>
     </div>
