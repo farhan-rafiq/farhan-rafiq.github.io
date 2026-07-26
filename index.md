@@ -32,73 +32,55 @@ layout: homepage
   <h2 id="research-interests" style="margin-top: 3em;">Research Interests</h2>
 
   <div class="section-content">
-    <!-- Icons now use Font Awesome (already loaded in <head>) instead of emoji -->
+    <!-- Removed unnecessary inline repetition and aligned formatting -->
     <ul style="list-style: none; padding-left: 0;">
 
       <!-- Item 1 -->
-      <li class="interest-item">
-        <span class="interest-icon"><i class="fas fa-satellite"></i></span>
+      <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+        <span style="width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; background: #fff; border-radius: 50%; font-size: 1em; margin-right: 10px; flex-shrink: 0; margin-top: 10px;">🌍</span>
         <div>
-          <div class="interest-title">Remote Sensing & GIS Applications</div>
-          <div class="interest-desc">Satellite data analysis, spatial modeling, and geospatial data management.</div>
+          <div style="font-size: 1em; font-weight: 600; line-height: 1.1em; margin-bottom: 3px;">Remote Sensing & GIS Applications</div>
+          <div style="color: var(--text-secondary); font-size: .875em;">Satellite data analysis, spatial modeling, and geospatial data management.</div>
         </div>
       </li>
 
       <!-- Item 2 -->
-      <li class="interest-item">
-        <span class="interest-icon"><i class="fas fa-chart-line"></i></span>
+      <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+        <span style="width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; background: #fff; border-radius: 50%; font-size: 1em; margin-right: 10px; flex-shrink: 0; margin-top: 10px;">📊</span>
         <div>
-          <div class="interest-title">Oceanographic Data Science</div>
-          <div class="interest-desc">Computational and statistical approaches to marine and atmospheric datasets.</div>
+          <div style="font-size: 1em; font-weight: 600; line-height: 1.1em; margin-bottom: 3px;">Oceanographic Data Science</div>
+          <div style="color: var(--text-secondary); font-size: .875em;">Computational and statistical approaches to marine and atmospheric datasets.</div>
         </div>
       </li>
 
       <!-- Item 3 -->
-      <li class="interest-item">
-        <span class="interest-icon"><i class="fas fa-house-flood-water"></i></span>
+      <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+        <span style="width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; background: #fff; border-radius: 50%; font-size: 1em; margin-right: 10px; flex-shrink: 0; margin-top: 10px;">🌊</span>
         <div>
-          <div class="interest-title">Coastal & Urban Flood Risk Assessment</div>
-          <div class="interest-desc">Integrated modeling, spatial analysis, and machine learning applications.</div>
+          <div style="font-size: 1em; font-weight: 600; line-height: 1.1em; margin-bottom: 3px;">Coastal & Urban Flood Risk Assessment</div>
+          <div style="color: var(--text-secondary); font-size: .875em;">Integrated modeling, spatial analysis, and machine learning applications.</div>
         </div>
       </li>
 
       <!-- Item 4 -->
-      <li class="interest-item">
-        <span class="interest-icon"><i class="fas fa-temperature-three-quarters"></i></span>
+      <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+        <span style="width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; background: #fff; border-radius: 50%; font-size: 1em; margin-right: 10px; flex-shrink: 0; margin-top: 10px;">🌡️</span>
         <div>
-          <div class="interest-title">Climate Change & Environmental Monitoring</div>
-          <div class="interest-desc">Impacts on coastal ecosystems, agriculture, and trade vulnerability.</div>
+          <div style="font-size: 1em; font-weight: 600; line-height: 1.1em; margin-bottom: 3px;">Climate Change & Environmental Monitoring</div>
+          <div style="color: var(--text-secondary); font-size: .875em;">Impacts on coastal ecosystems, agriculture, and trade vulnerability.</div>
         </div>
       </li>
 
       <!-- Item 5 -->
-      <li class="interest-item">
-        <span class="interest-icon"><i class="fas fa-diagram-project"></i></span>
+      <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+        <span style="width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; background: #fff; border-radius: 50%; font-size: 1em; margin-right: 10px; flex-shrink: 0; margin-top: 10px;">🤖</span>
         <div>
-          <div class="interest-title">Geospatial Artificial Intelligence (GeoAI)</div>
-          <div class="interest-desc">Machine learning and predictive modeling for environmental systems.</div>
+          <div style="font-size: 1em; font-weight: 600; line-height: 1.1em; margin-bottom: 3px;">Geospatial Artificial Intelligence (GeoAI)</div>
+          <div style="color: var(--text-secondary); font-size: .875em;">Machine learning and predictive modeling for environmental systems.</div>
         </div>
       </li>
 
     </ul>
-
-    <!-- ===================================================== -->
-    <!-- TOOLS & TECHNOLOGIES -->
-    <!-- Purely additive: professors scan this to gauge your
-         technical range at a glance. Trim/extend freely. -->
-    <!-- ===================================================== -->
-    <div style="margin-top: 1.75em;">
-      <div class="interest-title" style="margin-bottom: 0.6em;">Tools & Technologies</div>
-      <div class="skills-grid">
-        <span class="skill-badge"><i class="fas fa-map-location-dot"></i>ArcGIS Pro / ArcMap</span>
-        <span class="skill-badge"><i class="fab fa-python"></i>Python</span>
-        <span class="skill-badge"><i class="fas fa-chart-simple"></i>R</span>
-        <span class="skill-badge"><i class="fas fa-satellite-dish"></i>SeaDAS / SNAP</span>
-        <span class="skill-badge"><i class="fas fa-brain"></i>Machine Learning</span>
-        <span class="skill-badge"><i class="fas fa-layer-group"></i>TOPSIS / MCDA</span>
-        <span class="skill-badge"><i class="fas fa-earth-asia"></i>Google Earth Engine</span>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -113,145 +95,74 @@ layout: homepage
 
     <!-- ======================= -->
     <!-- MASTER'S THESIS -->
-    <!-- Replace the .figure-placeholder block below with an
-         <img> tag pointing at your best thesis map/output
-         (e.g. images/Research/thesis_flood_risk_map.webp),
-         ideally ~800x600px, then delete the placeholder div. -->
     <!-- ======================= -->
-    <div class="research-entry">
-      <div class="research-entry-text">
-        <h3 style="margin-bottom: 5px;">
-          Integrated Modelling of Urban Flood Risk in Chattogram: Application of TOPSIS, Machine Learning and Spatial Analysis Approaches
-        </h3>
+    <h3 style="margin-bottom: 5px;">
+      Integrated Modelling of Urban Flood Risk in Chattogram: Application of TOPSIS, Machine Learning and Spatial Analysis Approaches
+    </h3>
 
-        <p style="margin-top: 0; color: var(--text-secondary);">
-          Masters' Thesis &nbsp; | &nbsp; Supervisor: Dr Md Alamgir Kabir &nbsp; | &nbsp; Co-Supervisor: Abu Bokkar Siddique &nbsp; | &nbsp; Dec 2025
-        </p>
+    <p style="margin-top: 0; color: var(--text-secondary);">
+      Masters' Thesis &nbsp; | &nbsp; Supervisor: Dr Md Alamgir Kabir &nbsp; | &nbsp; Co-Supervisor: Abu Bokkar Siddique &nbsp; | &nbsp; Dec 2025
+    </p>
 
-        <h4 style="margin-bottom: .2em;">Summary</h4>
-        <p class="summary">
-          My master's thesis focuses on developing an integrated framework to evaluate urban flood risk in Chattogram, one of Bangladesh's most climate-vulnerable coastal cities. This research combines multi-criteria decision analysis (TOPSIS) with machine learning and spatial analysis to identify high-risk zones and the key environmental and socio-economic factors driving flood vulnerability.
-        </p>
-      </div>
-    <div class="carousel" data-images='[
-      "assets/img/research/thesis_flood_risk_map_1.webp",
-      "assets/img/research/thesis_flood_risk_map_2.webp",
-      "assets/img/research/thesis_flood_risk_map_3.webp"
-    ]'>
-        <img src="assets/img/research/thesis_flood_risk_map_1.webp" alt="Chattogram flood risk map">
-      </div>
-    </div>
+    <h4 style="margin-bottom: .2em;">Summary</h4>
+    <p style="margin-bottom: 3.5em; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
+      My master’s thesis focuses on developing an integrated framework to evaluate urban flood risk in Chattogram, one of Bangladesh’s most climate-vulnerable coastal cities. This research combines multi-criteria decision analysis (TOPSIS) with machine learning and spatial analysis to identify high-risk zones and the key environmental and socio-economic factors driving flood vulnerability.
+    </p>
 
     <!-- ======================= -->
     <!-- UNDERGRADUATE PROJECT -->
-    <!-- Replace with a PAR / Kd490 / SST trend chart. -->
     <!-- ======================= -->
-    <div class="research-entry">
-      <div class="research-entry-text">
-        <h3 style="margin-bottom: 5px;">
-          Spatial and Temporal Variability of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)
-        </h3>
+    <h3 style="margin-bottom: 5px;">
+      Spatial and Temporal Variability of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)
+    </h3>
 
-        <p style="margin-top: 0; color: var(--text-secondary);">
-          Undergraduate Research Project &nbsp; | &nbsp; Supervisor: Abu Bokkar Siddique &nbsp; | &nbsp; Dec 2023
-        </p>
+    <p style="margin-top: 0; color: var(--text-secondary);">
+      Undergraduate Research Project &nbsp; | &nbsp; Supervisor: Abu Bokkar Siddique &nbsp; | &nbsp; Dec 2023
+    </p>
 
-        <h4 style="margin-bottom: .2em;">Summary</h4>
-        <p class="summary">
-          This research investigates how Photosynthetically Available Radiation (PAR), Diffuse Attenuation Coefficient (Kd490), and Sea Surface Temperature (SST) vary both spatially and temporally in the Bangladesh Exclusive Economic Zone (EEZ) from 2016 to 2022. Using satellite-derived data (MODIS-Aqua) processed in SeaDAS and ArcGIS, the study analyzes monthly and annual trends for each parameter. The aim is to elucidate how these physical factors impact marine ecosystems in the Bay of Bengal and to provide insights essential for sustainable management in the face of climate change.
-        </p>
-      </div>
-      <div class="research-figure">
-        <!-- <img src="images/Research/eez_par_kd490_sst_trends.webp" alt="PAR, Kd490, SST trend chart"> -->
-        <div class="figure-placeholder">
-          <i class="fas fa-chart-area"></i>
-          <span>Add PAR / Kd490 / SST<br>trend chart</span>
-        </div>
-      </div>
-    </div>
+    <h4 style="margin-bottom: .2em;">Summary</h4>
+    <p style="margin-bottom: 3.5em; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
+      This research investigates how Photosynthetically Available Radiation (PAR), Diffuse Attenuation Coefficient (Kd490), and Sea Surface Temperature (SST) vary both spatially and temporally in the Bangladesh Exclusive Economic Zone (EEZ) from 2016 to 2022. Using satellite-derived data (MODIS-Aqua) processed in SeaDAS and ArcGIS, the study analyzes monthly and annual trends for each parameter. The aim is to elucidate how these physical factors impact marine ecosystems in the Bay of Bengal and to provide insights essential for sustainable management in the face of climate change.
+    </p>
 
-    <!-- ======================= -->
+     <!-- ======================= -->
     <!-- INTERNSHIP -->
-    <!-- Replace with a phytoplankton micrograph or culture photo. -->
     <!-- ======================= -->
-    <div class="research-entry">
-      <div class="research-entry-text">
-        <h3 style="margin-bottom: 5px;">
-          Growth, Observation, and Identification of Indigenous Marine Phytoplankton of the Bay of Bengal, Bangladesh
-        </h3>
+    <h3 style="margin-bottom: 5px;">
+      Growth, Observation, and Identification of Indigenous Marine Phytoplankton of the Bay of Bengal, Bangladesh
+    </h3>
 
-        <p style="margin-top: 0; color: var(--text-secondary);">
-          Internship Project &nbsp; | &nbsp; Bangladesh Fisheries Research Institute (BFRI), MFTS, Cox's Bazar &nbsp; | &nbsp; Mar 2025
-        </p>
+    <p style="margin: 0; color: var(--text-secondary);">
+      Internship Project &nbsp; | &nbsp; Bangladesh Fisheries Research Institute (BFRI), MFTS, Cox's Bazar &nbsp; | &nbsp; Mar 2025
+    </p>
 
-        <h4 style="margin-bottom: .2em;">Summary</h4>
-        <p class="summary">
+    <div style="display: flex; flex-wrap: wrap; gap: 1.5em;">
+      <div style="flex: 2; min-width: 320px;">
+        <h4 style="margin-bottom: .2em; margin-top: 1.25em;">Summary</h4>
+        <p style="border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
           This internship provided a comprehensive overview of a study focused on marine phytoplankton indigenous to the Bay of Bengal. The research encompassed the culture, growth observation, isolation, and identification of these microscopic organisms. The findings contribute meaningfully to enhancing marine biodiversity assessments and supporting effective management strategies for fisheries resources in the region.
         </p>
-      </div>
-      <div class="research-figure">
-        <!-- <img src="images/Research/bfri_phytoplankton.webp" alt="Phytoplankton culture at BFRI"> -->
-        <div class="figure-placeholder">
-          <i class="fas fa-microscope"></i>
-          <span>Add phytoplankton<br>micrograph or culture photo</span>
-        </div>
-      </div>
-    </div>
 
-    <!-- ======================= -->
+      <!-- ======================= -->
     <!-- MINI PROJECT -->
-    <!-- Replace with a Chl-a / SST spatial map. -->
     <!-- ======================= -->
-    <div class="research-entry">
-      <div class="research-entry-text">
-        <h3 style="margin-bottom: 5px;">
-          Quantitative Analysis of Annual Chlorophyll-a and Sea Surface Temperature Fluctuations in the Bay of Bengal
-        </h3>
+    <h3 style="margin-top: 2.8em; margin-bottom: 5px;">
+      Quantitative Analysis of Annual Chlorophyll-a and Sea Surface Temperature Fluctuations in the Bay of Bengal
+    </h3>
 
-        <p style="margin-top: 0; color: var(--text-secondary);">
-          Mini Project under "Remote Sensing" coursework &nbsp; | &nbsp; Supervisor: Dr. Subrata Sarker &nbsp; | &nbsp; Jun 2023
-        </p>
+    <p style="margin-top: 0; color: var(--text-secondary);">
+      Mini Project under “Remote Sensing” coursework &nbsp; | &nbsp; Supervisor: Dr. Subrata Sarker &nbsp; | &nbsp; Jun 2023
+    </p>
 
-        <h4 style="margin-bottom: .2em;">Summary</h4>
-        <p class="summary">
-          This research analyzes the spatial and temporal patterns of Chlorophyll-a concentration and Sea Surface Temperature (SST) in the Bay of Bengal using monthly satellite data from January to December 2020. Data were sourced from the NASA Ocean Color Web and processed using SNAP and ArcMap software. Specific coastal regions near Bangladesh were selected for detailed comparison, while regional and seasonal variability across the Bay was mapped and quantified. The study aimed to enrich understanding of marine ecological dynamics and climate processes in the Bay of Bengal, providing valuable data for marine research and management.
-        </p>
-      </div>
-      <div class="research-figure">
-        <!-- <img src="images/Research/bob_chla_sst_map.webp" alt="Chlorophyll-a and SST map of the Bay of Bengal"> -->
-        <div class="figure-placeholder">
-          <i class="fas fa-map"></i>
-          <span>Add Chl-a / SST<br>spatial map</span>
-        </div>
+    <h4 style="margin-bottom: .2em;">Summary</h4>
+    <p style="margin: 0 0 0">
+      This research analyzes the spatial and temporal patterns of Chlorophyll-a concentration and Sea Surface Temperature (SST) in the Bay of Bengal using monthly satellite data from January to December 2020. Data were sourced from the NASA Ocean Color Web and processed using SNAP and ArcMap software. Specific coastal regions near Bangladesh were selected for detailed comparison, while regional and seasonal variability across the Bay was mapped and quantified. The study aimed to enrich understanding of marine ecological dynamics and climate processes in the Bay of Bengal, providing valuable data for marine research and management.
+      </p>
       </div>
     </div>
 
   </div>
 </section>
-
-
-<!-- ===================================================== -->
-<!-- PUBLICATIONS SECTION (optional) -->
-<!-- Uncomment and fill in once you have manuscripts to list.
-     Add "Publications" to the nav in homepage.html if you use this. -->
-<!-- ===================================================== -->
-<!--
-<section id="publications-section">
-  <h2 id="publications" style="margin-top: 3em;">Publications</h2>
-  <div class="section-content">
-
-    <div class="publication-item">
-      <span class="publication-status">In Prep</span>
-      <div>
-        <p class="publication-title">Title of manuscript in preparation</p>
-        <p class="publication-meta">Authors &nbsp;|&nbsp; Target journal &nbsp;|&nbsp; 2026</p>
-      </div>
-    </div>
-
-  </div>
-</section>
--->
-
 
 
 <!-- ===================================================== -->
@@ -292,51 +203,6 @@ layout: homepage
   <h2 id="field-works" style="margin-top: 3em;">Field Works</h2>
 
   <div class="section-content">
-
-    <!-- ======================= -->
-    <!-- LOCATOR MAP -->
-    <!-- Stylized (not geodetically precise) overview of the
-         four field-work sites along Bangladesh's coast, drawn
-         in pure SVG so it themes with dark/light mode.
-         Swap for a real georeferenced map anytime by replacing
-         this block with an <img>. -->
-    <!-- ======================= -->
-    <div class="locator-map-wrap">
-      <svg viewBox="0 0 640 220" xmlns="http://www.w3.org/2000/svg">
-        <!-- sea -->
-        <rect x="0" y="0" width="640" height="220" fill="var(--bg-primary)"></rect>
-        <!-- stylized coastline / landmass -->
-        <path d="M0,40 C60,55 90,20 150,35 C220,52 240,10 320,28 C400,46 420,90 470,95
-                 C520,100 560,70 640,85 L640,220 L0,220 Z"
-              fill="var(--bg-secondary)" stroke="var(--border-color)" stroke-width="1.5"></path>
-
-        <!-- connecting route line, west to east -->
-        <polyline points="95,88 250,108 430,118 560,128"
-                  fill="none" stroke="var(--accent-secondary)" stroke-width="1.5"
-                  stroke-dasharray="4 5" opacity="0.7"></polyline>
-
-        <!-- Sundarban (2020) -->
-        <circle cx="95" cy="88" r="7" fill="var(--accent-primary)"></circle>
-        <text x="95" y="72" text-anchor="middle" font-size="12" font-weight="700" fill="var(--text-primary)" font-family="Merriweather, serif">Sundarban</text>
-        <text x="95" y="110" text-anchor="middle" font-size="10" fill="var(--text-tertiary)" font-family="Merriweather, serif">2020</text>
-
-        <!-- Kuakata (2022) -->
-        <circle cx="250" cy="108" r="7" fill="var(--accent-primary)"></circle>
-        <text x="250" y="92" text-anchor="middle" font-size="12" font-weight="700" fill="var(--text-primary)" font-family="Merriweather, serif">Kuakata</text>
-        <text x="250" y="130" text-anchor="middle" font-size="10" fill="var(--text-tertiary)" font-family="Merriweather, serif">2022</text>
-
-        <!-- Cox's Bazar (2023) -->
-        <circle cx="430" cy="118" r="7" fill="var(--accent-primary)"></circle>
-        <text x="430" y="102" text-anchor="middle" font-size="12" font-weight="700" fill="var(--text-primary)" font-family="Merriweather, serif">Cox's Bazar</text>
-        <text x="430" y="140" text-anchor="middle" font-size="10" fill="var(--text-tertiary)" font-family="Merriweather, serif">2023</text>
-
-        <!-- Saint Martin's (2019) -->
-        <circle cx="560" cy="128" r="7" fill="var(--accent-primary)"></circle>
-        <text x="560" y="112" text-anchor="middle" font-size="12" font-weight="700" fill="var(--text-primary)" font-family="Merriweather, serif">Saint Martin's</text>
-        <text x="560" y="150" text-anchor="middle" font-size="10" fill="var(--text-tertiary)" font-family="Merriweather, serif">2019</text>
-      </svg>
-      <p class="locator-map-caption">Field campaigns along Bangladesh's coast, 2019–2023 (stylized, not to scale)</p>
-    </div>
 
     <!-- Tabs Navigation -->
     <div class="field-works-tabs">
