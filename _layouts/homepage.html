@@ -304,6 +304,11 @@ function initializeCarousels() {
       currentIndex = (currentIndex + 1) % images.length;
       img.src = images[currentIndex];
     });
+    // Autoplay: advance every 5s
+    let autoplay = setInterval(() => {
+    currentIndex = (currentIndex + 1) % images.length;
+    img.src = images[currentIndex];
+    }, 5000);
   });
 }
 </script>
