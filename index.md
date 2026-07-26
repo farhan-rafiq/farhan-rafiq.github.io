@@ -136,7 +136,7 @@ layout: homepage
         </p>
       </div>
       <div class="research-figure">
-        <!-- <img src="images/Research/thesis_flood_risk_map.webp" alt="Chattogram flood risk map"> -->
+        <!-- <img src="/img/research/thesis_flood_risk_map.webp" alt="Chattogram flood risk map"> -->
         <div class="figure-placeholder">
           <i class="fas fa-map"></i>
           <span>Add your flood risk map<br>(TOPSIS output, ~800×600px)</span>
