@@ -134,7 +134,7 @@ layout: homepage
         </p>
       </div>
       <div class="research-figure">
-        <img src=".assets/img/research/thesis_flood_risk_map.webp" alt="Chattogram flood risk map">
+        <img src="assets/img/research/thesis_flood_risk_map.webp" alt="Chattogram flood risk map">
       </div>
     </div>
 
