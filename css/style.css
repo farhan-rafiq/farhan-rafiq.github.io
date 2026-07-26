@@ -787,7 +787,7 @@ img {
 
 .figure-placeholder {
   width: 100%;
-  height: 200px;
+  height: 300px;
   border: 1.5px dashed var(--accent-secondary);
   border-radius: 8px;
   background: var(--bg-secondary);
