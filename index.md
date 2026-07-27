@@ -245,13 +245,12 @@ layout: homepage
           "assets/img/research/bob_chla_sst_map_2.webp",
           "assets/img/research/bob_chla_sst_map_3.webp"
         ]'>
-          <alt="Chlorophyll-a and SST map of the Bay of Bengal">
+          <img src = "assets/img/research/bob_chla_sst_map_1.webp" alt="Chlorophyll-a and SST map of the Bay of Bengal">
           <button class="control prev">‹</button>
           <button class="control next">›</button>
         </div>
       </div>
     </div>
-
   </div>
 </section>
 
