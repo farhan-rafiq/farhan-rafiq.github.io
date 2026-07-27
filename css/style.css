@@ -162,21 +162,30 @@ body {
 }
 
 /* ==========================================
-   PAGE SHELL — two-column layout
+   PAGE SHELL — centers the whole two-column
+   layout as one block on wide screens
 ========================================== */
 .page-shell {
-  display: block;
+  display: flex;
+  align-items: flex-start;
+  max-width: 1320px;
+  margin: 0 auto;
+  background: var(--bg-primary);
+  box-shadow: 0 0 40px var(--shadow-sm);
+  transition: background-color 0.3s ease;
 }
 
 /* ==========================================
-   SIDEBAR (left column) — fixed, independent of page scroll
+   SIDEBAR (left column) — sticks in place
+   while the content column scrolls
 ========================================== */
 .sidebar {
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 0;
+  left: auto;
   width: 300px;
   min-width: 300px;
+  flex-shrink: 0;
   height: 100vh;
   overflow-y: auto;
   background: var(--bg-primary);
@@ -359,10 +368,11 @@ body {
    RIGHT CONTENT COLUMN
 ========================================== */
 .content-area {
-  margin-left: 300px;
+  flex: 1;
+  min-width: 0;
   min-height: 100vh;
   background: var(--bg-primary);
-  transition: background-color 0.3s ease, margin-left 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
 .main-section {
@@ -1009,10 +1019,6 @@ img {
   .sidebar {
     width: 260px;
     min-width: 260px;
-  }
-
-  .content-area {
-    margin-left: 260px;
   }
 
   .sidebar-inner {
