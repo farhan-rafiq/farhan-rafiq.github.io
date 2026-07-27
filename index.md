@@ -168,14 +168,14 @@ layout: homepage
 
         <h4 style="margin-bottom: .2em;">Summary</h4>
         <p class="summary">
-          This research investigates how Photosynthetically Available Radiation (PAR), Diffuse Attenuation Coefficient (Kd490), and Sea Surface Temperature (SST) vary both spatially and temporally in the Bangladesh Exclusive Economic Zone (EEZ) from 2016 to 2022. Using satellite-derived data (MODIS-Aqua) processed in SeaDAS and ArcGIS, the study analyzes monthly and annual trends for each parameter. The aim is to elucidate how these physical factors impact marine ecosystems in the Bay of Bengal and to provide insights essential for sustainable management in the face of climate change.
+          This study examines the spatial and temporal variability of Photosynthetically Available Radiation (PAR), Diffuse Attenuation Coefficient (Kd<sub>490</sub>), and Sea Surface Temperature (SST) across the Bangladesh EEZ from 2016 to 2022. Using MODIS-Aqua satellite data processed in SeaDAS and ArcGIS, it analyzes monthly and annual trends to assess their influence on marine ecosystems and support sustainable coastal management under changing climate conditions.
         </p>
       </div>
       <div class="research-figure">
         <div class="carousel" data-images='[
           "assets/img/research/eez_par_kd490_sst_1.webp",
           "assets/img/research/eez_par_kd490_sst_2.webp",
-          "assets/img/research/eez_par_kd490_sst_3.webp"
+          "assets/img/research/eez_par_kd490_sst_3.webp",
           "assets/img/research/eez_par_kd490_sst_4.webp"
         ]'>
           <img src="assets/img/research/eez_par_kd490_sst_1.webp" alt="PAR, Kd490, SST trend chart">
@@ -208,7 +208,7 @@ layout: homepage
         <div class="carousel" data-images='[
           "assets/img/research/bfri_phytoplankton_1.webp",
           "assets/img/research/bfri_phytoplankton_2.webp",
-          "assets/img/research/bfri_phytoplankton_3.webp"
+          "assets/img/research/bfri_phytoplankton_3.webp",
           "assets/img/research/bfri_phytoplankton_4.webp",
           "assets/img/research/bfri_phytoplankton_5.webp"
         ]'>
@@ -235,14 +235,14 @@ layout: homepage
 
         <h4 style="margin-bottom: .2em;">Summary</h4>
         <p class="summary">
-          This research analyzes the spatial and temporal patterns of Chlorophyll-a concentration and Sea Surface Temperature (SST) in the Bay of Bengal using monthly satellite data from January to December 2020. Data were sourced from the NASA Ocean Color Web and processed using SNAP and ArcMap software. Specific coastal regions near Bangladesh were selected for detailed comparison, while regional and seasonal variability across the Bay was mapped and quantified. The study aimed to enrich understanding of marine ecological dynamics and climate processes in the Bay of Bengal, providing valuable data for marine research and management.
+         This research investigates the spatial and temporal patterns of Chlorophyll-a and Sea Surface Temperature (SST) in the Bay of Bengal using monthly satellite observations from January to December 2020. Data from the NASA Ocean Color Web were processed using SNAP and ArcMap to assess regional and seasonal variability, with a focus on the Bangladesh coast. The findings contribute to a better understanding of marine ecosystem dynamics and support informed marine resource management.
         </p>
       </div>
       <div class="research-figure">
         <div class="carousel" data-images='[
           "assets/img/research/bob_chla_sst_map_1.webp",
           "assets/img/research/bob_chla_sst_map_2.webp",
-          "assets/img/research/bob_chla_sst_map_3.webp"
+          "assets/img/research/bob_chla_sst_map_3.webp",
           "assets/img/research/bob_chla_sst_map_2.webp",
           "assets/img/research/bob_chla_sst_map_3.webp"
         ]'>
