@@ -204,11 +204,13 @@ layout: homepage
       </div>
       <div class="research-figure">
         <div class="carousel" data-images='[
-          "images/Research/bfri_phytoplankton_1.webp",
-          "images/Research/bfri_phytoplankton_2.webp",
-          "images/Research/bfri_phytoplankton_3.webp"
+          "assets/img/research/bfri_phytoplankton_1.webp",
+          "assets/img/research/bfri_phytoplankton_2.webp",
+          "assets/img/research/bfri_phytoplankton_3.webp"
+          "assets/img/research/bfri_phytoplankton_4.webp",
+          "assets/img/research/bfri_phytoplankton_5.webp"
         ]'>
-          <img src="images/Research/bfri_phytoplankton_1.webp" alt="Phytoplankton culture at BFRI">
+          <img src="assets/img/research/bfri_phytoplankton_1.webp" alt="Phytoplankton culture at BFRI">
           <button class="control prev">‹</button>
           <button class="control next">›</button>
         </div>
