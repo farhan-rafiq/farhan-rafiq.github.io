@@ -144,7 +144,7 @@ layout: homepage
           "assets/img/research/thesis_flood_risk_map_2.webp",
           "assets/img/research/thesis_flood_risk_map_3.webp"
         ]'>
-          <alt="Chattogram flood risk map">
+          <img src="assets/img/research/thesis_flood_risk_map_1.webp" alt="Chattogram flood risk map">
           <button class="control prev">‹</button>
           <button class="control next">›</button>
         </div>
@@ -177,7 +177,7 @@ layout: homepage
           "assets/img/research/eez_par_kd490_sst_3.webp"
           "assets/img/research/eez_par_kd490_sst_4.webp"
         ]'>
-          <alt="PAR, Kd490, SST trend chart">
+          <img src="assets/img/research/eez_par_kd490_sst_1.webp" alt="PAR, Kd490, SST trend chart">
           <button class="control prev">‹</button>
           <button class="control next">›</button>
         </div>
@@ -211,7 +211,7 @@ layout: homepage
           "assets/img/research/bfri_phytoplankton_4.webp",
           "assets/img/research/bfri_phytoplankton_5.webp"
         ]'>
-          <alt="Phytoplankton culture at BFRI">
+          <img src="assets/img/research/bfri_phytoplankton_1.webp" alt="Phytoplankton culture at BFRI">
           <button class="control prev">‹</button>
           <button class="control next">›</button>
         </div>
