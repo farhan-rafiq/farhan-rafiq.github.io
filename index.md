@@ -172,11 +172,12 @@ layout: homepage
       </div>
       <div class="research-figure">
         <div class="carousel" data-images='[
-          "images/Research/eez_par_kd490_sst_1.webp",
-          "images/Research/eez_par_kd490_sst_2.webp",
-          "images/Research/eez_par_kd490_sst_3.webp"
+          "assets/img/research/eez_par_kd490_sst_1.webp",
+          "assets/img/research/eez_par_kd490_sst_2.webp",
+          "assets/img/research/eez_par_kd490_sst_3.webp"
+          "assets/img/research/eez_par_kd490_sst_4.webp"
         ]'>
-          <img src="images/Research/eez_par_kd490_sst_1.webp" alt="PAR, Kd490, SST trend chart">
+          <img src="assets/img/research/eez_par_kd490_sst_1.webp" alt="PAR, Kd490, SST trend chart">
           <button class="control prev">‹</button>
           <button class="control next">›</button>
         </div>
