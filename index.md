@@ -323,40 +323,10 @@ layout: homepage
          this block with an <img>. -->
     <!-- ======================= -->
     <div class="locator-map-wrap">
-      <svg viewBox="0 0 640 220" xmlns="http://www.w3.org/2000/svg">
-        <!-- sea -->
-        <rect x="0" y="0" width="640" height="220" fill="var(--bg-primary)"></rect>
-        <!-- stylized coastline / landmass -->
-        <path d="M0,40 C60,55 90,20 150,35 C220,52 240,10 320,28 C400,46 420,90 470,95
-                 C520,100 560,70 640,85 L640,220 L0,220 Z"
-              fill="var(--bg-secondary)" stroke="var(--border-color)" stroke-width="1.5"></path>
-
-        <!-- connecting route line, west to east -->
-        <polyline points="95,88 250,108 430,118 560,128"
-                  fill="none" stroke="var(--accent-secondary)" stroke-width="1.5"
-                  stroke-dasharray="4 5" opacity="0.7"></polyline>
-
-        <!-- Sundarban (2020) -->
-        <circle cx="95" cy="88" r="7" fill="var(--accent-primary)"></circle>
-        <text x="95" y="72" text-anchor="middle" font-size="12" font-weight="700" fill="var(--text-primary)" font-family="Merriweather, serif">Sundarban</text>
-        <text x="95" y="110" text-anchor="middle" font-size="10" fill="var(--text-tertiary)" font-family="Merriweather, serif">2020</text>
-
-        <!-- Kuakata (2022) -->
-        <circle cx="250" cy="108" r="7" fill="var(--accent-primary)"></circle>
-        <text x="250" y="92" text-anchor="middle" font-size="12" font-weight="700" fill="var(--text-primary)" font-family="Merriweather, serif">Kuakata</text>
-        <text x="250" y="130" text-anchor="middle" font-size="10" fill="var(--text-tertiary)" font-family="Merriweather, serif">2022</text>
-
-        <!-- Cox's Bazar (2023) -->
-        <circle cx="430" cy="118" r="7" fill="var(--accent-primary)"></circle>
-        <text x="430" y="102" text-anchor="middle" font-size="12" font-weight="700" fill="var(--text-primary)" font-family="Merriweather, serif">Cox's Bazar</text>
-        <text x="430" y="140" text-anchor="middle" font-size="10" fill="var(--text-tertiary)" font-family="Merriweather, serif">2023</text>
-
-        <!-- Saint Martin's (2019) -->
-        <circle cx="560" cy="128" r="7" fill="var(--accent-primary)"></circle>
-        <text x="560" y="112" text-anchor="middle" font-size="12" font-weight="700" fill="var(--text-primary)" font-family="Merriweather, serif">Saint Martin's</text>
-        <text x="560" y="150" text-anchor="middle" font-size="10" fill="var(--text-tertiary)" font-family="Merriweather, serif">2019</text>
-      </svg>
-      <p class="locator-map-caption">Field campaigns along Bangladesh's coast, 2019–2023 (stylized, not to scale)</p>
+      <img
+    src="assets/img/fieldtrip/field_trips.png"
+    alt="Field trips along the Chittagong coast (2019–2023)"
+    class="locator-map-img">
     </div>
 
     <!-- Tabs Navigation -->
