@@ -165,17 +165,16 @@ body {
    PAGE SHELL — two-column layout
 ========================================== */
 .page-shell {
-  display: flex;
-  align-items: flex-start;
-  min-height: 100vh;
+  display: block;
 }
 
 /* ==========================================
-   SIDEBAR (left column)
+   SIDEBAR (left column) — fixed, independent of page scroll
 ========================================== */
 .sidebar {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
   width: 300px;
   min-width: 300px;
   height: 100vh;
@@ -360,16 +359,16 @@ body {
    RIGHT CONTENT COLUMN
 ========================================== */
 .content-area {
-  flex: 1;
-  min-width: 0;
+  margin-left: 300px;
+  min-height: 100vh;
   background: var(--bg-primary);
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, margin-left 0.3s ease;
 }
 
 .main-section {
-  max-width: 880px;
-  margin: 0 auto;
-  padding: 3rem 3rem 4rem;
+  max-width: 820px;
+  margin: 0;
+  padding: 3.5rem 3rem 4rem;
 }
 
 /* ==========================================
@@ -381,8 +380,8 @@ h2 {
   color: var(--accent-primary);
   line-height: 1.1;
   margin: 2em 0 15px;
-  border-bottom: 0.5px solid var(--accent-primary);
-  padding-bottom: 0.5em;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.6em;
   display: block;
   width: 100%;
   transition: color 0.3s ease, border-color 0.3s ease;
@@ -1012,6 +1011,10 @@ img {
     min-width: 260px;
   }
 
+  .content-area {
+    margin-left: 260px;
+  }
+
   .sidebar-inner {
     padding: 2.5rem 1.5rem 2rem;
   }
@@ -1085,6 +1088,7 @@ img {
 
   .content-area {
     width: 100%;
+    margin-left: 0;
   }
 
   .main-section {
