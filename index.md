@@ -90,15 +90,16 @@ layout: homepage
     <div style="margin-top: 1.75em;">
       <div class="interest-title" style="margin-bottom: 0.6em;">Tools & Technologies</div>
       <div class="skills-grid">
-        <span class="skill-badge"><i class="fas fa-map-location-dot"></i>ArcGIS / ArcMap</span>
-        <span class="skill-badge"><i class="fas fa-earth-asia"></i>Google Earth Engine</span>
+        <span class="skill-badge"><i class="fas fa-map-location-dot"></i>ArcGIS / ArcMap 10.8</span>
+        <span class="skill-badge"><i class="fas fa-map"></i>QGIS</span>
         <span class="skill-badge"><i class="fab fa-python"></i>Python</span>
         <span class="skill-badge"><i class="fas fa-chart-simple"></i>R</span>
+        <span class="skill-badge"><i class="fas fa-brain"></i>Machine Learning</span>
         <span class="skill-badge"><i class="fas fa-satellite-dish"></i>SNAP</span>
         <span class="skill-badge"><i class="fas fa-water"></i>SeaDAS</span>
-        <span class="skill-badge"><i class="fas fa-brain"></i>Machine Learning</span>
+        <span class="skill-badge"><i class="fas fa-earth-asia"></i>Google Earth Engine</span>
         <span class="skill-badge"><i class="fas fa-layer-group"></i>TOPSIS / MCDA</span>
-        <span class="skill-badge"><i class="fas fa-satellite"></i>MODIS-Aqua</span>
+        <span class="skill-badge"><i class="fas fa-water"></i>Delft3D</span>
       </div>
     </div>
   </div>
