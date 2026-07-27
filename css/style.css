@@ -908,25 +908,20 @@ img {
    FIELD WORK LOCATOR MAP
 ========================================== */
 .locator-map-wrap {
-  margin-bottom: 2rem;
-  padding: 1.25rem 1.25rem 0.75rem;
-  border: 1px solid var(--border-color);
-  border-radius: 10px;
-  background: var(--bg-secondary);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
 }
 
-.locator-map-wrap svg {
+.locator-map-img {
   width: 100%;
+  max-width: 1200px;   /* Adjust as needed */
   height: auto;
   display: block;
-}
-
-.locator-map-caption {
-  text-align: center;
-  font-size: 0.78rem;
-  color: var(--text-tertiary);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  margin: 0.5rem 0 0;
+  border-radius: 16px; /* Optional */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12); /* Optional */
 }
 
 /* ==========================================
