@@ -144,7 +144,7 @@ layout: homepage
           "assets/img/research/thesis_flood_risk_map_2.webp",
           "assets/img/research/thesis_flood_risk_map_3.webp"
         ]'>
-          <img src="images/Research/thesis_flood_risk_map_1.webp" alt="Chattogram flood risk map">
+          <alt="Chattogram flood risk map">
           <button class="control prev">‹</button>
           <button class="control next">›</button>
         </div>
@@ -177,7 +177,7 @@ layout: homepage
           "assets/img/research/eez_par_kd490_sst_3.webp"
           "assets/img/research/eez_par_kd490_sst_4.webp"
         ]'>
-          <img src="assets/img/research/eez_par_kd490_sst_1.webp" alt="PAR, Kd490, SST trend chart">
+          <alt="PAR, Kd490, SST trend chart">
           <button class="control prev">‹</button>
           <button class="control next">›</button>
         </div>
@@ -211,7 +211,7 @@ layout: homepage
           "assets/img/research/bfri_phytoplankton_4.webp",
           "assets/img/research/bfri_phytoplankton_5.webp"
         ]'>
-          <img src="assets/img/research/bfri_phytoplankton_1.webp" alt="Phytoplankton culture at BFRI">
+          <alt="Phytoplankton culture at BFRI">
           <button class="control prev">‹</button>
           <button class="control next">›</button>
         </div>
@@ -239,11 +239,13 @@ layout: homepage
       </div>
       <div class="research-figure">
         <div class="carousel" data-images='[
-          "images/Research/bob_chla_sst_map_1.webp",
-          "images/Research/bob_chla_sst_map_2.webp",
-          "images/Research/bob_chla_sst_map_3.webp"
+          "assets/img/research/bob_chla_sst_map_1.webp",
+          "assets/img/research/bob_chla_sst_map_2.webp",
+          "assets/img/research/bob_chla_sst_map_3.webp"
+          "assets/img/research/bob_chla_sst_map_2.webp",
+          "assets/img/research/bob_chla_sst_map_3.webp"
         ]'>
-          <img src="images/Research/bob_chla_sst_map_1.webp" alt="Chlorophyll-a and SST map of the Bay of Bengal">
+          <alt="Chlorophyll-a and SST map of the Bay of Bengal">
           <button class="control prev">‹</button>
           <button class="control next">›</button>
         </div>
