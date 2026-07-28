@@ -281,17 +281,15 @@ layout: homepage
   <div class="section-content">
 
     <div class="publication-item">
-      <span class="publication-status">Poster</span>
       <div>
-        <p class="publication-title">Coastal Urban Flood Risk Modelling in Chattogram: An Integrated Machine Learning and TOPSIS Approach</p>
+        <h3 class="publication-title">Coastal Urban Flood Risk Modelling in Chattogram: An Integrated Machine Learning and TOPSIS Approach</h3>
         <p class="publication-meta">International Symposium on Coast, Climate and Community, Sylhet &nbsp;|&nbsp; 17–18 Jun 2026</p>
       </div>
     </div>
 
     <div class="publication-item">
-      <span class="publication-status">Oral (Online)</span>
       <div>
-        <p class="publication-title">Spatial and Temporal Dynamics of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)</p>
+        <h3 class="publication-title">Spatial and Temporal Dynamics of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)</h3>
         <p class="publication-meta">International Conference on Engineering and Natural Sciences, Singapore &nbsp;|&nbsp; 25–26 Nov 2025</p>
       </div>
     </div>
