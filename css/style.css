@@ -672,16 +672,13 @@ img {
 
 /* ==========================================
    11. RESEARCH ENTRY / FIGURES
-   Two-column layout for each Research Experience
-   entry: text on one side, a figure on the other.
-   Drop a real image inside .research-figure and
-   delete .figure-placeholder to activate it.
+   Title and meta run full width; the Summary
+   text and figure sit side by side below them
+   in .research-entry-body. Drop a real image
+   inside .research-figure and delete
+   .figure-placeholder to activate it.
 ========================================== */
 .research-entry {
-  display: grid;
-  grid-template-columns: 1fr 260px;
-  gap: 2rem;
-  align-items: start;
   margin-bottom: 3.5em;
   padding-bottom: 1.75rem;
   border-bottom: 1px solid var(--border-color);
@@ -691,6 +688,14 @@ img {
   border-bottom: none;
   margin-bottom: 0;
   padding-bottom: 0;
+}
+
+.research-entry-body {
+  display: grid;
+  grid-template-columns: 1fr 260px;
+  gap: 2rem;
+  align-items: start;
+  margin-top: 1em;
 }
 
 .research-entry-text h3,
@@ -935,7 +940,7 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-  .research-entry {
+  .research-entry-body {
     grid-template-columns: 1fr;
   }
 
