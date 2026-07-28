@@ -34,7 +34,6 @@ layout: homepage
   <div class="section-content">
     <!-- Icons now use Font Awesome (already loaded in <head>) instead of emoji -->
     <ul style="list-style: none; padding-left: 0;">
-
       <!-- Item 1 -->
       <li class="interest-item">
         <span class="interest-icon"><i class="fas fa-satellite"></i></span>
@@ -43,7 +42,6 @@ layout: homepage
           <div class="interest-desc">Satellite data analysis, spatial modeling, and geospatial data management.</div>
         </div>
       </li>
-
       <!-- Item 2 -->
       <li class="interest-item">
         <span class="interest-icon"><i class="fas fa-chart-line"></i></span>
@@ -52,7 +50,6 @@ layout: homepage
           <div class="interest-desc">Computational and statistical approaches to marine and atmospheric datasets.</div>
         </div>
       </li>
-
       <!-- Item 3 -->
       <li class="interest-item">
         <span class="interest-icon"><i class="fas fa-house-flood-water"></i></span>
@@ -61,7 +58,6 @@ layout: homepage
           <div class="interest-desc">Integrated modeling, spatial analysis, and machine learning applications.</div>
         </div>
       </li>
-
       <!-- Item 4 -->
       <li class="interest-item">
         <span class="interest-icon"><i class="fas fa-temperature-three-quarters"></i></span>
@@ -70,7 +66,6 @@ layout: homepage
           <div class="interest-desc">Impacts on coastal ecosystems, agriculture, and trade vulnerability.</div>
         </div>
       </li>
-
       <!-- Item 5 -->
       <li class="interest-item">
         <span class="interest-icon"><i class="fas fa-diagram-project"></i></span>
@@ -84,8 +79,6 @@ layout: homepage
 
     <!-- ===================================================== -->
     <!-- TOOLS & TECHNOLOGIES -->
-    <!-- Purely additive: professors scan this to gauge your
-         technical range at a glance. Trim/extend freely. -->
     <!-- ===================================================== -->
     <div style="margin-top: 1.75em;">
       <div class="interest-title" style="margin-bottom: 0.6em;">Tools & Technologies</div>
@@ -299,7 +292,7 @@ layout: homepage
 
     <div style="display: flex; flex-wrap: wrap; gap: 1.5em;">
       <ul style="margin-top: 0; margin-bottom: 0; padding-left: 2.5rem;">
-        <li>Delivered personalized instruction to over 40+ students from Edexcel, IGCSE, O-Level, A-Level, and National Curriculum (Class 5–12), ensuring improved academic performance.</li>
+        <li>Delivered personalized instruction to over 35+ students from Edexcel, IGCSE, O-Level, A-Level, and National Curriculum (Class 5–12), ensuring improved academic performance.</li>
         <li>Specialized in Higher Mathematics and Physics at the Higher Secondary level, simplifying complex concepts through structured lessons and problem-solving strategies.</li>
         <li>Provided comprehensive guidance in all core subjects at the Secondary level, adapting teaching methods to diverse learning styles.</li>
         <li>Conducted over 250+ classes at multiple coaching centres, developing classroom management and communication skills.</li>
