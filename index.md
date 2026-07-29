@@ -115,6 +115,7 @@ layout: homepage
          ideally ~800x600px, then delete the placeholder div. -->
     <!-- ======================= -->
     <div class="research-entry">
+      <div class="research-entry-text">
         <h3 style="margin-bottom: 5px;">
           Integrated Modelling of Urban Flood Risk in Chattogram: Application of TOPSIS, Machine Learning and Spatial Analysis Approaches
         </h3>
@@ -123,14 +124,12 @@ layout: homepage
           Masters' Thesis &nbsp; | &nbsp; Supervisor: Dr Md Alamgir Kabir &nbsp; | &nbsp; Co-Supervisor: Abu Bokkar Siddique &nbsp; | &nbsp; Dec 2025
         </p>
 
-      <div class="research-entry-body">
-        <div class="research-entry-text">
         <h4 style="margin-bottom: .2em;">Summary</h4>
         <p class="summary">
           My master's thesis focuses on developing an integrated framework to evaluate urban flood risk in Chattogram, one of Bangladesh's most climate-vulnerable coastal cities. This research combines multi-criteria decision analysis (TOPSIS) with machine learning and spatial analysis to identify high-risk zones and the key environmental and socio-economic factors driving flood vulnerability.
         </p>
-        </div>
-        <div class="research-figure">
+      </div>
+      <div class="research-figure">
         <!-- Add 2+ images to images/Research/ and list them below.
              Same carousel component as Field Works — prev/next
              buttons work automatically, no JS changes needed. -->
@@ -144,7 +143,6 @@ layout: homepage
           <button class="control next">›</button>
         </div>
       </div>
-      </div>
     </div>
 
     <!-- ======================= -->
@@ -152,6 +150,7 @@ layout: homepage
     <!-- Replace with a PAR / Kd490 / SST trend chart. -->
     <!-- ======================= -->
     <div class="research-entry">
+      <div class="research-entry-text">
         <h3 style="margin-bottom: 5px;">
           Spatial and Temporal Variability of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)
         </h3>
@@ -160,14 +159,12 @@ layout: homepage
           Undergraduate Research Project &nbsp; | &nbsp; Supervisor: Abu Bokkar Siddique &nbsp; | &nbsp; Dec 2023
         </p>
 
-      <div class="research-entry-body">
-        <div class="research-entry-text">
         <h4 style="margin-bottom: .2em;">Summary</h4>
         <p class="summary">
           This study examines the spatial and temporal variability of Photosynthetically Available Radiation (PAR), Diffuse Attenuation Coefficient (Kd<sub>490</sub>), and Sea Surface Temperature (SST) across the Bangladesh EEZ from 2016 to 2022. Using MODIS-Aqua satellite data processed in SeaDAS and ArcGIS, it analyzes monthly and annual trends to assess their influence on marine ecosystems and support sustainable coastal management under changing climate conditions.
         </p>
-        </div>
-        <div class="research-figure">
+      </div>
+      <div class="research-figure">
         <div class="carousel" data-images='[
           "assets/img/research/eez_par_kd490_sst_1.webp",
           "assets/img/research/eez_par_kd490_sst_2.webp",
@@ -179,7 +176,6 @@ layout: homepage
           <button class="control next">›</button>
         </div>
       </div>
-      </div>
     </div>
 
     <!-- ======================= -->
@@ -187,6 +183,7 @@ layout: homepage
     <!-- Replace with a phytoplankton micrograph or culture photo. -->
     <!-- ======================= -->
     <div class="research-entry">
+      <div class="research-entry-text">
         <h3 style="margin-bottom: 5px;">
           Growth, Observation, and Identification of Indigenous Marine Phytoplankton of the Bay of Bengal, Bangladesh
         </h3>
@@ -195,14 +192,12 @@ layout: homepage
           Internship Project &nbsp; | &nbsp; Bangladesh Fisheries Research Institute (BFRI), MFTS, Cox's Bazar &nbsp; | &nbsp; Mar 2025
         </p>
 
-      <div class="research-entry-body">
-        <div class="research-entry-text">
         <h4 style="margin-bottom: .2em;">Summary</h4>
         <p class="summary">
           This internship provided a comprehensive overview of a study focused on marine phytoplankton indigenous to the Bay of Bengal. The research encompassed the culture, growth observation, isolation, and identification of these microscopic organisms. The findings contribute meaningfully to enhancing marine biodiversity assessments and supporting effective management strategies for fisheries resources in the region.
         </p>
-        </div>
-        <div class="research-figure">
+      </div>
+      <div class="research-figure">
         <div class="carousel" data-images='[
           "assets/img/research/bfri_phytoplankton_1.webp",
           "assets/img/research/bfri_phytoplankton_2.webp",
@@ -215,7 +210,6 @@ layout: homepage
           <button class="control next">›</button>
         </div>
       </div>
-      </div>
     </div>
 
     <!-- ======================= -->
@@ -223,6 +217,7 @@ layout: homepage
     <!-- Replace with a Chl-a / SST spatial map. -->
     <!-- ======================= -->
     <div class="research-entry">
+      <div class="research-entry-text">
         <h3 style="margin-bottom: 5px;">
           Quantitative Analysis of Annual Chlorophyll-a and Sea Surface Temperature Fluctuations in the Bay of Bengal
         </h3>
@@ -231,14 +226,12 @@ layout: homepage
           Mini Project under "Remote Sensing" coursework &nbsp; | &nbsp; Supervisor: Dr. Subrata Sarker &nbsp; | &nbsp; Jun 2023
         </p>
 
-      <div class="research-entry-body">
-        <div class="research-entry-text">
         <h4 style="margin-bottom: .2em;">Summary</h4>
         <p class="summary">
          This research investigates the spatial and temporal patterns of Chlorophyll-a and Sea Surface Temperature (SST) in the Bay of Bengal using monthly satellite observations from January to December 2020. Data from the NASA Ocean Color Web were processed using SNAP and ArcMap to assess regional and seasonal variability, with a focus on the Bangladesh coast. The findings contribute to a better understanding of marine ecosystem dynamics and support informed marine resource management.
         </p>
-        </div>
-        <div class="research-figure">
+      </div>
+      <div class="research-figure">
         <div class="carousel" data-images='[
           "assets/img/research/bob_chla_sst_map_1.webp",
           "assets/img/research/bob_chla_sst_map_2.webp",
@@ -250,7 +243,6 @@ layout: homepage
           <button class="control prev">‹</button>
           <button class="control next">›</button>
         </div>
-      </div>
       </div>
     </div>
   </div>
@@ -289,7 +281,6 @@ layout: homepage
   <div class="section-content">
 
     <div class="publication-item">
-      <span class="publication-status">Poster</span>
       <div>
         <h3 class="publication-title">Coastal Urban Flood Risk Modelling in Chattogram: An Integrated Machine Learning and TOPSIS Approach</h3>
         <p class="publication-meta">International Symposium on Coast, Climate and Community, Sylhet &nbsp;|&nbsp; 17–18 Jun 2026</p>
@@ -297,7 +288,6 @@ layout: homepage
     </div>
 
     <div class="publication-item">
-      <span class="publication-status">Oral (Online)</span>
       <div>
         <h3 class="publication-title">Spatial and Temporal Dynamics of PAR, Kd<sub>490</sub>, and SST in the Bangladesh EEZ (2016–2022)</h3>
         <p class="publication-meta">International Conference on Engineering and Natural Sciences, Singapore &nbsp;|&nbsp; 25–26 Nov 2025</p>
